@@ -53,16 +53,28 @@
     "status": "spor",
     "kilder": [
       "fam-jesper-2026",
+      "kb-viborg-soendre-1924-f40",
       "ft1930-viborg-3395"
     ],
-    "noter": "Navn og bopæl fra familien. I folketællingen 1930 bor Tage Clemmen Clemmensen Qvist, født 10. juni 1924 i Viborg, som barn hos Gerner og Helga Qvist. Status forbliver spor, indtil Ole er bekræftet.",
+    "noter": "Navn og bopæl fra familien. Dåben i Viborg Søndre Sogn 1924 og folketællingen 1930 viser begge, at Tage er søn af Gerner Clemmen Clemmensen Qvist og Helga Margrethe Nielsen. Status forbliver spor, indtil Ole er bekræftet. Så kan Tage straks bekræftes med disse kilder, hvis Oles dåb nævner ham.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1924-06-10",
         "sted": "viborg",
+        "beskrivelse": "Aarhus Landevej, Viborg Søndre Sogn",
         "kilder": [
+          "kb-viborg-soendre-1924-f40",
           "ft1930-viborg-3395"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1924-10-12",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Søndre Sogn, i kirken",
+        "kilder": [
+          "kb-viborg-soendre-1924-f40"
         ]
       },
       {
@@ -397,19 +409,22 @@
     "kilder": [
       "gravsten-viborg-k165",
       "fam-jesper-2026",
+      "kb-viborg-dom-1919-v45",
+      "kb-viborg-soendre-1924-f40",
       "ft1930-viborg-3395",
       "ft1901-skaelskoer-245"
     ],
-    "noter": "Oldefar ifølge Jesper. Begravet i samme gravsted som Helga Qvist (foto Viborg_K165). Folketællingen 1930 viser ham som husfader i Viborg med hustru Helga og sønnen Tage. Fødselsdatoen 23. marts 1890 stemmer med gravstenen. Født i Skælskør, hvor han i 1901 bor hos sine forældre. Forældrene står kun i forskningsloggen, indtil Gerner er bekræftet.",
+    "noter": "Oldefar. Vielsen 1919, Tages dåb 1924 og folketællingen 1930 viser ham som Tages far og Helgas mand. Fødselsdatoen 23. marts 1890 i Skælskør stemmer i vielsen, folketællingerne og på gravstenen. Forældre ifølge vielsen og FT 1901: slagtermester Ludvig Valdemar Qvist og Johanne Marie Møller af Skælskør. De står kun i forskningsloggen, indtil Gerner er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1890-03-23",
         "sted": "skaelskoer",
         "kilder": [
-          "gravsten-viborg-k165",
+          "kb-viborg-dom-1919-v45",
+          "ft1901-skaelskoer-245",
           "ft1930-viborg-3395",
-          "ft1901-skaelskoer-245"
+          "gravsten-viborg-k165"
         ]
       },
       {
@@ -422,11 +437,31 @@
         ]
       },
       {
-        "type": "vielse",
+        "type": "erhverv",
         "dato": "1919",
-        "beskrivelse": "Gift 1919 ifølge folketællingen 1930. Sted ukendt",
+        "sted": "viborg",
+        "beskrivelse": "Lagerforvalter",
         "kilder": [
+          "kb-viborg-dom-1919-v45"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1919-11-15",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Domkirke, med Helga Margrethe Nielsen",
+        "kilder": [
+          "kb-viborg-dom-1919-v45",
           "ft1930-viborg-3395"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1924",
+        "sted": "viborg",
+        "beskrivelse": "Agent",
+        "kilder": [
+          "kb-viborg-soendre-1924-f40"
         ]
       },
       {
@@ -468,18 +503,22 @@
     "kilder": [
       "gravsten-viborg-k165",
       "fam-jesper-2026",
+      "kb-viborg-dom-1919-v45",
+      "kb-viborg-soendre-1924-f40",
       "ft1930-viborg-3395"
     ],
-    "noter": "Oldemor ifølge Jesper. Qvist er hendes gifte navn, pigenavnet er ukendt. I folketællingen 1930 står hun som husmoder hos Gerner Qvist med sønnen Tage. Fødselsdatoen 28. december 1896 stemmer med gravstenen. Begravet i samme gravsted som Gerner Qvist (foto Viborg_K165).",
+    "noter": "Oldemor. Født Helga Margrethe Nielsen i Viborg Domsogn 28. december 1896. Datoen stemmer i vielsen, folketællingen 1930 og på gravstenen. Forældre ifølge vielsen: kellner Anders Nielsen og Julie Margrethe Louise Jensen af Domsognet. De står kun i forskningsloggen, indtil Helga er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1896-12-28",
         "sted": "viborg",
         "kilder": [
-          "gravsten-viborg-k165",
-          "ft1930-viborg-3395"
-        ]
+          "kb-viborg-dom-1919-v45",
+          "ft1930-viborg-3395",
+          "gravsten-viborg-k165"
+        ],
+        "beskrivelse": "Viborg Domsogn"
       },
       {
         "type": "folketælling",
@@ -505,6 +544,9 @@
           "gravsten-viborg-k165"
         ]
       }
+    ],
+    "navnevarianter": [
+      "Helga Margrethe Nielsen"
     ]
   }
 ]

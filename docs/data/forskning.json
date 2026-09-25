@@ -60,9 +60,15 @@
     },
     {
       "titel": "Tages dåb i Viborg 1924",
-      "tekst": "Tage Clemmen Clemmensen Qvist er født 10. juni 1924 i Viborg ifølge folketællingen 1930. Dåben står i kirkebogen for Viborg Domsogn eller Søndre Sogn. Den nævner forældrene. Bruges, når Ole er bekræftet.",
+      "tekst": "Tage Clemmen Clemmensen Qvist er født 10. juni 1924 i Viborg ifølge folketællingen 1930. Dåben står i kirkebogen for Viborg Domsogn eller Søndre Sogn. Den nævner forældrene. Bruges, når Ole er bekræftet. Fundet: Viborg Søndre Sogn 1924, nr. 40.",
       "anenummer": 4,
-      "status": "åben"
+      "status": "færdig"
+    },
+    {
+      "titel": "Find Tage og Elses vielse",
+      "tekst": "Tage er født 1924 og Ole i 1950. Vielsen er formentlig mellem 1944 og 1950. Den giver Elses pigenavn og fødested, og måske parrets bopæl, så Oles fødesogn kan findes.",
+      "anenummer": 4,
+      "status": "i gang"
     }
   ],
   "log": [
@@ -161,6 +167,36 @@
       "tekst": "Dansk Demografisk Database har ingen træf på Clemmensen eller Qvist for familien i Viborg amt i 1921 og 1925. Viborg Købstad er formentlig ikke indtastet for de år. Folketællingen 1940 findes ikke i databasen. Danish Family Search kræver login for at søge, og MyHeritage afviser automatiske opslag. 1921, 1925 og 1940 må derfor ses i de scannede lister på Arkivalieronline eller søges af Jesper på Danish Family Search.",
       "personer": [
         8
+      ],
+      "resultat": "ikke fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Tages dåb fundet i Viborg Søndre Sogn 1924",
+      "tekst": "Kontraministerialbogen for Viborg Søndre Sogn, fødte drenge 1924, nr. 40, opslag 117. Tage Clemmen Clemensen Qvist, født 10. juni 1924 på Aarhus Landevej, døbt 12. oktober 1924. Forældre: agent Gerner Clemmen Clemmensen Qvist og hustru Helga Margrethe Nielsen, 27 år, viet 15-11-19 i Domsognet. Faddere: forældrene og handelsrejsende Marius Rasmussen og hustru Kristine Niels... fra Aalborg (efternavnet delvist sløret). Primærkilde, der binder Tage til Gerner og Helga. Viborg Domsogn 1924 blev også gennemset uden fund. Claude har kontrolleret billedet.",
+      "personer": [
+        4,
+        8,
+        9
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Gerner og Helgas vielse fundet, Helgas pigenavn er Nielsen",
+      "tekst": "Kontraministerialbogen for Viborg Domsogn, viede 1919, nr. 45, opslag 117. Viet 15. november 1919. Lagerforvalter Gerner Clemmen Clemensen Qvist af Søndre Sogn, født i Skelskør 23. marts 1890, søn af slagtermester Ludvig Valdemar Qvist og Johanne Marie Møller af Skelskør. Helga Margrethe Nielsen af Domsognet, født sammesteds 28. december 1896, datter af kellner Anders Nielsen og Julie Margrethe Louise Jensen. Forlovere: smed C. G. V. Jensen af Viborg og rejsende M. R. Rasmussen af Aarhus, måske den samme som fadderen i 1924. Forældrene til Gerner og Helga oprettes ikke endnu, fordi Gerner og Helga er spor.",
+      "personer": [
+        8,
+        9
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Oles fødsel 1950 ikke fundet i Viborgsognene",
+      "tekst": "Søgt efter Ole Gravlev Qvist, født 24. juli 1950, blandt fødte drenge juni til august 1950: Viborg Domsogn (opslag 60 til 63), Viborg Søndre Sogn inklusive sygehusets fødsler (opslag 20 og 23 til 26), Asmild (opslag 12 til 14) og Tapdrup (opslag 28). Ingen Qvist. Næste skridt: find Tages vielse med Else, der kan give bopæl og sogn, og tjek Gravlev Sogn.",
+      "personer": [
+        2
       ],
       "resultat": "ikke fundet"
     }
