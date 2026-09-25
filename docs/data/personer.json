@@ -473,6 +473,7 @@
     "status": "spor",
     "kilder": [
       "gravsten-viborg-k165",
+      "findgravsted-viborg-vk11-364",
       "fam-jesper-2026",
       "kb-viborg-dom-1919-v45",
       "kb-viborg-soendre-1924-f40",
@@ -552,15 +553,17 @@
         "type": "død",
         "dato": "1953-12-15",
         "kilder": [
-          "gravsten-viborg-k165"
+          "gravsten-viborg-k165",
+          "findgravsted-viborg-vk11-364"
         ]
       },
       {
         "type": "begravelse",
         "sted": "viborg",
-        "beskrivelse": "Viborg Kirkegård, gravsted med foto Viborg_K165",
+        "beskrivelse": "Viborg Kirkegård, gravsted V K 11 364 (foto Viborg_K165)",
         "kilder": [
-          "gravsten-viborg-k165"
+          "gravsten-viborg-k165",
+          "findgravsted-viborg-vk11-364"
         ]
       }
     ],
@@ -577,6 +580,7 @@
     "status": "spor",
     "kilder": [
       "gravsten-viborg-k165",
+      "findgravsted-viborg-vk11-364",
       "fam-jesper-2026",
       "kb-viborg-dom-1919-v45",
       "kb-viborg-soendre-1924-f40",
@@ -618,15 +622,17 @@
         "type": "død",
         "dato": "1991-05-10",
         "kilder": [
-          "gravsten-viborg-k165"
+          "gravsten-viborg-k165",
+          "findgravsted-viborg-vk11-364"
         ]
       },
       {
         "type": "begravelse",
         "sted": "viborg",
-        "beskrivelse": "Viborg Kirkegård, gravsted med foto Viborg_K165",
+        "beskrivelse": "Viborg Kirkegård, gravsted V K 11 364 (foto Viborg_K165)",
         "kilder": [
-          "gravsten-viborg-k165"
+          "gravsten-viborg-k165",
+          "findgravsted-viborg-vk11-364"
         ]
       }
     ],

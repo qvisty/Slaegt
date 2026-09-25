@@ -69,6 +69,12 @@
       "tekst": "Tage er født 1924 og Ole i 1950. Vielsen er formentlig mellem 1944 og 1950. Den giver Elses pigenavn og fødested, og måske parrets bopæl, så Oles fødesogn kan findes. Fundet: Salling 20. marts 1949.",
       "anenummer": 4,
       "status": "færdig"
+    },
+    {
+      "titel": "Læs avisannoncerne i Mediestream",
+      "tekst": "Oles mulige dødsannonce i Fredericia Dagblad 11. og 12. marts 2002, s. 4, og Tages mulige i Viborg Stifts Folkeblad 3. december 1999, s. 2. Kan ses på Det Kgl. Bibliotek eller på et folkebibliotek med adgang til Mediestream.",
+      "anenummer": 2,
+      "status": "åben"
     }
   ],
   "log": [
@@ -261,6 +267,49 @@
         8
       ],
       "resultat": "ikke fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Gravsted for Gerner og Helga med fulde navne",
+      "tekst": "Find gravsted, Viborg Kirkegård, gravsted V K 11 364: Gerner Clemmen Clemmensen Qvist 23-03-1890 til 15-12-1953 og Helga Margrethe Qvist 28-12-1896 til 10-05-1991. Fotoet Viborg_K165 på DK-gravsten viser kun de to navne. Ikke i linjen: Orla Clemen Clemmensen Quist (1925 til 2013) i samme gravsted, og Villy Clemmen Clemmensen Qvist (18-10-1935 til 17-02-2014) med Nina Quist i gravsted V K 12 430 (Viborg_K188). Villy er formentlig Tages yngre bror.",
+      "personer": [
+        8,
+        9
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Ingen gravsted fundet for Tage, Else, Ole, Helmuth og Anna",
+      "tekst": "DK-gravsten (alle kirkegårde) og Find gravsted (alle 1756 kirkegårde) søgt på Qvist, Quist, Kvist, Clemmensen, Gravlev, fødselsdatoerne 10-06-1924 og 24-07-1950, Helmuth og Helmut Sørensen og Anna Sørensen i Haderslev. Ingen træf på Tage, Else eller Ole Qvist. Ingen Helmuth eller Anna Sørensen på de 15 kirkegårde i Haderslev. DK-gravsten dækker ikke alle Haderslevs kirkegårde. Ikke i linjen: en gruppe Clemmensen Qvist på Skælskør Kirkegård, formentlig Gerners slægt. Websøgning og arkiv.dk gav intet relevant, kun målmanden Ole Qvist, som ikke er Jespers far.",
+      "personer": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "resultat": "ikke fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Avisspor i Mediestream (ikke læst)",
+      "tekst": "Kun søgeresultater, teksten er spærret af ophavsret og skal ses på Det Kgl. Bibliotek. Else Gravlev: Viborg Stifts-Tidende 18-03-1949 s. 2 og Aalborg Amtstidende 19-03-1949 s. 8 (passer med brylluppet 20-03-1949). Tage Qvist: Viborg Stifts Folkeblad 17-03-1949 s. 4. Ole Gravlev Qvist: Viborg Stifts Folkeblad 04-08-1969 s. 6 og Fredericia Dagblad 11-03-2002 og 12-03-2002, begge s. 4. To dage i træk kan være dødsannoncer, så Ole kan være død omkring marts 2002 i Fredericia-området. Det er et gæt. Tage Qvist: 23 træf i Viborg Stifts Folkeblad 1948 til 1999, blandt andet 03-12-1999 s. 2, måske en dødsannonce. Også et gæt.",
+      "personer": [
+        2,
+        4,
+        5
+      ],
+      "resultat": "spor"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Kandidat til Helmuth Sørensen i Haderslev (ikke bevist)",
+      "tekst": "DDD, FT 1921, Haderslev Købstad, Slotsgade 23: Helmut Sørensen, født 9/1 1914 i Haderslev, barn af snedkermester Ludvig Sørensen (16/8 1883) og Doris Sørensen (21/6 1879). Eneste Helmut Sørensen i Haderslev amt 1901 til 1930 i DDD. Kun en kandidat. Må ikke kobles til Anna eller Dorthe Merete, før Dorthe Merete er bekræftet og en kilde binder dem sammen.",
+      "personer": [
+        6
+      ],
+      "resultat": "spor"
     }
   ]
 }
