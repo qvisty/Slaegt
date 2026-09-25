@@ -7,10 +7,10 @@
       "status": "åben"
     },
     {
-      "titel": "Find Oles fødsel i kirkebogen 1950",
-      "tekst": "Født 24. juli 1950, formentlig i Viborgegnen. Kirkebøger for fødte før 1960 findes på Arkivalieronline. Dåbsindførslen bør nævne forældrene, som ifølge familien er Tage og Else Qvist. Fødesognet skal findes først.",
+      "titel": "Find Oles fødsel i kirkebogen",
+      "tekst": "Fundet: Viborg Søndre Sogn, født 24. juli 1949 på sygehuset, døbt 4. september 1949. Familien havde oplyst 1950.",
       "anenummer": 2,
-      "status": "åben"
+      "status": "færdig"
     },
     {
       "titel": "Oles død: dato og sted",
@@ -319,6 +319,26 @@
         4,
         8,
         9
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Oles dåb fundet. Han er født 1949, ikke 1950",
+      "tekst": "Viborg Søndre Sogn, fødte drenge 1949, nr. 104, opslag 133. Ole Gravlev Qvist, født 24. juli 1949 på sygehuset, døbt 4. september 1949. Forældre: sygehusportør Tage Clemmen Clemensen Qvist, født 10-6-1924, og Else Marie Gravlev, født 24-3-1923, Vesterled 4 (måske 49), Viborg, viet 20-3-1949 i Salling kirke. Faddere: moderen samt tømrer Harald Jensen og hustru Inger, Skottenborg 44, Viborg. Familien har oplyst 1950, men alt andet passer. Årstallet 1950 forklarer, hvorfor de tidligere søgninger ikke fandt ham. Uden fund i 1950 og start 1951: Viborg Domsogn, Viborg Søndre, Løgstør, Asmild, Tapdrup, Dollerup, Finderup, Ravnstrup, Vorde, Fiskbæk og Rønbjerg. Claude har kontrolleret billedet.",
+      "personer": [
+        2,
+        4,
+        5
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Elses dåb fundet i Løgstør 1923",
+      "tekst": "Løgstør Sogn, fødte piger 1923, nr. 9, opslag 49. Else Marie Gravlev, født 24. marts 1923 i Fjordgade, døbt 7. maj 1923. Moder: ugift Maren Kirstine Ottilie Gravlev af Løgstør. Fornavnet læses af Claude som Maren, som i vielsen 1949, men underagenten læste Karen. Faderen er ikke nævnt. Faddere: arbejdsmand Anders Gravlev, portør Søren Gravlev og hustru samt skibsfører Poul Christian Nielsen Jensens hustru. Moren oprettes ikke endnu, fordi Else er et spor.",
+      "personer": [
+        5
       ],
       "resultat": "fundet"
     }
