@@ -66,9 +66,9 @@
     },
     {
       "titel": "Find Tage og Elses vielse",
-      "tekst": "Tage er født 1924 og Ole i 1950. Vielsen er formentlig mellem 1944 og 1950. Den giver Elses pigenavn og fødested, og måske parrets bopæl, så Oles fødesogn kan findes.",
+      "tekst": "Tage er født 1924 og Ole i 1950. Vielsen er formentlig mellem 1944 og 1950. Den giver Elses pigenavn og fødested, og måske parrets bopæl, så Oles fødesogn kan findes. Fundet: Salling 20. marts 1949.",
       "anenummer": 4,
-      "status": "i gang"
+      "status": "færdig"
     }
   ],
   "log": [
@@ -195,6 +195,36 @@
       "dato": "2026-09-25",
       "titel": "Oles fødsel 1950 ikke fundet i Viborgsognene",
       "tekst": "Søgt efter Ole Gravlev Qvist, født 24. juli 1950, blandt fødte drenge juni til august 1950: Viborg Domsogn (opslag 60 til 63), Viborg Søndre Sogn inklusive sygehusets fødsler (opslag 20 og 23 til 26), Asmild (opslag 12 til 14) og Tapdrup (opslag 28). Ingen Qvist. Næste skridt: find Tages vielse med Else, der kan give bopæl og sogn, og tjek Gravlev Sogn.",
+      "personer": [
+        2
+      ],
+      "resultat": "ikke fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Tage og Elses vielse fundet, Elses pigenavn er Gravlev",
+      "tekst": "Viet 20. marts 1949 i Salling kirke (Salling Sogn, nr. 1, opslag 115), lyst i Viborg Søndre Sogn (nr. 0, opslag 188). Tage Clemmen Clemensen Qvist, sygehusportør i Viborg, født 10. juni 1924 i Viborg Søndre Sogn, søn af agent Gerner Clemmen Clemensen Qvist og Helga Margrethe Nielsen, Vesterled 49, Viborg. Else Marie Gravlev, vaskerimedhjælper på sygehuset i Viborg, født 24. marts 1923 i Løgstør, datter af Maren Kirstine Otilie Gravlev, Brøndum. Kun moren er nævnt. Vidner: brudgommens mor og Simon Simonsen, Brøndum. Viede i Viborg Søndre 1943 til februar 1949 er gennemset. Claude har kontrolleret billedet.",
+      "personer": [
+        4,
+        5,
+        8,
+        9
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Tages konfirmation 1939 fundet",
+      "tekst": "Viborg Domsogn, konfirmerede drenge, 2. april 1939, nr. 20, opslag 33. Forældre: agent Gerner Clemmen Clemmensen Qvist og Helga Margrethe Nielsen, Vesterled. Født 10/6 1924, døbt 12/10 1924 i Søndre Sogns Kirke. Viborg Søndre 1937 til 1940 gennemset uden fund. Ikke i linjen: Johan Qvist og Emil Qvist, konfirmeret 1938 i samme bog.",
+      "personer": [
+        4
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Oles fødsel stadig ikke fundet",
+      "tekst": "Gennemset uden fund blandt drenge født i 1950: Salling (hele året), Gravlev, Løgstør (nr. 12 til 49), Viborg Søndre (maj til oktober) og Viborg Domsogn (april til august). Ny søgning er sat i gang for dåb senere på året.",
       "personer": [
         2
       ],

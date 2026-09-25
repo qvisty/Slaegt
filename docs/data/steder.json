@@ -73,5 +73,23 @@
     "amt": "Sorø Amt",
     "lat": 55.2506,
     "lng": 11.2939
+  },
+  {
+    "id": "loegstoer",
+    "navn": "Løgstør",
+    "sogn": "Løgstør Sogn",
+    "herred": "Slet Herred",
+    "amt": "Ålborg Amt",
+    "lat": 56.9667,
+    "lng": 9.25
+  },
+  {
+    "id": "salling",
+    "navn": "Salling (Brøndum)",
+    "sogn": "Salling Sogn",
+    "herred": "Slet Herred",
+    "amt": "Ålborg Amt",
+    "lat": 56.922,
+    "lng": 9.296
   }
 ]
