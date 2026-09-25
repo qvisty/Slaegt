@@ -55,14 +55,25 @@
     ],
     "soeskende": [
       {
+        "navn": "Erik Qvist (Buller)",
+        "koen": "m",
+        "kilder": [
+          "fam-jesper-2026"
+        ]
+      },
+      {
         "navn": "Britta Gravlev Qvist",
         "koen": "k",
-        "kilder": []
+        "kilder": [
+          "fam-jesper-2026"
+        ]
       },
       {
         "navn": "Torben Gravlev Qvist",
         "koen": "m",
-        "kilder": []
+        "kilder": [
+          "fam-jesper-2026"
+        ]
       }
     ]
   },
