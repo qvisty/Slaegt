@@ -17,10 +17,11 @@
     "efternavn": "Qvist",
     "koen": "m",
     "status": "under undersøgelse",
-    "noter": "Far til Jesper ifølge familien. Dåben i Viborg Søndre Sogn viser Ole Gravlev Qvist, født 24. juli 1949 på sygehuset i Viborg, søn af Tage Clemmen Clemensen Qvist og Else Marie Gravlev. Familien har oplyst 1950, men kirkebogen siger 1949. Dag, måned, det sjældne navn og begge forældre passer, så det er utvivlsomt ham. Status forbliver under undersøgelse, indtil en kilde binder Ole til Jesper, fx Jespers dåbsattest.",
+    "noter": "Far til Jesper ifølge familien. Dåben i Viborg Søndre Sogn viser Ole Gravlev Qvist, født 24. juli 1949 på sygehuset i Viborg, søn af Tage Clemmen Clemensen Qvist og Else Marie Gravlev. Familien huskede først 1950, men Jesper oplyser, at Ole blev 52 år og døde 14. marts 2002. Det passer med 1949. Status forbliver under undersøgelse, indtil en kilde binder Ole til Jesper, fx Jespers dåbsattest.",
     "kilder": [
       "fam-jesper-2026",
-      "kb-viborg-soendre-1949-f104"
+      "kb-viborg-soendre-1949-f104",
+      "fam-jesper-2026-oles-doed"
     ],
     "haendelser": [
       {
@@ -40,6 +41,15 @@
         "beskrivelse": "Viborg Søndre Sogns kirke",
         "kilder": [
           "kb-viborg-soendre-1949-f104"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "2002-03-14",
+        "sted": "vejle",
+        "beskrivelse": "Vejle Sygehus, 52 år",
+        "kilder": [
+          "fam-jesper-2026-oles-doed"
         ]
       }
     ]

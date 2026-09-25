@@ -14,9 +14,9 @@
     },
     {
       "titel": "Oles død: dato og sted",
-      "tekst": "Dødsdato og sted mangler. Dødsattest eller gravsted kan give begge.",
+      "tekst": "Jesper oplyser 14. marts 2002 på Vejle Sygehus. Mangler en skriftlig kilde, fx dødsattest (kan bestilles af nærmeste pårørende) eller dødsannonce.",
       "anenummer": 2,
-      "status": "åben"
+      "status": "i gang"
     },
     {
       "titel": "Find Dorthe Meretes fødsel i kirkebogen 1945",
@@ -72,7 +72,7 @@
     },
     {
       "titel": "Læs avisannoncerne i Mediestream",
-      "tekst": "Oles mulige dødsannonce i Fredericia Dagblad 11. og 12. marts 2002, s. 4, og Tages mulige i Viborg Stifts Folkeblad 3. december 1999, s. 2. Kan ses på Det Kgl. Bibliotek eller på et folkebibliotek med adgang til Mediestream.",
+      "tekst": "Oles dødsannonce må ligge efter 14. marts 2002, fx i Vejle Amts Folkeblad eller Fredericia Dagblad. Træffene 11. og 12. marts 2002 ligger før dødsdagen og er ikke dødsannoncer. Tages mulige dødsannonce: Viborg Stifts Folkeblad 3. december 1999, s. 2. Kan ses på Det Kgl. Bibliotek eller på et folkebibliotek med adgang til Mediestream.",
       "anenummer": 2,
       "status": "åben"
     }
@@ -341,6 +341,15 @@
         5
       ],
       "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Oles død: 14. marts 2002 på Vejle Sygehus",
+      "tekst": "Jesper oplyser, at Ole døde 14. marts 2002 på Vejle Sygehus og blev 52 år. Alderen passer med fødslen 24. juli 1949 i kirkebogen og ikke med 1950. OBS: Avissporene i Fredericia Dagblad 11. og 12. marts 2002 ligger før dødsdagen, så de er ikke dødsannoncer for Ole. De kan handle om noget andet. Dødsannoncen bør ligge i Vejle Amts Folkeblad eller Fredericia Dagblad omkring 15. til 20. marts 2002.",
+      "personer": [
+        2
+      ],
+      "resultat": "familieoplysning"
     }
   ]
 }

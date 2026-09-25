@@ -39,7 +39,7 @@ Anenumre: rodpersonen er 1, far til n er 2n, mor til n er 2n + 1.
 | Nr. | Navn | Status | Oplysninger |
 | --- | --- | --- | --- |
 | 1 | Jesper Gravlev Qvist | bekræftet (rodperson) | Nulevende. Kun navn. |
-| 2 | Ole Gravlev Qvist | under undersøgelse | Far. Født 24. juli **1949** (familien sagde 1950) på sygehuset i Viborg, døbt 4. september 1949 i Viborg Søndre Sogn. Død, dato og sted ukendt (avisspor: Fredericia, marts 2002). Kan bekræftes, når en kilde binder ham til Jesper (Jespers dåbsattest). |
+| 2 | Ole Gravlev Qvist | under undersøgelse | Far. Født 24. juli **1949** (familien sagde 1950) på sygehuset i Viborg, døbt 4. september 1949 i Viborg Søndre Sogn. Død 14. marts 2002 på Vejle Sygehus, 52 år (Jespers oplysning, passer med 1949). Kan bekræftes, når en kilde binder ham til Jesper (Jespers dåbsattest). |
 | 3 | Dorthe Merete Qvist, født Sørensen | under undersøgelse | Mor. Nulevende, født 1945. Slægten fra Sønderjylland. |
 | 4 | Tage Clemmen Clemmensen Qvist | spor | Farfar. Født 10. juni 1924 i Viborg Søndre Sogn. Dåb 1924, FT 1925, 1930 og 1940, konfirmation 1939 og vielse 1949 er fundet. Sygehusportør. Klar til at blive bekræftet, så snart Ole er bekræftet. |
 | 5 | Else Marie Qvist, født Gravlev | spor | Farmor. Født 24. marts 1923 i Løgstør, datter af ugift Maren Kirstine Ottilie Gravlev. Gift med Tage 20. marts 1949 i Salling kirke. |
@@ -59,7 +59,7 @@ Alle fund er set på originalbilledet af Claude, og alle står i loggen i `forsk
 * **Fars side er fundet fire led tilbage** i Viborg, Løgstør og Skælskør (se tabellen). Kilder: Oles dåb 1949, Tage og Elses vielse 1949 (Salling og Viborg Søndre), Tages konfirmation 1939, FT 1940 (Vesterled 49), FT 1930, FT 1925, Tages dåb 1924, Gerner og Helgas vielse 1919, Elses dåb 1923, FT 1901 (Gerner som barn i Skælskør) og gravstedet på Viborg Kirkegård.
 * **Alle på fars side står som `spor` eller `under undersøgelse`**, fordi kæden kun kan bekræftes fra Jesper og bagud. Den mangler en kilde, der binder Ole til Jesper. Så snart den findes, kan Ole, Tage, Else, Gerner og Helga bekræftes med de kilder, der allerede er registreret.
 * **Ikke fundet:** gravsted for Tage, Else, Ole, Helmuth og Anna (DK-gravsten og Find gravsted i hele landet). FT 1921 for familien.
-* **Avisspor, ikke læst** (Mediestream, teksten er spærret): mulige dødsannoncer for Ole i Fredericia Dagblad 11. og 12. marts 2002 og for Tage i Viborg Stifts Folkeblad 3. december 1999.
+* **Avisspor, ikke læst** (Mediestream, teksten er spærret): træf på Ole i Fredericia Dagblad 11. og 12. marts 2002 (før dødsdagen, altså ikke dødsannoncer) og mulig dødsannonce for Tage i Viborg Stifts Folkeblad 3. december 1999.
 * **Mors side:** Én kandidat til Helmuth, Helmut Sørensen, født 9. januar 1914 i Haderslev (FT 1921, Slotsgade 23). Ikke bevist og ikke koblet til nogen.
 * **Fejlmatch, afvist:** Landsholdsmålmanden Ole Qvist fra KB er født 25. februar 1950 i København og lever. Han er **ikke** Jespers far. Brug ham aldrig som match.
 
@@ -77,7 +77,7 @@ Netværket er åbent. Chromium virker ikke med proxyens certifikat, så brug cur
 ## 6. Næste skridt i forskningen
 
 1. **Jespers dåbs eller navneattest** er nu den vigtigste kilde. Den bekræfter Ole og Dorthe Merete, og derefter kan hele fars side bekræftes med det samme.
-2. **Oles død:** læs avisannoncerne fra marts 2002 og find dødsdato og sted.
+2. **Oles død** 14. marts 2002 på Vejle Sygehus kendes fra Jesper. Mangler en skriftlig kilde (dødsattest eller dødsannonce efter 14. marts 2002).
 3. **Tage og Elses død og gravsted.**
 4. **Dorthe Meretes dåb 1945** i Sønderjylland. Nævner Helmuth og Anna Sørensen. Husk de sønderjyske regler.
 5. **Helmuth og Anna Sørensen** i FT 1940 i Haderslev. Tjek kandidaten Helmut, født 9. januar 1914.

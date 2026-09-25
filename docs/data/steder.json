@@ -91,5 +91,14 @@
     "amt": "Ålborg Amt",
     "lat": 56.922,
     "lng": 9.296
+  },
+  {
+    "id": "vejle",
+    "navn": "Vejle",
+    "sogn": "Vejle Sankt Nicolai Sogn",
+    "herred": "Nørvang Herred",
+    "amt": "Vejle Amt",
+    "lat": 55.7093,
+    "lng": 9.536
   }
 ]
