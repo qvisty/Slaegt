@@ -14,7 +14,7 @@
     },
     {
       "titel": "Oles død: dato og sted",
-      "tekst": "Jesper oplyser 14. marts 2002 på Vejle Sygehus. Mangler en skriftlig kilde, fx dødsattest (kan bestilles af nærmeste pårørende) eller dødsannonce.",
+      "tekst": "Død 14. marts 2002 på Vejle Sygehus, begravet i de ukendtes grav på Viborg Kirkegård ifølge Jesper. Mangler en skriftlig kilde, fx dødsattest eller oplysning fra Viborg Kirkegårdskontor.",
       "anenummer": 2,
       "status": "i gang"
     },
@@ -797,6 +797,15 @@
       "dato": "2026-09-25",
       "titel": "Oles søskende ifølge Jesper",
       "tekst": "Jesper oplyser, at Erik (Buller) er død, og at Britta (gift Tang Nielsen) og Torben lever. Levende søskende står kun med navn. Eriks dødsdato kendes ikke.",
+      "personer": [
+        2
+      ],
+      "resultat": "familieoplysning"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Ole begravet i de ukendtes grav i Viborg",
+      "tekst": "Jesper oplyser, at Ole er begravet på Viborg Kirkegård i de ukendtes grav, en anonym fællesgrav. Det forklarer, hvorfor han ikke findes på DK-gravsten eller Find gravsted. Kirkegårdskontoret i Viborg kan bekræfte begravelsen og datoen, og begravelsen bør også stå i kirkebogen eller personregistret for 2002.",
       "personer": [
         2
       ],
