@@ -164,5 +164,23 @@
     "amt": "Aabenraa Amt",
     "lat": 54.9556,
     "lng": 9.3611
+  },
+  {
+    "id": "ungstrup",
+    "navn": "Ungstrup",
+    "sogn": "Thorning Sogn",
+    "herred": "Lysgård Herred",
+    "amt": "Viborg Amt",
+    "lat": 56.2856,
+    "lng": 9.3972
+  },
+  {
+    "id": "hoegild",
+    "navn": "Høgild",
+    "sogn": "Resen Sogn",
+    "herred": "Fjends Herred",
+    "amt": "Viborg Amt",
+    "lat": 56.5236,
+    "lng": 9.1583
   }
 ]

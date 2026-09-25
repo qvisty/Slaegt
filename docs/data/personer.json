@@ -915,9 +915,11 @@
       "kb-viborg-soendre-1889-v22",
       "kb-lysgaard-1856-m6",
       "ft1901-viborg-gravene9",
-      "ft1906-viborg-graverne9"
+      "ft1906-viborg-graverne9",
+      "kb-viborg-dom-1919-d5",
+      "ft1860-viborg-mogensgade77"
     ],
-    "noter": "Skomagersvend og skomager i Viborg, kellner i 1919. Flyttede til Viborg i 1880.",
+    "noter": "Skomagersvend og skomager i Viborg, senere kellner. Kom til Viborg som barn, familien boede der i 1860. Døde 18. februar 1919, altså før Helgas vielse samme år.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -934,6 +936,15 @@
         "beskrivelse": "Hjemmedøbt 1. september, fremstillet i kirken",
         "kilder": [
           "kb-lysgaard-1856-m6"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1860",
+        "sted": "viborg",
+        "beskrivelse": "Barn hos forældrene, St. Mogensgade 77",
+        "kilder": [
+          "ft1860-viborg-mogensgade77"
         ]
       },
       {
@@ -981,6 +992,35 @@
         "kilder": [
           "kb-viborg-dom-1919-v45"
         ]
+      },
+      {
+        "type": "død",
+        "dato": "1919-02-18",
+        "sted": "viborg",
+        "beskrivelse": "Domkirkestræde",
+        "kilder": [
+          "kb-viborg-dom-1919-d5"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1919-02-25",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Kirkegård",
+        "kilder": [
+          "kb-viborg-dom-1919-d5"
+        ]
+      }
+    ],
+    "soeskende": [
+      {
+        "navn": "Ane Marie (Mariane) Andersen",
+        "koen": "k",
+        "foedt": "ca. 1859",
+        "kilder": [
+          "ft1860-viborg-mogensgade77"
+        ],
+        "noter": "Født i Viborg. Dåben ikke fundet"
       }
     ]
   },
@@ -1001,7 +1041,9 @@
       "kb-viborg-dom-1871-julie",
       "kb-viborg-soendre-1884-k6",
       "ft1901-viborg-gravene9",
-      "ft1906-viborg-graverne9"
+      "ft1906-viborg-graverne9",
+      "ft1870-viborg-jensen",
+      "ft1930-viborg-gravene7c"
     ],
     "noter": "Datter af smed Caspar Georg Julius Jensen og Ane Marie Kirstine Gravesen. Smed Julius Jensen var fadder til Helga og forlover ved forældrenes vielse.",
     "haendelser": [
@@ -1013,6 +1055,15 @@
         "kilder": [
           "kb-viborg-soendre-1869-f22",
           "kb-viborg-dom-1871-julie"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1870",
+        "sted": "viborg",
+        "beskrivelse": "Udøbt pigebarn hos forældrene",
+        "kilder": [
+          "ft1870-viborg-jensen"
         ]
       },
       {
@@ -1050,6 +1101,25 @@
         "kilder": [
           "ft1906-viborg-graverne9"
         ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1930",
+        "sted": "viborg",
+        "beskrivelse": "Enke, Gravene 7 c",
+        "kilder": [
+          "ft1930-viborg-gravene7c"
+        ]
+      }
+    ],
+    "soeskende": [
+      {
+        "navn": "Graves Mathias Peter Jensen",
+        "koen": "m",
+        "foedt": "ca. 1868",
+        "kilder": [
+          "ft1870-viborg-jensen"
+        ]
       }
     ]
   },
@@ -1061,10 +1131,51 @@
     "status": "under undersøgelse",
     "bevis": "Anders Nielsens dåb i Lysgård 1856 nævner husmand Niels Peter Andersen som far. Sønnens efternavn Nielsen og barnebarnet Niels Peter passer.",
     "kilder": [
-      "kb-lysgaard-1856-m6"
+      "kb-lysgaard-1856-m6",
+      "kb-thorning-1821-m13",
+      "kb-lysgaard-1850-v4",
+      "kb-lysgaard-1855-v4",
+      "ft1860-viborg-mogensgade77",
+      "kb-viborg-soendre-1886-d30"
     ],
-    "noter": "Husmand i Lysgaard i 1856.",
+    "noter": "Født i Ungstrup, Thorning Sogn, søn af inderste Anders Christensen Gadegaard og Maren Nielsdatter. Tjenestekarl og husmand i Lysgård, fra ca. 1858 arbejdsmand og vejmand i Viborg. Gift første gang 1850 med Ellen Marie Christensdatter, der døde 1853. Navnet Gadegaard går igen hos barnebarnet Niels Peter Nielsen Gadegaard.",
     "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1821-10-08",
+        "sted": "ungstrup",
+        "kilder": [
+          "kb-thorning-1821-m13",
+          "kb-lysgaard-1855-v4"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1821-10-09",
+        "sted": "ungstrup",
+        "beskrivelse": "Thorning Sogn",
+        "kilder": [
+          "kb-thorning-1821-m13"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1850-05-18",
+        "sted": "lysgaard",
+        "beskrivelse": "Første ægteskab, med Ellen Marie Christensdatter",
+        "kilder": [
+          "kb-lysgaard-1850-v4"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1855-12-27",
+        "sted": "lysgaard",
+        "beskrivelse": "Lysgård Kirke, med Kirstine Frederiksdatter",
+        "kilder": [
+          "kb-lysgaard-1855-v4"
+        ]
+      },
       {
         "type": "erhverv",
         "dato": "1856",
@@ -1073,29 +1184,81 @@
         "kilder": [
           "kb-lysgaard-1856-m6"
         ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1860",
+        "sted": "viborg",
+        "beskrivelse": "Arbejdsmand, St. Mogensgade 77",
+        "kilder": [
+          "ft1860-viborg-mogensgade77"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1886-11-16",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Søndre Sogn, 65 år",
+        "kilder": [
+          "kb-viborg-soendre-1886-d30"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1886-11-23",
+        "sted": "viborg",
+        "kilder": [
+          "kb-viborg-soendre-1886-d30"
+        ]
       }
     ]
   },
   {
     "anenummer": 37,
     "fornavne": "Kristine",
-    "efternavn": "Frederiksen",
+    "efternavn": "Frederiksdatter",
     "koen": "k",
     "status": "under undersøgelse",
-    "bevis": "Anders Nielsens dåb i Lysgård 1856 nævner hustru Kristine Frederiksen som mor. Efternavnet er delt over to linjer og ikke helt sikkert læst.",
+    "bevis": "Anders Nielsens dåb 1856 nævner Kristine Frederiksen som mor. Vielsen 1855 og FT 1860 giver samme person med fødsel 15. november 1819 i Høgild, Resen Sogn, som passer med hendes dåb.",
     "kilder": [
-      "kb-lysgaard-1856-m6"
+      "kb-lysgaard-1856-m6",
+      "kb-resen-1819-f5",
+      "kb-lysgaard-1855-v4",
+      "ft1860-viborg-mogensgade77"
     ],
-    "noter": "36¾ år gammel i november 1856, altså født omkring 1820.",
+    "noter": "Født i Høgild, Resen Sogn, datter af gårdbeboerne Frederich Christensen og Anne Dorthe Jensdatter. I live i 1870. Hendes død er ikke fundet.",
     "haendelser": [
       {
         "type": "fødsel",
-        "dato": "ca. 1820",
-        "beskrivelse": "Beregnet ud fra alderen i 1856",
+        "dato": "1819-11-15",
+        "sted": "hoegild",
         "kilder": [
-          "kb-lysgaard-1856-m6"
+          "kb-resen-1819-f5",
+          "kb-lysgaard-1855-v4"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1820-03-05",
+        "sted": "hoegild",
+        "beskrivelse": "Hjemmedøbt 16. november 1819, fremstillet i kirken",
+        "kilder": [
+          "kb-resen-1819-f5"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1860",
+        "sted": "viborg",
+        "beskrivelse": "Hustru, St. Mogensgade 77",
+        "kilder": [
+          "ft1860-viborg-mogensgade77"
         ]
       }
+    ],
+    "navnevarianter": [
+      "Kristine Frederiksen",
+      "Christine Andersen"
     ]
   },
   {
@@ -1108,17 +1271,48 @@
     "kilder": [
       "kb-viborg-soendre-1869-f22",
       "kb-viborg-dom-1871-julie",
-      "kb-viborg-soendre-1884-k6"
+      "kb-viborg-soendre-1884-k6",
+      "kb-viborg-dom-1844-m2",
+      "kb-viborg-dom-1867-v17",
+      "ft1870-viborg-jensen"
     ],
-    "noter": "Smed i Viborg. Formentlig den smed Julius Jensen, der var forlover i 1889 og fadder i 1890 og 1896, og måske smed C. G. V. Jensen, forlover ved Helgas vielse 1919.",
+    "noter": "Født i Viborg Domsogn, søn af Christen Jensen og Julie Moll. Maskinarbejder og smedesvend, senere smed. Datteren Julie er opkaldt efter hans mor. Formentlig smed C. G. V. Jensen, forlover ved barnebarnet Helgas vielse 1919.",
     "haendelser": [
       {
-        "type": "erhverv",
-        "dato": "1869",
+        "type": "fødsel",
+        "dato": "1844-01-09",
         "sted": "viborg",
-        "beskrivelse": "Smed",
+        "beskrivelse": "Viborg Domsogn",
         "kilder": [
-          "kb-viborg-soendre-1869-f22"
+          "kb-viborg-dom-1844-m2",
+          "kb-viborg-dom-1867-v17"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1844-04-05",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Domkirke",
+        "kilder": [
+          "kb-viborg-dom-1844-m2"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1867-07-19",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Domkirke, med Anne Marie Christine Graversen",
+        "kilder": [
+          "kb-viborg-dom-1867-v17"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1870",
+        "sted": "viborg",
+        "beskrivelse": "Husfader, smedesvend",
+        "kilder": [
+          "ft1870-viborg-jensen"
         ]
       }
     ]
@@ -1128,7 +1322,8 @@
     "fornavne": "Ane Marie Kirstine",
     "efternavn": "Jensen",
     "navnevarianter": [
-      "Ane Marie Kirstine Gravesen"
+      "Ane Marie Kirstine Gravesen",
+      "Anne Marie Christine Graversen"
     ],
     "koen": "k",
     "status": "under undersøgelse",
@@ -1136,16 +1331,28 @@
     "kilder": [
       "kb-viborg-soendre-1869-f22",
       "kb-viborg-dom-1871-julie",
-      "kb-viborg-soendre-1884-k6"
+      "kb-viborg-soendre-1884-k6",
+      "kb-viborg-dom-1867-v17",
+      "ft1870-viborg-jensen"
     ],
-    "noter": "24 år i 1869, altså født omkring 1845.",
+    "noter": "Født 30. september 1845, ifølge FT 1870 i Kvosted, Thorup Sogn. Hendes dåb og forældre er ikke fundet.",
     "haendelser": [
       {
         "type": "fødsel",
-        "dato": "ca. 1845",
-        "beskrivelse": "Beregnet ud fra alderen i 1869",
+        "dato": "1845-09-30",
+        "beskrivelse": "Kvosted, Thorup Sogn ifølge FT 1870",
         "kilder": [
-          "kb-viborg-soendre-1869-f22"
+          "kb-viborg-dom-1867-v17",
+          "ft1870-viborg-jensen"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1870",
+        "sted": "viborg",
+        "beskrivelse": "Husmoder",
+        "kilder": [
+          "ft1870-viborg-jensen"
         ]
       }
     ]
@@ -2846,5 +3053,104 @@
         ]
       }
     ]
+  },
+  {
+    "anenummer": 72,
+    "fornavne": "Anders Christensen",
+    "efternavn": "Gadegaard",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Niels Peter Andersens dåb 1821 nævner Anders Christensen, inderste i Ungstrup, som far, og vielsen 1850 kalder ham Anders Christensen Gadegaard.",
+    "kilder": [
+      "kb-thorning-1821-m13",
+      "kb-lysgaard-1850-v4"
+    ],
+    "noter": "Inderste i Ungstrup, Thorning Sogn.",
+    "haendelser": [
+      {
+        "type": "bopæl",
+        "dato": "1821",
+        "sted": "ungstrup",
+        "beskrivelse": "Inderste",
+        "kilder": [
+          "kb-thorning-1821-m13"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 73,
+    "fornavne": "Maren",
+    "efternavn": "Nielsdatter",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Niels Peter Andersens dåb 1821 nævner Maren Nielsdatter som mor.",
+    "kilder": [
+      "kb-thorning-1821-m13"
+    ],
+    "noter": "",
+    "haendelser": []
+  },
+  {
+    "anenummer": 74,
+    "fornavne": "Frederich",
+    "efternavn": "Christensen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Kristines dåb 1819 nævner Frederich Christensen, gårdbeboer i Høgild, som far.",
+    "kilder": [
+      "kb-resen-1819-f5"
+    ],
+    "noter": "Gårdbeboer i Høgild, Resen Sogn.",
+    "haendelser": [
+      {
+        "type": "bopæl",
+        "dato": "1819",
+        "sted": "hoegild",
+        "beskrivelse": "Gårdbeboer",
+        "kilder": [
+          "kb-resen-1819-f5"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 75,
+    "fornavne": "Anne Dorthe",
+    "efternavn": "Jensdatter",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Kristines dåb 1819 nævner Anne Dorthe Jensdatter som mor.",
+    "kilder": [
+      "kb-resen-1819-f5"
+    ],
+    "noter": "",
+    "haendelser": []
+  },
+  {
+    "anenummer": 76,
+    "fornavne": "Christen",
+    "efternavn": "Jensen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Caspar Georg Julius Jensens dåb 1844 nævner Christen Jensen som far.",
+    "kilder": [
+      "kb-viborg-dom-1844-m2"
+    ],
+    "noter": "Boede i Viborg. Stillingen i dåben er svær at læse, måske brændevinsbrænder.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 77,
+    "fornavne": "Julie",
+    "efternavn": "Moll",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Caspar Georg Julius Jensens dåb 1844 nævner Julie Moll som mor.",
+    "kilder": [
+      "kb-viborg-dom-1844-m2"
+    ],
+    "noter": "Navnet Julie gik videre til barnebarnet Julie Margrethe Louise.",
+    "haendelser": []
   }
 ]
