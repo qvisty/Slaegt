@@ -24,8 +24,11 @@ Repoet er **offentligt**, og det er hjemmesiden også. Derfor gælder:
 ## Sæt udgivelsen op (én gang)
 
 1. Gå til repoets **Settings**, derefter **Pages**.
-2. Vælg **GitHub Actions** under *Build and deployment*, *Source*.
-3. Næste ændring på grenen `main` udgiver siden. Adressen bliver `https://qvisty.github.io/Slaegt/`.
+2. Vælg **Deploy from a branch** under *Build and deployment*, *Source*.
+3. Vælg grenen `main` og mappen `/docs`, og tryk **Save**.
+4. Siden kommer op på `https://qvisty.github.io/Slaegt/` efter et minut eller to.
+
+Tjekket af data kører ved hver ændring under fanen **Actions**. Et rødt kryds betyder, at data bryder reglerne og skal rettes.
 
 ## Filer
 

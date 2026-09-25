@@ -1,4 +1,7 @@
-name: Valider og udgiv
+name: Valider slægtsdata
+
+# Siden udgives af GitHub Pages direkte fra mappen docs på grenen main.
+# Dette job tjekker data mod arbejdsreglerne ved hver ændring.
 
 on:
   push:
@@ -7,12 +10,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   valider:
@@ -24,19 +21,3 @@ jobs:
           node-version: 20
       - name: Tjek slægtsdata mod arbejdsreglerne
         run: node scripts/valider.mjs
-
-  udgiv:
-    needs: valider
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-      - id: deploy
-        uses: actions/deploy-pages@v4
