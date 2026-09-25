@@ -531,5 +531,105 @@
     "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=202936#202936,38480599",
     "kvalitet": "primær",
     "noter": "Viet 18. februar 1920 i kirken. Jörgen Peter Bundesen af Toftlund, født 19. oktober 1896 i Toftlund, døbt 29. november 1896, konfirmeret 9. april 1911. Dusine Andrea Vind af Gaansager. Borgerlig vielse samme dag, Skærbæk register nr. 3."
+  },
+  {
+    "id": "kb-skaelskoer-1890-m9",
+    "titel": "Kirkebog, Skælskør Sogn, fødte drenge 1890, nr. 9",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, fødte mænd 1870 til 1891, opslag 81, nr. 9. Også hovedministerialbogen 1876 til 1892, opslag 72",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=423562#423562,78055616",
+    "kvalitet": "primær",
+    "noter": "Gerner Clemmen Clemmensen Qvist, født 23. marts 1890, døbt i kirken 25. maj 1890. Forældre: slagter Ludvig Valdemar Qvist og hustru Johanne Marie Møller, 26 år. Faddere: snedker Møllers hustru, frøken Sophie Møller, snedker Møller og faderen. Claude har kontrolleret billedet."
+  },
+  {
+    "id": "kb-skaelskoer-1889-v6",
+    "titel": "Kirkebog, Skælskør Sogn, viede 1889, nr. 6",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, viede 1870 til 1891, opslag 17, nr. 6",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=423570#423570,78055883",
+    "kvalitet": "primær",
+    "noter": "Viet 16. juli 1889 i kirken. Ungkarl, slagter Ludvig Valdemar Qvist, født 27. juni 1859, 30 år, af Skjelskør, og jomfru Johanne Marie Møller, født 7. februar 1864, 25 år, af Skjelskør. Forlovere: slagter C. Qvist af Tranderup Mark og snedker Møller af Skjelskør."
+  },
+  {
+    "id": "kb-skaelskoer-1859-m13",
+    "titel": "Kirkebog, Skælskør Sogn, fødte drenge 1859, nr. 13",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, fødte mænd 1855 til 1869, opslag 29, nr. 13",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=423561#423561,78055489",
+    "kvalitet": "primær",
+    "noter": "Ludvig Valdemar Qvist, født 27. juni 1859, døbt i kirken 11. september 1859. Forældre: garver Clemmen Qvist og kone Hanne født Petersen, 34 år."
+  },
+  {
+    "id": "kb-skaelskoer-1864-f3",
+    "titel": "Kirkebog, Skælskør Sogn, fødte piger 1864, nr. 3",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, fødte kvinder 1855 til 1869, opslag 45, nr. 3",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=423563#423563,78055670",
+    "kvalitet": "primær",
+    "noter": "Johanne Marie Møller, født 7. februar 1864, døbt i kirken 5. juni 1864. Forældre: snedker Johan Jacob Møller og hustru Marie Bergitte Gesner, 31 år."
+  },
+  {
+    "id": "kb-skaelskoer-1898-f32",
+    "titel": "Kirkebog, Skælskør Sogn, fødte piger 1898, nr. 32",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1892 til 1899, opslag 98, nr. 32",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=155599#155599,26002953",
+    "kvalitet": "primær",
+    "noter": "Valborg Ebba Clemmensen Qvist, født 16. oktober 1898, døbt 15. januar 1899. Faddere: farmoderen enke Johanne Qvist bar barnet, moderens forældre snedkermester Johan Jakob Møller og hustru Marie Birgitte Gesner, slagter Vilhelm Qvist og faderen."
+  },
+  {
+    "id": "kb-skaelskoer-1911-d10",
+    "titel": "Kirkebog, Skælskør Sogn, døde kvinder 1911, nr. 10",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, døde 1909 til 1926, opslag 101, nr. 10",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=155604#155604,26003906",
+    "kvalitet": "primær",
+    "noter": "Johanne Qvist, født Hansdatter, død 14. juni 1911 i Skjelskør, begravet 20. juni på Skjelskør Kirkegård, 85 år. Enke efter garver Clemmen Clemmensen Qvist (3. marts 1886). Boede hos sønnen slagter Ludvig Qvist, Slagelsevej. Født 29. september 1825 i Pedersborg Sogn, datter af Eva Rosine Hansdatter og Frederik Petersen."
+  },
+  {
+    "id": "ft1880-skaelskoer-slagelsevej",
+    "titel": "Folketælling 1880, Skælskør, Slagelsevej",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Folketælling 1880, Skælskør Købstad, Ved Landevejen til Slagelse, opslag 17",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=57393#57393,12074006",
+    "kvalitet": "primær",
+    "noter": "Klemmen Klemmensen Qvist, 54, gift, født Svendborg, slagtermester. Johanne Qvist født Pedersen, 54, født Sorø. Sønnen Ludvig (skrevet Ulrick) Qvist, 20, slagtersvend, og flere børn."
+  },
+  {
+    "id": "ft1911-skaelskoer-slagelsevej",
+    "titel": "Folketælling 1911, Skælskør, Slagelsevej",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Folketælling 1911, Skælskør Købstad, Slagelsevej, opslag 53",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=69015#69015,12798154",
+    "kvalitet": "primær",
+    "noter": "Ludvig Qvist, 27/6 1859, slagtermester, og Johanne, 7/2 1864, med seks børn og enken Johanne Qvist, 29/9 1825, født Pedersborg."
+  },
+  {
+    "id": "ft1921-skaelskoer-skovvej",
+    "titel": "Folketælling 1921, Skælskør, Skovvej",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Folketælling 1921, Skælskør Købstad, Skovvej, opslag 17",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=85422#85422,13838057",
+    "kvalitet": "primær",
+    "noter": "Ludvig Valdemar Qvist, 27-6 1859, slagtermester, Johanne Marie, 7-2 1864, og datteren Ebba."
+  },
+  {
+    "id": "ft1870-skaelskoer-moeller",
+    "titel": "Folketælling 1870, Skælskør, husstand 338",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Dansk Demografisk Database",
+    "reference": "Dansk Demografisk Database, Sorø amt, Skælskør Købstad, indtastning E1028, løbenr. 1591",
+    "url": "https://ddd.dda.dk/soeg_amter.asp",
+    "kvalitet": "afledt",
+    "noter": "Johan Jacob Møller, 49, snedkermester, født Holsteinborg Sogn. Maria Bergitte Møller født Gesner, 37, født Tjæreby Sogn. Børn: Margrethe Jacobine, Sophie Charlotte, Johanne Maria (5) og Vilhelmine Caroline. Kun set i indtastningen."
   }
 ]

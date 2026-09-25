@@ -530,6 +530,7 @@
     "koen": "m",
     "status": "under undersøgelse",
     "kilder": [
+      "kb-skaelskoer-1890-m9",
       "gravsten-viborg-k165",
       "findgravsted-viborg-vk11-364",
       "fam-jesper-2026",
@@ -540,17 +541,27 @@
       "ft1901-skaelskoer-245",
       "ft1940-viborg-vesterled49"
     ],
-    "noter": "Oldefar. Vielsen 1919, Tages dåb 1924 og folketællingen 1930 viser ham som Tages far og Helgas mand. Fødselsdatoen 23. marts 1890 i Skælskør stemmer i vielsen, folketællingerne og på gravstenen. Forældre ifølge vielsen og FT 1901: slagtermester Ludvig Valdemar Qvist og Johanne Marie Møller af Skælskør.",
+    "noter": "Oldefar. Født i Skælskør 23. marts 1890, søn af slagter Ludvig Valdemar Qvist og Johanne Marie Møller. Datoen stemmer i dåben, vielsen, folketællingerne og på gravstenen. Står som under undersøgelse, indtil Ole er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1890-03-23",
         "sted": "skaelskoer",
         "kilder": [
+          "kb-skaelskoer-1890-m9",
           "kb-viborg-dom-1919-v45",
           "ft1901-skaelskoer-245",
           "ft1930-viborg-3395",
           "gravsten-viborg-k165"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1890-05-25",
+        "sted": "skaelskoer",
+        "beskrivelse": "Skælskør kirke",
+        "kilder": [
+          "kb-skaelskoer-1890-m9"
         ]
       },
       {
@@ -690,12 +701,15 @@
         ]
       },
       {
-        "navn": "Valborg Ebba Clemmesen Qvist",
+        "navn": "Valborg Ebba Clemmensen Qvist, gift Lund",
         "koen": "k",
         "foedt": "1898-10-16",
         "kilder": [
+          "kb-skaelskoer-1898-f32",
           "ft1901-skaelskoer-245"
-        ]
+        ],
+        "doed": "1995-05-30",
+        "noter": "Skælskør Kirkegård"
       }
     ]
   },
@@ -1643,6 +1657,349 @@
         "sted": "gaansager",
         "kilder": [
           "pr-skaerbaek-1920-v3"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 16,
+    "fornavne": "Ludvig Valdemar",
+    "efternavn": "Qvist",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Gerners dåb 1890 og vielsen 1919 nævner slagter Ludvig Valdemar Qvist som far. FT 1901 viser Gerner i hans husstand. Fødselsdatoen 27. juni 1859 er den samme i hans dåb, vielsen 1889 og FT 1911 og 1921.",
+    "kilder": [
+      "kb-skaelskoer-1890-m9",
+      "kb-viborg-dom-1919-v45",
+      "ft1901-skaelskoer-245",
+      "kb-skaelskoer-1859-m13",
+      "kb-skaelskoer-1889-v6",
+      "ft1880-skaelskoer-slagelsevej",
+      "ft1911-skaelskoer-slagelsevej",
+      "ft1921-skaelskoer-skovvej"
+    ],
+    "noter": "Slagtermester i Skælskør, Slagelsevej og senere Skovvej. Søn af garver Clemmen Clemmensen Qvist og Johanne Hansdatter.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1859-06-27",
+        "sted": "skaelskoer",
+        "kilder": [
+          "kb-skaelskoer-1859-m13",
+          "kb-skaelskoer-1889-v6"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1859-09-11",
+        "sted": "skaelskoer",
+        "kilder": [
+          "kb-skaelskoer-1859-m13"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1880",
+        "sted": "skaelskoer",
+        "beskrivelse": "Slagtersvend hos forældrene",
+        "kilder": [
+          "ft1880-skaelskoer-slagelsevej"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1889-07-16",
+        "sted": "skaelskoer",
+        "beskrivelse": "Skælskør kirke, med Johanne Marie Møller",
+        "kilder": [
+          "kb-skaelskoer-1889-v6"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1890",
+        "sted": "skaelskoer",
+        "beskrivelse": "Slagter, senere slagtermester",
+        "kilder": [
+          "kb-skaelskoer-1890-m9",
+          "ft1901-skaelskoer-245"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1901",
+        "sted": "skaelskoer",
+        "beskrivelse": "Husfader, Slagelsevej",
+        "kilder": [
+          "ft1901-skaelskoer-245"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1911",
+        "sted": "skaelskoer",
+        "beskrivelse": "Husfader, Slagelsevej",
+        "kilder": [
+          "ft1911-skaelskoer-slagelsevej"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1921",
+        "sted": "skaelskoer",
+        "beskrivelse": "Husfader, Skovvej",
+        "kilder": [
+          "ft1921-skaelskoer-skovvej"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 17,
+    "fornavne": "Johanne Marie",
+    "efternavn": "Qvist",
+    "navnevarianter": [
+      "Johanne Marie Møller"
+    ],
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Gerners dåb 1890 og vielsen 1919 nævner Johanne Marie Møller som mor. FT 1901 viser Gerner i hendes husstand. Fødselsdatoen 7. februar 1864 er den samme i hendes dåb, vielsen 1889 og folketællingerne.",
+    "kilder": [
+      "kb-skaelskoer-1890-m9",
+      "kb-viborg-dom-1919-v45",
+      "ft1901-skaelskoer-245",
+      "kb-skaelskoer-1864-f3",
+      "kb-skaelskoer-1889-v6",
+      "ft1870-skaelskoer-moeller",
+      "ft1911-skaelskoer-slagelsevej",
+      "ft1921-skaelskoer-skovvej"
+    ],
+    "noter": "Datter af snedkermester Johan Jacob Møller og Marie Birgitte Gesner i Skælskør.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1864-02-07",
+        "sted": "skaelskoer",
+        "kilder": [
+          "kb-skaelskoer-1864-f3",
+          "kb-skaelskoer-1889-v6"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1864-06-05",
+        "sted": "skaelskoer",
+        "kilder": [
+          "kb-skaelskoer-1864-f3"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1870",
+        "sted": "skaelskoer",
+        "beskrivelse": "Barn hos forældrene",
+        "kilder": [
+          "ft1870-skaelskoer-moeller"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1901",
+        "sted": "skaelskoer",
+        "beskrivelse": "Husmoder, Slagelsevej",
+        "kilder": [
+          "ft1901-skaelskoer-245"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1921",
+        "sted": "skaelskoer",
+        "beskrivelse": "Husmoder, Skovvej",
+        "kilder": [
+          "ft1921-skaelskoer-skovvej"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 32,
+    "fornavne": "Clemmen Clemmensen",
+    "efternavn": "Qvist",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Ludvig Valdemars dåb 1859 nævner garver Clemmen Qvist som far, og FT 1880 viser Ludvig som søn i hans husstand.",
+    "kilder": [
+      "kb-skaelskoer-1859-m13",
+      "ft1880-skaelskoer-slagelsevej",
+      "kb-skaelskoer-1911-d10"
+    ],
+    "noter": "Født i Svendborg ca. 1820 til 1826. Garver og senere slagtermester i Skælskør. Død 3. marts 1886 ifølge hustruens dødsindførsel, FT 1901 antyder 1884. Hans egen dødsindførsel er ikke set. Navnet Clemmen og Clemmensen går videre til sønnesønnen Gerner.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1822",
+        "sted": "svendborg",
+        "beskrivelse": "Alderen varierer i folketællingerne",
+        "kilder": [
+          "ft1880-skaelskoer-slagelsevej"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1859",
+        "sted": "skaelskoer",
+        "beskrivelse": "Garver, senere slagtermester",
+        "kilder": [
+          "kb-skaelskoer-1859-m13",
+          "ft1880-skaelskoer-slagelsevej"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1880",
+        "sted": "skaelskoer",
+        "beskrivelse": "Husfader, Slagelsevej",
+        "kilder": [
+          "ft1880-skaelskoer-slagelsevej"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1886-03-03",
+        "sted": "skaelskoer",
+        "beskrivelse": "Ifølge hustruens dødsindførsel",
+        "kilder": [
+          "kb-skaelskoer-1911-d10"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 33,
+    "fornavne": "Johanne",
+    "efternavn": "Qvist",
+    "navnevarianter": [
+      "Johanne Hansdatter",
+      "Hanne Petersen",
+      "Johanne Pedersen"
+    ],
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Ludvig Valdemars dåb 1859 nævner Hanne født Petersen som mor. Hendes dødsindførsel 1911 siger, at hun boede hos sønnen slagter Ludvig Qvist, og hun bar barnebarnet Valborg Ebba som farmor i 1899.",
+    "kilder": [
+      "kb-skaelskoer-1859-m13",
+      "kb-skaelskoer-1911-d10",
+      "kb-skaelskoer-1898-f32",
+      "ft1880-skaelskoer-slagelsevej",
+      "ft1911-skaelskoer-slagelsevej"
+    ],
+    "noter": "Født 29. september 1825 i Pedersborg Sogn, datter af Eva Rosine Hansdatter og Frederik Petersen. Skrevet både Hansdatter, Petersen og Pedersen. Kaldt svigermoder i FT 1901 ved en fejl.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1825-09-29",
+        "sted": "pedersborg",
+        "kilder": [
+          "kb-skaelskoer-1911-d10"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1911-06-14",
+        "sted": "skaelskoer",
+        "beskrivelse": "Hos sønnen på Slagelsevej, 85 år",
+        "kilder": [
+          "kb-skaelskoer-1911-d10"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1911-06-20",
+        "sted": "skaelskoer",
+        "beskrivelse": "Skjelskør Kirkegård",
+        "kilder": [
+          "kb-skaelskoer-1911-d10"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 34,
+    "fornavne": "Johan Jacob",
+    "efternavn": "Møller",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Johanne Maries dåb 1864 nævner snedker Johan Jacob Møller som far, og FT 1870 viser hende i hans husstand. Han kaldes moderens far ved barnebarnet Valborg Ebbas dåb 1899.",
+    "kilder": [
+      "kb-skaelskoer-1864-f3",
+      "ft1870-skaelskoer-moeller",
+      "kb-skaelskoer-1898-f32"
+    ],
+    "noter": "Snedkermester i Skælskør. Født i Holsteinborg Sogn ca. 1820. Levede i 1899.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1820",
+        "sted": "holsteinborg",
+        "kilder": [
+          "ft1870-skaelskoer-moeller"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1864",
+        "sted": "skaelskoer",
+        "beskrivelse": "Snedker, senere snedkermester",
+        "kilder": [
+          "kb-skaelskoer-1864-f3"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1870",
+        "sted": "skaelskoer",
+        "beskrivelse": "Husfader",
+        "kilder": [
+          "ft1870-skaelskoer-moeller"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 35,
+    "fornavne": "Marie Birgitte",
+    "efternavn": "Møller",
+    "navnevarianter": [
+      "Marie Birgitte Gesner",
+      "Maria Bergitte Gesner"
+    ],
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Johanne Maries dåb 1864 nævner Marie Bergitte Gesner som mor, og FT 1870 viser hende i hendes husstand. Hun kaldes moderens mor ved barnebarnet Valborg Ebbas dåb 1899.",
+    "kilder": [
+      "kb-skaelskoer-1864-f3",
+      "ft1870-skaelskoer-moeller",
+      "kb-skaelskoer-1898-f32"
+    ],
+    "noter": "Født i Tjæreby Sogn, i FT 1916 opgivet som 24. december 1832. Enke i Skælskør i 1916. Måske datter af gartner Johan Anthon Gesner på Basnæs, men det er ikke undersøgt.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1832-12-24",
+        "sted": "tjaereby",
+        "beskrivelse": "Dato fra FT 1916",
+        "kilder": [
+          "ft1870-skaelskoer-moeller"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1870",
+        "sted": "skaelskoer",
+        "beskrivelse": "Husmoder",
+        "kilder": [
+          "ft1870-skaelskoer-moeller"
         ]
       }
     ]

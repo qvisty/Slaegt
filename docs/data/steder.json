@@ -87,5 +87,39 @@
     "amt": "Tønder Amt",
     "lat": 55.1394,
     "lng": 8.9361
+  },
+  {
+    "id": "svendborg",
+    "navn": "Svendborg",
+    "amt": "Svendborg Amt",
+    "lat": 55.0598,
+    "lng": 10.6068
+  },
+  {
+    "id": "pedersborg",
+    "navn": "Pedersborg",
+    "sogn": "Pedersborg Sogn",
+    "herred": "Alsted Herred",
+    "amt": "Sorø Amt",
+    "lat": 55.4417,
+    "lng": 11.5383
+  },
+  {
+    "id": "holsteinborg",
+    "navn": "Holsteinborg",
+    "sogn": "Holsteinborg Sogn",
+    "herred": "Vester Flakkebjerg Herred",
+    "amt": "Sorø Amt",
+    "lat": 55.2289,
+    "lng": 11.4136
+  },
+  {
+    "id": "tjaereby",
+    "navn": "Tjæreby (Basnæs)",
+    "sogn": "Tjæreby Sogn",
+    "herred": "Vester Flakkebjerg Herred",
+    "amt": "Sorø Amt",
+    "lat": 55.2667,
+    "lng": 11.3167
   }
 ]
