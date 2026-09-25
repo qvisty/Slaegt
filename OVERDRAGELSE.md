@@ -23,6 +23,7 @@ Senest opdateret 25. september 2026.
 7. **Kun grenen `main`.** Jesper har givet lov til commit, merge og push direkte på `main`. Lav ikke andre grene og ikke pull requests.
 8. **Forsiden er stamtræet** med klikbare personer. README er kun teknisk og må ikke være det, besøgende ser.
 9. **Log alt.** Hver forskningsindsats skrives i `docs/data/forskning.json` under `log`, også når intet blev fundet, og også fejlmatch.
+10. **Link til siden.** Når en opgave er helt færdig, slutter svaret til Jesper altid med linket https://qvisty.github.io/Slaegt/
 
 ## 3. Sprog og stil (Jespers præferencer)
 

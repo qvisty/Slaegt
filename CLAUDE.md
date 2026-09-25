@@ -24,3 +24,5 @@ Dette er et slægtsforskningsprojekt for ejeren af repoet. Hjemmesiden ligger i 
 ## Sprog og stil
 
 Al tekst er på dansk. Brug aldrig tankestreg (em dash). Undgå semikolon og bindestreg i tekst, brug punktum eller komma. Det gælder også commit beskeder og JavaScript, som er skrevet uden semikolon.
+
+Når en opgave er helt færdig, skal svaret til Jesper altid slutte med et link til siden: https://qvisty.github.io/Slaegt/
