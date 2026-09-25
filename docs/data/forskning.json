@@ -20,7 +20,7 @@
     },
     {
       "titel": "Find Dorthe Meretes fødsel i kirkebogen 1945",
-      "tekst": "Formentlig i Haderslevegnen. Læg mærke til, hvem der står som far. Familien nævner morfar som Helmuth Sønderborg, mens Dorthe Merete er født Sørensen som sin mor Anna. Det skal afklares, før morfar kan undersøges. Da hun er nulevende, vises fundet ikke med detaljer på siden.",
+      "tekst": "Formentlig i Haderslevegnen. Dåbsindførslen bør nævne forældrene, som ifølge familien er Helmuth og Anna Sørensen. Da hun er nulevende, vises fundet ikke med detaljer på siden.",
       "anenummer": 3,
       "status": "åben"
     },
@@ -31,14 +31,8 @@
     },
     {
       "titel": "Søg gravsten i Viborg og Haderslev",
-      "tekst": "Søg efter Qvist på dk-gravsten.dk (Viborg Kirkegård) og gravsted.dk. Gravsten giver ofte fulde navne og datoer for Tage, Else og Ole. Søg også Sønderborg og Sørensen i Haderslev.",
+      "tekst": "Søg efter Qvist på dk-gravsten.dk (Viborg Kirkegård) og gravsted.dk. Gravsten giver ofte fulde navne og datoer for Tage, Else og Ole. Søg også Helmuth og Anna Sørensen i Haderslev.",
       "anenummer": 4,
-      "status": "åben"
-    },
-    {
-      "titel": "Spørg i familien om Helmuth og Anna",
-      "tekst": "Hvornår blev Helmuth Sønderborg og Anna Sørensen gift, og hvorfor bærer Dorthe Merete efternavnet Sørensen? Fotos, vielsesattest eller gamle breve kan afklare det.",
-      "anenummer": 6,
       "status": "åben"
     },
     {
@@ -57,7 +51,7 @@
     {
       "dato": "2026-09-25",
       "titel": "Familieoplysninger om forældre og bedsteforældre",
-      "tekst": "Far: Ole Gravlev Qvist, født 24. juli 1950, slægten fra Viborg. Mor: Dorthe Merete Qvist, født Sørensen, slægten fra Sønderjylland. Bedsteforældrene er registreret som familieoplysninger, der først undersøges, når forældrene er bekræftet: farfar Tage Qvist og farmor Else Qvist, begge Viborg. Morfar Helmuth Sønderborg og mormor Anna Sørensen, begge Haderslev. Bemærk forskellen mellem morfars efternavn og mors pigenavn.",
+      "tekst": "Far: Ole Gravlev Qvist, født 24. juli 1950, slægten fra Viborg. Mor: Dorthe Merete Qvist, født Sørensen, slægten fra Sønderjylland. Bedsteforældrene er registreret som familieoplysninger, der først undersøges, når forældrene er bekræftet: farfar Tage Qvist og farmor Else Qvist, begge Viborg. Morfar Helmuth Sørensen og mormor Anna Sørensen, begge Haderslev.",
       "personer": [
         1,
         2,
@@ -76,6 +70,15 @@
         6
       ],
       "resultat": "afvist træf"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Rettelse: morfar hed Helmuth Sørensen",
+      "tekst": "Efternavnet Sønderborg var en fejl. Morfar hed Helmuth Sørensen, og det passer med, at Dorthe Merete er født Sørensen. Den tidligere websøgning brugte det forkerte navn. Sørensen er så almindeligt et navn, at en ny websøgning ikke giver mening. Morfar findes bedst via Dorthe Meretes dåbsindførsel.",
+      "personer": [
+        6
+      ],
+      "resultat": "rettet"
     }
   ]
 }
