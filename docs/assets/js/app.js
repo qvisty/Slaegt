@@ -234,6 +234,10 @@ async function indlaes () {
   D.kilder = res[3] || []
   D.forskning = Object.assign({ opgaver: [], log: [] }, res[4] || {})
   D.historie = res[5] || []
+  try {
+    const g = await fetch('data/guide.html', { cache: 'no-cache' })
+    D.guide = g.ok ? await g.text() : ''
+  } catch (e) { D.guide = '' }
   anvendFiktivFilter()
   D.steder.forEach(s => S.set(s.id, s))
   D.kilder.forEach(k => K.set(k.id, k))
@@ -293,7 +297,7 @@ function sideOversigt () {
   }
 
   const antalGen = Math.min(5, Math.max(3, maksGen() + 1))
-  h.push('<section class="sektion"><div class="hoved-raekke"><h2 style="margin-top:0">Stamtræ</h2><div class="knapgruppe"><a class="knap" href="#/vifte">Viftediagram</a><a class="knap" href="#/galleri">Alle personer</a><a class="knap" href="#/kort">Kort</a><a class="knap" href="#/tidslinje">Tidslinje</a></div></div>')
+  h.push('<section class="sektion"><div class="hoved-raekke"><h2 style="margin-top:0">Stamtræ</h2><div class="knapgruppe"><a class="knap" href="#/vifte">Viftediagram</a><a class="knap" href="#/galleri">Alle personer</a><a class="knap" href="#/kort">Kort</a><a class="knap" href="#/tidslinje">Tidslinje</a><a class="knap" href="#/guide">Guide til forskningen</a></div></div>')
   h.push('<p class="lille">Klik på en person for at se livsforløb, kilder og beviser. Klik på pilen yderst for at gå længere tilbage.</p>')
   h.push(forklaring())
   h.push('<div class="diagram-ramme">' + anetavleSvg(1, antalGen) + '</div></section>')
@@ -919,6 +923,7 @@ function sideForskning () {
   const h = []
   h.push('<h1>Forskning</h1>')
   h.push('<p class="ingress">Her kan du følge undersøgelsen. Reglen er enkel: vi går kun et led længere tilbage fra en ane, der er bekræftet.</p>')
+  h.push('<p><a class="knap aktiv" href="#/guide">Trin for trin guide med links til arkiverne</a></p>')
   h.push('<section class="kort-flade sektion"><h3>Arbejdsregler</h3><ol class="regler">')
   h.push('<li><strong>Kun den direkte linje.</strong> Kun forældre, bedsteforældre og så videre bagud fra rodpersonen. Søskende og sidelinjer registreres ikke som personer.</li>')
   h.push('<li><strong>Et led ad gangen.</strong> En persons forældre undersøges først, når personen selv er bekræftet.</li>')
@@ -990,6 +995,7 @@ function vis () {
   else if (r.navn === 'kort') { html = sideKort(); titel = 'Kort' }
   else if (r.navn === 'kilder' || r.navn === 'kilde') { html = sideKilder(r.arg); titel = 'Kilder' }
   else if (r.navn === 'forskning') { html = sideForskning(); titel = 'Forskning' }
+  else if (r.navn === 'guide') { html = '<h1>Guide til forskningen</h1>' + (D.guide || '<p class="muted">Guiden kunne ikke indlæses.</p>'); titel = 'Guide' }
   else { html = '<h1>Siden findes ikke</h1><p><a href="#/">Til forsiden</a></p>'; titel = 'Ikke fundet' }
 
   if (kortInstans && r.navn !== 'kort') { kortInstans.remove(); kortInstans = null }
@@ -1005,7 +1011,7 @@ function vis () {
     vis()
   })
   document.title = titel + ' · ' + (D.projekt.titel || 'Slægten')
-  const aktiv = r.navn === 'vifte' ? 'anetavle' : r.navn === 'person' ? 'galleri' : r.navn === 'kilde' ? 'kilder' : r.navn
+  const aktiv = r.navn === 'guide' ? 'forskning' : r.navn === 'vifte' ? 'anetavle' : r.navn === 'person' ? 'galleri' : r.navn === 'kilde' ? 'kilder' : r.navn
   document.querySelectorAll('.hovedmenu a').forEach(a => a.classList.toggle('aktiv', a.dataset.rute === aktiv))
   document.getElementById('hovedmenu').classList.remove('aaben')
   document.getElementById('menu-knap').setAttribute('aria-expanded', 'false')

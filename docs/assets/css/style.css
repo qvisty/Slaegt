@@ -419,3 +419,26 @@ table.tabel { border-collapse: collapse; width: 100%; font-size: .9rem; }
   background: var(--fiktiv-lys); color: var(--blaek); border: 1px dashed var(--fiktiv);
   border-radius: var(--radius); padding: 10px 14px; margin-bottom: 20px; font-size: .9rem;
 }
+
+/* Guide */
+.guide-trin { list-style: none; padding: 0; margin: 24px 0; counter-reset: trin; display: grid; gap: 16px; }
+.guide-trin > li { counter-increment: trin; position: relative; padding-left: 64px; }
+.guide-trin > li::before {
+  content: counter(trin); position: absolute; left: 18px; top: 20px; width: 32px; height: 32px; border-radius: 50%;
+  background: var(--accent); color: var(--papir); display: grid; place-items: center; font-weight: 700;
+}
+.guide-trin h3 { margin-top: 4px; }
+.guide-trin ol, .guide-trin ul, .guide-note ol, .guide-note ul { padding-left: 20px; }
+.guide-trin li li, .guide-note li { margin: 4px 0; }
+.guide-note { margin: 16px 0; }
+.links { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; }
+.links a {
+  font-size: .88rem; text-decoration: none; padding: 5px 12px; border-radius: 999px;
+  border: 1px solid var(--streg-2); background: var(--papir); color: var(--accent);
+}
+.links a::after { content: " ↗"; }
+.links a:hover { border-color: var(--accent); }
+@media (max-width: 560px) {
+  .guide-trin > li { padding-left: 20px; padding-top: 58px; }
+  .guide-trin > li::before { top: 16px; left: 20px; }
+}
