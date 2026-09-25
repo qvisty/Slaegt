@@ -2,7 +2,7 @@
 
 Denne fil samler alle aftaler, instrukser og hele status for projektet, så arbejdet kan fortsætte i en ny Claude Code samtale uden at noget går tabt. Læs hele filen og `CLAUDE.md`, før du gør noget.
 
-Senest opdateret 25. september 2026.
+Senest opdateret 25. september 2026. Træet har nu 52 personer.
 
 ## 1. Hvem og hvad
 
@@ -34,23 +34,64 @@ Senest opdateret 25. september 2026.
 
 ## 4. Familien, status nu
 
-Anenumre: rodpersonen er 1, far til n er 2n, mor til n er 2n + 1.
+Anenumre: rodpersonen er 1, far til n er 2n, mor til n er 2n + 1. Oversigten er genereret ud fra `personer.json`. Detaljer, søskende og kilder står i data og på siden.
 
-| Nr. | Navn | Status | Oplysninger |
+| Nr. | Navn | Status | Født og død |
 | --- | --- | --- | --- |
-| 1 | Jesper Gravlev Qvist | bekræftet (rodperson) | Nulevende. Kun navn. |
-| 2 | Ole Gravlev Qvist | under undersøgelse | Far. Født 24. juli **1949** (familien sagde 1950) på sygehuset i Viborg, døbt 4. september 1949 i Viborg Søndre Sogn. Død 14. marts 2002 på Vejle Sygehus, 52 år (Jespers oplysning, passer med 1949). Kan bekræftes, når en kilde binder ham til Jesper (Jespers dåbsattest). |
-| 3 | Dorthe Merete Qvist, født Sørensen | under undersøgelse | Mor. Nulevende. Hendes dåb i Haderslev Vor Frue Sogn er fundet og nævner Helmut og Anna Christine som forældre. Dato og link står ikke i repoet af hensyn til privatliv. |
-| 4 | Tage Clemmen Clemmensen Qvist | spor | Farfar. Født 10. juni 1924 i Viborg Søndre Sogn. Dåb 1924, FT 1925, 1930 og 1940, konfirmation 1939 og vielse 1949 er fundet. Sygehusportør. Klar til at blive bekræftet, så snart Ole er bekræftet. |
-| 5 | Else Marie Qvist, født Gravlev | spor | Farmor. Født 24. marts 1923 i Løgstør, datter af ugift Maren Kirstine Ottilie Gravlev. Gift med Tage 20. marts 1949 i Salling kirke. |
-| 6 | Helmut Ludwig Sørensen | spor | Morfar. Født 9. januar 1915 i Haderslev, søn af snedkermester Ludvig Sørensen og Doris Elisabeth Olsen (kun i loggen). FT 1930 og 1940, bogholder i kulimport 1940. Gift 1. gang 1940 med Margarethe Schmidt (ikke i linjen). Viet borgerligt i Skærbæk 11. september 1945 med Anna. Senere direktør på havnen ifølge familien, firmaet ikke fundet. |
-| 7 | Anna Christine Sørensen, født Bundesen | spor | Mormor, kaldt Bessie. Født 9. december 1924, fødested ukendt (ikke Skærbæk eller Haderslev). Boede Kongevej 15, Haderslev i 1945. |
-| 8 | Gerner Clemmen Clemmensen Qvist | spor | Oldefar. Født 23. marts 1890 i Skælskør, gift 15. november 1919 i Viborg Domkirke, død 15. december 1953. Forældre: Ludvig Valdemar Qvist og Johanne Marie Møller (kun i loggen). |
-| 9 | Helga Margrethe Qvist, født Nielsen | spor | Oldemor. Født 28. december 1896 i Viborg Domsogn, død 10. maj 1991. Forældre: kellner Anders Nielsen og Julie Margrethe Louise Jensen (kun i loggen). |
+| 1 | Jesper Gravlev Qvist | bekræftet | Nulevende. Kun navn. |
+| 2 | Ole Gravlev Qvist | under undersøgelse | Født 1949-07-24, død 2002-03-14 |
+| 3 | Dorthe Merete Qvist | under undersøgelse | Nulevende. Kun navn. |
+| 4 | Tage Qvist | under undersøgelse | Født 1924-06-10 |
+| 5 | Else Marie Qvist | under undersøgelse | Født 1923-03-24 |
+| 6 | Helmuth Sørensen | under undersøgelse | Født 1915-01-09 |
+| 7 | Anna Christine Sørensen | under undersøgelse | Født 1924-12-09 |
+| 8 | Gerner Qvist | under undersøgelse | Født 1890-03-23, død 1953-12-15 |
+| 9 | Helga Margrethe Qvist | under undersøgelse | Født 1896-12-28, død 1991-05-10 |
+| 11 | Maren Kirstine Ottilie Gravlev | under undersøgelse | Født 1895-05-15 |
+| 12 | Ludwig Sørensen | under undersøgelse | Født 1883-08-16, død 1951-06-24 |
+| 13 | Doris Elisabeth Sørensen | under undersøgelse | Født 1879-06-21, død 1955-02-23 |
+| 14 | Jørgen Peter Bundesen | under undersøgelse | Født 1896-10-19, død 1951-12-10 |
+| 15 | Dusine Andrea Bundesen | under undersøgelse | Født 1901-12-21 |
+| 16 | Ludvig Valdemar Qvist | under undersøgelse | Født 1859-06-27 |
+| 17 | Johanne Marie Qvist | under undersøgelse | Født 1864-02-07 |
+| 18 | Anders Nielsen | under undersøgelse | Født 1856-08-19, død 1919-02-18 |
+| 19 | Julie Margrethe Louise Nielsen | under undersøgelse | Født 1869-08-28 |
+| 22 | Anders Kristian Gravlev | under undersøgelse | Født 1857-03-03 |
+| 23 | Johanne Jensen | under undersøgelse | Født 1857-06-23 |
+| 24 | Georg Friedrich Sørensen | under undersøgelse | Født 1849-07-16, død før 1912 |
+| 25 | Anna Barbara Sørensen | under undersøgelse | Født 1849-10-06, død før 1912 |
+| 26 | Ferdinand Gottfried Olsen | under undersøgelse | Født 1850-04-14, død 1920-12-22 |
+| 27 | Doris Elisabeth Friederike Olsen | under undersøgelse |  |
+| 28 | Jes Peter Bundesen | under undersøgelse | Født 1861-12-14, død 1916-12-07 |
+| 29 | Anna Catharina Bundesen | under undersøgelse | Født 1858-05-23, død 1935-12-13 |
+| 30 | Rasmus Andresen Wind | under undersøgelse | Født ca. 1859 |
+| 31 | Anna Christine Wind | under undersøgelse |  |
+| 32 | Clemmen Clemmensen Qvist | under undersøgelse | Født ca. 1822, død 1886-03-03 |
+| 33 | Johanne Qvist | under undersøgelse | Født 1825-09-29, død 1911-06-14 |
+| 34 | Johan Jacob Møller | under undersøgelse | Født ca. 1820 |
+| 35 | Marie Birgitte Møller | under undersøgelse | Født 1832-12-24 |
+| 36 | Niels Peter Andersen | under undersøgelse | Født 1821-10-08, død 1886-11-16 |
+| 37 | Kristine Frederiksdatter | under undersøgelse | Født 1819-11-15 |
+| 38 | Caspar Georg Julius Jensen | under undersøgelse | Født 1844-01-09 |
+| 39 | Ane Marie Kirstine Jensen | under undersøgelse | Født 1845-09-30 |
+| 48 | Søren Christian Sørensen | under undersøgelse |  |
+| 49 | Anne Sørensen | under undersøgelse |  |
+| 50 | Jes Kjær | under undersøgelse | , død før 1873 |
+| 51 | Hansine Martine Hansdatter | under undersøgelse |  |
+| 52 | Jens Ulrich Olsen | under undersøgelse |  |
+| 53 | Magdalene Marie Olsen | under undersøgelse |  |
+| 56 | Jürgen Peter Bundesen | under undersøgelse | , død før 1886 |
+| 57 | Anna Maria Bundesen | under undersøgelse | , død før 1886 |
+| 58 | Rasmus Kramer | under undersøgelse | Født ca. 1830 |
+| 59 | Maria Catharina Kramer | under undersøgelse |  |
+| 72 | Anders Christensen Gadegaard | under undersøgelse |  |
+| 73 | Maren Nielsdatter | under undersøgelse |  |
+| 74 | Frederich Christensen | under undersøgelse |  |
+| 75 | Anne Dorthe Jensdatter | under undersøgelse |  |
+| 76 | Christen Jensen | under undersøgelse |  |
+| 77 | Julie Moll | under undersøgelse |  |
 
-Gerner og Helga ligger i samme gravsted på Viborg Kirkegård, foto Viborg_K165 hos DK-gravsten. Fundet af Jesper ved søgning på Qvist på https://www.dk-gravsten.dk/kirkeg/Viborg.php. De øvrige navne i den søgning (Emil Qvist, Ib Qvistgaard, Villy Clemmen Clemmensen Qvist og Nina Qvist) er **ikke** i linjen.
-
-Alle andre pladser i træet er tomme og vises som "P.t. ukendt".
+Alle aner er dokumenteret i primærkilder, men står som `under undersøgelse`, fordi kæden kun kan bekræftes, når Jespers egen dåbs eller navneattest binder ham til Ole og Dorthe Merete. Elses far (nr. 10) er ukendt, han er ikke nævnt i dåben.
 
 ## 5. Forskning udført indtil nu
 
