@@ -1,4 +1,17 @@
-# Slægten
+# Slægten Qvist
+
+**Se hjemmesiden: https://qvisty.github.io/Slaegt/**
+
+| Side | Link |
+| --- | --- |
+| Oversigt | https://qvisty.github.io/Slaegt/ |
+| Anetavle | https://qvisty.github.io/Slaegt/#/anetavle |
+| Viftediagram | https://qvisty.github.io/Slaegt/#/vifte |
+| Personer | https://qvisty.github.io/Slaegt/#/galleri |
+| Tidslinje | https://qvisty.github.io/Slaegt/#/tidslinje |
+| Kort | https://qvisty.github.io/Slaegt/#/kort |
+| Kilder | https://qvisty.github.io/Slaegt/#/kilder |
+| Forskning | https://qvisty.github.io/Slaegt/#/forskning |
 
 Slægtsforskning i den direkte linje, udgivet som hjemmeside med GitHub Pages.
 
