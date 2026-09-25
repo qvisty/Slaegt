@@ -54,9 +54,9 @@
     },
     {
       "titel": "Find Gerner og Tage i folketællingerne 1921, 1925 og 1940",
-      "tekst": "1925 og 1930 er fundet. Mangler 1940 (søg Vesterled, hvor familien boede i 1939 og 1949) og 1921.",
+      "tekst": "Fundet i 1925, 1930 og 1940. 1921 er ikke fundet, men Tage var ikke født endnu.",
       "anenummer": 8,
-      "status": "i gang"
+      "status": "færdig"
     },
     {
       "titel": "Tages dåb i Viborg 1924",
@@ -310,6 +310,17 @@
         6
       ],
       "resultat": "spor"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Familien fundet i folketællingen 1940 på Vesterled 49",
+      "tekst": "FT 1940, Købstæder, Viborg, enheden Vesterled, opslag 23 og 24. Nr. 49, 1. sal, underskrevet G. Qvist. Gerner (agent, arbejdsløs), Helga og børnene Inge Johanne, Tage (16 år, bud), Orla, Ludvig Valdemar, Villy, Knud og Kjeld (sømand, fraværende). Villy og Knud er født efter 1930. Søskende er ikke i linjen. Nu er Tage fundet hjemme hos Gerner og Helga i 1925, 1930 og 1940. Claude har kontrolleret billedet.",
+      "personer": [
+        4,
+        8,
+        9
+      ],
+      "resultat": "fundet"
     }
   ]
 }

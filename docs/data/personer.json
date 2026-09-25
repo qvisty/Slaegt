@@ -58,9 +58,10 @@
       "ft1930-viborg-3395",
       "kb-viborg-dom-1939-k20",
       "kb-salling-1949-v1",
-      "kb-viborg-soendre-1949-v0"
+      "kb-viborg-soendre-1949-v0",
+      "ft1940-viborg-vesterled49"
     ],
-    "noter": "Navn og bopæl fra familien. Dåben 1924, folketællingerne 1925 og 1930, konfirmationen 1939 og vielsen 1949 viser alle, at Tage er søn af Gerner Clemmen Clemmensen Qvist og Helga Margrethe Nielsen. Gift 1949 med Else Marie Gravlev. Status forbliver spor, indtil Ole er bekræftet.",
+    "noter": "Navn og bopæl fra familien. Dåben 1924, folketællingerne 1925, 1930 og 1940, konfirmationen 1939 og vielsen 1949 viser alle, at Tage er søn af Gerner Clemmen Clemmensen Qvist og Helga Margrethe Nielsen. Gift 1949 med Else Marie Gravlev. Status forbliver spor, indtil Ole er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -97,6 +98,15 @@
         "beskrivelse": "Barn i forældrenes husstand, Søtorps Forlængelse, Viborg",
         "kilder": [
           "ft1930-viborg-3395"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1940",
+        "sted": "viborg",
+        "beskrivelse": "Barn i forældrenes husstand, Vesterled 49, Viborg. Erhverv: bud",
+        "kilder": [
+          "ft1940-viborg-vesterled49"
         ]
       },
       {
@@ -479,7 +489,8 @@
       "kb-viborg-soendre-1924-f40",
       "ft1925-viborg-1118",
       "ft1930-viborg-3395",
-      "ft1901-skaelskoer-245"
+      "ft1901-skaelskoer-245",
+      "ft1940-viborg-vesterled49"
     ],
     "noter": "Oldefar. Vielsen 1919, Tages dåb 1924 og folketællingen 1930 viser ham som Tages far og Helgas mand. Fødselsdatoen 23. marts 1890 i Skælskør stemmer i vielsen, folketællingerne og på gravstenen. Forældre ifølge vielsen og FT 1901: slagtermester Ludvig Valdemar Qvist og Johanne Marie Møller af Skælskør. De står kun i forskningsloggen, indtil Gerner er bekræftet.",
     "haendelser": [
@@ -550,6 +561,15 @@
         ]
       },
       {
+        "type": "folketælling",
+        "dato": "1940",
+        "sted": "viborg",
+        "beskrivelse": "Husfader, agent, arbejdsløs. Vesterled 49, Viborg",
+        "kilder": [
+          "ft1940-viborg-vesterled49"
+        ]
+      },
+      {
         "type": "død",
         "dato": "1953-12-15",
         "kilder": [
@@ -585,7 +605,8 @@
       "kb-viborg-dom-1919-v45",
       "kb-viborg-soendre-1924-f40",
       "ft1925-viborg-1118",
-      "ft1930-viborg-3395"
+      "ft1930-viborg-3395",
+      "ft1940-viborg-vesterled49"
     ],
     "noter": "Oldemor. Født Helga Margrethe Nielsen i Viborg Domsogn 28. december 1896. Datoen stemmer i vielsen, folketællingen 1930 og på gravstenen. Forældre ifølge vielsen: kellner Anders Nielsen og Julie Margrethe Louise Jensen af Domsognet. De står kun i forskningsloggen, indtil Helga er bekræftet.",
     "haendelser": [
@@ -616,6 +637,15 @@
         "beskrivelse": "Husmoder, Søtorps Forlængelse, Viborg",
         "kilder": [
           "ft1930-viborg-3395"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1940",
+        "sted": "viborg",
+        "beskrivelse": "Husmoder, Vesterled 49, Viborg",
+        "kilder": [
+          "ft1940-viborg-vesterled49"
         ]
       },
       {
