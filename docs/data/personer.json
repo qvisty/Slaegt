@@ -418,7 +418,7 @@
       "fam-jesper-2026",
       "kb-haderslev-vorfrue-dorthe"
     ],
-    "noter": "Født Anna Christine Bundesen 9. december 1924 ifølge Dorthe Meretes dåb. Efternavnet kan muligvis læses Bendesen. Fødested ukendt, måske Skærbæk, hvor hun blev viet borgerligt i 1945. Blev altid kaldt Bessie ifølge Jesper. Står som under undersøgelse, indtil Dorthe Merete er bekræftet.",
+    "noter": "Født Anna Christine Bundesen 9. december 1924 ifølge Dorthe Meretes dåb. Efternavnet kan muligvis læses Bendesen. Datter af Jørn og Dusine Bundesen i Toftlund ifølge Dorthe Merete. Fødested ikke fundet endnu, formentlig Toftlund. Blev altid kaldt Bessie ifølge Jesper. Står som under undersøgelse, indtil Dorthe Merete er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -1005,6 +1005,48 @@
         "beskrivelse": "Beregnet ud fra alderen i 1869",
         "kilder": [
           "kb-viborg-soendre-1869-f22"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 14,
+    "fornavne": "Jørn",
+    "efternavn": "Bundesen",
+    "koen": "m",
+    "status": "spor",
+    "kilder": [
+      "fam-dorthe-2026"
+    ],
+    "noter": "Familieoplysning fra Dorthe Merete: forælder til Anna Christine Bundesen. Boede i Toftlund.",
+    "haendelser": [
+      {
+        "type": "bopæl",
+        "sted": "toftlund",
+        "beskrivelse": "Boede i Toftlund ifølge familien",
+        "kilder": [
+          "fam-dorthe-2026"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 15,
+    "fornavne": "Dusine",
+    "efternavn": "Bundesen",
+    "koen": "k",
+    "status": "spor",
+    "kilder": [
+      "fam-dorthe-2026"
+    ],
+    "noter": "Familieoplysning fra Dorthe Merete: forælder til Anna Christine Bundesen. Boede i Toftlund.",
+    "haendelser": [
+      {
+        "type": "bopæl",
+        "sted": "toftlund",
+        "beskrivelse": "Boede i Toftlund ifølge familien",
+        "kilder": [
+          "fam-dorthe-2026"
         ]
       }
     ]

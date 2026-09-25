@@ -78,7 +78,7 @@
     },
     {
       "titel": "Find Anna Christine Bundesens fødsel 9. december 1924",
-      "tekst": "Ikke fundet i Skærbæk, Brøns, Rejsby, Hviding, Døstrup, Vodder, Mjolden, Haderslev og Gammel Haderslev. Næste: Tønder, Ribe, Esbjerg og Vester Nebel, eller den borgerlige vielse i Skærbæk 11. september 1945, som giver fødested og forældre. Spørg også i familien, hvor mormor var født.",
+      "tekst": "Forældrene er Jørn og Dusine Bundesen i Toftlund ifølge familien. Søg i Toftlund personregister og kirkebog 1924. Ikke fundet i Skærbæk, Brøns, Rejsby, Hviding, Døstrup, Vodder, Mjolden, Haderslev og Gammel Haderslev.",
       "anenummer": 7,
       "status": "i gang"
     },
@@ -486,6 +486,17 @@
         39
       ],
       "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Annas forældre: Jørn og Dusine Bundesen, Toftlund",
+      "tekst": "Dorthe Merete oplyser via Jesper, at hendes mor Anna Christine Bundesen var datter af Jørn og Dusine Bundesen i Toftlund. Registreret som familieoplysninger. En agent søger nu Annas fødsel og familien i Toftlund.",
+      "personer": [
+        7,
+        14,
+        15
+      ],
+      "resultat": "familieoplysning"
     }
   ]
 }

@@ -69,5 +69,14 @@
     "amt": "Viborg Amt",
     "lat": 56.3208,
     "lng": 9.4583
+  },
+  {
+    "id": "toftlund",
+    "navn": "Toftlund",
+    "sogn": "Toftlund Sogn",
+    "herred": "Nørre Rangstrup Herred",
+    "amt": "Haderslev Amt",
+    "lat": 55.1889,
+    "lng": 9.0703
   }
 ]
