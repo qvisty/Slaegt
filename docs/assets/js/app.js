@@ -231,7 +231,7 @@ function naesteSkridt () {
       if (!p.bevis) mangler.push('en begrundelse for identifikationen')
       const kilder = kildeIds(p)
       if (!kilder.some(id => K.get(id) && K.get(id).kvalitet === 'primær')) mangler.push('mindst én primærkilde')
-      if (!foedt(p)) mangler.push('fødsel eller dåb')
+      if (!foedt(p) && !p.levende) mangler.push('fødsel eller dåb')
       ud.push({ type: 'bekraeft', n, prioritet: gen(n), tekst: 'Bekræft ' + fuldtNavn(p) + ' (' + relation(n).toLowerCase() + ')', detalje: mangler.length ? 'Mangler ' + mangler.join(', ') + '.' : 'Gennemgå beviserne og sæt status til bekræftet.' })
     } else {
       [2 * n, 2 * n + 1].forEach(f => {

@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "anenummer": 1,
+    "fornavne": "Jesper Gravlev",
+    "efternavn": "Qvist",
+    "koen": "m",
+    "levende": true,
+    "status": "bekræftet",
+    "bevis": "Rodpersonen og projektets ejer. Udgangspunktet for hele linjen.",
+    "kilder": ["fam-jesper-2026"]
+  },
+  {
+    "anenummer": 2,
+    "fornavne": "Ole Gravlev",
+    "efternavn": "Qvist",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "noter": "Slægten er ifølge familien fra Viborg. Fødested er endnu ikke oplyst.",
+    "kilder": ["fam-jesper-2026"],
+    "haendelser": [
+      { "type": "fødsel", "dato": "1950-07-24", "kilder": ["fam-jesper-2026"] }
+    ]
+  },
+  {
+    "anenummer": 3,
+    "fornavne": "Dorthe Merete",
+    "efternavn": "Qvist",
+    "navnevarianter": ["Dorthe Merete Sørensen"],
+    "koen": "k",
+    "levende": true,
+    "status": "under undersøgelse",
+    "kilder": ["fam-jesper-2026"]
+  }
+]

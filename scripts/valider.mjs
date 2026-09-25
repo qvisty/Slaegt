@@ -126,7 +126,8 @@ for (const [n, p] of P) {
   if (p.status === 'bekræftet') {
     if (!p.bevis || !String(p.bevis).trim()) fejl.push(hvem + ': er markeret bekræftet, men mangler en begrundelse i feltet "bevis"')
     const primaere = [...ids].filter(id => K.get(id) && K.get(id).kvalitet === 'primær')
-    if (!primaere.length) fejl.push(hvem + ': er markeret bekræftet uden nogen primærkilde')
+    // Rodpersonen er projektets udgangspunkt og kræver ikke primærkilde
+    if (!primaere.length && n > 1) fejl.push(hvem + ': er markeret bekræftet uden nogen primærkilde')
     else if (ids.size < 2 && n > 1) advarsler.push(hvem + ': er bekræftet på kun én kilde. Find gerne en uafhængig kilde mere')
   }
 

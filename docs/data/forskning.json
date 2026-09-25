@@ -1,9 +1,27 @@
 {
   "opgaver": [
     {
-      "titel": "Registrér rodpersonen",
-      "tekst": "Navn, fødselsdato og fødested for rodpersonen. Dåbsattest eller navneattest er den bedste kilde.",
+      "titel": "Skaf Jespers dåbsattest eller navneattest",
+      "tekst": "Attesten nævner begge forældre og er den bedste kilde til at bekræfte far og mor. Kan bestilles via sogn.dk.",
       "anenummer": 1,
+      "status": "åben"
+    },
+    {
+      "titel": "Find Oles fødsel i kirkebogen 1950",
+      "tekst": "Født 24. juli 1950, formentlig i Viborgegnen. Kirkebøger for fødte før 1960 findes på Arkivalieronline. Dåbsindførslen bør nævne forældrene, som ifølge familien er Tage og Else Qvist. Fødesognet skal findes først.",
+      "anenummer": 2,
+      "status": "åben"
+    },
+    {
+      "titel": "Oles død: dato og sted",
+      "tekst": "Dødsdato og sted mangler. Dødsattest eller gravsted kan give begge.",
+      "anenummer": 2,
+      "status": "åben"
+    },
+    {
+      "titel": "Find Dorthe Meretes fødsel i kirkebogen 1945",
+      "tekst": "Formentlig i Haderslevegnen. Læg mærke til, hvem der står som far. Familien nævner morfar som Helmuth Sønderborg, mens Dorthe Merete er født Sørensen som sin mor Anna. Det skal afklares, før morfar kan undersøges. Da hun er nulevende, vises fundet ikke med detaljer på siden.",
+      "anenummer": 3,
       "status": "åben"
     },
     {
@@ -16,8 +34,15 @@
     {
       "dato": "2026-09-25",
       "titel": "Projektet er oprettet",
-      "tekst": "Hjemmeside, datamodel og arbejdsregler er på plads. Næste skridt er at registrere rodpersonen og forældrene.",
+      "tekst": "Hjemmeside, datamodel og arbejdsregler er på plads.",
       "resultat": "start"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Familieoplysninger om forældre og bedsteforældre",
+      "tekst": "Far: Ole Gravlev Qvist, født 24. juli 1950, slægten fra Viborg. Mor: Dorthe Merete Qvist, født Sørensen, slægten fra Sønderjylland. Spor til næste generation, som først registreres, når forældrene er bekræftet: farfar Tage Qvist og farmor Else Qvist, begge Viborg. Morfar Helmuth Sønderborg og mormor Anna Sørensen, begge Haderslev. Bemærk forskellen mellem morfars efternavn og mors pigenavn.",
+      "personer": [1, 2, 3],
+      "resultat": "spor"
     }
   ]
 }
