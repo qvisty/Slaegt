@@ -141,15 +141,6 @@
     "lng": 9.1667
   },
   {
-    "id": "oesby",
-    "navn": "Øsby",
-    "sogn": "Øsby Sogn",
-    "herred": "Haderslev Østeramt",
-    "amt": "Haderslev Amt",
-    "lat": 55.2375,
-    "lng": 9.6069
-  },
-  {
     "id": "aabenraa",
     "navn": "Aabenraa",
     "amt": "Aabenraa Amt",
@@ -235,5 +226,23 @@
     "amt": "Tønder Amt",
     "lat": 55.0333,
     "lng": 8.9167
+  },
+  {
+    "id": "oerby",
+    "navn": "Ørby",
+    "sogn": "Vonsbæk Sogn",
+    "herred": "Haderslev Østeramt",
+    "amt": "Haderslev Amt",
+    "lat": 55.2464,
+    "lng": 9.5556
+  },
+  {
+    "id": "almind",
+    "navn": "Almind",
+    "sogn": "Almind Sogn",
+    "herred": "Brusk Herred",
+    "amt": "Vejle Amt",
+    "lat": 55.5667,
+    "lng": 9.4667
   }
 ]

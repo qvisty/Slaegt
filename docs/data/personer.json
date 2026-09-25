@@ -1976,7 +1976,9 @@
       "kb-gl-haderslev-1883-d69",
       "kb-haderslev-vorfrue-1912-v39",
       "kb-haderslev-vorfrue-1951-d46",
-      "kb-haderslev-vorfrue-1873-v8"
+      "kb-haderslev-vorfrue-1873-v8",
+      "kb-gl-haderslev-1849-d53",
+      "ft1860-haderslev-slagtergade617"
     ],
     "noter": "Snedkersvend i Haderslev. Født 16. juli 1849 i Gammel Haderslev, søn af handskemagersvend Søren Christian Sørensen og Anne Sørensen. Død før 1912.",
     "haendelser": [
@@ -1987,6 +1989,24 @@
         "beskrivelse": "Gammel Haderslev (St. Severin)",
         "kilder": [
           "kb-haderslev-vorfrue-1873-v8"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1849-07-16",
+        "sted": "haderslev",
+        "beskrivelse": "Gammel Haderslev",
+        "kilder": [
+          "kb-gl-haderslev-1849-d53"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1860",
+        "sted": "haderslev",
+        "beskrivelse": "Søn hos forældrene, Slagtergade 617",
+        "kilder": [
+          "ft1860-haderslev-slagtergade617"
         ]
       },
       {
@@ -2024,6 +2044,32 @@
           "standesamt-haderslev-1912-v64"
         ]
       }
+    ],
+    "soeskende": [
+      {
+        "navn": "Anna Magdalene Sørensen",
+        "koen": "k",
+        "foedt": "ca. 1841",
+        "kilder": [
+          "ft1860-haderslev-slagtergade617"
+        ]
+      },
+      {
+        "navn": "Johanne Marie Sørensen",
+        "koen": "k",
+        "foedt": "ca. 1844",
+        "kilder": [
+          "ft1860-haderslev-slagtergade617"
+        ]
+      },
+      {
+        "navn": "Jens Peter Sørensen",
+        "koen": "m",
+        "foedt": "ca. 1854",
+        "kilder": [
+          "ft1860-haderslev-slagtergade617"
+        ]
+      }
     ]
   },
   {
@@ -2040,17 +2086,29 @@
       "kb-gl-haderslev-1883-d69",
       "kb-haderslev-vorfrue-1912-v39",
       "kb-haderslev-vorfrue-1951-d46",
-      "kb-haderslev-vorfrue-1873-v8"
+      "kb-haderslev-vorfrue-1873-v8",
+      "kb-vonsbaek-1849-d9",
+      "kb-vonsbaek-doede-kjaer"
     ],
-    "noter": "Født 6. oktober 1849 i Øsby, datter af afdøde Jes Kjær i Øsby og Hansine Martine Hansdatter. Død før 1912. Fadderen Dora Kjær i 1915 kan være i familie med hende.",
+    "noter": "Født i Ørby, Vonsbæk Sogn, datter af inderste Jes Kjær og Hansine Martine Hansdatter. Mistede begge forældre i 1859 og kom i pleje hos farbroren Ludvig Nielsen Kjær for fattigkassens regning. Død før 1912.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1849-10-06",
-        "sted": "oesby",
-        "beskrivelse": "Stednavnet er læst Gesby, formentlig Øsby",
+        "sted": "oerby",
+        "beskrivelse": "Ørby, Vonsbæk Sogn",
         "kilder": [
+          "kb-vonsbaek-1849-d9",
           "kb-haderslev-vorfrue-1873-v8"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1849-10-08",
+        "sted": "oerby",
+        "beskrivelse": "Vonsbæk",
+        "kilder": [
+          "kb-vonsbaek-1849-d9"
         ]
       },
       {
@@ -2068,6 +2126,42 @@
         "kilder": [
           "standesamt-haderslev-1912-v64"
         ]
+      }
+    ],
+    "soeskende": [
+      {
+        "navn": "Maren Kjær",
+        "koen": "k",
+        "kilder": [
+          "kb-vonsbaek-doede-kjaer"
+        ],
+        "foedt": "før 1859"
+      },
+      {
+        "navn": "Niels Kjær",
+        "koen": "m",
+        "kilder": [
+          "kb-vonsbaek-doede-kjaer"
+        ],
+        "foedt": "før 1859"
+      },
+      {
+        "navn": "Hans Kjær",
+        "koen": "m",
+        "kilder": [
+          "kb-vonsbaek-doede-kjaer"
+        ],
+        "foedt": "før 1859"
+      },
+      {
+        "navn": "Andreas Jessen Kjær",
+        "koen": "m",
+        "foedt": "ca. 1855",
+        "doed": "1858-05-10",
+        "kilder": [
+          "kb-vonsbaek-doede-kjaer"
+        ],
+        "noter": "Død 3 år gammel"
       }
     ]
   },
@@ -2141,6 +2235,40 @@
           "kb-haderslev-vorfrue-1920-b147"
         ]
       }
+    ],
+    "soeskende": [
+      {
+        "navn": "Theodor Ulrich Olsen",
+        "koen": "m",
+        "foedt": "før 1871",
+        "kilder": [
+          "kb-haderslev-vorfrue-1871-d153"
+        ]
+      },
+      {
+        "navn": "Alexander Carl Christian Olsen",
+        "koen": "m",
+        "foedt": "før 1871",
+        "kilder": [
+          "kb-haderslev-vorfrue-1871-d153"
+        ]
+      },
+      {
+        "navn": "Martin Christian Olsen",
+        "koen": "m",
+        "foedt": "før 1871",
+        "kilder": [
+          "kb-haderslev-vorfrue-1871-d153"
+        ]
+      },
+      {
+        "navn": "Christian Peter Olsen",
+        "koen": "m",
+        "foedt": "før 1871",
+        "kilder": [
+          "kb-haderslev-vorfrue-1871-d153"
+        ]
+      }
     ]
   },
   {
@@ -2158,10 +2286,65 @@
       "standesamt-haderslev-1879-f142",
       "kb-haderslev-vorfrue-1912-v39",
       "kb-haderslev-vorfrue-1955-d9",
-      "kb-haderslev-vorfrue-1920-b147"
+      "kb-haderslev-vorfrue-1920-b147",
+      "kb-haderslev-vorfrue-1853-d67",
+      "ft1860-haderslev-slagtergade603"
     ],
-    "noter": "Levede i december 1920 som enke. Gift 1. juni 1873. Hendes fødsel og forældre er ikke fundet, vielsen stod ikke i Haderslev. Muligvis den enke Doris Olsen, født 4/4 1853, på Slotsgade 10 i FT 1921.",
-    "haendelser": []
+    "noter": "Født i Haderslev 4. april 1853, datter af jernstøbersvend Johan Søren Johansen og Maren Petersdatter Schmidt. Gift 1. juni 1873, stedet ikke fundet. Enke og rentier på Slotsgade 10 hos sønnen Oskar i FT 1921. Død ikke fundet.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1853-04-04",
+        "sted": "haderslev",
+        "kilder": [
+          "kb-haderslev-vorfrue-1853-d67"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1853-04-09",
+        "sted": "haderslev",
+        "beskrivelse": "Vor Frue",
+        "kilder": [
+          "kb-haderslev-vorfrue-1853-d67"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1860",
+        "sted": "haderslev",
+        "beskrivelse": "Barn hos forældrene, Slagtergade 603a",
+        "kilder": [
+          "ft1860-haderslev-slagtergade603"
+        ]
+      }
+    ],
+    "soeskende": [
+      {
+        "navn": "Søren Edvard Johannsen",
+        "koen": "m",
+        "foedt": "ca. 1846",
+        "kilder": [
+          "ft1860-haderslev-slagtergade603"
+        ]
+      },
+      {
+        "navn": "Anna Dorthea Caroline Johannsen",
+        "koen": "k",
+        "foedt": "ca. 1849",
+        "kilder": [
+          "ft1860-haderslev-slagtergade603"
+        ]
+      },
+      {
+        "navn": "Lorentzine Johanne Maria Johannsen",
+        "koen": "k",
+        "foedt": "ca. 1856",
+        "kilder": [
+          "ft1860-haderslev-slagtergade603"
+        ]
+      }
+    ]
   },
   {
     "anenummer": 28,
@@ -3192,9 +3375,11 @@
     "status": "under undersøgelse",
     "bevis": "Vielsen 1873 nævner handskemagersvend Søren Christian Sørensen som far til Georg Frederik Sørensen.",
     "kilder": [
-      "kb-haderslev-vorfrue-1873-v8"
+      "kb-haderslev-vorfrue-1873-v8",
+      "kb-gl-haderslev-1849-d53",
+      "ft1860-haderslev-slagtergade617"
     ],
-    "noter": "Handskemagersvend i Gammel Haderslev.",
+    "noter": "Handskemagersvend og vægter i Haderslev, Slagtergade 617. Født ca. 1817 i Haderslev.",
     "haendelser": [
       {
         "type": "erhverv",
@@ -3215,10 +3400,15 @@
     "status": "under undersøgelse",
     "bevis": "Vielsen 1873 nævner hustru Anne Sørensen som mor til Georg Frederik Sørensen.",
     "kilder": [
-      "kb-haderslev-vorfrue-1873-v8"
+      "kb-haderslev-vorfrue-1873-v8",
+      "kb-gl-haderslev-1849-d53",
+      "ft1860-haderslev-slagtergade617"
     ],
-    "noter": "Pigenavnet er ikke oplyst.",
-    "haendelser": []
+    "noter": "Pigenavnet er Gørresen eller Goresen ifølge folketællingerne, født ca. 1814 i Aabenraa. Ikke bekræftet i kirkebog.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Anne Gørresen"
+    ]
   },
   {
     "anenummer": 50,
@@ -3228,16 +3418,38 @@
     "status": "under undersøgelse",
     "bevis": "Vielsen 1873 nævner afdøde Jes Kjær i Øsby som far til Anna Barbara Kjær. Fornavnet er ikke helt sikkert læst.",
     "kilder": [
-      "kb-haderslev-vorfrue-1873-v8"
+      "kb-haderslev-vorfrue-1873-v8",
+      "kb-vonsbaek-1849-d9",
+      "kb-vonsbaek-1844-v4",
+      "kb-vonsbaek-1813-d4",
+      "kb-vonsbaek-doede-kjaer"
     ],
-    "noter": "Boede i Øsby. Død før 1873.",
+    "noter": "Inderste i Ørby og Vonsbæk, søn af inderste Niels Ludvigsen Kjær og Karen Jesdatter Bekker. Døde som enkemand 1859.",
     "haendelser": [
       {
-        "type": "død",
-        "dato": "før 1873",
-        "sted": "oesby",
+        "type": "fødsel",
+        "dato": "1813-03-26",
+        "sted": "oerby",
         "kilder": [
-          "kb-haderslev-vorfrue-1873-v8"
+          "kb-vonsbaek-1813-d4"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1844-05-17",
+        "sted": "oerby",
+        "beskrivelse": "Vonsbæk, med Hansine Martine Hansdatter",
+        "kilder": [
+          "kb-vonsbaek-1844-v4"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1859-10-11",
+        "sted": "oerby",
+        "beskrivelse": "Vonsbæk, 46½ år",
+        "kilder": [
+          "kb-vonsbaek-doede-kjaer"
         ]
       }
     ]
@@ -3250,24 +3462,73 @@
     "status": "under undersøgelse",
     "bevis": "Vielsen 1873 nævner Hansine Martine Hansdatter som mor til Anna Barbara Kjær.",
     "kilder": [
-      "kb-haderslev-vorfrue-1873-v8"
+      "kb-haderslev-vorfrue-1873-v8",
+      "kb-vonsbaek-1849-d9",
+      "kb-vonsbaek-1844-v4",
+      "kb-almind-1818-f15",
+      "kb-vonsbaek-doede-kjaer"
     ],
-    "noter": "",
-    "haendelser": []
+    "noter": "Født uden for ægteskab i Almind Sogn ved Kolding, datter af tjenestepige Maren Mikkelsdatter. Faderen er ubekendt. Døde 41 år gammel.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1818-03-15",
+        "sted": "almind",
+        "kilder": [
+          "kb-almind-1818-f15"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1818-04-26",
+        "sted": "almind",
+        "kilder": [
+          "kb-almind-1818-f15"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1859-01-02",
+        "sted": "oerby",
+        "beskrivelse": "Vonsbæk",
+        "kilder": [
+          "kb-vonsbaek-doede-kjaer"
+        ]
+      }
+    ]
   },
   {
     "anenummer": 52,
-    "fornavne": "Jens Ulrich",
+    "fornavne": "Jens Ulrich Jespersen",
     "efternavn": "Olsen",
     "koen": "m",
     "status": "under undersøgelse",
     "bevis": "Ferdinand Gottfried Olsens dåb 1850 og dødsindførsel 1920 nævner handskemager Jens Ulrich Olsen som far.",
     "kilder": [
       "kb-haderslev-vorfrue-1850-d62",
-      "kb-haderslev-vorfrue-1920-b147"
+      "kb-haderslev-vorfrue-1920-b147",
+      "kb-haderslev-vorfrue-1840-v26",
+      "kb-haderslev-vorfrue-1871-d153"
     ],
-    "noter": "Handskemager i Haderslev. Død 1871 ifølge en endnu ikke afskrevet indførsel (Vor Frue døde 1871 nr. 153).",
+    "noter": "Handskemager i Haderslev, senere former og arbejder på jernstøberiet. Søn af skrædder Jesper Olsen i Odense og Kirsten Jensen fra Nyborg. Født ca. 1809, formentlig i Odense.",
     "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1809",
+        "beskrivelse": "Formentlig Odense",
+        "kilder": [
+          "kb-haderslev-vorfrue-1871-d153"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1840-11-13",
+        "sted": "haderslev",
+        "beskrivelse": "Vor Frue, med Magdalena Maria Kaadmann",
+        "kilder": [
+          "kb-haderslev-vorfrue-1840-v26"
+        ]
+      },
       {
         "type": "erhverv",
         "dato": "1850",
@@ -3275,6 +3536,14 @@
         "beskrivelse": "Handskemager",
         "kilder": [
           "kb-haderslev-vorfrue-1850-d62"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1871-12-08",
+        "sted": "haderslev",
+        "kilder": [
+          "kb-haderslev-vorfrue-1871-d153"
         ]
       }
     ]
@@ -3291,10 +3560,40 @@
     "bevis": "Ferdinand Gottfried Olsens dåb 1850 og dødsindførsel 1920 nævner Magdalene Marie født Kaadmann som mor.",
     "kilder": [
       "kb-haderslev-vorfrue-1850-d62",
-      "kb-haderslev-vorfrue-1920-b147"
+      "kb-haderslev-vorfrue-1920-b147",
+      "kb-haderslev-vorfrue-1840-v26",
+      "kb-haderslev-vorfrue-1886-d44",
+      "kb-haderslev-vorfrue-1815-d6"
     ],
-    "noter": "Fra Haderslev. Død 1886 ifølge en endnu ikke afskrevet indførsel (Vor Frue døde 1886 nr. 44). Fadderne Ferdinand og Juliane Kaadmann i 1850 er sikkert hendes familie.",
-    "haendelser": []
+    "noter": "Født i Haderslev, datter af borger og høker Peter Hansen Kaadmann og Dorothea Maria Callesen.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1815-01-06",
+        "sted": "haderslev",
+        "kilder": [
+          "kb-haderslev-vorfrue-1815-d6",
+          "kb-haderslev-vorfrue-1886-d44"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1815-01-12",
+        "sted": "haderslev",
+        "beskrivelse": "Vor Frue",
+        "kilder": [
+          "kb-haderslev-vorfrue-1815-d6"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1886-06-05",
+        "sted": "haderslev",
+        "kilder": [
+          "kb-haderslev-vorfrue-1886-d44"
+        ]
+      }
+    ]
   },
   {
     "anenummer": 56,
@@ -4272,5 +4571,178 @@
     ],
     "noter": "Indsidder i Ubjerg Sogn.",
     "haendelser": []
+  },
+  {
+    "anenummer": 54,
+    "fornavne": "Johan Søren",
+    "efternavn": "Johannsen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Doris' dåb 1853 nævner jernstøbersvend Johan Søren Johansen som far, og FT 1860 viser hende i hans husstand.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1853-d67",
+      "ft1860-haderslev-slagtergade603"
+    ],
+    "noter": "Jernstøbersvend og arbejder på P. Bonichsens jernstøberi i Haderslev. Født ca. 1817 i Haderslev.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Johann Sørensen Johannsen"
+    ]
+  },
+  {
+    "anenummer": 55,
+    "fornavne": "Maren",
+    "efternavn": "Johannsen",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Doris' dåb 1853 nævner Maren Petersdatter Schmidt fra Magstrup som mor. FT 1860 kalder hende Maria Christina Schmidt, født i Hoptrup Sogn.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1853-d67",
+      "ft1860-haderslev-slagtergade603"
+    ],
+    "noter": "Fornavn og fødested er forskellige i dåben og FT 1860. Skal afklares.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Maren Petersdatter Schmidt",
+      "Maria Christina Schmidt"
+    ]
+  },
+  {
+    "anenummer": 100,
+    "fornavne": "Niels Ludvigsen",
+    "efternavn": "Kjær",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Jes Kjærs dåb 1813, vielse 1844 og død 1859 nævner Niels Ludvigsen Kjær som far.",
+    "kilder": [
+      "kb-vonsbaek-1813-d4",
+      "kb-vonsbaek-1844-v4",
+      "kb-vonsbaek-doede-kjaer"
+    ],
+    "noter": "Inderste i Ørby. Søn af Ludvig Kjær i Vejstrup og Ane Barbara. Gift 21. oktober 1803 med Karen Jesdatter. Seks børn.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1778",
+        "kilder": [
+          "kb-vonsbaek-doede-kjaer"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1854-04-01",
+        "sted": "oerby",
+        "beskrivelse": "75½ år",
+        "kilder": [
+          "kb-vonsbaek-doede-kjaer"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 101,
+    "fornavne": "Karen",
+    "efternavn": "Jesdatter",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Jes Kjærs dåb 1813 og død 1859 nævner Karen Jesdatter som mor.",
+    "kilder": [
+      "kb-vonsbaek-1813-d4",
+      "kb-vonsbaek-doede-kjaer"
+    ],
+    "noter": "Kaldt Karen Jesdatter Bekker og Karen Beck. Datter af matros Jes Andresen og Margrethe Jensdatter af Ørby.",
+    "haendelser": [
+      {
+        "type": "død",
+        "dato": "1858-02-03",
+        "sted": "oerby",
+        "beskrivelse": "75½ år",
+        "kilder": [
+          "kb-vonsbaek-doede-kjaer"
+        ]
+      }
+    ],
+    "navnevarianter": [
+      "Karen Jesdatter Bekker"
+    ]
+  },
+  {
+    "anenummer": 103,
+    "fornavne": "Maren",
+    "efternavn": "Mikkelsdatter",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Hansine Martines dåb 1818, vielse 1844 og død 1859 nævner Maren Mikkelsdatter fra Almind som mor.",
+    "kilder": [
+      "kb-almind-1818-f15",
+      "kb-vonsbaek-1844-v4",
+      "kb-vonsbaek-doede-kjaer"
+    ],
+    "noter": "Tjenestepige i Almind Sogn ved Kolding i 1818.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 104,
+    "fornavne": "Jesper",
+    "efternavn": "Olsen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Jens Ulrich Olsens vielse 1840 og død 1871 nævner skrædder Jesper Olsen i Odense som far.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1840-v26",
+      "kb-haderslev-vorfrue-1871-d153"
+    ],
+    "noter": "Skrædder i Odense.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 105,
+    "fornavne": "Kirsten",
+    "efternavn": "Olsen",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Jens Ulrich Olsens vielse 1840 og død 1871 nævner Kirsten født Jensen som mor.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1840-v26",
+      "kb-haderslev-vorfrue-1871-d153"
+    ],
+    "noter": "Fra Nyborg.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Kirsten Jensen"
+    ]
+  },
+  {
+    "anenummer": 106,
+    "fornavne": "Peter Hansen",
+    "efternavn": "Kaadmann",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Magdalenas dåb 1815, vielse 1840 og død 1886 nævner borger og høker Peter Hansen Kaadmann som far.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1815-d6",
+      "kb-haderslev-vorfrue-1840-v26",
+      "kb-haderslev-vorfrue-1886-d44"
+    ],
+    "noter": "Borger og høker i Haderslev.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 107,
+    "fornavne": "Dorothea Maria",
+    "efternavn": "Kaadmann",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Magdalenas dåb 1815, vielse 1840 og død 1886 nævner Dorothea Maria født Callesen som mor.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1815-d6",
+      "kb-haderslev-vorfrue-1840-v26",
+      "kb-haderslev-vorfrue-1886-d44"
+    ],
+    "noter": "Fra Gammel Haderslev.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Dorothea Maria Callesen"
+    ]
   }
 ]
