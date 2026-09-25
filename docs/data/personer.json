@@ -626,6 +626,7 @@
     "koen": "k",
     "status": "under undersøgelse",
     "kilder": [
+      "kb-viborg-dom-1896-f81",
       "gravsten-viborg-k165",
       "findgravsted-viborg-vk11-364",
       "fam-jesper-2026",
@@ -633,20 +634,50 @@
       "kb-viborg-soendre-1924-f40",
       "ft1925-viborg-1118",
       "ft1930-viborg-3395",
-      "ft1940-viborg-vesterled49"
+      "ft1940-viborg-vesterled49",
+      "ft1901-viborg-gravene9",
+      "ft1906-viborg-graverne9"
     ],
-    "noter": "Oldemor. Født Helga Margrethe Nielsen i Viborg Domsogn 28. december 1896. Datoen stemmer i vielsen, folketællingen 1930 og på gravstenen. Forældre ifølge vielsen: kellner Anders Nielsen og Julie Margrethe Louise Jensen af Domsognet.",
+    "noter": "Oldemor. Født Helga Margrethe Nielsen i Mogensgade 40, Viborg Domsogn, 28. december 1896, datter af skomagersvend (senere kellner) Anders Nielsen og Julie Margrethe Louise Jensen. Datoen stemmer i dåben, vielsen, folketællingerne og på gravstenen. Står som under undersøgelse, indtil Ole er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1896-12-28",
         "sted": "viborg",
         "kilder": [
+          "kb-viborg-dom-1896-f81",
           "kb-viborg-dom-1919-v45",
           "ft1930-viborg-3395",
           "gravsten-viborg-k165"
         ],
-        "beskrivelse": "Viborg Domsogn"
+        "beskrivelse": "Mogensgade 40, Viborg Domsogn"
+      },
+      {
+        "type": "dåb",
+        "dato": "1897-11-07",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Domkirke",
+        "kilder": [
+          "kb-viborg-dom-1896-f81"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1901",
+        "sted": "viborg",
+        "beskrivelse": "Barn hos forældrene, Gravene 9",
+        "kilder": [
+          "ft1901-viborg-gravene9"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1906",
+        "sted": "viborg",
+        "beskrivelse": "Barn hos forældrene, Graverne 9",
+        "kilder": [
+          "ft1906-viborg-graverne9"
+        ]
       },
       {
         "type": "folketælling",
@@ -696,6 +727,286 @@
     "navnevarianter": [
       "Helga Margrethe Nielsen"
     ],
-    "bevis": "Tages dåb 1924, konfirmation 1939 og vielse 1949 nævner Helga Margrethe Nielsen som mor. Folketællingerne 1925, 1930 og 1940 viser Tage i hendes husstand. Fødselsdatoen 28. december 1896 er den samme i vielsen 1919, folketællingerne og på gravstenen."
+    "bevis": "Tages dåb 1924, konfirmation 1939 og vielse 1949 nævner Helga Margrethe Nielsen som mor. Folketællingerne 1925, 1930 og 1940 viser Tage i hendes husstand. Fødselsdatoen 28. december 1896 er den samme i vielsen 1919, folketællingerne og på gravstenen.",
+    "soeskende": [
+      {
+        "navn": "Niels Peter Nielsen Gadegaard",
+        "koen": "m",
+        "foedt": "1890-01-05",
+        "kilder": [
+          "kb-viborg-soendre-1890-m4",
+          "ft1906-viborg-graverne9"
+        ],
+        "noter": "Snedkerlærling i 1906"
+      },
+      {
+        "navn": "Kristine Marie Nielsen",
+        "koen": "k",
+        "foedt": "1893-12-25",
+        "kilder": [
+          "kb-viborg-dom-1893-f52",
+          "ft1906-viborg-graverne9"
+        ]
+      },
+      {
+        "navn": "Anna Kirstine Nielsen",
+        "koen": "k",
+        "foedt": "1900-02-21",
+        "doed": "1901-06-05",
+        "kilder": [
+          "kb-viborg-soendre-1900-f12",
+          "kb-viborg-soendre-1901-d23"
+        ],
+        "noter": "Død 1 år gammel"
+      }
+    ]
+  },
+  {
+    "anenummer": 18,
+    "fornavne": "Anders",
+    "efternavn": "Nielsen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Helgas dåb 1896 nævner skomagersvend Anders Nielsen og Julie Margrethe Louise Jensen som forældre, og vielsen 1919 nævner kellner Anders Nielsen og Julie Margrethe Louise Jensen. Folketællingerne 1901 og 1906 viser Helga i hans husstand. Hans egen dåb i Lysgård 19. august 1856 passer med fødselsdatoen i FT 1906, fødestedet Lysgaard i FT 1901 og alderen 33 år ved vielsen 1889.",
+    "kilder": [
+      "kb-viborg-dom-1896-f81",
+      "kb-viborg-dom-1919-v45",
+      "kb-viborg-soendre-1889-v22",
+      "kb-lysgaard-1856-m6",
+      "ft1901-viborg-gravene9",
+      "ft1906-viborg-graverne9"
+    ],
+    "noter": "Skomagersvend og skomager i Viborg, kellner i 1919. Flyttede til Viborg i 1880.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1856-08-19",
+        "sted": "lysgaard",
+        "kilder": [
+          "kb-lysgaard-1856-m6"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1856-11-23",
+        "sted": "lysgaard",
+        "beskrivelse": "Hjemmedøbt 1. september, fremstillet i kirken",
+        "kilder": [
+          "kb-lysgaard-1856-m6"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1889-10-12",
+        "sted": "viborg",
+        "beskrivelse": "Viborg, med Julie Margrethe Louise Jensen",
+        "kilder": [
+          "kb-viborg-soendre-1889-v22"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1896",
+        "sted": "viborg",
+        "beskrivelse": "Skomagersvend, senere skomager",
+        "kilder": [
+          "kb-viborg-dom-1896-f81",
+          "ft1901-viborg-gravene9"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1901",
+        "sted": "viborg",
+        "beskrivelse": "Husfader, skomager, Gravene 9",
+        "kilder": [
+          "ft1901-viborg-gravene9"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1906",
+        "sted": "viborg",
+        "beskrivelse": "Husfader, skomager, Graverne 9",
+        "kilder": [
+          "ft1906-viborg-graverne9"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1919",
+        "sted": "viborg",
+        "beskrivelse": "Kellner",
+        "kilder": [
+          "kb-viborg-dom-1919-v45"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 19,
+    "fornavne": "Julie Margrethe Louise",
+    "efternavn": "Nielsen",
+    "navnevarianter": [
+      "Julie Margrethe Louise Jensen"
+    ],
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Helgas dåb 1896 og vielsen 1919 nævner Julie Margrethe Louise Jensen som mor. Folketællingerne 1901 og 1906 viser Helga i hendes husstand. Hendes egen fødsel, dåb og konfirmation giver alle 28. august 1869, hvilket passer med alderen 20 år ved vielsen 1889 og 27 år i 1896.",
+    "kilder": [
+      "kb-viborg-dom-1896-f81",
+      "kb-viborg-dom-1919-v45",
+      "kb-viborg-soendre-1869-f22",
+      "kb-viborg-dom-1871-julie",
+      "kb-viborg-soendre-1884-k6",
+      "ft1901-viborg-gravene9",
+      "ft1906-viborg-graverne9"
+    ],
+    "noter": "Datter af smed Caspar Georg Julius Jensen og Ane Marie Kirstine Gravesen. Smed Julius Jensen var fadder til Helga og forlover ved forældrenes vielse.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1869-08-28",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Søndre Sogn",
+        "kilder": [
+          "kb-viborg-soendre-1869-f22",
+          "kb-viborg-dom-1871-julie"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1871-07-11",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Domkirke",
+        "kilder": [
+          "kb-viborg-dom-1871-julie"
+        ]
+      },
+      {
+        "type": "konfirmation",
+        "dato": "1884-04-20",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Søndre Sogn",
+        "kilder": [
+          "kb-viborg-soendre-1884-k6"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1901",
+        "sted": "viborg",
+        "beskrivelse": "Husmoder, Gravene 9",
+        "kilder": [
+          "ft1901-viborg-gravene9"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1906",
+        "sted": "viborg",
+        "beskrivelse": "Husmoder, Graverne 9",
+        "kilder": [
+          "ft1906-viborg-graverne9"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 36,
+    "fornavne": "Niels Peter",
+    "efternavn": "Andersen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Anders Nielsens dåb i Lysgård 1856 nævner husmand Niels Peter Andersen som far. Sønnens efternavn Nielsen og barnebarnet Niels Peter passer.",
+    "kilder": [
+      "kb-lysgaard-1856-m6"
+    ],
+    "noter": "Husmand i Lysgaard i 1856.",
+    "haendelser": [
+      {
+        "type": "erhverv",
+        "dato": "1856",
+        "sted": "lysgaard",
+        "beskrivelse": "Husmand",
+        "kilder": [
+          "kb-lysgaard-1856-m6"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 37,
+    "fornavne": "Kristine",
+    "efternavn": "Frederiksen",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Anders Nielsens dåb i Lysgård 1856 nævner hustru Kristine Frederiksen som mor. Efternavnet er delt over to linjer og ikke helt sikkert læst.",
+    "kilder": [
+      "kb-lysgaard-1856-m6"
+    ],
+    "noter": "36¾ år gammel i november 1856, altså født omkring 1820.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1820",
+        "beskrivelse": "Beregnet ud fra alderen i 1856",
+        "kilder": [
+          "kb-lysgaard-1856-m6"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 38,
+    "fornavne": "Caspar Georg Julius",
+    "efternavn": "Jensen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Julies fødsel 1869, dåb 1871 og konfirmation 1884 nævner alle smed Caspar Georg Julius Jensen som far.",
+    "kilder": [
+      "kb-viborg-soendre-1869-f22",
+      "kb-viborg-dom-1871-julie",
+      "kb-viborg-soendre-1884-k6"
+    ],
+    "noter": "Smed i Viborg. Formentlig den smed Julius Jensen, der var forlover i 1889 og fadder i 1890 og 1896, og måske smed C. G. V. Jensen, forlover ved Helgas vielse 1919.",
+    "haendelser": [
+      {
+        "type": "erhverv",
+        "dato": "1869",
+        "sted": "viborg",
+        "beskrivelse": "Smed",
+        "kilder": [
+          "kb-viborg-soendre-1869-f22"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 39,
+    "fornavne": "Ane Marie Kirstine",
+    "efternavn": "Jensen",
+    "navnevarianter": [
+      "Ane Marie Kirstine Gravesen"
+    ],
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Julies fødsel 1869, dåb 1871 og konfirmation 1884 nævner Ane Marie Kirstine Gravesen som mor.",
+    "kilder": [
+      "kb-viborg-soendre-1869-f22",
+      "kb-viborg-dom-1871-julie",
+      "kb-viborg-soendre-1884-k6"
+    ],
+    "noter": "24 år i 1869, altså født omkring 1845.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1845",
+        "beskrivelse": "Beregnet ud fra alderen i 1869",
+        "kilder": [
+          "kb-viborg-soendre-1869-f22"
+        ]
+      }
+    ]
   }
 ]

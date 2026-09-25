@@ -253,5 +253,125 @@
     "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172137#172137,28905475",
     "kvalitet": "primær",
     "noter": "Knud Clemmen Clemmensen Qvist, født 23. juni 1937 i Jernbanegade 17 C, døbt 29. maj 1938. Forældre: agent Gerner Clemmen Clemensen Qvist, f. 23/3 1890, og Helga Margrethe Nielsen, viet 15/11 1919 i Viborg Domkirke."
+  },
+  {
+    "id": "kb-viborg-dom-1896-f81",
+    "titel": "Kirkebog, Viborg Domsogn, fødte piger 1896, nr. 81",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1892 til 1903, side 219 til 220, opslag 221, nr. 81",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172068#172068,28889368",
+    "kvalitet": "primær",
+    "noter": "Helga Margrethe Nielsen, født 28. december 1896 i Mogensgade 40, døbt 7. november 1897 i kirken af stiftsprovst Larsen. Forældre: skomagersvend Anders Nielsen og hustru Julie Margrethe Louise Jensen, 27 år. Faddere: barnets forældre, smed Julius Jensen og pigen Marie Nielsen, alle af Viborg. Claude har kontrolleret billedet."
+  },
+  {
+    "id": "kb-viborg-soendre-1889-v22",
+    "titel": "Kirkebog, Viborg Søndre Sogn, viede 1889, nr. 22",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1860 til 1891, viede, opslag 86, nr. 22",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172112#172112,28899497",
+    "kvalitet": "primær",
+    "noter": "Viet 12. oktober 1889 i kirken. Ungkarl, skomagersvend Anders Nielsen, 33 år, og pige Julie Margrethe Louise Jensen, 20 år. Forlovere: smed Julius Jensen og tømrer Erhard C. Gjerløw."
+  },
+  {
+    "id": "kb-lysgaard-1856-m6",
+    "titel": "Kirkebog, Lysgård Sogn, fødte drenge 1856, nr. 6",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, fødte mænd 1851 til 1872, opslag 10, nr. 6",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=364448#364448,70613222",
+    "kvalitet": "primær",
+    "noter": "Anders Nielsen, født 19. august 1856, hjemmedøbt 1. september, fremstillet i kirken 23. november 1856. Forældre: husmand Niels Peter Andersen og hustru Kristine Frederiksen i Lysgaard, 36¾ år. Faddere: pigen Ane Dorthe Christensen, tjener i Viborg, gårdmændene Peder Pedersen, Jens Hansen og Mads Christensen af Lysgaard. Claude har kontrolleret billedet."
+  },
+  {
+    "id": "kb-viborg-soendre-1869-f22",
+    "titel": "Kirkebog, Viborg Søndre Sogn, fødte piger 1869, nr. 22",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, fødte kvinder 1869, opslag 204, nr. 22",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172113#172113,28899709",
+    "kvalitet": "primær",
+    "noter": "Pige født 28. august 1869. Forældre: smed Caspar Georg Julius Jensen og hustru Ane Marie Kerstine født Gravesen, 24 år. Anmærkning: flyttet, Domsognet. Navnet står i Domsognets bog."
+  },
+  {
+    "id": "kb-viborg-dom-1871-julie",
+    "titel": "Kirkebog, Viborg Domsogn, døbte piger 1871 (Julie Margrethe Louise)",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, fødte kvinder 1858 til 1871, år 1871, uden nummer, opslag 126",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=362347#362347,70565351",
+    "kvalitet": "primær",
+    "noter": "Julie Margrethe Louise Jensen, født 28. august 1869 (indført i Søndre Sogns kirkebog), døbt i kirken 11. juli 1871. Forældre: smed Caspar Georg Julius Jensen og hustru Ane Marie Kirstine Gravesen, 24 år. Faddere: moderen bar, jomfru Louise Jensen, værtshusholder Lud. Christensen, handelsbetjent J. Vater og faderen."
+  },
+  {
+    "id": "kb-viborg-soendre-1884-k6",
+    "titel": "Kirkebog, Viborg Søndre Sogn, konfirmerede piger 1884, nr. 6",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, konfirmerede kvinder 1881 til 1891, opslag 10, nr. 6",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=362516#362516,70570989",
+    "kvalitet": "primær",
+    "noter": "Konfirmeret 20. april 1884. Julie Margrethe Louise Jensen, datter af smed Kaspar Georg Julius Jensen og Ane Marie Kirstine Gravesen, født 28. august 1869, døbt 11. juli 1871."
+  },
+  {
+    "id": "ft1901-viborg-gravene9",
+    "titel": "Folketælling 1901, Viborg Købstad, Gravene 9",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Dansk Demografisk Database",
+    "reference": "Dansk Demografisk Database, Viborg amt, Nørlyng herred, Viborg Købstad, Gravene 9, husstand 95, indtastning E0365, løbenr. 347 til 352",
+    "url": "https://ddd.dda.dk/soeg_amter.asp",
+    "kvalitet": "afledt",
+    "noter": "Anders Nielsen, født 10. (rigtigt 19.) august 1856 i Lysgaard, skomager, gift 1889, fire levende børn. Julie Margrethe Louise Nielsen, født 28. august 1870 (rigtigt 1869) i Viborg. Børn: Niels Peder Gadegaard, Kristine Marie, Helga Margrethe og Anna Kristiane. Kun set i indtastningen."
+  },
+  {
+    "id": "ft1906-viborg-graverne9",
+    "titel": "Folketælling 1906, Viborg Købstad, Graverne 9",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Dansk Demografisk Database",
+    "reference": "Dansk Demografisk Database, indtastning E0466, løbenr. 2223 og følgende",
+    "url": "https://ddd.dda.dk/soeg_amter.asp",
+    "kvalitet": "afledt",
+    "noter": "Anders Nielsen, 19-8-1856, skomager, husfader. Julie Magrete Lovise Nielsen, 28-8-1869. Børn: Niels Peter Gaadegaard (5-1-1890, snedkerlærling), Krestine Marie (25-12-1893) og Helga Magrete (27-12-1896). Kun set i indtastningen."
+  },
+  {
+    "id": "kb-viborg-soendre-1890-m4",
+    "titel": "Kirkebog, Viborg Søndre Sogn, fødte drenge 1890, nr. 4",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1889 til 1891, opslag 16, nr. 4",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172118#172118,28900334",
+    "kvalitet": "primær",
+    "noter": "Niels Peter Nielsen Gadegaard, født 5. januar 1890. Forældre: skomagersvend Anders Nielsen og Julie Margrethe Louise født Jensen, 20 år."
+  },
+  {
+    "id": "kb-viborg-dom-1893-f52",
+    "titel": "Kirkebog, Viborg Domsogn, fødte piger 1893, nr. 52",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1892 til 1903, opslag 177, nr. 52",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172068#172068,28889324",
+    "kvalitet": "primær",
+    "noter": "Kristine Marie Nielsen, født 25. december 1893 i Mogensgade, døbt 5. maj 1895. Forældre: skomager Anders Nielsen og Julie Margrethe Louise Jensen, 24 år."
+  },
+  {
+    "id": "kb-viborg-soendre-1900-f12",
+    "titel": "Kirkebog, Viborg Søndre Sogn, fødte piger 1900, nr. 12",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1892 til 1907, opslag 304, nr. 12",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172120#172120,28900904",
+    "kvalitet": "primær",
+    "noter": "Anna Kirstine Nielsen, født 21. februar 1900 på Gravene 9. Forældre: skomager Anders Nielsen og Julie Margrethe Louise Jensen, 30 år, viet i Domkirken 12/10 89."
+  },
+  {
+    "id": "kb-viborg-soendre-1901-d23",
+    "titel": "Kirkebog, Viborg Søndre Sogn, døde piger 1901, nr. 23",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1901 til 1914, døde, opslag 205, nr. 23",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172123#172123,28901618",
+    "kvalitet": "primær",
+    "noter": "Anna Kirstine Nielsen, død 5. juni 1901 på Gravene 9, begravet 8. juni på Viborg Kirkegård, 1 4/12 år."
   }
 ]

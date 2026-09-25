@@ -60,5 +60,14 @@
     "amt": "Tønder Amt",
     "lat": 55.1561,
     "lng": 8.7711
+  },
+  {
+    "id": "lysgaard",
+    "navn": "Lysgård",
+    "sogn": "Lysgård Sogn",
+    "herred": "Lysgård Herred",
+    "amt": "Viborg Amt",
+    "lat": 56.3208,
+    "lng": 9.4583
   }
 ]
