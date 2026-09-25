@@ -461,5 +461,75 @@
     "url": "https://ddd.dda.dk/soeg_amter.asp",
     "kvalitet": "afledt",
     "noter": "Ludvig Sørensen 16/8 1883, snedkermester. Doris Sørensen 21/6 1879. Helmut Sørensen 9/1 1914 (rigtigt 1915). Kun set i indtastningen."
+  },
+  {
+    "id": "pr-toftlund-1924-f47",
+    "titel": "Personregister, Toftlund, fødte 1924, nr. 47",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Toftlund personregisterfører, fødte biregister 1924 til 1929, opslag 27, nr. 47",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=37040#37040,5189584",
+    "kvalitet": "primær",
+    "noter": "Anmeldt 16. december 1924 af postbud Jørgen Peter Bundesen, Toftlund: hans hustru Dusine Andrea Bundesen født Wind, født 20. december 1901, fødte 9. december 1924 kl. 7½ eftermiddag et pigebarn med fornavnene Anna Christine. Claude har kontrolleret billedet."
+  },
+  {
+    "id": "kb-toftlund-1925-d1",
+    "titel": "Kirkebog, Toftlund Sogn, døbte 1925, nr. 1",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1903 til 1929, Taufregister 1925, opslag 119 og 120, nr. 1",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=202710#202710,38428257",
+    "kvalitet": "primær",
+    "noter": "Anna Christine, født 9. december 1924 i Toftlund, døbt 11. januar 1925 i kirken. Forældre: postbud Jørgen Peter Bundesen og hustru Dusine Andrea født Wind af Toftlund. Faddere: enke Anna Cathrine Bundesen født Kramer, Toftlund, fru Marie Villadsen født Wind, Branderup, ungkarl Andreas Wind af Vodder, og faderen. Udmeldt af folkekirken 1929, genindtrådt 1976."
+  },
+  {
+    "id": "ft1925-toftlund-15",
+    "titel": "Folketælling 1925, Toftlund Sogn, skema 15",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Danmarks Statistik, Folketælling 1925, Haderslev amt, Nørre Rangstrup herred, Toftlund sogn, Toftlund Stationsby, skema 15, opslag 71 og 72, familie 18",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=100102#100102,15982401",
+    "kvalitet": "primær",
+    "noter": "Skrevet Bondesen. Jørgen P., 12/10 96, landpost, husfader. Dusine Andrea, 20/12 1901, husmoder. Børn: Rasmus Andreas, Jes Peder og Anne Christine (9/12 1924). Familie 19: enken Anne Kathrine, 24/5 1858, født Aabenraa, formentlig Jørgens mor."
+  },
+  {
+    "id": "ft1930-toftlund-13",
+    "titel": "Folketælling 1930, Toftlund, Vestergade",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Danmarks Statistik, Folketælling 1930, Toftlund, skema 13, Vestergade, opslag 44 og 47",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=108914#108914,16909446",
+    "kvalitet": "primær",
+    "noter": "Bundesen Jørgen Peter, 19/10 1896, landpostbud, gift 1920. Dusine Andrea, 20/12 1901. Børn: Rasmus Andreas (27/6 1920), Jes Peter (16/4 1922), Anne Christine (9/12 1924) og Aage (1929). Alle født i Toftlund."
+  },
+  {
+    "id": "ft1940-toftlund-vestergade",
+    "titel": "Folketælling 1940, Toftlund, Vestergade",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Danmarks Statistik, Folketælling 1940, Købstads og sognelister, Haderslev amt, Toftlund By, Vestergade, skema 208, opslag 183 og 184",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=227984#227984,43053496",
+    "kvalitet": "primær",
+    "noter": "Bundesen Jørgen Peter, 19/10 1896, landpostbud, gift 18/2 1920. Dusine Andrea, 20/12 1901. Anna Christine (skrevet 9/12 1925), ugift, telefonistinde. Aage (1929). En logerende."
+  },
+  {
+    "id": "pr-skaerbaek-1920-v3",
+    "titel": "Personregister (Standesamt), Skærbæk, viede 1920, nr. 3",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Skærbæk personregisterfører, viede biregister 1900 til 1925, opslag 430, nr. 3",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=38660#38660,5456859",
+    "kvalitet": "primær",
+    "noter": "På tysk. Viet 18. februar 1920. Arbejder Jörgen Peter Bundesen, født 19. oktober 1896 i Toftlund, søn af afdøde bager Jes Peter Bundesen og Anna Catharina Bundesen født Kramer, Toftlund. Dussine Andrea Wind, født 21. december 1901 i Toftlund, boende i Gansager, datter af skræddermester Rasmus Andresen Wind og Anna Christine Wind født Lassen, Gansager. Vidner: Rasmus Andresen Wind, 60 år, og arbejder Paul Lorensen, 35 år."
+  },
+  {
+    "id": "kb-vodder-1920-v2",
+    "titel": "Kirkebog, Vodder Sogn, viede 1920, nr. 2",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1909 til 1929, Trauungsregister 1920, opslag 25, nr. 2",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=202936#202936,38480599",
+    "kvalitet": "primær",
+    "noter": "Viet 18. februar 1920 i kirken. Jörgen Peter Bundesen af Toftlund, født 19. oktober 1896 i Toftlund, døbt 29. november 1896, konfirmeret 9. april 1911. Dusine Andrea Vind af Gaansager. Borgerlig vielse samme dag, Skærbæk register nr. 3."
   }
 ]

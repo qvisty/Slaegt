@@ -78,9 +78,9 @@
     },
     {
       "titel": "Find Anna Christine Bundesens fødsel 9. december 1924",
-      "tekst": "Forældrene er Jørn og Dusine Bundesen i Toftlund ifølge familien. Søg i Toftlund personregister og kirkebog 1924. Ikke fundet i Skærbæk, Brøns, Rejsby, Hviding, Døstrup, Vodder, Mjolden, Haderslev og Gammel Haderslev.",
+      "tekst": "Fundet i Toftlund. Forældre: Jørgen Peter Bundesen og Dusine Andrea Wind.",
       "anenummer": 7,
-      "status": "i gang"
+      "status": "færdig"
     },
     {
       "titel": "Find Helmuths firma på havnen",
@@ -510,6 +510,21 @@
         25,
         26,
         27
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Mormors fødsel og forældre fundet i Toftlund",
+      "tekst": "Anna Christine Bundesen er født 9. december 1924 i Toftlund (fødselsanmeldelse nr. 47 og Toftlund kirkebog 1925 nr. 1). Forældre: postbud Jørgen Peter Bundesen (Jørn), født 19. oktober 1896 i Toftlund, og Dusine Andrea Wind, født 20. (eller 21.) december 1901 i Toftlund. Viet 18. februar 1920 i Vodder kirke og borgerligt i Skærbæk. Jørgens forældre: afdøde bager Jes Peter Bundesen og Anna Catharina Kramer. Dusines forældre: skræddermester Rasmus Andresen Wind og Anna Christine Lassen i Gånsager. Familien er fundet i FT 1925, 1930 og 1940 i Toftlund. Annas søskende: Rasmus Andreas (1920), Jes Peter (1922) og Aage. Familieoplysningen fra Dorthe Merete passer. Kilderne siger intet om kælenavnet Bessie. Claude har kontrolleret fødselsanmeldelsen.",
+      "personer": [
+        7,
+        14,
+        15,
+        28,
+        29,
+        30,
+        31
       ],
       "resultat": "fundet"
     }

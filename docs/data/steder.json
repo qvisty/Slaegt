@@ -78,5 +78,14 @@
     "amt": "Haderslev Amt",
     "lat": 55.1889,
     "lng": 9.0703
+  },
+  {
+    "id": "gaansager",
+    "navn": "Gånsager",
+    "sogn": "Vodder Sogn",
+    "herred": "Hviding Herred",
+    "amt": "Tønder Amt",
+    "lat": 55.1394,
+    "lng": 8.9361
   }
 ]
