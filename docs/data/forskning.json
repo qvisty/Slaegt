@@ -95,6 +95,17 @@
         9
       ],
       "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Gerner og Helga er Tages forældre",
+      "tekst": "Jesper oplyser, at Gerner og Helga Qvist er forældre til farfar Tage Qvist. Det skal senere bekræftes i en kilde, fx Tages dåb eller en folketælling, hvor han bor hos dem.",
+      "personer": [
+        4,
+        8,
+        9
+      ],
+      "resultat": "familieoplysning"
     }
   ]
 }
