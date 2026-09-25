@@ -77,11 +77,11 @@
     "id": "ft1930-viborg-3395",
     "titel": "Folketælling 1930, Viborg Købstad, husstand 3395",
     "type": "Folketælling",
-    "arkiv": "Rigsarkivet, Dansk Demografisk Database (indtastning af folketællingen)",
-    "reference": "Viborg amt, Nørlyng herred, Viborg Købstad, 1. distrikt, Søtorps Forlængelse, forhus, kvist. Husstand 3395, opslag 7085, indtastning D9388, løbenr. 14062 til 14068",
-    "url": "https://ddd.dda.dk/soeg_amter.asp",
-    "kvalitet": "afledt",
-    "noter": "Frivilliges indtastning af folketællingen. Husfader Gerner Clemmen Clemmensen Qvist, født 23. marts 1890 i Skelskør, gift 1919, handelsmedhjælper, arbejdsløs. Husmoder Helga Margrethe Qvist, født 28. december 1896 i Viborg. Fem børn, alle født i Viborg, heriblandt Tage Clemmen Clemmensen Qvist, født 10. juni 1924. Originalen, opslag 7085, bør ses på Arkivalieronline. Så bliver kilden primær."
+    "arkiv": "Rigsarkivet, Arkivalieronline. Også indtastet i Dansk Demografisk Database",
+    "reference": "Danmarks Statistik, Folketælling 1930, Bylister, Viborg Amt, Viborg, 1. distrikt, opslag 166 (forside) og 167 (personliste). Løbenummerstempel 03431. DDD: husstand 3395, indtastning D9388, løbenr. 14062 til 14068",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=107052#107052,16807739",
+    "kvalitet": "primær",
+    "noter": "Originalen er set og stemmer med indtastningen. Søtorps Forlængelse, forhus. Husfader Gerner Clemmen Clemmensen Qvist, født 23/3 1890 i Skelskør, handelsmedhjælper, arbejdsløs, gift 1919, fem levende børn. Husmoder Helga Margrethe, født 28/12 1896 i Viborg. Børn født i Viborg: Kjeld (22/4 1920), Inge Johanne (27/6 1921), Tage Clemmen Clemmensen (10/6 1924), Orla (23/12 1925) og Ludvig Valdemar (6/11 1927). Opslagsnummeret 7085 i DDD passer ikke med Arkivalieronline."
   },
   {
     "id": "ft1901-skaelskoer-245",
@@ -142,5 +142,15 @@
     "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172081#172081,28892569",
     "kvalitet": "primær",
     "noter": "Konfirmeret 2. april 1939. Tage Clemmen Clemmensen Qvist. Forældre: agent Gerner Clemmen Clemmensen Qvist og hustru Helga Margrethe Nielsen, Vesterled. Født 10/6 24, døbt 12/10 24 i Søndre Sogns Kirke."
+  },
+  {
+    "id": "ft1925-viborg-1118",
+    "titel": "Folketælling 1925, Viborg Købstad, skema 1118",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Danmarks Statistik, Folketælling 1925, Købstæder, Viborg Amt, Viborg, Diverse (Distrikt I), opslag 56 (forside) og 57 (hovedliste). Skema nr. 1118, Søndre Sogn, 1. distrikt, familie nr. 3",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=97448#97448,15880980",
+    "kvalitet": "primær",
+    "noter": "Forhus, ejer købmand Chr. Petersen. Gerner Clemmen Clemmensen Qvist, født 23/3 1890 i Skelskør, husfader, lagerforvalter (arbejdsgiver svær at læse). Helga Margrethe Qvist født Nielsen, født 28/12 1896 i Domsognet, Viborg, husmoder. Børn: Kjeld Clemmensen Qvist (22/4 1920), Inge Johanne (27/6 1921) og Tage Clemmensen (10/6 1924), alle født i Søndre Sogn, Viborg."
   }
 ]

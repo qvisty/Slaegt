@@ -50,13 +50,13 @@
       "titel": "Se originalen af folketællingen 1930 for Gerner Qvist",
       "tekst": "Viborg Købstad, 1. distrikt, Søtorps Forlængelse, opslag 7085, på Arkivalieronline. Gem et skærmbillede. Så kan kilden opgraderes fra afledt til primær.",
       "anenummer": 8,
-      "status": "åben"
+      "status": "færdig"
     },
     {
       "titel": "Find Gerner og Tage i folketællingerne 1921, 1925 og 1940",
-      "tekst": "Ikke indtastet i Dansk Demografisk Database. Søg Qvist i Viborg på Danish Family Search (kræver gratis login) eller bladr i listerne for Viborg Købstad på Arkivalieronline. Adressen i 1930 var Søtorps Forlængelse.",
+      "tekst": "1925 og 1930 er fundet. Mangler 1940 (søg Vesterled, hvor familien boede i 1939 og 1949) og 1921.",
       "anenummer": 8,
-      "status": "åben"
+      "status": "i gang"
     },
     {
       "titel": "Tages dåb i Viborg 1924",
@@ -227,6 +227,38 @@
       "tekst": "Gennemset uden fund blandt drenge født i 1950: Salling (hele året), Gravlev, Løgstør (nr. 12 til 49), Viborg Søndre (maj til oktober) og Viborg Domsogn (april til august). Ny søgning er sat i gang for dåb senere på året.",
       "personer": [
         2
+      ],
+      "resultat": "ikke fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Originalen af folketællingen 1930 set",
+      "tekst": "Arkivalieronline, FT 1930, Bylister, Viborg 1. distrikt, opslag 166 og 167. Stemmer med indtastningen: Gerner, Helga og fem børn, heriblandt Tage, 10/6 1924, Viborg. DDD's opslag 7085 findes ikke i Arkivalieronline. Stemplet på skemaet er 03431. Kilden er opgraderet fra afledt til primær. Claude har kontrolleret billedet.",
+      "personer": [
+        4,
+        8,
+        9
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Familien fundet i folketællingen 1925",
+      "tekst": "FT 1925, Købstæder, Viborg, Diverse (Distrikt I), opslag 56 og 57, skema 1118, Søndre Sogn. Gerner Clemmen Clemmensen Qvist, lagerforvalter, Helga Margrethe Qvist født Nielsen og børnene Kjeld, Inge Johanne og Tage (10/6 1924, Søndre Sogn Viborg). Claude har kontrolleret Tages linje.",
+      "personer": [
+        4,
+        8,
+        9
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Folketællingerne 1940 og 1921 ikke fundet",
+      "tekst": "1940: Ingen enhed for Søtorp i FT 1940 for Viborg. Købstadslisten for Viborg Amt (108 opslag), Markjorder 1. distrikt og Skivevej er gennemset uden Qvist. Familien boede i 1939 og 1949 på Vesterled (nr. 49 i 1949). Næste skridt er at finde Vesterled i FT 1940. 1921: Søtorp afsnittet i Viborg Diverse (opslag 28 til 78) og distrikt I til opslag 127 er gennemset uden fund.",
+      "personer": [
+        4,
+        8
       ],
       "resultat": "ikke fundet"
     }
