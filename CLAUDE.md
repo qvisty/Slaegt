@@ -16,10 +16,10 @@ Dette er et slægtsforskningsprojekt for ejeren af repoet. Hjemmesiden ligger i 
 * Kør `node scripts/version.mjs` efter ændringer i `app.js` eller `style.css`, så browsere henter de nye filer.
 * Arbejd kun på grenen `main`. Siden udgives fra `main`.
 
-## Familieoplysninger og fiktive eksempler
+## Familieoplysninger og tomme pladser
 
 * Status `spor` bruges til navne, der kun kendes fra familien. Et spor må registreres, når barnet findes, men undersøges først, når barnet er bekræftet. Forældre til et spor kan kun være spor.
-* Personer og kilder med `"fiktiv": true` er opdigtede eksempler, som viser sidens funktioner. De vises med mærket Fiktiv, tælles ikke med i statistikken og er undtaget fra reglerne. En virkelig person må aldrig bruge en fiktiv kilde. Fiktive personer erstattes, efterhånden som de rigtige aner bliver fundet.
+* Der bruges ingen fiktive eller opdigtede personer. Tomme pladser i træet vises som "P.t. ukendt". Jesper har bedt om, at alt fiktivt indhold er fjernet.
 
 ## Sprog og stil
 

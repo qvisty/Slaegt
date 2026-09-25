@@ -74,7 +74,6 @@ Hver person har et anenummer. Rodpersonen er 1. Far til person *n* er 2*n*, mor 
 ```
 
 * **status:** `bekræftet`, `under undersøgelse` eller `spor` (navn kendt fra familien, endnu ikke undersøgt).
-* **fiktiv:** `true` markerer et opdigtet eksempel. Vises med mærket Fiktiv og kan skjules på siden.
 * **dato:** `1890`, `1890-02`, `1890-02-10`, eller med `ca.`, `før`, `efter` foran.
 * **type:** fødsel, dåb, konfirmation, vielse, folketælling, bopæl, flytning, erhverv, militær, udvandring, død, begravelse, skifte, andet.
 * **vielse** registreres hos manden og vises automatisk hos hustruen.

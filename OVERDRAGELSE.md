@@ -18,7 +18,7 @@ Senest opdateret 25. september 2026.
 2. **Et led ad gangen.** En persons forældre undersøges først, når personen selv er bekræftet.
 3. **Kun bekræftede aner føres videre.** Status `bekræftet` kræver mindst én primærkilde og en skriftlig begrundelse i feltet `bevis`.
 4. **Familieoplysninger** (navne Jesper kender, men som ikke er undersøgt) registreres med status `spor`. De vises på siden med mærket Familieoplysning.
-5. **Fiktive eksempler.** Jesper har bedt om, at tomme pladser i træet fyldes op med opdigtede personer, tydeligt markeret med `"fiktiv": true` og mærket Fiktiv. De fjernes, efterhånden som rigtige aner findes på deres pladser. Siden har en knap til at skjule dem.
+5. **Ingen fiktive personer.** Jesper har bedt om, at alt fiktivt indhold og visningen af det er fjernet. Tomme pladser i træet vises som "P.t. ukendt". Tjekket afviser personer med `"fiktiv": true`.
 6. **Privatliv.** Repoet og siden er offentlige. Nulevende personer (Jesper og hans mor) får kun navn. Ingen fødselsdatoer, steder eller billeder af nulevende i repoet. Jespers mors fødselsdato kendes, men må ikke skrives i repoet.
 7. **Kun grenen `main`.** Jesper har givet lov til commit, merge og push direkte på `main`. Lav ikke andre grene og ikke pull requests.
 8. **Forsiden er stamtræet** med klikbare personer. README er kun teknisk og må ikke være det, besøgende ser.
@@ -50,7 +50,7 @@ Anenumre: rodpersonen er 1, far til n er 2n, mor til n er 2n + 1.
 
 Gerner og Helga ligger i samme gravsted på Viborg Kirkegård, foto Viborg_K165 hos DK-gravsten. Fundet af Jesper ved søgning på Qvist på https://www.dk-gravsten.dk/kirkeg/Viborg.php. De øvrige navne i den søgning (Emil Qvist, Ib Qvistgaard, Villy Clemmen Clemmensen Qvist og Nina Qvist) er **ikke** i linjen.
 
-Fiktive eksempler står lige nu på anenumrene 10 til 15, 24, 25 og 48 (farmors forældre og hele mors side fra generation 3). Ingen fiktive personer på farfars side længere.
+Alle andre pladser i træet er tomme og vises som "P.t. ukendt".
 
 ## 5. Forskning udført indtil nu
 
@@ -105,9 +105,9 @@ Husk: kirkebøger er scannede billeder uden navnesøgning. Folketællinger er of
 * **Hjemmesiden** ligger i `docs/`. Ren HTML, CSS og JavaScript uden byggetrin. Programmet er `docs/assets/js/app.js`, stilarket `docs/assets/css/style.css`.
 * **Sider (hash ruter):** `#/` stamtræ og overblik, `#/anetavle/N`, `#/vifte`, `#/galleri`, `#/person/N`, `#/tidslinje`, `#/kort`, `#/kilder`, `#/kilde/ID`, `#/forskning`, `#/guide`.
 * **Data** i `docs/data/`: `projekt.json`, `personer.json`, `steder.json`, `kilder.json`, `forskning.json`, `historie.json` og `guide.html`. Formatet er beskrevet i `README.md`.
-* **Statusværdier:** `bekræftet`, `under undersøgelse`, `spor`. Plus `"fiktiv": true` for eksempler og `"levende": true` for nulevende.
+* **Statusværdier:** `bekræftet`, `under undersøgelse`, `spor`. Plus `"levende": true` for nulevende.
 * **Kildekvalitet:** `primær`, `sekundær`, `afledt`.
-* **Tjek:** `node scripts/valider.mjs` håndhæver reglerne (kæden af bekræftede aner, primærkilder, privatliv, plausible aldre, fiktive regler). Kør før hver commit.
+* **Tjek:** `node scripts/valider.mjs` håndhæver reglerne (kæden af bekræftede aner, primærkilder, privatliv, plausible aldre, ingen fiktive personer). Kør før hver commit.
 * **Versionsnummer:** `node scripts/version.mjs` efter ændringer i `app.js` eller `style.css`, ellers kan browsere vise en gammel version.
 * **Udgivelse:** GitHub Pages med "Deploy from a branch". En `index.html` i roden sender videre til `docs/`, så siden virker, uanset om Pages peger på roden eller `/docs`. GitHub Actions (`.github/workflows/udgiv.yml`) kører kun tjekket.
 * **Test lokalt:** `cd docs && python3 -m http.server 8000`. Chromium og Playwright kan bruges til skærmbilleder.
@@ -119,7 +119,7 @@ Husk: kirkebøger er scannede billeder uden navnesøgning. Folketællinger er of
 2. Vurder om kilden beviser noget, og hvad. Skriv det i loggen.
 3. Opret eller opdater kilden i `kilder.json` med arkiv, reference eller opslagsnummer og link.
 4. Opdater personen i `personer.json`. Sæt kun `bekræftet`, hvis reglerne er opfyldt, og skriv begrundelsen i `bevis`.
-5. Når en person bliver bekræftet, må forældrene oprettes eller opgraderes fra `spor` til `under undersøgelse`. Fjern fiktive personer på pladser, hvor rigtige aner nu findes, og fjern ubrugte fiktive kilder.
+5. Når en person bliver bekræftet, må forældrene oprettes eller opgraderes fra `spor` til `under undersøgelse`.
 6. Kør tjekket, commit på dansk, push til `main`, og fortæl Jesper kort hvad næste skridt er.
 
 ## 10. Forslag til første besked i den nye samtale

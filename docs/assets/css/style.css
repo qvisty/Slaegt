@@ -22,8 +22,6 @@
   --vent: #b7791f;
   --vent-lys: #f8ecd4;
   --laast: #b9b0a3;
-  --fiktiv: #7a5c99;
-  --fiktiv-lys: #ece4f3;
   --skygge: 0 1px 2px rgba(60, 40, 20, .06), 0 4px 16px rgba(60, 40, 20, .06);
   --radius: 10px;
   --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
@@ -54,8 +52,6 @@
     --vent: #e6b25a;
     --vent-lys: #3a2f1c;
     --laast: #5a534b;
-    --fiktiv: #b9a0d6;
-    --fiktiv-lys: #2f2638;
     --skygge: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 16px rgba(0, 0, 0, .25);
     color-scheme: dark;
   }
@@ -83,8 +79,6 @@
   --vent: #e6b25a;
   --vent-lys: #3a2f1c;
   --laast: #5a534b;
-  --fiktiv: #b9a0d6;
-  --fiktiv-lys: #2f2638;
   --skygge: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 16px rgba(0, 0, 0, .25);
   color-scheme: dark;
 }
@@ -412,13 +406,7 @@ table.tabel { border-collapse: collapse; width: 100%; font-size: .9rem; }
   .monogram { font-size: 2.4rem; }
 }
 
-.maerke.fiktiv { background: var(--fiktiv-lys); color: var(--fiktiv); }
 .maerke.spor { background: var(--papir-2); color: var(--blaek-2); }
-.fiktiv-banner {
-  display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap;
-  background: var(--fiktiv-lys); color: var(--blaek); border: 1px dashed var(--fiktiv);
-  border-radius: var(--radius); padding: 10px 14px; margin-bottom: 20px; font-size: .9rem;
-}
 
 /* Guide */
 .guide-trin { list-style: none; padding: 0; margin: 24px 0; counter-reset: trin; display: grid; gap: 16px; }

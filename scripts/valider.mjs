@@ -105,13 +105,12 @@ for (const [n, p] of P) {
   if (n > 1 && p.koen && p.koen !== (n % 2 === 0 ? 'm' : 'k')) fejl.push(hvem + ': køn passer ikke med anenummeret. Lige numre er mænd, ulige er kvinder')
 
   // Kerneregel: kun et led ad gangen fra en bekræftet ane.
-  // Fiktive eksempler er undtaget. Et spor (familieoplysning) kræver kun, at barnet findes.
+  // Et spor (familieoplysning) kræver kun, at barnet findes.
   if (n > 1) {
     const barn = P.get(n >> 1)
     if (!barn) fejl.push(hvem + ': barnet (anenr. ' + (n >> 1) + ') er ikke registreret. Den direkte linje skal være ubrudt')
-    else if (!p.fiktiv && barn.fiktiv) fejl.push(hvem + ': en virkelig person kan ikke være forælder til en fiktiv person')
-    else if (!p.fiktiv && barn.status === 'spor' && p.status !== 'spor') fejl.push(hvem + ': barnet er kun en familieoplysning. Forælderen kan højst registreres som spor')
-    else if (!p.fiktiv && p.status !== 'spor' && barn.status !== 'bekræftet') fejl.push(hvem + ': barnet (anenr. ' + (n >> 1) + ') er ikke bekræftet endnu. Forældre undersøges først, når barnet er bekræftet')
+    else if (barn.status === 'spor' && p.status !== 'spor') fejl.push(hvem + ': barnet er kun en familieoplysning. Forælderen kan højst registreres som spor')
+    else if (p.status !== 'spor' && barn.status !== 'bekræftet') fejl.push(hvem + ': barnet (anenr. ' + (n >> 1) + ') er ikke bekræftet endnu. Forældre undersøges først, når barnet er bekræftet')
   }
 
   const ids = new Set(p.kilder || [])
@@ -127,13 +126,12 @@ for (const [n, p] of P) {
   for (const id of ids) {
     brugteKilder.add(id)
     if (!K.has(id)) fejl.push(hvem + ': kilden "' + id + '" findes ikke i kilder.json')
-    else if (!p.fiktiv && K.get(id).fiktiv) fejl.push(hvem + ': en virkelig person må ikke bruge den fiktive kilde "' + id + '"')
   }
-  if (p.fiktiv && !String(p.fornavne || '').length) fejl.push(hvem + ': fiktiv person mangler navn')
+  if (p.fiktiv) fejl.push(hvem + ': fiktive personer bruges ikke længere i projektet')
 
   if (p.status === 'bekræftet') {
     if (!p.bevis || !String(p.bevis).trim()) fejl.push(hvem + ': er markeret bekræftet, men mangler en begrundelse i feltet "bevis"')
-    const primaere = [...ids].filter(id => K.get(id) && K.get(id).kvalitet === 'primær' && (p.fiktiv || !K.get(id).fiktiv))
+    const primaere = [...ids].filter(id => K.get(id) && K.get(id).kvalitet === 'primær')
     // Rodpersonen er projektets udgangspunkt og kræver ikke primærkilde
     if (!primaere.length && n > 1) fejl.push(hvem + ': er markeret bekræftet uden nogen primærkilde')
     else if (ids.size < 2 && n > 1) advarsler.push(hvem + ': er bekræftet på kun én kilde. Find gerne en uafhængig kilde mere')
@@ -183,9 +181,8 @@ for (const o of forskning.opgaver || []) {
   if (o.status && !['åben', 'i gang', 'venter', 'færdig'].includes(o.status)) fejl.push('Opgave "' + o.titel + '": status skal være åben, i gang, venter eller færdig')
 }
 
-const bekr = [...P.values()].filter(p => p.status === 'bekræftet' && !p.fiktiv).length
-const fikt = [...P.values()].filter(p => p.fiktiv).length
-console.log('Personer: ' + P.size + ' (' + bekr + ' bekræftede, ' + fikt + ' fiktive). Kilder: ' + K.size + '. Steder: ' + S.size + '.')
+const bekr = [...P.values()].filter(p => p.status === 'bekræftet').length
+console.log('Personer: ' + P.size + ' (' + bekr + ' bekræftede). Kilder: ' + K.size + '. Steder: ' + S.size + '.')
 for (const a of advarsler) console.log('  ADVARSEL  ' + a)
 for (const f of fejl) console.log('  FEJL      ' + f)
 if (fejl.length) {

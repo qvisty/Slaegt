@@ -8,62 +8,6 @@
     "noter": "Mundtlige oplysninger om forældre og bedsteforældre. Skal bekræftes i primærkilder."
   },
   {
-    "id": "fk-kb-kjellerup-1893",
-    "fiktiv": true,
-    "titel": "Fiktiv: Kirkebog, Kjellerup, døbte 1893",
-    "type": "Kirkebog",
-    "kvalitet": "primær",
-    "noter": "Findes ikke. Kun et eksempel."
-  },
-  {
-    "id": "fk-kb-haderslev-1880",
-    "fiktiv": true,
-    "titel": "Fiktiv: Kirkebog, Haderslev, fødte 1880",
-    "type": "Kirkebog",
-    "kvalitet": "primær",
-    "noter": "Findes ikke. Kun et eksempel."
-  },
-  {
-    "id": "fk-kb-christiansfeld-1884",
-    "fiktiv": true,
-    "titel": "Fiktiv: Kirkebog, Christiansfeld, fødte 1884",
-    "type": "Kirkebog",
-    "kvalitet": "primær",
-    "noter": "Findes ikke. Kun et eksempel."
-  },
-  {
-    "id": "fk-kb-soenderborg-1850",
-    "fiktiv": true,
-    "titel": "Fiktiv: Kirkebog, Sønderborg, fødte 1850",
-    "type": "Kirkebog",
-    "kvalitet": "primær",
-    "noter": "Findes ikke. Kun et eksempel."
-  },
-  {
-    "id": "fk-ft-1921-haderslev",
-    "fiktiv": true,
-    "titel": "Fiktiv: Folketælling 1921, Haderslev",
-    "type": "Folketælling",
-    "kvalitet": "primær",
-    "noter": "Findes ikke. Kun et eksempel."
-  },
-  {
-    "id": "fk-stamrulle",
-    "fiktiv": true,
-    "titel": "Fiktiv: Tysk stamrulle 1914, Haderslev",
-    "type": "Militær",
-    "kvalitet": "primær",
-    "noter": "Findes ikke. Kun et eksempel."
-  },
-  {
-    "id": "fk-slaegtsbog",
-    "fiktiv": true,
-    "titel": "Fiktiv: Slægtsbog om familien Testesen",
-    "type": "Slægtsbog",
-    "kvalitet": "sekundær",
-    "noter": "Findes ikke. Kun et eksempel."
-  },
-  {
     "id": "gravsten-viborg-k165",
     "titel": "Gravsten for Gerner og Helga Qvist, Viborg Kirkegård",
     "type": "Gravsten",
