@@ -1148,15 +1148,18 @@
       "ft1930-toftlund-13",
       "ft1940-toftlund-vestergade",
       "pr-skaerbaek-1920-v3",
-      "kb-vodder-1920-v2"
+      "kb-vodder-1920-v2",
+      "pr-toftlund-1896-f63",
+      "pr-toftlund-1951-d19"
     ],
-    "noter": "Kaldet Jørn i familien. Arbejder i 1920, landpostbud i Toftlund 1925 til 1940. Søn af afdøde bager Jes Peter Bundesen og Anna Catharina Kramer.",
+    "noter": "Kaldet Jørn i familien. Arbejder i 1920, landpostbud i Toftlund 1925 til 1940. Søn af bager Jes Peter Bundesen og Anna Catharina Kramer.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1896-10-19",
         "sted": "toftlund",
         "kilder": [
+          "pr-toftlund-1896-f63",
           "pr-skaerbaek-1920-v3",
           "kb-vodder-1920-v2",
           "ft1930-toftlund-13"
@@ -1214,13 +1217,58 @@
         "kilder": [
           "ft1940-toftlund-vestergade"
         ]
+      },
+      {
+        "type": "død",
+        "dato": "1951-12-10",
+        "sted": "toftlund",
+        "beskrivelse": "I sit hjem i Vestergade",
+        "kilder": [
+          "pr-toftlund-1951-d19"
+        ]
       }
     ],
     "navnevarianter": [
       "Jørn Bundesen",
       "Jörgen Peter Bundesen"
     ],
-    "bevis": "Annas fødselsanmeldelse 1924 og dåb 1925 nævner postbud Jørgen Peter Bundesen som far. FT 1925, 1930 og 1940 viser Anna i hans husstand i Toftlund. Familien kalder ham Jørn. Fødselsdatoen 19. oktober 1896 er den samme i vielsen 1920 (Standesamt og Vodder kirkebog) og i FT 1930 og 1940."
+    "bevis": "Annas fødselsanmeldelse 1924 og dåb 1925 nævner postbud Jørgen Peter Bundesen som far. FT 1925, 1930 og 1940 viser Anna i hans husstand i Toftlund. Familien kalder ham Jørn. Fødselsdatoen 19. oktober 1896 er den samme i vielsen 1920 (Standesamt og Vodder kirkebog) og i FT 1930 og 1940.",
+    "soeskende": [
+      {
+        "navn": "Anna Marie Cathrine Bundesen, gift Lorentzen",
+        "koen": "k",
+        "foedt": "1886-07-05",
+        "kilder": [
+          "pr-toftlund-bundesen-boern"
+        ],
+        "noter": "Født i Stollig. Gift 1908 med murersvend Hans Lorentzen"
+      },
+      {
+        "navn": "Christine Dorothea Bundesen, gift Andresen",
+        "koen": "k",
+        "foedt": "1895-02-28",
+        "kilder": [
+          "pr-toftlund-bundesen-boern"
+        ],
+        "noter": "Født i Stollig. Gift 1915 med skræddersvend Carsten Andresen"
+      },
+      {
+        "navn": "Jep Peter Bundesen",
+        "koen": "m",
+        "foedt": "1898-12-11",
+        "kilder": [
+          "pr-toftlund-bundesen-boern"
+        ]
+      },
+      {
+        "navn": "Margrethe Christine Bundesen",
+        "koen": "k",
+        "foedt": "1900-10-29",
+        "kilder": [
+          "pr-toftlund-bundesen-boern"
+        ]
+      }
+    ]
   },
   {
     "anenummer": 15,
@@ -1236,18 +1284,19 @@
       "ft1930-toftlund-13",
       "ft1940-toftlund-vestergade",
       "pr-skaerbaek-1920-v3",
-      "kb-vodder-1920-v2"
+      "kb-vodder-1920-v2",
+      "pr-toftlund-1901-f80",
+      "pr-toftlund-1951-d19"
     ],
-    "noter": "Datter af skræddermester Rasmus Andresen Wind og Anna Christine Lassen i Gånsager, Vodder Sogn. Fødselsdatoen er 20. december 1901 i fødselsanmeldelsen 1924 og folketællingerne, men 21. december i vielsen 1920. Hendes egen fødselsindførsel skal afgøre det.",
+    "noter": "Datter af skræddermester Rasmus Andresen Wind og Anna Christine Lausen. Født 21. december 1901 en halv time over midnat ifølge fødselsanmeldelsen, derfor står 20. december i flere senere kilder. Enke fra 1951. Hendes død er ikke fundet.",
     "haendelser": [
       {
         "type": "fødsel",
-        "dato": "1901-12-20",
+        "dato": "1901-12-21",
         "sted": "toftlund",
-        "beskrivelse": "Vielsen 1920 siger 21. december",
+        "beskrivelse": "Kl. 0.30. Senere kilder skriver 20. december",
         "kilder": [
-          "pr-toftlund-1924-f47",
-          "ft1930-toftlund-13",
+          "pr-toftlund-1901-f80",
           "pr-skaerbaek-1920-v3"
         ]
       },
@@ -1284,7 +1333,112 @@
       "Dussine Andrea Wind",
       "Dusine Andrea Vind"
     ],
-    "bevis": "Annas fødselsanmeldelse 1924 og dåb 1925 nævner Dusine Andrea født Wind som mor. FT 1925, 1930 og 1940 viser Anna i hendes husstand. Vielsen 1920 nævner hendes forældre."
+    "bevis": "Annas fødselsanmeldelse 1924 og dåb 1925 nævner Dusine Andrea født Wind som mor. FT 1925, 1930 og 1940 viser Anna i hendes husstand. Vielsen 1920 nævner hendes forældre.",
+    "soeskende": [
+      {
+        "navn": "Hans Nissen Wind",
+        "koen": "m",
+        "foedt": "1885-10-09",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ]
+      },
+      {
+        "navn": "Anna Christina Wind",
+        "koen": "k",
+        "foedt": "1886-12-15",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ]
+      },
+      {
+        "navn": "Maria Cathrina Wind",
+        "koen": "k",
+        "foedt": "1888-10-01",
+        "doed": "1891",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ]
+      },
+      {
+        "navn": "Christian Hansen Wind",
+        "koen": "m",
+        "foedt": "1890-04-29",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ],
+        "noter": "Navnet rettet til Vind i 1926"
+      },
+      {
+        "navn": "Maria Christina Wind",
+        "koen": "k",
+        "foedt": "1892-04-22",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ],
+        "noter": "Måske Marie Villadsen født Wind i Branderup, fadder 1925"
+      },
+      {
+        "navn": "Jørgen Andresen Wind",
+        "koen": "m",
+        "foedt": "1894-03-24",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ]
+      },
+      {
+        "navn": "Rasmus Andresen Wind",
+        "koen": "m",
+        "foedt": "1895-12-06",
+        "doed": "1896",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ]
+      },
+      {
+        "navn": "Jürgen Hindrich Wind",
+        "koen": "m",
+        "foedt": "1896-11-05",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ],
+        "noter": "Tvilling"
+      },
+      {
+        "navn": "Rasmus Andresen Wind",
+        "koen": "m",
+        "foedt": "1896-11-05",
+        "doed": "1899",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ],
+        "noter": "Tvilling"
+      },
+      {
+        "navn": "Lauritz Jørgensen Wind",
+        "koen": "m",
+        "foedt": "1898-03-20",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ]
+      },
+      {
+        "navn": "Cathrine Nielsine Wind",
+        "koen": "k",
+        "foedt": "1900-09-20",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ]
+      },
+      {
+        "navn": "Rasmus Andresen Wind",
+        "koen": "m",
+        "foedt": "1905-02-09",
+        "kilder": [
+          "pr-toftlund-wind-boern"
+        ]
+      }
+    ]
   },
   {
     "anenummer": 12,
@@ -1740,26 +1894,48 @@
     "efternavn": "Bundesen",
     "koen": "m",
     "status": "under undersøgelse",
-    "bevis": "Vielsen 1920 nævner afdøde bager Jes Peter Bundesen som far til Jørgen Peter Bundesen.",
+    "bevis": "Jørgen Peters fødselsanmeldelse 1896, vielse 1920 og dødsindførsel 1951 nævner bager Jes Peter Bundesen som far.",
     "kilder": [
-      "pr-skaerbaek-1920-v3"
+      "pr-skaerbaek-1920-v3",
+      "pr-aabenraa-1886-v6",
+      "pr-toftlund-1896-f63",
+      "pr-toftlund-1916-d45",
+      "pr-toftlund-1951-d19"
     ],
-    "noter": "Bager i Toftlund. Død før 1920.",
+    "noter": "Bager og bagermester i Toftlund. Født 14. december 1861 i Uk, søn af parcellist Jürgen Peter Bundesen og Anna Maria Petersen.",
     "haendelser": [
       {
+        "type": "fødsel",
+        "dato": "1861-12-14",
+        "sted": "uk",
+        "kilder": [
+          "pr-aabenraa-1886-v6"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1886-04-30",
+        "sted": "aabenraa",
+        "beskrivelse": "Borgerligt, med Anna Catharina Kramer",
+        "kilder": [
+          "pr-aabenraa-1886-v6"
+        ]
+      },
+      {
         "type": "erhverv",
+        "dato": "1896",
         "sted": "toftlund",
         "beskrivelse": "Bager",
         "kilder": [
-          "pr-skaerbaek-1920-v3"
+          "pr-toftlund-1896-f63"
         ]
       },
       {
         "type": "død",
-        "dato": "før 1920",
+        "dato": "1916-12-07",
         "sted": "toftlund",
         "kilder": [
-          "pr-skaerbaek-1920-v3"
+          "pr-toftlund-1916-d45"
         ]
       }
     ]
@@ -1774,14 +1950,37 @@
     ],
     "koen": "k",
     "status": "under undersøgelse",
-    "bevis": "Vielsen 1920 nævner Anna Catharina Bundesen født Kramer, Toftlund, som mor til Jørgen Peter Bundesen. Hun var fadder til barnebarnet Anna Christine i 1925.",
+    "bevis": "Jørgen Peters fødselsanmeldelse 1896, vielse 1920 og dødsindførsel 1951 nævner Anna Catharina født Kramer som mor. Hendes egen dødsindførsel 1935 blev anmeldt af sønnen Jørgen Peter.",
     "kilder": [
       "pr-skaerbaek-1920-v3",
       "kb-toftlund-1925-d1",
-      "ft1925-toftlund-15"
+      "ft1925-toftlund-15",
+      "pr-aabenraa-1886-v6",
+      "pr-toftlund-1896-f63",
+      "pr-toftlund-1935-d16",
+      "pr-toftlund-1951-d19"
     ],
-    "noter": "Enke i Toftlund. Muligvis den enke Anne Kathrine, født 24. maj 1858 i Aabenraa, der bor ved siden af sønnen i FT 1925. Ikke bevist.",
-    "haendelser": []
+    "noter": "Født 23. maj 1858 i Aabenraa, datter af arbejdsmand Rasmus Kramer og Maria Catharina Røi. Tjenestepige i Kolstrup før vielsen. Fadder for barnebarnet Anna Christine i 1925.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1858-05-23",
+        "sted": "aabenraa",
+        "kilder": [
+          "pr-aabenraa-1886-v6",
+          "pr-toftlund-1935-d16"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1935-12-13",
+        "sted": "toftlund",
+        "beskrivelse": "I sit hjem",
+        "kilder": [
+          "pr-toftlund-1935-d16"
+        ]
+      }
+    ]
   },
   {
     "anenummer": 30,
@@ -1791,9 +1990,11 @@
     "status": "under undersøgelse",
     "bevis": "Vielsen 1920 nævner skræddermester Rasmus Andresen Wind i Gånsager som far til Dusine Andrea Wind. Han var selv vidne ved vielsen.",
     "kilder": [
-      "pr-skaerbaek-1920-v3"
+      "pr-skaerbaek-1920-v3",
+      "pr-toftlund-1901-f80",
+      "pr-toftlund-wind-boern"
     ],
-    "noter": "Skræddermester i Gånsager, Vodder Sogn. 60 år i februar 1920.",
+    "noter": "Smed, senere smedemester og skræddermester i Toftlund, i 1920 i Gånsager. 60 år i februar 1920. Vielse, død og forældre ikke fundet.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -1811,6 +2012,16 @@
         "kilder": [
           "pr-skaerbaek-1920-v3"
         ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1885",
+        "sted": "toftlund",
+        "beskrivelse": "Smed, senere skræddermester",
+        "kilder": [
+          "pr-toftlund-wind-boern",
+          "pr-toftlund-1901-f80"
+        ]
       }
     ]
   },
@@ -1819,15 +2030,18 @@
     "fornavne": "Anna Christine",
     "efternavn": "Wind",
     "navnevarianter": [
+      "Anna Christine Lausen",
       "Anna Christine Lassen"
     ],
     "koen": "k",
     "status": "under undersøgelse",
     "bevis": "Vielsen 1920 nævner Anna Christine Wind født Lassen i Gånsager som mor til Dusine Andrea Wind.",
     "kilder": [
-      "pr-skaerbaek-1920-v3"
+      "pr-skaerbaek-1920-v3",
+      "pr-toftlund-1901-f80",
+      "pr-toftlund-wind-boern"
     ],
-    "noter": "Boede i Gånsager i 1920. Barnebarnet Anna Christine Bundesen er opkaldt efter hende.",
+    "noter": "Pigenavnet er Lausen i fødselsanmeldelserne og Lassen i vielsen 1920. Barnebarnet Anna Christine Bundesen er opkaldt efter hende.",
     "haendelser": [
       {
         "type": "bopæl",
@@ -2464,5 +2678,110 @@
     ],
     "noter": "Fra Haderslev. Død 1886 ifølge en endnu ikke afskrevet indførsel (Vor Frue døde 1886 nr. 44). Fadderne Ferdinand og Juliane Kaadmann i 1850 er sikkert hendes familie.",
     "haendelser": []
+  },
+  {
+    "anenummer": 56,
+    "fornavne": "Jürgen Peter",
+    "efternavn": "Bundesen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Jes Peter Bundesens vielse 1886 nævner afdøde parcellist Jürgen Peter Bundesen i Uk som far.",
+    "kilder": [
+      "pr-aabenraa-1886-v6"
+    ],
+    "noter": "Parcellist i Uk, Aabenraa amt. Død før 1886. Barnebarnet Jørgen Peter er opkaldt efter ham.",
+    "haendelser": [
+      {
+        "type": "død",
+        "dato": "før 1886",
+        "sted": "uk",
+        "kilder": [
+          "pr-aabenraa-1886-v6"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 57,
+    "fornavne": "Anna Maria",
+    "efternavn": "Bundesen",
+    "navnevarianter": [
+      "Anna Maria Petersen"
+    ],
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Jes Peter Bundesens vielse 1886 nævner Anna Maria født Petersen som mor.",
+    "kilder": [
+      "pr-aabenraa-1886-v6"
+    ],
+    "noter": "Død før 1886, sidst boende i Uk.",
+    "haendelser": [
+      {
+        "type": "død",
+        "dato": "før 1886",
+        "sted": "uk",
+        "kilder": [
+          "pr-aabenraa-1886-v6"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 58,
+    "fornavne": "Rasmus",
+    "efternavn": "Kramer",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Anna Catharinas vielse 1886 og dødsindførsel 1935 nævner arbejdsmand Rasmus Kramer som far. Han var selv vidne ved vielsen.",
+    "kilder": [
+      "pr-aabenraa-1886-v6",
+      "pr-toftlund-1935-d16"
+    ],
+    "noter": "Arbejdsmand i Aabenraa, 56 år i 1886.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1830",
+        "beskrivelse": "Beregnet ud fra alderen 56 år i 1886",
+        "kilder": [
+          "pr-aabenraa-1886-v6"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1886",
+        "sted": "aabenraa",
+        "beskrivelse": "Arbejdsmand",
+        "kilder": [
+          "pr-aabenraa-1886-v6"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 59,
+    "fornavne": "Maria Catharina",
+    "efternavn": "Kramer",
+    "navnevarianter": [
+      "Maria Catharina Røi"
+    ],
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Anna Catharinas vielse 1886 og dødsindførsel 1935 nævner Maria Catharina født Røi som mor.",
+    "kilder": [
+      "pr-aabenraa-1886-v6",
+      "pr-toftlund-1935-d16"
+    ],
+    "noter": "Boede i Aabenraa i 1886.",
+    "haendelser": [
+      {
+        "type": "bopæl",
+        "dato": "1886",
+        "sted": "aabenraa",
+        "kilder": [
+          "pr-aabenraa-1886-v6"
+        ]
+      }
+    ]
   }
 ]

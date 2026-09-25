@@ -148,5 +148,21 @@
     "amt": "Haderslev Amt",
     "lat": 55.2375,
     "lng": 9.6069
+  },
+  {
+    "id": "aabenraa",
+    "navn": "Aabenraa",
+    "amt": "Aabenraa Amt",
+    "lat": 55.0443,
+    "lng": 9.4174
+  },
+  {
+    "id": "uk",
+    "navn": "Uk",
+    "sogn": "Uge Sogn",
+    "herred": "Lundtoft Herred",
+    "amt": "Aabenraa Amt",
+    "lat": 54.9556,
+    "lng": 9.3611
   }
 ]

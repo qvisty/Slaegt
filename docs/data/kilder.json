@@ -751,5 +751,85 @@
     "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201552#201552,38189574",
     "kvalitet": "primær",
     "noter": "På tysk. Ferdinand Gottfried Olsen, født 14. april, døbt 20. april 1850, ægte søn af handskemager Jens Ulrich Olsen og Magdalene Marie født Kaadmann. Faddere: Ferdinand Kaadmann, Juliane Kaadmann og Nicolaisen Falk."
+  },
+  {
+    "id": "pr-toftlund-1896-f63",
+    "titel": "Personregister (Standesamt), Toftlund, fødte 1896, nr. 63",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Toftlund personregisterfører, fødte biregister 1894 til 1898, opslag 118, nr. 63",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36363#36363,5061182",
+    "kvalitet": "primær",
+    "noter": "På tysk. Anmeldt 23. oktober 1896 af bager Jes Peter Bundesen, Toftlund: hans hustru Anna Cathrina Bundesen født Kramer fødte 19. oktober 1896 kl. 12 midnat en dreng med navnene Jürgen Peter."
+  },
+  {
+    "id": "pr-toftlund-1901-f80",
+    "titel": "Personregister (Standesamt), Toftlund, fødte 1901, nr. 80",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Toftlund personregisterfører, fødte biregister 1899 til 1901, opslag 134, nr. 80",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36364#36364,5061426",
+    "kvalitet": "primær",
+    "noter": "På tysk. Anmeldt 23. december 1901 af skræddermester Rasmus Andresen Wind, Toftlund: hans hustru Anna Christine Wind født Lausen fødte 21. december 1901 kl. 0.30 en pige med navnene Dussine Andrea. Claude har kontrolleret billedet."
+  },
+  {
+    "id": "pr-aabenraa-1886-v6",
+    "titel": "Personregister (Standesamt), Aabenraa, viede 1886, nr. 6",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Aabenraa personregisterfører, viede biregister 1884 til 1886, opslag 115 og 116, nr. 6",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36862#36862,5158154",
+    "kvalitet": "primær",
+    "noter": "På tysk. Viet 30. april 1886 i Aabenraa. Bagersvend Jes Peter Bundesen, født 14. december 1861 i Uk, søn af afdøde parcellist Jürgen Peter Bundesen og Anna Maria født Petersen, sidst i Uk. Tjenestepige Anna Catharina Kramer, født 23. maj 1858 i Aabenraa, boende i Kolstrup, datter af arbejdsmand Rasmus Kramer og Maria Catharina født Röi i Aabenraa. Vidne: brudens far Rasmus Kramer, 56 år."
+  },
+  {
+    "id": "pr-toftlund-1916-d45",
+    "titel": "Personregister (Standesamt), Toftlund, døde 1916, nr. 45",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Toftlund personregisterfører, døde biregister 1907 til 1917, opslag 252, nr. 45",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=37048#37048,5190968",
+    "kvalitet": "primær",
+    "noter": "På tysk. Bager Jes Bundesen, 55 år, født i Uk, gift med Anna Kathrina født Kramer, død 7. december 1916 kl. 3 om morgenen i Toftlund. Anmeldt af datteren Anna Lorenzen født Bundesen."
+  },
+  {
+    "id": "pr-toftlund-1935-d16",
+    "titel": "Personregister, Toftlund, døde 1935, nr. 16",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Toftlund personregisterfører, døde biregister 1925 til 1936, opslag 147, nr. 16",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36383#36383,5064300",
+    "kvalitet": "primær",
+    "noter": "Aldersrentenyder Anna Catharina Bundesen født Kramer, enke efter bagermester Jes Peter Bundesen, født i Aabenraa 23. maj 1858, datter af arbejdsmand Rasmus Kramer og Marie Catharina født Røi, død 13. december 1935 i sit hjem i Toftlund. Anmeldt af sønnen postbud Jørgen Peter Bundesen."
+  },
+  {
+    "id": "pr-toftlund-1951-d19",
+    "titel": "Personregister, Toftlund, døde 1951, nr. 19",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Toftlund personregisterfører, døde biregister 1947 til 1957, opslag 66, nr. 19",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=37050#37050,5191224",
+    "kvalitet": "primær",
+    "noter": "Pensioneret landpostbud Jørgen Peter Bundesen, gift med Dusine Bundesen født Wind, født i Toftlund 19. oktober 1896, søn af bager Jes Peter Bundesen og Anna Cathrine født Kramer, død 10. december 1951 i sit hjem i Vestergade, Toftlund. Anmeldt af sønnen malermester Rasmus Andreas Bundesen, Skodborg."
+  },
+  {
+    "id": "pr-toftlund-wind-boern",
+    "titel": "Personregister (Standesamt), Toftlund, fødte, børn af Rasmus Andresen Wind",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Toftlund personregisterfører, fødte biregistre 1885 til 1905 (bsid 36362, 37037, 37038, 36363, 36364, 36366). Fx Hans Nissen 1885 nr. 55, opslag 162",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36362#36362,5061053",
+    "kvalitet": "primær",
+    "noter": "Tolv børn af smed, senere skræddermester, Rasmus Andresen Wind og Anna Christine født Lausen i Toftlund, født 1885 til 1905. Hver indførsel er læst af en underagent."
+  },
+  {
+    "id": "pr-toftlund-bundesen-boern",
+    "titel": "Personregister (Standesamt), Toftlund, fødte og viede, børn af Jes Peter Bundesen",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Toftlund fødte biregistre 1898 nr. 90 (bsid 36363 opslag 222) og 1900 nr. 82 (bsid 36364 opslag 86), viede 1908 nr. 14 og 1915 nr. 2 (bsid 36377)",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36363#36363,5061286",
+    "kvalitet": "primær",
+    "noter": "Søskende til Jørgen Peter med bager Jes Peter Bundesen og Anna Catharina Kramer som forældre."
   }
 ]
