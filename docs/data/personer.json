@@ -2499,17 +2499,48 @@
     "kilder": [
       "kb-skaelskoer-1859-m13",
       "ft1880-skaelskoer-slagelsevej",
-      "kb-skaelskoer-1911-d10"
+      "kb-skaelskoer-1911-d10",
+      "kb-svendborg-nikolaj-1820-m9",
+      "kb-slagelse-mikkel-1848-v19",
+      "kb-skaelskoer-1885-d3",
+      "ft1834-svendborg-qvist"
     ],
-    "noter": "Født i Svendborg ca. 1820 til 1826. Garver og senere slagtermester i Skælskør. Død 3. marts 1886 ifølge hustruens dødsindførsel, FT 1901 antyder 1884. Hans egen dødsindførsel er ikke set. Navnet Clemmen og Clemmensen går videre til sønnesønnen Gerner.",
+    "noter": "Født i Svendborg 31. maj 1820, søn af købmand, senere sømand, Ludvig Qvist og Nicoline Clemmensen. Garverlærling i Svendborg, garversvend i Slagelse og garver i Skælskør fra ca. 1849, senere også slagtermester. Døde 3. marts 1885, ikke 1886 som hustruens dødsindførsel antyder.",
     "haendelser": [
       {
         "type": "fødsel",
-        "dato": "ca. 1822",
+        "dato": "1820-05-31",
         "sted": "svendborg",
-        "beskrivelse": "Alderen varierer i folketællingerne",
+        "beskrivelse": "Sankt Nikolaj Sogn",
         "kilder": [
-          "ft1880-skaelskoer-slagelsevej"
+          "kb-svendborg-nikolaj-1820-m9",
+          "kb-slagelse-mikkel-1848-v19"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1820-06-13",
+        "sted": "svendborg",
+        "kilder": [
+          "kb-svendborg-nikolaj-1820-m9"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1834",
+        "sted": "svendborg",
+        "beskrivelse": "Søn hos forældrene",
+        "kilder": [
+          "ft1834-svendborg-qvist"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1848-05-31",
+        "sted": "slagelse",
+        "beskrivelse": "Sankt Mikkels Kirke, med Johanne Pedersen",
+        "kilder": [
+          "kb-slagelse-mikkel-1848-v19"
         ]
       },
       {
@@ -2533,11 +2564,61 @@
       },
       {
         "type": "død",
-        "dato": "1886-03-03",
+        "dato": "1885-03-03",
         "sted": "skaelskoer",
-        "beskrivelse": "Ifølge hustruens dødsindførsel",
+        "beskrivelse": "64 år",
         "kilder": [
-          "kb-skaelskoer-1911-d10"
+          "kb-skaelskoer-1885-d3"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1885-03-10",
+        "sted": "skaelskoer",
+        "kilder": [
+          "kb-skaelskoer-1885-d3"
+        ]
+      }
+    ],
+    "soeskende": [
+      {
+        "navn": "Marie Qvist",
+        "koen": "k",
+        "foedt": "ca. 1818",
+        "kilder": [
+          "ft1834-svendborg-qvist"
+        ]
+      },
+      {
+        "navn": "Carl Qvist",
+        "koen": "m",
+        "foedt": "ca. 1826",
+        "kilder": [
+          "ft1834-svendborg-qvist"
+        ]
+      },
+      {
+        "navn": "Hans Christoffer Qvist",
+        "koen": "m",
+        "foedt": "ca. 1827",
+        "kilder": [
+          "ft1834-svendborg-qvist"
+        ]
+      },
+      {
+        "navn": "Hans Christian Qvist",
+        "koen": "m",
+        "foedt": "ca. 1828",
+        "kilder": [
+          "ft1834-svendborg-qvist"
+        ]
+      },
+      {
+        "navn": "Lodvise Qvist",
+        "koen": "k",
+        "foedt": "ca. 1831",
+        "kilder": [
+          "ft1834-svendborg-qvist"
         ]
       }
     ]
@@ -2559,17 +2640,21 @@
       "kb-skaelskoer-1911-d10",
       "kb-skaelskoer-1898-f32",
       "ft1880-skaelskoer-slagelsevej",
-      "ft1911-skaelskoer-slagelsevej"
+      "ft1911-skaelskoer-slagelsevej",
+      "kb-pedersborg-1825-johanne",
+      "kb-slagelse-mikkel-1848-v19"
     ],
-    "noter": "Født 29. september 1825 i Pedersborg Sogn, datter af Eva Rosine Hansdatter og Frederik Petersen. Skrevet både Hansdatter, Petersen og Pedersen. Kaldt svigermoder i FT 1901 ved en fejl.",
+    "noter": "Født uden for ægteskab 29. september 1825 i Haugerup, Pedersborg Sogn. Mor: Eva Rosine Hansdatter. Udlagt barnefader: Friderich Pedersen. Kaldt Johanne Pedersen, Petersen eller Hansdatter. Konfirmeret i Slagelse 1840.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1825-09-29",
         "sted": "pedersborg",
         "kilder": [
+          "kb-pedersborg-1825-johanne",
           "kb-skaelskoer-1911-d10"
-        ]
+        ],
+        "beskrivelse": "Et hus på Haugerup Mark, Pedersborg Sogn"
       },
       {
         "type": "død",
@@ -2601,34 +2686,74 @@
     "kilder": [
       "kb-skaelskoer-1864-f3",
       "ft1870-skaelskoer-moeller",
-      "kb-skaelskoer-1898-f32"
+      "kb-skaelskoer-1898-f32",
+      "kb-holsteinborg-1820-johan-jacob",
+      "kb-tjaereby-1856-v4",
+      "kb-skaelskoer-1900-d14",
+      "ft1840-holsteinborg-moeller"
     ],
-    "noter": "Snedkermester i Skælskør. Født i Holsteinborg Sogn ca. 1820. Levede i 1899.",
+    "noter": "Født i Rude, Holsteinborg Sogn, søn af snedker Daniel Møller og Margrete Petersen. Snedkermester i Skælskør.",
     "haendelser": [
       {
         "type": "fødsel",
-        "dato": "ca. 1820",
+        "dato": "1820-03-17",
         "sted": "holsteinborg",
+        "beskrivelse": "Rude",
         "kilder": [
-          "ft1870-skaelskoer-moeller"
+          "kb-holsteinborg-1820-johan-jacob",
+          "kb-tjaereby-1856-v4"
         ]
       },
       {
-        "type": "erhverv",
-        "dato": "1864",
-        "sted": "skaelskoer",
-        "beskrivelse": "Snedker, senere snedkermester",
+        "type": "dåb",
+        "dato": "1820-03-19",
+        "sted": "holsteinborg",
         "kilder": [
-          "kb-skaelskoer-1864-f3"
+          "kb-holsteinborg-1820-johan-jacob"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1840",
+        "sted": "holsteinborg",
+        "beskrivelse": "Snedkersvend hos forældrene i Rude",
+        "kilder": [
+          "ft1840-holsteinborg-moeller"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1856-10-18",
+        "sted": "tjaereby",
+        "beskrivelse": "Tjæreby Kirke, med Marie Birgitte Gesner",
+        "kilder": [
+          "kb-tjaereby-1856-v4"
         ]
       },
       {
         "type": "folketælling",
         "dato": "1870",
         "sted": "skaelskoer",
-        "beskrivelse": "Husfader",
+        "beskrivelse": "Husfader, snedkermester",
         "kilder": [
           "ft1870-skaelskoer-moeller"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1900-05-28",
+        "sted": "skaelskoer",
+        "beskrivelse": "Slagelsevej, 80 år",
+        "kilder": [
+          "kb-skaelskoer-1900-d14"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1900-06-04",
+        "sted": "skaelskoer",
+        "kilder": [
+          "kb-skaelskoer-1900-d14"
         ]
       }
     ]
@@ -2647,17 +2772,38 @@
     "kilder": [
       "kb-skaelskoer-1864-f3",
       "ft1870-skaelskoer-moeller",
-      "kb-skaelskoer-1898-f32"
+      "kb-skaelskoer-1898-f32",
+      "kb-tjaereby-1832-gesner",
+      "kb-tjaereby-1856-v4",
+      "ft1834-tjaereby-gesner"
     ],
-    "noter": "Født i Tjæreby Sogn, i FT 1916 opgivet som 24. december 1832. Enke i Skælskør i 1916. Måske datter af gartner Johan Anthon Gesner på Basnæs, men det er ikke undersøgt.",
+    "noter": "Født på hovedgården Basnæs, Tjæreby Sogn, datter af gartner Johan Anthon Gesner fra Hamborg og Sophie Frederikke Landgreen. Enke i Skælskør efter 1900, i live 1916.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1832-12-24",
         "sted": "tjaereby",
-        "beskrivelse": "Dato fra FT 1916",
+        "beskrivelse": "Hovedgården Basnæs",
         "kilder": [
-          "ft1870-skaelskoer-moeller"
+          "kb-tjaereby-1832-gesner",
+          "kb-tjaereby-1856-v4"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1833-04-21",
+        "sted": "tjaereby",
+        "kilder": [
+          "kb-tjaereby-1832-gesner"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1834",
+        "sted": "tjaereby",
+        "beskrivelse": "Barn i gartnerhuset på Basnæs",
+        "kilder": [
+          "ft1834-tjaereby-gesner"
         ]
       },
       {
@@ -3157,5 +3303,163 @@
     ],
     "noter": "Navnet Julie gik videre til barnebarnet Julie Margrethe Louise.",
     "haendelser": []
+  },
+  {
+    "anenummer": 64,
+    "fornavne": "Ludvig",
+    "efternavn": "Qvist",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Clemmen Qvists dåb 1820, konfirmation 1835 og vielse 1848 nævner købmand Ludvig Qvist som far. FT 1834 viser Clemmen i hans husstand.",
+    "kilder": [
+      "kb-svendborg-nikolaj-1820-m9",
+      "kb-slagelse-mikkel-1848-v19",
+      "ft1834-svendborg-qvist"
+    ],
+    "noter": "Købmand i Svendborg i 1820, sømand i 1834. Født ca. 1788.",
+    "haendelser": [
+      {
+        "type": "erhverv",
+        "dato": "1820",
+        "sted": "svendborg",
+        "beskrivelse": "Købmand, senere sømand",
+        "kilder": [
+          "kb-svendborg-nikolaj-1820-m9",
+          "ft1834-svendborg-qvist"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 65,
+    "fornavne": "Nicoline",
+    "efternavn": "Qvist",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Clemmen Qvists dåb 1820 og konfirmation 1835 nævner Nicoline Clemensen som mor. FT 1834 viser Clemmen i hendes husstand.",
+    "kilder": [
+      "kb-svendborg-nikolaj-1820-m9",
+      "ft1834-svendborg-qvist"
+    ],
+    "noter": "Født ca. 1793. Navnet Clemmen og Clemmensen stammer fra hendes familie.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Nicoline Clemmensen"
+    ]
+  },
+  {
+    "anenummer": 66,
+    "fornavne": "Friderich",
+    "efternavn": "Pedersen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Johannes dåb i Pedersborg 1825 nævner Friderich Pedersen som udlagt barnefader, og vielsen 1848 kalder hende datter af Frederik Pedersen.",
+    "kilder": [
+      "kb-pedersborg-1825-johanne",
+      "kb-slagelse-mikkel-1848-v19",
+      "kb-skaelskoer-1911-d10"
+    ],
+    "noter": "Udlagt barnefader. Tidligere avlskarl hos husmand Peder Hansen i Haugerup. Faderskabet bygger på moderens udlæg.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 67,
+    "fornavne": "Eva Rosine",
+    "efternavn": "Hansdatter",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Johannes dåb i Pedersborg 1825 og dødsindførsel 1911 nævner Eva Rosine Hansdatter som mor.",
+    "kilder": [
+      "kb-pedersborg-1825-johanne",
+      "kb-skaelskoer-1911-d10"
+    ],
+    "noter": "Logerende hos husmand Peder Hansen i Haugerup i 1825. Kaldt madame.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 68,
+    "fornavne": "Daniel",
+    "efternavn": "Møller",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Johan Jacob Møllers dåb 1820 og død 1900 nævner snedker Daniel Møller i Rude som far, og han var forlover ved sønnens vielse 1856. FT 1840 viser sønnen i hans husstand.",
+    "kilder": [
+      "kb-holsteinborg-1820-johan-jacob",
+      "kb-tjaereby-1856-v4",
+      "kb-skaelskoer-1900-d14",
+      "ft1840-holsteinborg-moeller"
+    ],
+    "noter": "Snedker og snedkermester i Rude, Holsteinborg Sogn. Født ca. 1786 i Assens ifølge FT 1845.",
+    "haendelser": [
+      {
+        "type": "erhverv",
+        "dato": "1820",
+        "sted": "holsteinborg",
+        "beskrivelse": "Snedker i Rude",
+        "kilder": [
+          "kb-holsteinborg-1820-johan-jacob"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 69,
+    "fornavne": "Margrete",
+    "efternavn": "Møller",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Johan Jacob Møllers dåb 1820 og død 1900 nævner Margrete Petersen som mor. FT 1840 viser sønnen i hendes husstand.",
+    "kilder": [
+      "kb-holsteinborg-1820-johan-jacob",
+      "kb-skaelskoer-1900-d14",
+      "ft1840-holsteinborg-moeller"
+    ],
+    "noter": "Født ca. 1789 i Svendborg ifølge FT 1845.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Margrete Petersen"
+    ]
+  },
+  {
+    "anenummer": 70,
+    "fornavne": "Johan Anthon",
+    "efternavn": "Gesner",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Marie Birgittes dåb 1832 nævner gartner Gesner på Basnæs som far, og han var forlover ved hendes vielse 1856. FT 1834 viser hende i hans husstand.",
+    "kilder": [
+      "kb-tjaereby-1832-gesner",
+      "kb-tjaereby-1856-v4",
+      "ft1834-tjaereby-gesner"
+    ],
+    "noter": "Gartner på hovedgården Basnæs, Tjæreby Sogn. Født ca. 1803 i Hamborg ifølge folketællingerne. Fulde navn Johan Anthon Christopher Gesner.",
+    "haendelser": [
+      {
+        "type": "erhverv",
+        "dato": "1832",
+        "sted": "tjaereby",
+        "beskrivelse": "Gartner på Basnæs",
+        "kilder": [
+          "kb-tjaereby-1832-gesner"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 71,
+    "fornavne": "Sophie Frederikke",
+    "efternavn": "Gesner",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Marie Birgittes dåb 1832 nævner Sophie Frederikke Landgreen som mor. FT 1834 viser hende i hendes husstand.",
+    "kilder": [
+      "kb-tjaereby-1832-gesner",
+      "ft1834-tjaereby-gesner"
+    ],
+    "noter": "22 år i 1834, altså født ca. 1812.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Sophie Frederikke Landgreen"
+    ]
   }
 ]

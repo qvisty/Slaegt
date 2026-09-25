@@ -182,5 +182,13 @@
     "amt": "Viborg Amt",
     "lat": 56.5236,
     "lng": 9.1583
+  },
+  {
+    "id": "slagelse",
+    "navn": "Slagelse",
+    "sogn": "Sankt Mikkels Sogn",
+    "amt": "Sorø Amt",
+    "lat": 55.4028,
+    "lng": 11.3542
   }
 ]
