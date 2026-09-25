@@ -193,5 +193,65 @@
     "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=244141#244141,46654506",
     "kvalitet": "primær",
     "noter": "Sørensen, Helmut Ludwig, født 9/1 1915 i Haderslev, gift 12/5 40, husfader, bogholder i kulimport. Hustru Margrethe Catherine, født 27/3 1914 i Gjeldrup, Vilstrup Sogn, ekspeditrice i manufakturforretning (første ægteskab, ikke i linjen). En logerende bogholder. Claude har kontrolleret erhvervskolonnen."
+  },
+  {
+    "id": "kb-viborg-soendre-1920-f41",
+    "titel": "Kirkebog, Viborg Søndre Sogn, fødte drenge 1920, nr. 41",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1920 til 1925, opslag 3, nr. 41",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172129#172129,28903255",
+    "kvalitet": "primær",
+    "noter": "Kjeld Clemmen Clemmensen Qvist, født 22. april 1920 i Mikkelsanlæg, døbt 18. juli 1920. Forældre: lagerforvalter Gerner Clemmen Clemmensen Qvist og Helga Margrethe Nielsen, 23 år."
+  },
+  {
+    "id": "kb-viborg-soendre-1921-f64",
+    "titel": "Kirkebog, Viborg Søndre Sogn, fødte piger 1921, nr. 64",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1920 til 1925, opslag 189, nr. 64",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172129#172129,28903441",
+    "kvalitet": "primær",
+    "noter": "Inge Johanne Clemensen Qvist, født 27. juni 1921 i Mikkelsanlæg, døbt 2. oktober 1921. Forældre: lagerforvalter Gerner Clemmen Clemensen Qvist og Helga Margrethe Nielsen, 26 år, viet i Domkirken 15/11 19."
+  },
+  {
+    "id": "kb-viborg-soendre-1925-orla",
+    "titel": "Kirkebog, Viborg Søndre Sogn, fødte drenge 1925, Orla",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1925 til 1931, opslag 13",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172131#172131,28903755",
+    "kvalitet": "primær",
+    "noter": "Orla Clemmen Clemensen Qvist, født 23. december 1925 i Søtorp, døbt 13. juni 1926. Forældre: lagerforvalter Gerner Clemmen Clemensen Qvist og Helga Margrethe Nielsen, 29 år."
+  },
+  {
+    "id": "kb-viborg-soendre-1927-ludvig",
+    "titel": "Kirkebog, Viborg Søndre Sogn, fødte drenge 1927, Ludvig Valdemar",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1925 til 1931, opslag 55",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172131#172131,28903797",
+    "kvalitet": "primær",
+    "noter": "Ludvig Valdemar Clemensen Qvist, født 6. november 1927 i Søtorp. Forældre: lagerforvalter (Gerner) Clemmen Clemensen Qvist, f. 23/3 90, og Helga Margrethe Nielsen, f. 28/12 96."
+  },
+  {
+    "id": "kb-viborg-dom-1935-f53",
+    "titel": "Kirkebog, Viborg Domsogn, fødte drenge 1935, nr. 53",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1928 til 1936, opslag 139, nr. 53",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172078#172078,28891907",
+    "kvalitet": "primær",
+    "noter": "Villy Clemmen Clemmensen Qvist, født 18. oktober 1935 i Nicolajgade 13, døbt 9. februar 1936. Forældre: agent Gerner Clemmen Clemmensen Qvist, f. 23/3 1890, og Helga Margrethe Nielsen, f. 28/12 96."
+  },
+  {
+    "id": "kb-viborg-soendre-1937-f69",
+    "titel": "Kirkebog, Viborg Søndre Sogn, fødte drenge 1937, nr. 69",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1937 til 1938, opslag 11, nr. 69",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172137#172137,28905475",
+    "kvalitet": "primær",
+    "noter": "Knud Clemmen Clemmensen Qvist, født 23. juni 1937 i Jernbanegade 17 C, døbt 29. maj 1938. Forældre: agent Gerner Clemmen Clemensen Qvist, f. 23/3 1890, og Helga Margrethe Nielsen, viet 15/11 1919 i Viborg Domkirke."
   }
 ]

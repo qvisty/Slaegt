@@ -52,6 +52,18 @@
           "fam-jesper-2026-oles-doed"
         ]
       }
+    ],
+    "soeskende": [
+      {
+        "navn": "Britta Gravlev Qvist",
+        "koen": "k",
+        "kilder": []
+      },
+      {
+        "navn": "Torben Gravlev Qvist",
+        "koen": "m",
+        "kilder": []
+      }
     ]
   },
   {
@@ -182,19 +194,24 @@
         "koen": "m",
         "foedt": "1920-04-22",
         "kilder": [
+          "kb-viborg-soendre-1920-f41",
           "ft1930-viborg-3395",
           "ft1940-viborg-vesterled49"
         ],
-        "noter": "Sømand i 1940"
+        "noter": "Født i Mikkelsanlæg, Viborg. Sømand i 1940"
       },
       {
-        "navn": "Inge Johanne Clemmensen Qvist",
+        "navn": "Inge Johanne Clemensen Qvist, gift Olsen",
         "koen": "k",
         "foedt": "1921-06-27",
         "kilder": [
+          "kb-viborg-soendre-1921-f64",
           "ft1930-viborg-3395",
-          "ft1940-viborg-vesterled49"
-        ]
+          "ft1940-viborg-vesterled49",
+          "findgravsted-viborg-vk11-364"
+        ],
+        "doed": "1995-11-21",
+        "noter": "Begravet i forældrenes gravsted på Viborg Kirkegård. Formentlig gift med oversergent Hans Erik Olsen"
       },
       {
         "navn": "Orla Clemmen Clemmensen Qvist",
@@ -202,6 +219,7 @@
         "foedt": "1925-12-23",
         "doed": "2013-11-26",
         "kilder": [
+          "kb-viborg-soendre-1925-orla",
           "ft1930-viborg-3395",
           "ft1940-viborg-vesterled49",
           "findgravsted-viborg-vk11-364"
@@ -212,6 +230,7 @@
         "navn": "Ludvig Valdemar Clemmensen Qvist",
         "koen": "m",
         "kilder": [
+          "kb-viborg-soendre-1927-ludvig",
           "ft1930-viborg-3395",
           "ft1940-viborg-vesterled49"
         ]
@@ -222,6 +241,7 @@
         "foedt": "1935-10-18",
         "doed": "2014-02-17",
         "kilder": [
+          "kb-viborg-dom-1935-f53",
           "ft1940-viborg-vesterled49"
         ],
         "noter": "Viborg Kirkegård, gravsted V K 12 430"
@@ -230,6 +250,7 @@
         "navn": "Knud Clemmen Clemmensen Qvist",
         "koen": "m",
         "kilder": [
+          "kb-viborg-soendre-1937-f69",
           "ft1940-viborg-vesterled49"
         ]
       }
