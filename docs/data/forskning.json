@@ -45,6 +45,24 @@
       "tekst": "Åbn foto Viborg_K165 på dk-gravsten.dk og gem et skærmbillede. Stenen kan have flere navne eller en tekst, som databasen ikke viser.",
       "anenummer": 8,
       "status": "åben"
+    },
+    {
+      "titel": "Se originalen af folketællingen 1930 for Gerner Qvist",
+      "tekst": "Viborg Købstad, 1. distrikt, Søtorps Forlængelse, opslag 7085, på Arkivalieronline. Gem et skærmbillede. Så kan kilden opgraderes fra afledt til primær.",
+      "anenummer": 8,
+      "status": "åben"
+    },
+    {
+      "titel": "Find Gerner og Tage i folketællingerne 1921, 1925 og 1940",
+      "tekst": "Ikke indtastet i Dansk Demografisk Database. Søg Qvist i Viborg på Danish Family Search (kræver gratis login) eller bladr i listerne for Viborg Købstad på Arkivalieronline. Adressen i 1930 var Søtorps Forlængelse.",
+      "anenummer": 8,
+      "status": "åben"
+    },
+    {
+      "titel": "Tages dåb i Viborg 1924",
+      "tekst": "Tage Clemmen Clemmensen Qvist er født 10. juni 1924 i Viborg ifølge folketællingen 1930. Dåben står i kirkebogen for Viborg Domsogn eller Søndre Sogn. Den nævner forældrene. Bruges, når Ole er bekræftet.",
+      "anenummer": 4,
+      "status": "åben"
     }
   ],
   "log": [
@@ -113,6 +131,35 @@
       "tekst": "Søgt på Gerner Qvist, Tage Qvist og Tage Gerner Qvist. Ingen træf på nettet. Arkiverne selv kan ikke nås fra Claudes miljø, så der er lavet en trin for trin guide med links til attester, kirkebøger, folketællinger, gravsteder, aviser og lokalarkiver.",
       "personer": [
         4,
+        8
+      ],
+      "resultat": "ikke fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Gerner, Helga og Tage fundet i folketællingen 1930",
+      "tekst": "Fundet i Dansk Demografisk Database ved søgning på Qvist i Viborg amt 1890 til 1930. Viborg Købstad, 1. distrikt, Søtorps Forlængelse, husstand 3395, opslag 7085. Husfader Gerner Clemmen Clemmensen Qvist, født 23. marts 1890 i Skelskør, gift 1919, handelsmedhjælper, arbejdsløs, fem levende børn. Husmoder Helga Margrethe Qvist, født 28. december 1896 i Viborg. Børn: Kjeld (1920), Inge Johanne (1921), Tage Clemmen Clemmensen (10. juni 1924), Orla (1925) og Ludvig Valdemar (1927), alle født i Viborg. Begge forældres fødselsdatoer stemmer med gravstenen Viborg_K165. Det er den uafhængige kilde, der binder Tage til Gerner og Helga. Søskende er ikke i linjen og registreres ikke. Villy Clemmen Clemmensen Qvist fra gravstenssøgningen er sandsynligvis en yngre bror til Tage, født efter 1930, og er heller ikke i linjen. Kilden er en indtastning. Originalen bør ses på Arkivalieronline.",
+      "personer": [
+        4,
+        8,
+        9
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Gerner som barn i folketællingen 1901 i Skælskør",
+      "tekst": "Søgt på fornavnet Gerner i Sorø amt 1890 til 1916. Fundet i 1901: Skælskør Købstad, Slagelsevej, husstand 245. Gerner Clemmen Clemmesen Qvist, født 23. marts 1890 i Skjelskør, barn. Forældre: slagtermester Ludvig Valdemar Qvist, født 27. juni 1859 i Skjelskør, og Johanne Marie Qvist, født Møller, født 7. februar 1864 i Skjelskør. I husstanden også syv yngre søskende og en enke, Johanne Qvist, født 29. september 1825 i Pedersborg Sogn, anført som svigermoder. Mærkeligt at svigermoderen hedder Qvist. Hun er måske Ludvigs mor, og rubrikken kan være fejllæst eller fejlskrevet. Forældrene er ikke oprettet som personer, fordi Gerner endnu er et spor. De undersøges, når Gerner er bekræftet.",
+      "personer": [
+        8
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Folketællingerne 1921, 1925 og 1940 for familien Qvist",
+      "tekst": "Dansk Demografisk Database har ingen træf på Clemmensen eller Qvist for familien i Viborg amt i 1921 og 1925. Viborg Købstad er formentlig ikke indtastet for de år. Folketællingen 1940 findes ikke i databasen. Danish Family Search kræver login for at søge, og MyHeritage afviser automatiske opslag. 1921, 1925 og 1940 må derfor ses i de scannede lister på Arkivalieronline eller søges af Jesper på Danish Family Search.",
+      "personer": [
         8
       ],
       "resultat": "ikke fundet"

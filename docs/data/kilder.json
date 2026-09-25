@@ -72,5 +72,25 @@
     "url": "https://www.dk-gravsten.dk/kirkeg/Viborg.php",
     "kvalitet": "afledt",
     "noter": "Afskrift i databasen af gravstenens oplysninger: Gerner Qvist, født 23.03.1890, død 15.12.1953. Helga Qvist, født 28.12.1896, død 10.05.1991. Ingen fødesteder angivet. Selve gravstensfotoet bør gemmes som dokumentation."
+  },
+  {
+    "id": "ft1930-viborg-3395",
+    "titel": "Folketælling 1930, Viborg Købstad, husstand 3395",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Dansk Demografisk Database (indtastning af folketællingen)",
+    "reference": "Viborg amt, Nørlyng herred, Viborg Købstad, 1. distrikt, Søtorps Forlængelse, forhus, kvist. Husstand 3395, opslag 7085, indtastning D9388, løbenr. 14062 til 14068",
+    "url": "https://ddd.dda.dk/soeg_amter.asp",
+    "kvalitet": "afledt",
+    "noter": "Frivilliges indtastning af folketællingen. Husfader Gerner Clemmen Clemmensen Qvist, født 23. marts 1890 i Skelskør, gift 1919, handelsmedhjælper, arbejdsløs. Husmoder Helga Margrethe Qvist, født 28. december 1896 i Viborg. Fem børn, alle født i Viborg, heriblandt Tage Clemmen Clemmensen Qvist, født 10. juni 1924. Originalen, opslag 7085, bør ses på Arkivalieronline. Så bliver kilden primær."
+  },
+  {
+    "id": "ft1901-skaelskoer-245",
+    "titel": "Folketælling 1901, Skælskør Købstad, husstand 245",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Dansk Demografisk Database (indtastning af folketællingen)",
+    "reference": "Sorø amt, Vester Flakkebjerg herred, Skælskør Købstad, Slagelsevej. Husstand 245, kontrolliste 2, opslag 57, indtastning D6455, løbenr. 1765",
+    "url": "https://ddd.dda.dk/soeg_amter.asp",
+    "kvalitet": "afledt",
+    "noter": "Frivilliges indtastning af folketællingen. Gerner Clemmen Clemmesen Qvist, født 23. marts 1890 i Skelskør, bor som barn hos slagtermester Ludvig Valdemar Qvist og Johanne Marie Qvist, født Møller. Originalen bør ses på Arkivalieronline."
   }
 ]

@@ -64,5 +64,14 @@
     "amt": "Sønderborg Amt",
     "lat": 55.057,
     "lng": 9.742
+  },
+  {
+    "id": "skaelskoer",
+    "navn": "Skælskør",
+    "sogn": "Skælskør Sogn",
+    "herred": "Vester Flakkebjerg Herred",
+    "amt": "Sorø Amt",
+    "lat": 55.2506,
+    "lng": 11.2939
   }
 ]

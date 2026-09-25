@@ -40,12 +40,12 @@ Anenumre: rodpersonen er 1, far til n er 2n, mor til n er 2n + 1.
 | 1 | Jesper Gravlev Qvist | bekræftet (rodperson) | Nulevende. Kun navn. |
 | 2 | Ole Gravlev Qvist | under undersøgelse | Far. Født 24. juli 1950. Død, dato og sted ukendt. Slægten fra Viborg. Fødesogn ukendt. |
 | 3 | Dorthe Merete Qvist, født Sørensen | under undersøgelse | Mor. Nulevende, født 1945. Slægten fra Sønderjylland. |
-| 4 | Tage Qvist | spor | Farfar. Boede i Viborg. |
+| 4 | Tage Qvist | spor | Farfar. Fuldt navn Tage Clemmen Clemmensen Qvist. Født 10. juni 1924 i Viborg (FT 1930). |
 | 5 | Else Qvist | spor | Farmor. Boede i Viborg. Pigenavn ukendt. |
 | 6 | Helmuth Sørensen | spor | Morfar. Boede i Haderslev. (Blev først fejlagtigt skrevet som Sønderborg. Rettet.) |
 | 7 | Anna Sørensen | spor | Mormor. Boede i Haderslev. |
-| 8 | Gerner Qvist | spor | Oldefar, far til Tage. Født 23. marts 1890, død 15. december 1953. |
-| 9 | Helga Qvist | spor | Oldemor, mor til Tage. Født 28. december 1896, død 10. maj 1991. Pigenavn ukendt. |
+| 8 | Gerner Qvist | spor | Oldefar, far til Tage. Gerner Clemmen Clemmensen Qvist. Født 23. marts 1890 i Skælskør, gift 1919, død 15. december 1953. |
+| 9 | Helga Margrethe Qvist | spor | Oldemor, mor til Tage. Født 28. december 1896 i Viborg, død 10. maj 1991. Pigenavn ukendt. |
 
 Gerner og Helga ligger i samme gravsted på Viborg Kirkegård, foto Viborg_K165 hos DK-gravsten. Fundet af Jesper ved søgning på Qvist på https://www.dk-gravsten.dk/kirkeg/Viborg.php. De øvrige navne i den søgning (Emil Qvist, Ib Qvistgaard, Villy Clemmen Clemmensen Qvist og Nina Qvist) er **ikke** i linjen.
 
@@ -56,6 +56,10 @@ Fiktive eksempler står lige nu på anenumrene 10 til 15, 24, 25 og 48 (farmors 
 * **Websøgning** på Ole Gravlev Qvist, Tage og Else Qvist, Helmuth Sønderborg (forkert navn), Gerner Qvist og Tage Gerner Qvist. Ingen brugbare træf.
 * **Fejlmatch, afvist:** Landsholdsmålmanden Ole Qvist fra KB er født 25. februar 1950 i København og lever. Han er **ikke** Jespers far. Et søgeresumé påstod, at han også hed "Ole Gravlev Qvist". Det stod ikke i kilderne og er forkert. Brug ham aldrig som match.
 * **Gravsten** for Gerner og Helga fundet (se ovenfor).
+* **Folketællingen 1930 fundet** i Dansk Demografisk Database (ddd.dda.dk, åben søgning uden login). Viborg Købstad, Søtorps Forlængelse, husstand 3395, opslag 7085: Gerner Clemmen Clemmensen Qvist, hustru Helga Margrethe og fem børn, heriblandt Tage (født 10. juni 1924 i Viborg). Datoerne stemmer med gravstenen. Kilden `ft1930-viborg-3395` er en indtastning (afledt). Originalen bør ses.
+* **Folketællingen 1901** (Skælskør, husstand 245): Gerner som barn hos slagtermester Ludvig Valdemar Qvist (født 27. juni 1859) og Johanne Marie Qvist, født Møller (født 7. februar 1864). Kun i loggen, ikke oprettet som personer, fordi Gerner er et spor.
+* **1921, 1925 og 1940** er ikke indtastet i DDD for Viborg Købstad. Danish Family Search kræver login, og MyHeritage blokerer automatiske opslag.
+* **Tip til søgning:** DDD kan søges direkte med `curl` mod `https://ddd.dda.dk/asp/soeg_amter.asp` (felterne `operator=3`, `navn`, `amt`, `kilde`) og detaljer med `https://ddd.dda.dk/asp/alle_opl.asp` (felterne `amt`, `indtastningsnr`, `lbnr`).
 * **Den tidligere samtale havde ikke adgang** til arkiverne. Almindelig websøgning virkede, men disse domæner var blokeret: arkivalieronline.rigsarkivet.dk, danishfamilysearch.dk, dk-gravsten.dk, slaegt.dk og qvisty.github.io.
 
 ## 6. Næste skridt i forskningen
@@ -64,8 +68,8 @@ I rækkefølge efter reglerne:
 
 1. **Bekræft Ole og Dorthe Merete.** Bedste kilde er Jespers fødsels og dåbsattest fra borger.dk. Den nævner begge forældre.
 2. **Oles fødsel 1950** i kirkebogen. Fødesognet skal findes først. Dåbsindførslen nævner forældrene, altså Tage og Else og Elses pigenavn.
-3. **Søg Gerner Qvist i folketællingerne 1921, 1925, 1930 og 1940** (navnesøgbare på Danish Family Search, FamilySearch og MyHeritage). Tage bør stå som søn i husstanden. Det giver fødesteder og er den uafhængige kilde, der binder Tage til Gerner og Helga.
-4. **Gerner som barn** i folketællingerne 1901 og 1906 giver hans forældre. Hans dåb i 1890 findes i kirkebogen for fødestedet.
+3. **Folketællingen 1930 er fundet** og binder Tage til Gerner og Helga. Mangler: originalen (opslag 7085) og FT 1921, 1925 og 1940, som skal findes på Danish Family Search eller Arkivalieronline.
+4. **Gerner som barn** er fundet i FT 1901 i Skælskør med forældrene. Hans dåb i 1890 står i kirkebogen for Skælskør. Forældrene undersøges først, når Gerner er bekræftet.
 5. **Dorthe Meretes dåb 1945** i Sønderjylland. Nævner Helmuth og Anna Sørensen. Husk de sønderjyske regler: borgerlig registrering fra 1874, fortsat efter 1920.
 6. **Helmuth og Anna Sørensen** i folketællingen 1940 i Haderslev og deres gravsted. Er Helmuth født før 1920, er han født under tysk styre, og fødslen kan stå i det tyske standesamtsregister.
 7. **Gravsteder** for Tage, Else og Ole. Søg Qvist i hele landet på DK-gravstens avancerede søgning og på Find gravsted.

@@ -52,10 +52,28 @@
     "koen": "m",
     "status": "spor",
     "kilder": [
-      "fam-jesper-2026"
+      "fam-jesper-2026",
+      "ft1930-viborg-3395"
     ],
-    "noter": "Navn og bopæl fra familien. Undersøges, når Ole er bekræftet.",
+    "noter": "Navn og bopæl fra familien. I folketællingen 1930 bor Tage Clemmen Clemmensen Qvist, født 10. juni 1924 i Viborg, som barn hos Gerner og Helga Qvist. Status forbliver spor, indtil Ole er bekræftet.",
     "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1924-06-10",
+        "sted": "viborg",
+        "kilder": [
+          "ft1930-viborg-3395"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1930",
+        "sted": "viborg",
+        "beskrivelse": "Barn i forældrenes husstand, Søtorps Forlængelse, Viborg",
+        "kilder": [
+          "ft1930-viborg-3395"
+        ]
+      },
       {
         "type": "bopæl",
         "sted": "viborg",
@@ -64,6 +82,9 @@
         ],
         "beskrivelse": "Boede i Viborg ifølge familien"
       }
+    ],
+    "navnevarianter": [
+      "Tage Clemmen Clemmensen Qvist"
     ]
   },
   {
@@ -375,15 +396,46 @@
     "status": "spor",
     "kilder": [
       "gravsten-viborg-k165",
-      "fam-jesper-2026"
+      "fam-jesper-2026",
+      "ft1930-viborg-3395",
+      "ft1901-skaelskoer-245"
     ],
-    "noter": "Oldefar ifølge Jesper. Far til Tage Qvist ifølge Jesper. Begravet i samme gravsted som Helga Qvist (foto Viborg_K165). Gerner er et sjældent fornavn, hvilket gør ham lettere at finde i kirkebøger og folketællinger.",
+    "noter": "Oldefar ifølge Jesper. Begravet i samme gravsted som Helga Qvist (foto Viborg_K165). Folketællingen 1930 viser ham som husfader i Viborg med hustru Helga og sønnen Tage. Fødselsdatoen 23. marts 1890 stemmer med gravstenen. Født i Skælskør, hvor han i 1901 bor hos sine forældre. Forældrene står kun i forskningsloggen, indtil Gerner er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1890-03-23",
+        "sted": "skaelskoer",
         "kilder": [
-          "gravsten-viborg-k165"
+          "gravsten-viborg-k165",
+          "ft1930-viborg-3395",
+          "ft1901-skaelskoer-245"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1901",
+        "sted": "skaelskoer",
+        "beskrivelse": "Barn i forældrenes husstand, Slagelsevej, Skælskør",
+        "kilder": [
+          "ft1901-skaelskoer-245"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1919",
+        "beskrivelse": "Gift 1919 ifølge folketællingen 1930. Sted ukendt",
+        "kilder": [
+          "ft1930-viborg-3395"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1930",
+        "sted": "viborg",
+        "beskrivelse": "Husfader, handelsmedhjælper, arbejdsløs. Søtorps Forlængelse, Viborg",
+        "kilder": [
+          "ft1930-viborg-3395"
         ]
       },
       {
@@ -401,25 +453,41 @@
           "gravsten-viborg-k165"
         ]
       }
+    ],
+    "navnevarianter": [
+      "Gerner Clemmen Clemmensen Qvist",
+      "Gerner Clemmen Clemmesen Qvist"
     ]
   },
   {
     "anenummer": 9,
-    "fornavne": "Helga",
+    "fornavne": "Helga Margrethe",
     "efternavn": "Qvist",
     "koen": "k",
     "status": "spor",
     "kilder": [
       "gravsten-viborg-k165",
-      "fam-jesper-2026"
+      "fam-jesper-2026",
+      "ft1930-viborg-3395"
     ],
-    "noter": "Oldemor ifølge Jesper. Mor til Tage Qvist. Qvist er formentlig hendes gifte navn, pigenavnet er ukendt. Begravet i samme gravsted som Gerner Qvist (foto Viborg_K165).",
+    "noter": "Oldemor ifølge Jesper. Qvist er hendes gifte navn, pigenavnet er ukendt. I folketællingen 1930 står hun som husmoder hos Gerner Qvist med sønnen Tage. Fødselsdatoen 28. december 1896 stemmer med gravstenen. Begravet i samme gravsted som Gerner Qvist (foto Viborg_K165).",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1896-12-28",
+        "sted": "viborg",
         "kilder": [
-          "gravsten-viborg-k165"
+          "gravsten-viborg-k165",
+          "ft1930-viborg-3395"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1930",
+        "sted": "viborg",
+        "beskrivelse": "Husmoder, Søtorps Forlængelse, Viborg",
+        "kilder": [
+          "ft1930-viborg-3395"
         ]
       },
       {
