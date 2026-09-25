@@ -1080,5 +1080,105 @@
     "url": "https://ddd.dda.dk/soeg_amter.asp",
     "kvalitet": "afledt",
     "noter": "Daniel Møller, 53, snedker (født Assens ifølge FT 1845). Margrethe Petersen, 51 (født Svendborg ifølge FT 1845). Johan Jacob Møller, 20, snedkersvend. Rasmine, 13. Kun set i indtastningen."
+  },
+  {
+    "id": "kb-vindblaes-1857-m1",
+    "titel": "Kirkebog, Vindblæs Sogn, fødte drenge 1857, nr. 1",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, fødte mænd 1844 til 1863, opslag 17, nr. 1",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=358813#358813,70492615",
+    "kvalitet": "primær",
+    "noter": "Anders Christian Jensen, født 3. marts 1857, hjemmedøbt 8. marts. Forældre: husmand og drejer Jens Gravlev Pedersen og hustru Hedevig Larsdatter i Bjørumslette Hus. Tilføjet: navnebevis 1905 på navnet Anders Christian Gravlev. Læst af en underagent."
+  },
+  {
+    "id": "kb-vindblaes-1881-v1",
+    "titel": "Kirkebog, Vindblæs Sogn, viede 1881, nr. 1",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, viede 1863 til 1891, opslag 10, nr. 1",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=358824#358824,70492836",
+    "kvalitet": "primær",
+    "noter": "Viet 10. juni 1881 i kirken. Ungkarl Anders Kristian Jensen, født 3. marts 1857, medhjælper hos faderen husmand Jens Gravlev Pedersen i Vindblæs, og pige Johanne Eriksen, født 22. juni 1857. Forlovere: gårdmand Søren Eriksen i Vilsted og husmand Jens Gravlev Pedersen i Vindblæs. Læst af en underagent."
+  },
+  {
+    "id": "kb-vindblaes-1903-d1",
+    "titel": "Kirkebog, Vindblæs Sogn, døde mænd 1903, nr. 1",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1892 til 1910, opslag 167, nr. 1",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172300#172300,28932502",
+    "kvalitet": "primær",
+    "noter": "Jens Gravlev Pedersen, aftægtsmand, Bjørumslet, født i Bjørumslet, søn af Peder Chrestensen og Else Chrestensdatter, gårdbeboere i Bjørumslet, enkemand efter Hedevig Larsdatter, død 18. februar 1903, begravet 25. februar, 83 år. Læst af en underagent."
+  },
+  {
+    "id": "kb-malle-1857-f3",
+    "titel": "Kirkebog, Malle Sogn, fødte piger 1857, nr. 3",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, fødte kvinder 1813 til 1858, opslag 28, nr. 3",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=359540#359540,70506952",
+    "kvalitet": "primær",
+    "noter": "Johanne Eriksen, født 22. juni 1857, døbt i kirken 9. august. Forældre: gårdmand Lars Peter Eriksen på Hedegaard og hustru Kirsten Marie Nielsdatter, 30 år. Læst af en underagent."
+  },
+  {
+    "id": "ft1880-vindblaes-bjoerumslet",
+    "titel": "Folketælling 1880, Vindblæs, Bjørumslet",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Dansk Demografisk Database",
+    "reference": "Dansk Demografisk Database, indtastning C4231, løbenr. 315 og følgende",
+    "url": "https://ddd.dda.dk/soeg_amter.asp",
+    "kvalitet": "afledt",
+    "noter": "Lars Peter Jensen, 35, enkemand, husfader. Anders Kristian Jensen, 22, hans bror. Jens Gravlev Pedersen, 60, husfaderens far, aftægtsmand. Hedevig Larsdatter, 66, født Stagstrup Sogn, Thisted Amt. Kun set i indtastningen."
+  },
+  {
+    "id": "ft1890-vindblaes-54",
+    "titel": "Folketælling 1890, Vindblæs, Bjørnsleth hus 54",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Dansk Demografisk Database",
+    "reference": "Dansk Demografisk Database, indtastning C3779, løbenr. 298 og følgende",
+    "url": "https://ddd.dda.dk/soeg_amter.asp",
+    "kvalitet": "afledt",
+    "noter": "Anders Kristian Jensens husstand med børnene Lasine Kjerstine 7, Sorine Krestine 5, Jens Gravle 3 og Niels Krestien Peter 2 samt bedstefaren Jens Gravle Pedersen, 70, enkemand. Kun set i indtastningen."
+  },
+  {
+    "id": "kb-vodder-1931-rasmus-wind",
+    "titel": "Kirkebog, Vodder Sogn, døde mænd 1931 (Rasmus Andresen Wind)",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1929 til 1940, døde mandkøn, opslag 141, nr. 0",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=202937#202937,38480861",
+    "kvalitet": "primær",
+    "noter": "Rasmus Andresen Wind, aldersrentenyder, enkemand, født i Visby Sogn 16. december 1859, søn af afdøde husmand Hans Nissen Wind og Kirstine Marie, død 14. marts 1931 i Fjersted, Spandet Sogn, begravet 20. marts på Vodder Kirkegård. Hustruen Anne Christine født Lausen døde 14. marts 1922. Læst af en underagent."
+  },
+  {
+    "id": "kb-visby-1859-m11",
+    "titel": "Kirkebog, Visby Sogn, fødte drenge 1859, nr. 11",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, fødte mænd 1859 til 1884, opslag 5, nr. 11",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=455392#455392,81465561",
+    "kvalitet": "primær",
+    "noter": "Rasmus Andresen Vind, født 16. december 1859, døbt i kirken 1. januar 1860. Forældre: husmand Hans Nissen Vind og hustru Kirsten Marie af Gammelby. Læst af en underagent."
+  },
+  {
+    "id": "kb-vodder-1922-d3",
+    "titel": "Kirkebog, Vodder Sogn, døde 1922, nr. 3",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1909 til 1929, opslag 134, nr. 3",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=202936#202936,38480708",
+    "kvalitet": "primær",
+    "noter": "Anna Christine Wind født Lausen af Gaansager, født i Højst Sogn 5. juli 1862, gift med smed Rasmus Andreasen Wind, død 14. marts 1922, begravet 20. marts, 59¾ år. Læst af en underagent."
+  },
+  {
+    "id": "kb-hoejst-1862-13",
+    "titel": "Kirkebog, Højst Sogn, fødte 1862, nr. 13",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Hovedministerialbog, fødte 1826 til 1867, opslag 275, nr. 13",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201810#201810,38250455",
+    "kvalitet": "primær",
+    "noter": "Anne Kristine Lauesen, født 5. juli 1862, døbt 27. juli, ægte datter af indsidder Kristen Hansen Lauesen og Anne Kristine Andersen, 19 år, i Lundsgaard. Læst af en underagent."
   }
 ]

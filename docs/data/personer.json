@@ -2267,16 +2267,28 @@
     "kilder": [
       "pr-skaerbaek-1920-v3",
       "pr-toftlund-1901-f80",
-      "pr-toftlund-wind-boern"
+      "pr-toftlund-wind-boern",
+      "kb-visby-1859-m11",
+      "kb-vodder-1931-rasmus-wind"
     ],
-    "noter": "Smed, senere smedemester og skræddermester i Toftlund, i 1920 i Gånsager. 60 år i februar 1920. Vielse, død og forældre ikke fundet.",
+    "noter": "Født i Gammelby, Visby Sogn, søn af husmand Hans Nissen Wind og Kirsten Marie. Smed og skræddermester i Toftlund, senere Gånsager. Døde som enkemand i Fjersted, Spandet Sogn, 1931. Vielsen før 1885 er ikke fundet.",
     "haendelser": [
       {
         "type": "fødsel",
-        "dato": "ca. 1859",
-        "beskrivelse": "Beregnet ud fra alderen 60 år i 1920",
+        "dato": "1859-12-16",
+        "sted": "visby",
+        "beskrivelse": "Gammelby",
         "kilder": [
-          "pr-skaerbaek-1920-v3"
+          "kb-visby-1859-m11",
+          "kb-vodder-1931-rasmus-wind"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1860-01-01",
+        "sted": "visby",
+        "kilder": [
+          "kb-visby-1859-m11"
         ]
       },
       {
@@ -2297,6 +2309,24 @@
           "pr-toftlund-wind-boern",
           "pr-toftlund-1901-f80"
         ]
+      },
+      {
+        "type": "død",
+        "dato": "1931-03-14",
+        "sted": "spandet",
+        "beskrivelse": "Fjersted",
+        "kilder": [
+          "kb-vodder-1931-rasmus-wind"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1931-03-20",
+        "sted": "gaansager",
+        "beskrivelse": "Vodder Kirkegård",
+        "kilder": [
+          "kb-vodder-1931-rasmus-wind"
+        ]
       }
     ]
   },
@@ -2306,6 +2336,7 @@
     "efternavn": "Wind",
     "navnevarianter": [
       "Anna Christine Lausen",
+      "Anne Kristine Lauesen",
       "Anna Christine Lassen"
     ],
     "koen": "k",
@@ -2314,16 +2345,54 @@
     "kilder": [
       "pr-skaerbaek-1920-v3",
       "pr-toftlund-1901-f80",
-      "pr-toftlund-wind-boern"
+      "pr-toftlund-wind-boern",
+      "kb-hoejst-1862-13",
+      "kb-vodder-1922-d3",
+      "kb-vodder-1931-rasmus-wind"
     ],
-    "noter": "Pigenavnet er Lausen i fødselsanmeldelserne og Lassen i vielsen 1920. Barnebarnet Anna Christine Bundesen er opkaldt efter hende.",
+    "noter": "Født i Lundsgaard, Højst Sogn, datter af indsidder Kristen Hansen Lauesen og Anne Kristine Andersen. Barnebarnet Anna Christine Bundesen er opkaldt efter hende.",
     "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1862-07-05",
+        "sted": "hoejst",
+        "beskrivelse": "Lundsgaard",
+        "kilder": [
+          "kb-hoejst-1862-13",
+          "kb-vodder-1922-d3"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1862-07-27",
+        "sted": "hoejst",
+        "kilder": [
+          "kb-hoejst-1862-13"
+        ]
+      },
       {
         "type": "bopæl",
         "dato": "1920",
         "sted": "gaansager",
         "kilder": [
           "pr-skaerbaek-1920-v3"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1922-03-14",
+        "sted": "gaansager",
+        "kilder": [
+          "kb-vodder-1922-d3"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1922-03-20",
+        "sted": "gaansager",
+        "beskrivelse": "Vodder",
+        "kilder": [
+          "kb-vodder-1922-d3"
         ]
       }
     ]
@@ -2887,6 +2956,31 @@
     ],
     "soeskende": [
       {
+        "navn": "Lasine Kjerstine Jensen",
+        "koen": "k",
+        "foedt": "ca. 1883",
+        "kilder": [
+          "ft1890-vindblaes-54"
+        ]
+      },
+      {
+        "navn": "Sorine Krestine Jensen",
+        "koen": "k",
+        "foedt": "ca. 1885",
+        "kilder": [
+          "ft1890-vindblaes-54"
+        ]
+      },
+      {
+        "navn": "Jens Gravlev Jensen",
+        "koen": "m",
+        "foedt": "ca. 1887",
+        "kilder": [
+          "ft1890-vindblaes-54"
+        ],
+        "noter": "Formentlig banearbejder Jens Gravlev, forlover i 1939"
+      },
+      {
         "navn": "Niels Christian Peter Gravlev",
         "koen": "m",
         "foedt": "1888-01-22",
@@ -2927,17 +3021,58 @@
     "kilder": [
       "kb-vindblaes-1895-f8",
       "kb-salling-1939-v1",
-      "ft1901-vindblaes-44"
+      "ft1901-vindblaes-44",
+      "kb-vindblaes-1857-m1",
+      "kb-vindblaes-1881-v1",
+      "ft1880-vindblaes-bjoerumslet",
+      "ft1890-vindblaes-54"
     ],
-    "noter": "Husmand og jordbruger i Bjørumslet, Vindblæs. Hed Jensen i 1895 og 1901, Gravlev i 1939. Navnet Gravlev kommer måske fra aftægtsmand Jens Gravlev Pedersen (født 1819), der boede hos familien i 1901.",
+    "noter": "Født i Bjørumslet, Vindblæs, søn af husmand og rokkedrejer Jens Gravlev Pedersen og Hedevig Larsdatter. Tog navnet Gravlev ved navnebevis i 1905, efter sin far. Husmand og jordbruger i Bjørumslet. Død ikke fundet.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1857-03-03",
         "sted": "vindblaes",
-        "beskrivelse": "Dato fra FT 1901",
+        "beskrivelse": "Bjørumslet",
         "kilder": [
-          "ft1901-vindblaes-44"
+          "kb-vindblaes-1857-m1",
+          "kb-vindblaes-1881-v1"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1857-03-08",
+        "sted": "vindblaes",
+        "beskrivelse": "Hjemmedøbt",
+        "kilder": [
+          "kb-vindblaes-1857-m1"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1880",
+        "sted": "vindblaes",
+        "beskrivelse": "Hos broderen og forældrene i Bjørumslet",
+        "kilder": [
+          "ft1880-vindblaes-bjoerumslet"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1881-06-10",
+        "sted": "vindblaes",
+        "beskrivelse": "Vindblæs Kirke, med Johanne Eriksen",
+        "kilder": [
+          "kb-vindblaes-1881-v1"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1890",
+        "sted": "vindblaes",
+        "beskrivelse": "Husfader, Bjørnsleth",
+        "kilder": [
+          "ft1890-vindblaes-54"
         ]
       },
       {
@@ -2948,6 +3083,25 @@
         "kilder": [
           "ft1901-vindblaes-44"
         ]
+      },
+      {
+        "type": "andet",
+        "dato": "1905",
+        "beskrivelse": "Navnebevis på navnet Gravlev",
+        "kilder": [
+          "kb-vindblaes-1857-m1"
+        ]
+      }
+    ],
+    "soeskende": [
+      {
+        "navn": "Lars Peter Jensen",
+        "koen": "m",
+        "foedt": "ca. 1844",
+        "kilder": [
+          "ft1880-vindblaes-bjoerumslet"
+        ],
+        "noter": "Husmand i Bjørumslet"
       }
     ]
   },
@@ -2964,17 +3118,28 @@
     "kilder": [
       "kb-vindblaes-1895-f8",
       "kb-salling-1939-v1",
-      "ft1901-vindblaes-44"
+      "ft1901-vindblaes-44",
+      "kb-malle-1857-f3",
+      "kb-vindblaes-1881-v1"
     ],
-    "noter": "Født i Malle. 38 år i 1895.",
+    "noter": "Født på Hedegaard i Malle Sogn, datter af gårdmand Lars Peter Eriksen og Kirsten Marie Nielsdatter. Husholderske i Vilsted i 1880.",
     "haendelser": [
       {
         "type": "fødsel",
-        "dato": "1857-06-23",
+        "dato": "1857-06-22",
         "sted": "malle",
-        "beskrivelse": "Dato fra FT 1901",
+        "beskrivelse": "Hedegaard. FT 1901 siger 23. juni",
         "kilder": [
-          "ft1901-vindblaes-44"
+          "kb-malle-1857-f3",
+          "kb-vindblaes-1881-v1"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1857-08-09",
+        "sted": "malle",
+        "kilder": [
+          "kb-malle-1857-f3"
         ]
       },
       {
@@ -3460,6 +3625,207 @@
     "haendelser": [],
     "navnevarianter": [
       "Sophie Frederikke Landgreen"
+    ]
+  },
+  {
+    "anenummer": 44,
+    "fornavne": "Jens Gravlev",
+    "efternavn": "Pedersen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Anders Christians dåb 1857 og vielse 1881 nævner husmand Jens Gravlev Pedersen som far, og FT 1880 kalder ham husfaderens far i samme husstand.",
+    "kilder": [
+      "kb-vindblaes-1857-m1",
+      "kb-vindblaes-1881-v1",
+      "ft1880-vindblaes-bjoerumslet",
+      "kb-vindblaes-1903-d1",
+      "ft1901-vindblaes-44"
+    ],
+    "noter": "Husmand, snedker og rokkedrejer i Bjørumslet, Vindblæs. Navnet Gravlev går videre til hans efterkommere. Fadder ved barnebarnet Marens dåb 1895.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1819-12-19",
+        "sted": "vindblaes",
+        "beskrivelse": "Bjørumslet",
+        "kilder": [
+          "kb-vindblaes-1903-d1",
+          "ft1901-vindblaes-44"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1857",
+        "sted": "vindblaes",
+        "beskrivelse": "Husmand og rokkedrejer",
+        "kilder": [
+          "kb-vindblaes-1857-m1"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1903-02-18",
+        "sted": "vindblaes",
+        "beskrivelse": "Bjørumslet, 83 år",
+        "kilder": [
+          "kb-vindblaes-1903-d1"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1903-02-25",
+        "sted": "vindblaes",
+        "beskrivelse": "Vindblæs Kirkegård",
+        "kilder": [
+          "kb-vindblaes-1903-d1"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 45,
+    "fornavne": "Hedevig",
+    "efternavn": "Larsdatter",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Anders Christians dåb 1857 nævner Hedevig Larsdatter som mor, og hun bor i sønnens husstand i FT 1880.",
+    "kilder": [
+      "kb-vindblaes-1857-m1",
+      "ft1880-vindblaes-bjoerumslet",
+      "kb-vindblaes-1903-d1"
+    ],
+    "noter": "Født ca. 1813 i Thisted Amt, i folketællingerne Vester Thorup eller Stagstrup Sogn. Død før 1903.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1813",
+        "beskrivelse": "Thisted Amt",
+        "kilder": [
+          "ft1880-vindblaes-bjoerumslet"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 46,
+    "fornavne": "Lars Peter",
+    "efternavn": "Eriksen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Johannes dåb 1857 nævner gårdmand Lars Peter Eriksen på Hedegaard som far.",
+    "kilder": [
+      "kb-malle-1857-f3"
+    ],
+    "noter": "Gårdmand på Hedegaard, Malle Sogn. 31 år i 1860.",
+    "haendelser": [
+      {
+        "type": "erhverv",
+        "dato": "1857",
+        "sted": "malle",
+        "beskrivelse": "Gårdmand på Hedegaard",
+        "kilder": [
+          "kb-malle-1857-f3"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 47,
+    "fornavne": "Kirsten Marie",
+    "efternavn": "Nielsdatter",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Johannes dåb 1857 nævner Kirsten Marie Nielsdatter som mor.",
+    "kilder": [
+      "kb-malle-1857-f3"
+    ],
+    "noter": "30 år i 1857.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 88,
+    "fornavne": "Peder",
+    "efternavn": "Chrestensen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Jens Gravlev Pedersens dødsindførsel 1903 nævner Peder Chrestensen, gårdbeboer i Bjørumslet, som far.",
+    "kilder": [
+      "kb-vindblaes-1903-d1"
+    ],
+    "noter": "Gårdbeboer i Bjørumslet, Vindblæs.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 89,
+    "fornavne": "Else",
+    "efternavn": "Chrestensdatter",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Jens Gravlev Pedersens dødsindførsel 1903 nævner Else Chrestensdatter som mor.",
+    "kilder": [
+      "kb-vindblaes-1903-d1"
+    ],
+    "noter": "Gårdbeboer i Bjørumslet, Vindblæs.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 60,
+    "fornavne": "Hans Nissen",
+    "efternavn": "Wind",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Rasmus Andresen Winds dåb 1859 og død 1931 nævner husmand Hans Nissen Wind som far.",
+    "kilder": [
+      "kb-visby-1859-m11",
+      "kb-vodder-1931-rasmus-wind"
+    ],
+    "noter": "Husmand i Gammelby, Visby Sogn. Barnebarnet Hans Nissen Wind (1885) er opkaldt efter ham.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Hans Nissen Vind"
+    ]
+  },
+  {
+    "anenummer": 61,
+    "fornavne": "Kirsten Marie",
+    "efternavn": "Wind",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Rasmus Andresen Winds dåb 1859 og død 1931 nævner Kirsten Marie som mor.",
+    "kilder": [
+      "kb-visby-1859-m11",
+      "kb-vodder-1931-rasmus-wind"
+    ],
+    "noter": "Af Gammelby, Visby Sogn. Formentlig Kirsten Marie Jensen, indsidderske i Gammelby i FT 1860, men det er ikke bevist.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 62,
+    "fornavne": "Kristen Hansen",
+    "efternavn": "Lauesen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Anne Kristines dåb i Højst 1862 nævner indsidder Kristen Hansen Lauesen som far.",
+    "kilder": [
+      "kb-hoejst-1862-13"
+    ],
+    "noter": "Indsidder i Lundsgaard, Højst Sogn.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 63,
+    "fornavne": "Anne Kristine",
+    "efternavn": "Lauesen",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Anne Kristines dåb i Højst 1862 nævner Anne Kristine Andersen, 19 år, som mor.",
+    "kilder": [
+      "kb-hoejst-1862-13"
+    ],
+    "noter": "19 år i 1862, altså født ca. 1843.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Anne Kristine Andersen"
     ]
   }
 ]

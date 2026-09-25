@@ -190,5 +190,32 @@
     "amt": "Sorø Amt",
     "lat": 55.4028,
     "lng": 11.3542
+  },
+  {
+    "id": "visby",
+    "navn": "Visby (Gammelby)",
+    "sogn": "Visby Sogn",
+    "herred": "Højer Herred",
+    "amt": "Tønder Amt",
+    "lat": 55.0197,
+    "lng": 8.8214
+  },
+  {
+    "id": "hoejst",
+    "navn": "Højst (Lundsgaard)",
+    "sogn": "Højst Sogn",
+    "herred": "Tønder Herred",
+    "amt": "Tønder Amt",
+    "lat": 54.9981,
+    "lng": 9.1167
+  },
+  {
+    "id": "spandet",
+    "navn": "Fjersted, Spandet",
+    "sogn": "Spandet Sogn",
+    "herred": "Hviding Herred",
+    "amt": "Tønder Amt",
+    "lat": 55.2458,
+    "lng": 8.9333
   }
 ]
