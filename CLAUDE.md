@@ -1,5 +1,7 @@
 # Retningslinjer for Claude i dette repo
 
+**Læs `OVERDRAGELSE.md` først.** Den indeholder alle aftaler, familiens status, udført forskning og næste skridt.
+
 Dette er et slægtsforskningsprojekt for ejeren af repoet. Hjemmesiden ligger i `docs/` og udgives med GitHub Pages. Alle data ligger i `docs/data/`. Se `README.md` for dataformatet.
 
 ## Forskningsregler (skal altid følges)
