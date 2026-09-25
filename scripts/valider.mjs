@@ -99,18 +99,26 @@ for (const p of Array.isArray(personer) ? personer : []) {
 const brugteKilder = new Set()
 const brugteSteder = new Set()
 
+// En person er dokumenteret, når den er bekræftet eller har mindst én primærkilde.
+function dokumenteret (p) {
+  if (!p) return false
+  if (p.status === 'bekræftet') return true
+  const ids = [...(p.kilder || []), ...(p.haendelser || []).flatMap(h => h.kilder || [])]
+  return ids.some(id => K.get(id) && K.get(id).kvalitet === 'primær')
+}
+
 for (const [n, p] of P) {
   const hvem = 'Anenr. ' + n + ' (' + ([p.fornavne, p.efternavn].filter(Boolean).join(' ') || relation(n)) + ')'
   if (!STATUS.includes(p.status)) fejl.push(hvem + ': status skal være "bekræftet", "under undersøgelse" eller "spor"')
   if (n > 1 && p.koen && p.koen !== (n % 2 === 0 ? 'm' : 'k')) fejl.push(hvem + ': køn passer ikke med anenummeret. Lige numre er mænd, ulige er kvinder')
 
-  // Kerneregel: kun et led ad gangen fra en bekræftet ane.
+  // Kerneregel: kun et led ad gangen fra en ane, der er fundet i en primærkilde.
   // Et spor (familieoplysning) kræver kun, at barnet findes.
   if (n > 1) {
     const barn = P.get(n >> 1)
     if (!barn) fejl.push(hvem + ': barnet (anenr. ' + (n >> 1) + ') er ikke registreret. Den direkte linje skal være ubrudt')
-    else if (barn.status === 'spor' && p.status !== 'spor') fejl.push(hvem + ': barnet er kun en familieoplysning. Forælderen kan højst registreres som spor')
-    else if (p.status !== 'spor' && barn.status !== 'bekræftet') fejl.push(hvem + ': barnet (anenr. ' + (n >> 1) + ') er ikke bekræftet endnu. Forældre undersøges først, når barnet er bekræftet')
+    else if (p.status !== 'spor' && !dokumenteret(barn)) fejl.push(hvem + ': barnet (anenr. ' + (n >> 1) + ') er ikke fundet i en primærkilde. Forælderen kan højst registreres som spor')
+    else if (p.status === 'bekræftet' && barn.status !== 'bekræftet') fejl.push(hvem + ': kan ikke være bekræftet, før barnet (anenr. ' + (n >> 1) + ') er bekræftet')
   }
 
   const ids = new Set(p.kilder || [])
@@ -126,6 +134,17 @@ for (const [n, p] of P) {
   for (const id of ids) {
     brugteKilder.add(id)
     if (!K.has(id)) fejl.push(hvem + ': kilden "' + id + '" findes ikke i kilder.json')
+  }
+  const graense = new Date().getFullYear() - 100
+  for (const b of p.soeskende || []) {
+    const bh = hvem + ', søskende ' + (b.navn || '?')
+    if (!b.navn) fejl.push(hvem + ': en søskende mangler navn')
+    for (const id of b.kilder || []) { brugteKilder.add(id); if (!K.has(id)) fejl.push(bh + ': kilden "' + id + '" findes ikke i kilder.json') }
+    if (b.foedt && !datoOk(b.foedt)) fejl.push(bh + ': ugyldig fødselsdato')
+    if (b.doed && !datoOk(b.doed)) fejl.push(bh + ': ugyldig dødsdato')
+    const aar = b.foedt ? parseInt(String(b.foedt).match(/\d{4}/), 10) : null
+    const kanLeve = !b.doed && !(aar && aar <= graense)
+    if (kanLeve && (b.foedt || b.noter || b.sted)) fejl.push(bh + ': kan være nulevende. Kun navn, køn og kilder er tilladt')
   }
   if (p.fiktiv) fejl.push(hvem + ': fiktive personer bruges ikke længere i projektet')
 

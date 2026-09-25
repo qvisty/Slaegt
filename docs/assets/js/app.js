@@ -174,6 +174,14 @@ function portraet (p, klasse) {
 
 function erBekraeftet (n) { const p = P.get(n); return !!p && p.status === 'bekræftet' }
 
+/* En person er dokumenteret, når den er bekræftet eller har mindst én primærkilde. Så må forældrene undersøges. */
+function dokumenteret (n) {
+  const p = P.get(n)
+  if (!p) return false
+  if (p.status === 'bekræftet') return true
+  return kildeIds(p).some(id => K.get(id) && K.get(id).kvalitet === 'primær')
+}
+
 /* En plads i anetavlen er åben for forskning, hvis barnet er bekræftet. */
 function pladsStatus (n) {
   if (P.has(n)) {
@@ -182,7 +190,7 @@ function pladsStatus (n) {
     return p.status === 'spor' ? 'spor' : 'undersoeges'
   }
   if (n === 1) return 'aaben'
-  return erBekraeftet(n >> 1) ? 'aaben' : 'laast'
+  return dokumenteret(n >> 1) ? 'aaben' : 'laast'
 }
 
 function personer () { return D.personer.slice().sort((a, b) => a.anenummer - b.anenummer) }
@@ -236,7 +244,7 @@ function naesteSkridt () {
   const ud = []
   personer().forEach(p => {
     const n = p.anenummer
-    if (p.status === 'spor' && !erBekraeftet(n >> 1)) return
+    if (p.status === 'spor' && !dokumenteret(n >> 1)) return
     if (p.status !== 'bekræftet') {
       const mangler = []
       if (p.status === 'spor') mangler.push('kilder. Navnet kommer fra familien')
@@ -245,7 +253,8 @@ function naesteSkridt () {
       if (!kilder.some(id => K.get(id) && K.get(id).kvalitet === 'primær')) mangler.push('mindst én primærkilde')
       if (!foedt(p) && !p.levende) mangler.push('fødsel eller dåb')
       ud.push({ type: 'bekraeft', n, prioritet: gen(n), tekst: 'Bekræft ' + fuldtNavn(p) + ' (' + relation(n).toLowerCase() + ')', detalje: mangler.length ? 'Mangler ' + mangler.join(', ') + '.' : 'Gennemgå beviserne og sæt status til bekræftet.' })
-    } else {
+    }
+    if (dokumenteret(n)) {
       [2 * n, 2 * n + 1].forEach(f => {
         if (!P.has(f)) ud.push({ type: 'find', n: f, prioritet: gen(f), tekst: 'Find ' + relation(f).toLowerCase(), detalje: (f % 2 === 0 ? 'Far' : 'Mor') + ' til ' + fuldtNavn(p) + '. Start i dåbsindførslen for ' + (p.fornavne || 'personen') + '.' })
       })
@@ -384,7 +393,7 @@ function forklaring () {
     '<span><i style="background:var(--vent-lys);border-color:var(--vent);border-style:dashed"></i>Under undersøgelse</span>' +
     '<span><i style="background:var(--papir-2);border-color:var(--blaek-3);border-style:dashed"></i>Familieoplysning, ikke undersøgt</span>' +
     '<span><i style="background:transparent;border-color:var(--streg-2);border-style:dashed"></i>P.t. ukendt, kan undersøges nu</span>' +
-    '<span><i style="background:transparent;border-color:var(--laast);border-style:dotted"></i>P.t. ukendt, barnet skal bekræftes først</span>' +
+    '<span><i style="background:transparent;border-color:var(--laast);border-style:dotted"></i>P.t. ukendt, barnet skal dokumenteres først</span>' +
     '</div>'
 }
 
@@ -604,7 +613,7 @@ function personKort (p) {
 function sidePerson (n) {
   const p = P.get(n)
   if (!p) {
-    return '<h1>' + esc(relation(n)) + '</h1><div class="tom-tilstand"><p>Anenummer ' + n + ' er p.t. ukendt.</p><p class="lille">' + (pladsStatus(n) === 'aaben' ? 'Barnet er bekræftet, så denne ane kan undersøges nu.' : 'Barnet skal bekræftes, før denne ane undersøges.') + '</p><p><a class="knap" href="#/anetavle">Til anetavlen</a></p></div>'
+    return '<h1>' + esc(relation(n)) + '</h1><div class="tom-tilstand"><p>Anenummer ' + n + ' er p.t. ukendt.</p><p class="lille">' + (pladsStatus(n) === 'aaben' ? 'Barnet er fundet i en primærkilde, så denne ane kan undersøges nu.' : 'Barnet skal findes i en primærkilde, før denne ane undersøges.') + '</p><p><a class="knap" href="#/anetavle">Til anetavlen</a></p></div>'
   }
   const vis = visDetaljer(p)
   const h = []
@@ -667,8 +676,18 @@ function sidePerson (n) {
   h.push(miniHtml(2 * n + 1))
   if (n > 1) h.push(miniHtml(n >> 1).replace('<div class="rel">', '<div class="rel">Barn i linjen · '))
   h.push('</div>')
-  if (p.status !== 'bekræftet') h.push('<p class="lille">Forældrene undersøges først, når ' + esc(fuldtNavn(p)) + ' er bekræftet.</p>')
+  if (!dokumenteret(n)) h.push('<p class="lille">Forældrene undersøges, når ' + esc(fuldtNavn(p)) + ' er fundet i en primærkilde.</p>')
   h.push('</section>')
+
+  if (p.soeskende && p.soeskende.length) {
+    h.push('<section class="sektion"><h2>Søskende</h2><p class="lille">Søskende er ikke en del af den direkte linje, men hjælper med at kende familien. Søskende, der kan være i live, vises kun med navn.</p><ul class="haendelser">')
+    p.soeskende.slice().sort((a, b) => String(a.foedt || '9999').localeCompare(String(b.foedt || '9999'))).forEach(b => {
+      const mulig = !b.doed && !(aarAf(b.foedt) && aarAf(b.foedt) <= new Date().getFullYear() - 100)
+      const liv = mulig ? '<span class="lille">Kan være nulevende</span>' : esc([b.foedt ? '* ' + datoTekst(b.foedt) : '', b.doed ? '† ' + datoTekst(b.doed) : ''].filter(Boolean).join('  '))
+      h.push('<li><div><span class="htype">' + esc(b.navn) + '</span>' + (b.halv ? ' <span class="maerke neutral">Halvsøskende</span>' : '') + '  <span class="hdato">' + liv + '</span>' + (!mulig && b.noter ? '<div class="lille">' + esc(b.noter) + '</div>' : '') + '</div><div>' + kildeRef(b.kilder) + '</div></li>')
+    })
+    h.push('</ul></section>')
+  }
 
   if (vis && p.billeder && p.billeder.length) {
     h.push('<section class="sektion"><h2>Billeder og dokumenter</h2><div class="billedrække">')
@@ -905,11 +924,11 @@ function sideKilder (fokus) {
 function sideForskning () {
   const h = []
   h.push('<h1>Forskning</h1>')
-  h.push('<p class="ingress">Her kan du følge undersøgelsen. Reglen er enkel: vi går kun et led længere tilbage fra en ane, der er bekræftet.</p>')
+  h.push('<p class="ingress">Her kan du følge undersøgelsen. Reglen er enkel: vi går kun et led længere tilbage fra en ane, der er fundet i en primærkilde.</p>')
   h.push('<p><a class="knap aktiv" href="#/guide">Trin for trin guide med links til arkiverne</a></p>')
   h.push('<section class="kort-flade sektion"><h3>Arbejdsregler</h3><ol class="regler">')
-  h.push('<li><strong>Kun den direkte linje.</strong> Kun forældre, bedsteforældre og så videre bagud fra rodpersonen. Søskende og sidelinjer registreres ikke som personer.</li>')
-  h.push('<li><strong>Et led ad gangen.</strong> En persons forældre undersøges først, når personen selv er bekræftet.</li>')
+  h.push('<li><strong>Kun den direkte linje.</strong> Kun forældre, bedsteforældre og så videre bagud fra rodpersonen er personer i træet. Søskende noteres på personsiden for at kende familien.</li>')
+  h.push('<li><strong>Et led ad gangen.</strong> En persons forældre undersøges først, når personen selv er fundet i en primærkilde. Nye aner står som under undersøgelse, indtil hele kæden er bekræftet.</li>')
   h.push('<li><strong>Bekræftet kræver bevis.</strong> Mindst én primærkilde, typisk kirkebogens dåb eller fødsel, og en skriftlig begrundelse for, at det er den rigtige person.</li>')
   h.push('<li><strong>Uafhængig støtte.</strong> Forældreskabet støttes helst af en kilde mere, fx folketælling, konfirmation eller vielse, så navne, alder og sted stemmer.</li>')
   h.push('<li><strong>Modstrid løses først.</strong> Er der kilder, der ikke stemmer, forbliver personen under undersøgelse.</li>')

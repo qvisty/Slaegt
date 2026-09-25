@@ -14,9 +14,9 @@ Senest opdateret 25. september 2026.
 
 ## 2. Aftaler med Jesper
 
-1. **Kun den direkte linje.** Forældre, bedsteforældre og så videre bagud. Ingen søskende, fætre eller sidelinjer som personer. Når Jesper finder navne uden for linjen, noteres de kun i loggen som "ikke i linjen".
-2. **Et led ad gangen.** En persons forældre undersøges først, når personen selv er bekræftet.
-3. **Kun bekræftede aner føres videre.** Status `bekræftet` kræver mindst én primærkilde og en skriftlig begrundelse i feltet `bevis`.
+1. **Den direkte linje er træet, søskende noteres ved siden af.** Personerne i træet er forældre, bedsteforældre og så videre bagud. Søskende til hver person i linjen noteres i feltet `soeskende` og vises på personsiden (Jesper bad om at opspore bagud og sidelæns). Fætre, kusiner og andre navne noteres kun i loggen som "ikke i linjen".
+2. **Et led ad gangen.** En persons forældre undersøges, når personen selv er fundet i en primærkilde. Nye aner står som `under undersøgelse`, indtil kæden fra Jesper er bekræftet.
+3. **Bekræftet kræver hele kæden.** En person kan først være `bekræftet`, når barnet i linjen er bekræftet. Status `bekræftet` kræver mindst én primærkilde og en skriftlig begrundelse i feltet `bevis`.
 4. **Familieoplysninger** (navne Jesper kender, men som ikke er undersøgt) registreres med status `spor`. De vises på siden med mærket Familieoplysning.
 5. **Ingen fiktive personer.** Jesper har bedt om, at alt fiktivt indhold og visningen af det er fjernet. Tomme pladser i træet vises som "P.t. ukendt". Tjekket afviser personer med `"fiktiv": true`.
 6. **Privatliv.** Repoet og siden er offentlige. Nulevende personer (Jesper og hans mor) får kun navn. Ingen fødselsdatoer, steder eller billeder af nulevende i repoet. Jespers mors fødselsdato kendes, men må ikke skrives i repoet.

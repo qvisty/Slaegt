@@ -65,7 +65,8 @@
     "levende": true,
     "status": "under undersøgelse",
     "kilder": [
-      "fam-jesper-2026"
+      "fam-jesper-2026",
+      "kb-haderslev-vorfrue-dorthe"
     ]
   },
   {
@@ -73,7 +74,7 @@
     "fornavne": "Tage",
     "efternavn": "Qvist",
     "koen": "m",
-    "status": "spor",
+    "status": "under undersøgelse",
     "kilder": [
       "fam-jesper-2026",
       "kb-viborg-soendre-1924-f40",
@@ -85,7 +86,7 @@
       "ft1940-viborg-vesterled49",
       "kb-viborg-soendre-1949-f104"
     ],
-    "noter": "Navn og bopæl fra familien. Dåben 1924, folketællingerne 1925, 1930 og 1940, konfirmationen 1939 og vielsen 1949 viser alle, at Tage er søn af Gerner Clemmen Clemmensen Qvist og Helga Margrethe Nielsen. Gift 1949 med Else Marie Gravlev. Status forbliver spor, indtil Ole er bekræftet.",
+    "noter": "Navn og bopæl fra familien. Dåben 1924, folketællingerne 1925, 1930 og 1940, konfirmationen 1939 og vielsen 1949 viser alle, at Tage er søn af Gerner Clemmen Clemmensen Qvist og Helga Margrethe Nielsen. Gift 1949 med Else Marie Gravlev. Står som under undersøgelse, indtil Ole er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -173,6 +174,65 @@
     ],
     "navnevarianter": [
       "Tage Clemmen Clemmensen Qvist"
+    ],
+    "bevis": "Tages dåb i Viborg Søndre Sogn 1924 nævner Ole Gravlev Qvists far som sygehusportør Tage Clemmen Clemensen Qvist, født 10-6-1924, og Oles dåb 1949 nævner netop denne Tage og Else Marie Gravlev. Samme fødselsdato i Tages dåb 1924, folketællingerne 1925, 1930 og 1940, konfirmationen 1939 og vielsen 1949.",
+    "soeskende": [
+      {
+        "navn": "Kjeld Clemmen Clemmensen Qvist",
+        "koen": "m",
+        "foedt": "1920-04-22",
+        "kilder": [
+          "ft1930-viborg-3395",
+          "ft1940-viborg-vesterled49"
+        ],
+        "noter": "Sømand i 1940"
+      },
+      {
+        "navn": "Inge Johanne Clemmensen Qvist",
+        "koen": "k",
+        "foedt": "1921-06-27",
+        "kilder": [
+          "ft1930-viborg-3395",
+          "ft1940-viborg-vesterled49"
+        ]
+      },
+      {
+        "navn": "Orla Clemmen Clemmensen Qvist",
+        "koen": "m",
+        "foedt": "1925-12-23",
+        "doed": "2013-11-26",
+        "kilder": [
+          "ft1930-viborg-3395",
+          "ft1940-viborg-vesterled49",
+          "findgravsted-viborg-vk11-364"
+        ],
+        "noter": "Begravet i forældrenes gravsted på Viborg Kirkegård"
+      },
+      {
+        "navn": "Ludvig Valdemar Clemmensen Qvist",
+        "koen": "m",
+        "kilder": [
+          "ft1930-viborg-3395",
+          "ft1940-viborg-vesterled49"
+        ]
+      },
+      {
+        "navn": "Villy Clemmen Clemmensen Qvist",
+        "koen": "m",
+        "foedt": "1935-10-18",
+        "doed": "2014-02-17",
+        "kilder": [
+          "ft1940-viborg-vesterled49"
+        ],
+        "noter": "Viborg Kirkegård, gravsted V K 12 430"
+      },
+      {
+        "navn": "Knud Clemmen Clemmensen Qvist",
+        "koen": "m",
+        "kilder": [
+          "ft1940-viborg-vesterled49"
+        ]
+      }
     ]
   },
   {
@@ -180,7 +240,7 @@
     "fornavne": "Else Marie",
     "efternavn": "Qvist",
     "koen": "k",
-    "status": "spor",
+    "status": "under undersøgelse",
     "kilder": [
       "fam-jesper-2026",
       "kb-loegstoer-1923-f9",
@@ -188,7 +248,7 @@
       "kb-viborg-soendre-1949-v0",
       "kb-viborg-soendre-1949-f104"
     ],
-    "noter": "Født Else Marie Gravlev i Løgstør 24. marts 1923, datter af ugift Maren Kirstine Ottilie Gravlev. Faderen er ikke nævnt. Mor til Ole ifølge hans dåb 1949. Oles mellemnavn Gravlev er hendes pigenavn. Status forbliver spor, indtil Ole er bekræftet.",
+    "noter": "Født Else Marie Gravlev i Løgstør 24. marts 1923, datter af ugift Maren Kirstine Ottilie Gravlev. Faderen er ikke nævnt. Mor til Ole ifølge hans dåb 1949. Oles mellemnavn Gravlev er hendes pigenavn. Står som under undersøgelse, indtil Ole er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -229,23 +289,24 @@
     ],
     "navnevarianter": [
       "Else Marie Gravlev"
-    ]
+    ],
+    "bevis": "Oles dåb 1949 nævner Else Marie Gravlev, født 24-3-1923, som mor. Samme dato og navn i vielsen 1949 og i hendes egen dåb i Løgstør 1923."
   },
   {
     "anenummer": 6,
     "fornavne": "Helmuth",
     "efternavn": "Sørensen",
     "koen": "m",
-    "status": "spor",
+    "status": "under undersøgelse",
     "kilder": [
       "fam-jesper-2026",
-      "kb-haderslev-vorfrue-1945-dorthe",
+      "kb-haderslev-vorfrue-dorthe",
       "kb-haderslev-vorfrue-1915-f8",
       "kb-haderslev-vorfrue-1940-v17",
       "ft1930-haderslev-gaaskaergade24",
       "ft1940-haderslev-aaroesundvej78"
     ],
-    "noter": "Hed i kilderne Helmut Ludwig Sørensen. Født 9. januar 1915 i Haderslev, søn af snedkermester Ludvig Sørensen og Doris Elisabeth Olsen, Slotsgade 23. Dorthe Meretes dåb nævner ham som far, og hans forældre var faddere. Bogholder i 1940 (i kulimport) og 1945. I folketællingen 1930 bor han hjemme hos forældrene på Gaaskærgade 24. Ifølge Jesper senere direktør for et korn og foderstoffirma på havnen i Haderslev. Status forbliver spor, indtil Dorthe Merete er bekræftet.",
+    "noter": "Hed i kilderne Helmut Ludwig Sørensen. Født 9. januar 1915 i Haderslev, søn af snedkermester Ludvig Sørensen og Doris Elisabeth Olsen, Slotsgade 23. Dorthe Meretes dåb nævner ham som far, og hans forældre var faddere. Bogholder i 1940 (i kulimport) og 1945. I folketællingen 1930 bor han hjemme hos forældrene på Gaaskærgade 24. Ifølge Jesper senere direktør for et korn og foderstoffirma på havnen i Haderslev. Står som under undersøgelse, indtil Dorthe Merete er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -254,7 +315,7 @@
         "kilder": [
           "kb-haderslev-vorfrue-1915-f8",
           "kb-haderslev-vorfrue-1940-v17",
-          "kb-haderslev-vorfrue-1945-dorthe"
+          "kb-haderslev-vorfrue-dorthe"
         ]
       },
       {
@@ -300,7 +361,7 @@
         "sted": "skaerbaek",
         "beskrivelse": "Borgerlig vielse i Skærbæk med Anna Christine Bundesen",
         "kilder": [
-          "kb-haderslev-vorfrue-1945-dorthe"
+          "kb-haderslev-vorfrue-dorthe"
         ]
       },
       {
@@ -309,7 +370,7 @@
         "sted": "haderslev",
         "beskrivelse": "Kongevej 15, Haderslev",
         "kilder": [
-          "kb-haderslev-vorfrue-1945-dorthe"
+          "kb-haderslev-vorfrue-dorthe"
         ]
       },
       {
@@ -323,25 +384,26 @@
     ],
     "navnevarianter": [
       "Helmut Ludwig Sørensen"
-    ]
+    ],
+    "bevis": "Dorthe Meretes dåb i Haderslev nævner bogholder Helmut Ludwig Sørensen, født 9. januar 1915, som far, og hans forældre var faddere. Samme navn, dato og forældre i hans egen dåb 1915, vielsen 1940 og folketællingerne 1930 og 1940."
   },
   {
     "anenummer": 7,
     "fornavne": "Anna Christine",
     "efternavn": "Sørensen",
     "koen": "k",
-    "status": "spor",
+    "status": "under undersøgelse",
     "kilder": [
       "fam-jesper-2026",
-      "kb-haderslev-vorfrue-1945-dorthe"
+      "kb-haderslev-vorfrue-dorthe"
     ],
-    "noter": "Født Anna Christine Bundesen 9. december 1924 ifølge Dorthe Meretes dåb. Efternavnet kan muligvis læses Bendesen. Fødested ukendt, måske Skærbæk, hvor hun blev viet borgerligt i 1945. Blev altid kaldt Bessie ifølge Jesper. Status forbliver spor, indtil Dorthe Merete er bekræftet.",
+    "noter": "Født Anna Christine Bundesen 9. december 1924 ifølge Dorthe Meretes dåb. Efternavnet kan muligvis læses Bendesen. Fødested ukendt, måske Skærbæk, hvor hun blev viet borgerligt i 1945. Blev altid kaldt Bessie ifølge Jesper. Står som under undersøgelse, indtil Dorthe Merete er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1924-12-09",
         "kilder": [
-          "kb-haderslev-vorfrue-1945-dorthe"
+          "kb-haderslev-vorfrue-dorthe"
         ]
       },
       {
@@ -350,21 +412,22 @@
         "sted": "haderslev",
         "beskrivelse": "Kongevej 15, Haderslev",
         "kilder": [
-          "kb-haderslev-vorfrue-1945-dorthe"
+          "kb-haderslev-vorfrue-dorthe"
         ]
       }
     ],
     "navnevarianter": [
       "Anna Christine Bundesen",
       "Bessie"
-    ]
+    ],
+    "bevis": "Dorthe Meretes dåb i Haderslev nævner Anna Christine, født Bundesen, født 9. december 1924, som mor og hustru til Helmut Ludwig Sørensen."
   },
   {
     "anenummer": 8,
     "fornavne": "Gerner",
     "efternavn": "Qvist",
     "koen": "m",
-    "status": "spor",
+    "status": "under undersøgelse",
     "kilder": [
       "gravsten-viborg-k165",
       "findgravsted-viborg-vk11-364",
@@ -376,7 +439,7 @@
       "ft1901-skaelskoer-245",
       "ft1940-viborg-vesterled49"
     ],
-    "noter": "Oldefar. Vielsen 1919, Tages dåb 1924 og folketællingen 1930 viser ham som Tages far og Helgas mand. Fødselsdatoen 23. marts 1890 i Skælskør stemmer i vielsen, folketællingerne og på gravstenen. Forældre ifølge vielsen og FT 1901: slagtermester Ludvig Valdemar Qvist og Johanne Marie Møller af Skælskør. De står kun i forskningsloggen, indtil Gerner er bekræftet.",
+    "noter": "Oldefar. Vielsen 1919, Tages dåb 1924 og folketællingen 1930 viser ham som Tages far og Helgas mand. Fødselsdatoen 23. marts 1890 i Skælskør stemmer i vielsen, folketællingerne og på gravstenen. Forældre ifølge vielsen og FT 1901: slagtermester Ludvig Valdemar Qvist og Johanne Marie Møller af Skælskør.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -474,6 +537,65 @@
     "navnevarianter": [
       "Gerner Clemmen Clemmensen Qvist",
       "Gerner Clemmen Clemmesen Qvist"
+    ],
+    "bevis": "Tages dåb 1924, konfirmation 1939 og vielse 1949 nævner Gerner Clemmen Clemmensen Qvist som far. Folketællingerne 1925, 1930 og 1940 viser Tage i hans husstand. Fødselsdatoen 23. marts 1890 er den samme i vielsen 1919, alle folketællinger og på gravstenen.",
+    "soeskende": [
+      {
+        "navn": "Holger Ludvig Jacob Clemmesen Qvist",
+        "koen": "m",
+        "foedt": "1891-05-10",
+        "kilder": [
+          "ft1901-skaelskoer-245"
+        ]
+      },
+      {
+        "navn": "Ludvig Axel Clemmesen Qvist",
+        "koen": "m",
+        "foedt": "1892-06-27",
+        "kilder": [
+          "ft1901-skaelskoer-245"
+        ]
+      },
+      {
+        "navn": "Herta Elisabeth Johanne Marie Clemmesen Qvist",
+        "koen": "k",
+        "foedt": "1893-06-14",
+        "kilder": [
+          "ft1901-skaelskoer-245"
+        ]
+      },
+      {
+        "navn": "Carl Vilhelm Clemmesen Qvist",
+        "koen": "m",
+        "foedt": "1894-09-17",
+        "kilder": [
+          "ft1901-skaelskoer-245"
+        ]
+      },
+      {
+        "navn": "Axel Herholdt Clemmesen Qvist",
+        "koen": "m",
+        "foedt": "1895-10-23",
+        "kilder": [
+          "ft1901-skaelskoer-245"
+        ]
+      },
+      {
+        "navn": "Aage Herholdt Clemmesen Qvist",
+        "koen": "m",
+        "foedt": "1897-06-19",
+        "kilder": [
+          "ft1901-skaelskoer-245"
+        ]
+      },
+      {
+        "navn": "Valborg Ebba Clemmesen Qvist",
+        "koen": "k",
+        "foedt": "1898-10-16",
+        "kilder": [
+          "ft1901-skaelskoer-245"
+        ]
+      }
     ]
   },
   {
@@ -481,7 +603,7 @@
     "fornavne": "Helga Margrethe",
     "efternavn": "Qvist",
     "koen": "k",
-    "status": "spor",
+    "status": "under undersøgelse",
     "kilder": [
       "gravsten-viborg-k165",
       "findgravsted-viborg-vk11-364",
@@ -492,7 +614,7 @@
       "ft1930-viborg-3395",
       "ft1940-viborg-vesterled49"
     ],
-    "noter": "Oldemor. Født Helga Margrethe Nielsen i Viborg Domsogn 28. december 1896. Datoen stemmer i vielsen, folketællingen 1930 og på gravstenen. Forældre ifølge vielsen: kellner Anders Nielsen og Julie Margrethe Louise Jensen af Domsognet. De står kun i forskningsloggen, indtil Helga er bekræftet.",
+    "noter": "Oldemor. Født Helga Margrethe Nielsen i Viborg Domsogn 28. december 1896. Datoen stemmer i vielsen, folketællingen 1930 og på gravstenen. Forældre ifølge vielsen: kellner Anders Nielsen og Julie Margrethe Louise Jensen af Domsognet.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -552,6 +674,7 @@
     ],
     "navnevarianter": [
       "Helga Margrethe Nielsen"
-    ]
+    ],
+    "bevis": "Tages dåb 1924, konfirmation 1939 og vielse 1949 nævner Helga Margrethe Nielsen som mor. Folketællingerne 1925, 1930 og 1940 viser Tage i hendes husstand. Fødselsdatoen 28. december 1896 er den samme i vielsen 1919, folketællingerne og på gravstenen."
   }
 ]

@@ -6,8 +6,10 @@ Dette er et slægtsforskningsprojekt for ejeren af repoet. Hjemmesiden ligger i 
 
 ## Forskningsregler (skal altid følges)
 
-* Undersøg kun den direkte linje bagud fra rodpersonen (anenummer 1). Ingen søskende, fætre eller sidelinjer som personer.
-* Gå kun et led videre fra en person med status `bekræftet`. Forældre til en person under undersøgelse må ikke oprettes.
+* Personerne i træet er kun den direkte linje bagud fra rodpersonen (anenummer 1).
+* Søskende til personer i linjen noteres i feltet `soeskende` på personen (vises på personsiden). Fætre og kusiner registreres ikke. Søskende uden kendt dødsdato og født for under 100 år siden får kun navn.
+* Gå kun et led videre fra en person, der er fundet i en primærkilde. Nye aner får status `under undersøgelse`, indtil hele kæden fra rodpersonen er bekræftet.
+* Jesper har bedt om at opspore bagud og sidelæns, også før hans egen dåbsattest bekræfter forældrene.
 * Sæt aldrig status til `bekræftet` uden mindst én primærkilde og en konkret begrundelse i `bevis`. Begrundelsen skal forklare, hvorfor netop denne person er forælder til barnet i linjen (navne, alder, sted, faddere, folketælling i samme husstand).
 * Opfind aldrig personer, datoer eller kilder. Usikre fund skrives i forskningsloggen, ikke som fakta.
 * Nulevende personer får kun navn. Repoet er offentligt.

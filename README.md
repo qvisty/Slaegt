@@ -8,8 +8,8 @@ Hjemmesiden har oversigt, anetavle, viftediagram, persongalleri, personsider med
 
 ## Arbejdsregler
 
-1. **Kun den direkte linje.** Rodpersonen og derefter forældre, bedsteforældre og så videre bagud. Søskende og sidelinjer registreres ikke som personer.
-2. **Et led ad gangen.** En persons forældre undersøges først, når personen selv er bekræftet.
+1. **Den direkte linje er træet.** Rodpersonen og derefter forældre, bedsteforældre og så videre bagud. Søskende noteres i feltet `soeskende` på personen i linjen.
+2. **Et led ad gangen.** En persons forældre undersøges, når personen selv er fundet i en primærkilde. En person kan først bekræftes, når barnet i linjen er bekræftet.
 3. **Bekræftet kræver bevis.** Mindst én primærkilde og en skriftlig begrundelse i feltet `bevis`.
 4. **Uafhængig støtte.** Forældreskabet støttes helst af en kilde mere, fx folketælling, konfirmation eller vielse.
 5. **Modstrid løses først.** Personen forbliver under undersøgelse, indtil kilderne stemmer.
@@ -76,6 +76,7 @@ Hver person har et anenummer. Rodpersonen er 1. Far til person *n* er 2*n*, mor 
 * **status:** `bekræftet`, `under undersøgelse` eller `spor` (navn kendt fra familien, endnu ikke undersøgt).
 * **dato:** `1890`, `1890-02`, `1890-02-10`, eller med `ca.`, `før`, `efter` foran.
 * **type:** fødsel, dåb, konfirmation, vielse, folketælling, bopæl, flytning, erhverv, militær, udvandring, død, begravelse, skifte, andet.
+* **soeskende:** liste med `navn`, `koen`, `foedt`, `doed`, `kilder`, `noter` og evt. `"halv": true`. Søskende uden dødsdato og født for under 100 år siden må kun have navn, køn og kilder.
 * **vielse** registreres hos manden og vises automatisk hos hustruen.
 
 Kilde:
