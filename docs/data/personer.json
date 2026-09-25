@@ -1856,9 +1856,10 @@
       "ft1921-haderslev-slotsgade23",
       "ft1930-haderslev-gaaskaergade24",
       "kb-haderslev-vorfrue-1955-d9",
-      "fam-dorthe-2026"
+      "fam-dorthe-2026",
+      "arkivdk-haderslev-zoo"
     ],
-    "noter": "Datter af blikkenslagermester Ferdinand Gottfried Olsen og Doris Elisabeth Friederike Johannsen. Tvilling. Ifølge barnebarnet Dorthe Merete havde en af hendes brødre og hans kone en lille zoo med en løve og nogle aber i Gåskærgade.",
+    "noter": "Datter af blikkenslagermester Ferdinand Gottfried Olsen og Doris Elisabeth Friederike Johannsen. Tvilling. Hendes bror, bøssemager Theodor Olsen, drev Haderslev Zoologisk Have i Gåskærgade 54 fra 1935 til 1938 med aber og løven Attrachan. Barnebarnet Dorthe Merete kendte historien fra familien.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -1945,11 +1946,15 @@
         ]
       },
       {
-        "navn": "Theodor Olsen",
+        "navn": "Theodor Alexander Olsen",
         "koen": "m",
         "kilder": [
-          "kb-haderslev-vorfrue-1920-b147"
-        ]
+          "kb-haderslev-vorfrue-1920-b147",
+          "arkivdk-haderslev-zoo"
+        ],
+        "foedt": "1888-05-24",
+        "doed": "1952-10-04",
+        "noter": "Bøssemager i Gåskærgade 54. Drev Haderslev Zoologisk Have i baghaven 1935 til 1938 med aber og løven Attrachan. Gift med Ida Anna Pöppel ifølge Geni"
       },
       {
         "navn": "Agnes Olsen",
