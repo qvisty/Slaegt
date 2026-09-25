@@ -13,7 +13,8 @@
     "navn": "Haderslev",
     "amt": "Haderslev Amt",
     "lat": 55.2497,
-    "lng": 9.488
+    "lng": 9.488,
+    "sogn": "Haderslev Vor Frue Sogn"
   },
   {
     "id": "skaelskoer",
@@ -50,5 +51,14 @@
     "amt": "Vejle Amt",
     "lat": 55.7093,
     "lng": 9.536
+  },
+  {
+    "id": "skaerbaek",
+    "navn": "Skærbæk",
+    "sogn": "Skærbæk Sogn",
+    "herred": "Hviding Herred",
+    "amt": "Tønder Amt",
+    "lat": 55.1561,
+    "lng": 8.7711
   }
 ]

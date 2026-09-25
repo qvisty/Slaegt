@@ -75,6 +75,12 @@
       "tekst": "Oles dødsannonce må ligge efter 14. marts 2002, fx i Vejle Amts Folkeblad eller Fredericia Dagblad. Træffene 11. og 12. marts 2002 ligger før dødsdagen og er ikke dødsannoncer. Tages mulige dødsannonce: Viborg Stifts Folkeblad 3. december 1999, s. 2. Kan ses på Det Kgl. Bibliotek eller på et folkebibliotek med adgang til Mediestream.",
       "anenummer": 2,
       "status": "åben"
+    },
+    {
+      "titel": "Find Anna Christine Bundesens fødsel 9. december 1924",
+      "tekst": "Fødested ukendt. Prøv nabosognene til Skærbæk (Brøns, Rejsby, Ballum, Hviding), Haderslev personregister og stavemåden Bendesen. Dåben giver hendes forældre, når Anna er bekræftet.",
+      "anenummer": 7,
+      "status": "åben"
     }
   ],
   "log": [
@@ -360,6 +366,36 @@
         7
       ],
       "resultat": "familieoplysning"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Dorthe Meretes dåb fundet i Haderslev",
+      "tekst": "Haderslev Vor Frue Sogn, fødte piger, kirkeåret 1945/46. Hendes egne data står ikke her af hensyn til privatliv. Forældre: bogholder Helmut Ludwig Sørensen, født 9. januar 1915, og Anna Christine født Bundesen, født 9. december 1924, Kongevej 15, borgerligt viet i Skærbæk 11/9 1945. Faddere: snedkermester Ludvig Sørensen og Doris Elisabeth, Gaaskærgade 24. Alle pigebørn i sognet november 1944 til august 1946 er gennemset, og der er kun én Dorthe Merete. Claude har kontrolleret billedet.",
+      "personer": [
+        3,
+        6,
+        7
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Helmuths dåb 1915 og første ægteskab 1940",
+      "tekst": "Helmut Ludwig Sørensen er født 9. januar 1915, ikke 1914 som indtastningen af FT 1921 siger. Dåben (på tysk, Haderslev Vor Frue 1915 nr. 8) og vielsen 1940 siger begge 1915. Forældre: snedkermester Ludwig Sørensen og Doris Elisabeth født Olsen, Slotsgade 23. Han blev gift første gang 12. maj 1940 med ekspeditrice Margarethe Cathrine Schmidt, født 1914 i Kjeldstrup. Ægteskabet må være opløst før 1945, men det er ikke dokumenteret. Hun er ikke i linjen. Hans forældre oprettes ikke endnu, fordi Helmuth er et spor.",
+      "personer": [
+        6
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Vielsen 1945 og Annas fødsel ikke fundet",
+      "tekst": "Vielsen 11/9 1945 i Skærbæk var borgerlig og står ikke i kirkebogen. Skærbæk viede 1945, kirkelig velsignelse og særlige tilførsler er gennemset uden fund. Den borgerlige vielsesprotokol er formentlig ikke online. Anna Christine Bundesen er ikke fundet blandt døbte i Skærbæk november 1924 til april 1925 eller i registret for Haderslev Vor Frue 1920 til 1931. Hendes forældre er ukendte. Stillingen i 1945 var bogholder. Intet i dåben forklarer kælenavnet Bessie.",
+      "personer": [
+        6,
+        7
+      ],
+      "resultat": "ikke fundet"
     }
   ]
 }

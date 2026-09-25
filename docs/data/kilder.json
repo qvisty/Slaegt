@@ -144,5 +144,34 @@
     "reference": "Givet 25. september 2026",
     "kvalitet": "sekundær",
     "noter": "Ole døde 14. marts 2002 på Vejle Sygehus og blev 52 år. Alderen passer med fødslen 24. juli 1949 i kirkebogen. Bør bekræftes med dødsattest eller kirkebog."
+  },
+  {
+    "id": "kb-haderslev-vorfrue-1945-dorthe",
+    "titel": "Kirkebog, Haderslev Vor Frue Sogn, Dorthe Meretes dåb",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, fødte 1944 til 1952, fødte kvindekøn, kirkeåret 1945/46. Præcis henvisning og link er udeladt her af hensyn til privatliv, fordi Dorthe Merete lever. Claude har dem",
+    "kvalitet": "primær",
+    "noter": "Forældre: bogholder Helmut Ludwig Sørensen, født 1915 den 9. januar, og hustru Anna Christine, født Bundesen, født 1924 den 9. december, Kongevej 15, Haderslev. Borgerligt ægteforenede i Skærbæk 11/9 1945. Faddere: snedkermester Ludvig Sørensen og hustru Doris Elisabeth, Gaaskærgade 24, samt barnets forældre. Claude har kontrolleret billedet."
+  },
+  {
+    "id": "kb-haderslev-vorfrue-1915-f8",
+    "titel": "Kirkebog, Haderslev Vor Frue Sogn, Taufregister 1915, nr. 8",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, fødte 1906 til 1920, Jahrgang 1915, side 373, opslag 198, nr. 8",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201559#201559,38192920",
+    "kvalitet": "primær",
+    "noter": "Skrevet på tysk. Helmut Ludwig, født 9. januar 1915 i Hadersleben, døbt 20. januar 1915 hjemme. Forældre: Tischler (snedker) Ludwig Sörensen og Ehefrau Doris Elisabeth geb. Olsen, Schloßstraße 23 (Slotsgade 23). Faddere: blikkenslager Ferdinand Olsen, Arnold Olsen og frøken Dora Kjær."
+  },
+  {
+    "id": "kb-haderslev-vorfrue-1940-v17",
+    "titel": "Kirkebog, Haderslev Vor Frue Sogn, viede 1940, nr. 17",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, viede 1923 til 1948, side 336, opslag 339, nr. 17",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201564#201564,38194557",
+    "kvalitet": "primær",
+    "noter": "Viet 12. maj 1940 i Hospitalskirken. Ugift bogholder Helmut Ludwig Sørensen af Haderslev, Aarøsundvej 78, født her i sognet 1915 den 9. januar, søn af snedkermester Ludwig Sørensen og hustru Doris Elisabeth født Olsen. Bruden var ugift ekspeditrice Margarethe Cathrine Schmidt, født 1914 i Kjeldstrup, Vilstrup Sogn. Første ægteskab. Ikke i linjen."
   }
 ]
