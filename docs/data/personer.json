@@ -530,12 +530,17 @@
     "bevis": "Dorthe Meretes dåb nævner Anna Christine født Bundesen, født 9. december 1924, som mor. Fødselsanmeldelsen i Toftlund 1924 og dåben 1925 har samme navn og dato med Jørgen Peter Bundesen og Dusine Andrea Wind som forældre.",
     "soeskende": [
       {
-        "navn": "Rasmus Andreas Bundesen",
+        "navn": "Rasmus Andreas Bundesen (Andreas)",
         "koen": "m",
         "foedt": "1920-06-27",
         "kilder": [
-          "ft1930-toftlund-13"
-        ]
+          "ft1930-toftlund-13",
+          "pr-toftlund-1951-d19",
+          "findgravsted-skodborg-bundesen",
+          "fam-dorthe-2026"
+        ],
+        "doed": "1973-05-16",
+        "noter": "Malermester i Skodborg. Gift med Karla ifølge familien. Begravet på Skodborg Kirkegård"
       },
       {
         "navn": "Jes Peter Bundesen",
@@ -1459,9 +1464,10 @@
       "standesamt-haderslev-1912-v64",
       "ft1921-haderslev-slotsgade23",
       "ft1930-haderslev-gaaskaergade24",
-      "kb-haderslev-vorfrue-1951-d46"
+      "kb-haderslev-vorfrue-1951-d46",
+      "fam-dorthe-2026"
     ],
-    "noter": "Snedkermester i Haderslev. Født i Gammel Haderslev, søn af snedkersvend Georg Friedrich Sørensen og Anna Barbara Kjer.",
+    "noter": "Snedkermester i Haderslev. Født i Gammel Haderslev, søn af snedkersvend Georg Friedrich Sørensen og Anna Barbara Kjer. Lavede også kister ifølge barnebarnet Dorthe Merete.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -1586,9 +1592,10 @@
       "kb-haderslev-vorfrue-1912-v39",
       "ft1921-haderslev-slotsgade23",
       "ft1930-haderslev-gaaskaergade24",
-      "kb-haderslev-vorfrue-1955-d9"
+      "kb-haderslev-vorfrue-1955-d9",
+      "fam-dorthe-2026"
     ],
-    "noter": "Datter af blikkenslagermester Ferdinand Gottfried Olsen og Doris Elisabeth Friederike Johannsen. Tvilling.",
+    "noter": "Datter af blikkenslagermester Ferdinand Gottfried Olsen og Doris Elisabeth Friederike Johannsen. Tvilling. Ifølge barnebarnet Dorthe Merete havde en af hendes brødre og hans kone en lille zoo med en løve og nogle aber i Gåskærgade.",
     "haendelser": [
       {
         "type": "fødsel",

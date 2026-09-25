@@ -380,7 +380,7 @@
     "type": "Familieoplysninger",
     "reference": "Givet via Jesper 25. september 2026",
     "kvalitet": "sekundær",
-    "noter": "Jørn og Dusine Bundesen, Toftlund, var forældre til Anna Christine Sørensen, født Bundesen."
+    "noter": "Jørn og Dusine Bundesen, Toftlund, var forældre til Anna Christine Sørensen, født Bundesen. Farfar Ludvig Sørensen var snedker og lavede også kister, familien boede i Gåskærgade i Haderslev, og farmor var født Olsen. Morbror Andreas Bundesen var gift med tante Karla og boede i Skodborg. Farmors bror og hans kone havde en lille zoo med en løve og nogle aber i Gåskærgade."
   },
   {
     "id": "kb-haderslev-vorfrue-1912-v39",
@@ -831,5 +831,15 @@
     "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36363#36363,5061286",
     "kvalitet": "primær",
     "noter": "Søskende til Jørgen Peter med bager Jes Peter Bundesen og Anna Catharina Kramer som forældre."
+  },
+  {
+    "id": "findgravsted-skodborg-bundesen",
+    "titel": "Find gravsted, Skodborg Kirkegård, Andreas Bundesen",
+    "type": "Gravsted",
+    "arkiv": "Find gravsted (findgravsted.dk), kirkegårdens register",
+    "reference": "Skodborg Kirkegård, gravsted S D 06 11-12",
+    "url": "https://www.findgravsted.dk/",
+    "kvalitet": "afledt",
+    "noter": "Andreas Bundesen, 27. juni 1920 til 16. maj 1973."
   }
 ]
