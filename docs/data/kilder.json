@@ -631,5 +631,65 @@
     "url": "https://ddd.dda.dk/soeg_amter.asp",
     "kvalitet": "afledt",
     "noter": "Johan Jacob Møller, 49, snedkermester, født Holsteinborg Sogn. Maria Bergitte Møller født Gesner, 37, født Tjæreby Sogn. Børn: Margrethe Jacobine, Sophie Charlotte, Johanne Maria (5) og Vilhelmine Caroline. Kun set i indtastningen."
+  },
+  {
+    "id": "kb-vindblaes-1895-f8",
+    "titel": "Kirkebog, Vindblæs Sogn, fødte piger 1895, nr. 8",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1892 til 1910, opslag 62, nr. 8",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172300#172300,28932397",
+    "kvalitet": "primær",
+    "noter": "Maren Kirstine Ottilie Jensen, født 15. maj 1895 i Bjørnslet (Bjørumslet), Vindblæs Sogn, døbt 8. december 1895 i kirken. Forældre: husmand Anders Kristian Jensen og hustru Johanne Eriksen i Bjørnslet, 38 år. Faddere: barnets moder, gårdmand Peter Pedersens hustru Else Nielsen, aftægtsmand Jens Gravlev Pedersen, aftægtsmand Jens Kristian Pedersen Nør og husmand Jørgen Marcussen."
+  },
+  {
+    "id": "kb-salling-1939-v1",
+    "titel": "Kirkebog, Salling Sogn, viede 1939, nr. 1",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1921 til 1941, viede 1939, side 143 og 144, opslag 145, nr. 1",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=169076#169076,28391851",
+    "kvalitet": "primær",
+    "noter": "Viet 24. januar 1939 i Salling Kirke. Ugift husejer Simon Andreas Simonsen, Brøndum, født 31. januar 1875 i Fjerritslev. Ugift husbestyrerinde Maren Kirstine Ottilie Gravlev, Brøndum, født 15. maj 1895 i Vindblæs Sogn, datter af husmand Anders Kristian Gravlev og hustru Johanne Eriksen. Forlovere: købmand Thomas Nørrebjerg, Fjerritslev, og banearbejder Jens Gravlev, Løgstør. Claude har kontrolleret billedet."
+  },
+  {
+    "id": "kb-salling-1937-k4",
+    "titel": "Kirkebog, Salling Sogn, konfirmerede piger 1937, nr. 4",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1921 til 1941, opslag 116, nr. 4",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=169076#169076,28391822",
+    "kvalitet": "primær",
+    "noter": "Else Marie Gravlev, Brøndum. Moder: ugifte Maren Kirstine Ottilie Gravlev, Brøndum."
+  },
+  {
+    "id": "ft1930-skarp-salling-2",
+    "titel": "Folketælling 1930, Skarp Salling, Brøndum",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Folketælling 1930, sognelister, Skarp Salling, opslag 8, husstand 2",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=102643#102643,16237152",
+    "kvalitet": "primær",
+    "noter": "Simon Simonsen, 31/1 1875, husfader, født Fjerritslev. Maren Gravlev, 16/5 1895, husbestyrerinde. Else Gravlev, 1923, født Løgstør, barn."
+  },
+  {
+    "id": "ft1901-vindblaes-44",
+    "titel": "Folketælling 1901, Vindblæs, Bjørumslet",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Dansk Demografisk Database",
+    "reference": "Dansk Demografisk Database, Ålborg amt, Slet herred, Vindblæs, Bjørumslet, husstand 44, indtastning D6176",
+    "url": "https://ddd.dda.dk/soeg_amter.asp",
+    "kvalitet": "afledt",
+    "noter": "Anders Kristian Jensen, 3/3 1857, husejer og jordbruger, født Vindblæs. Johanne Jensen, 23/6 1857, født Malle. Børn: Niels Kristian Peter (1888), Søren Eriksen (1892), Maren Kirstine Othilie (16/5 1895) og Mariane (1899). Jens Gravlev Pedersen, 19/12 1819, enkemand, slægtning, aftægt. Kun set i indtastningen."
+  },
+  {
+    "id": "kb-loegstoer-1920-f1",
+    "titel": "Kirkebog, Løgstør Sogn, fødte piger 1920, nr. 1",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1920 til 1925, opslag 35, nr. 1",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=166516#166516,27962296",
+    "kvalitet": "primær",
+    "noter": "Erna Gravlev, født 18. januar 1920 i Fjordgade, Løgstør. Moder: ugift Maren Kirstine Otilie Gravlev, 24 år. Ingen far nævnt."
   }
 ]

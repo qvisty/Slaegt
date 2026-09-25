@@ -121,5 +121,23 @@
     "amt": "Sorø Amt",
     "lat": 55.2667,
     "lng": 11.3167
+  },
+  {
+    "id": "vindblaes",
+    "navn": "Vindblæs (Bjørumslet)",
+    "sogn": "Vindblæs Sogn",
+    "herred": "Slet Herred",
+    "amt": "Ålborg Amt",
+    "lat": 56.9361,
+    "lng": 9.3211
+  },
+  {
+    "id": "malle",
+    "navn": "Malle",
+    "sogn": "Malle Sogn",
+    "herred": "Slet Herred",
+    "amt": "Ålborg Amt",
+    "lat": 56.9417,
+    "lng": 9.1667
   }
 ]

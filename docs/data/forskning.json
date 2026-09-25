@@ -87,6 +87,12 @@
       "tekst": "Læs Hejmdal 31.3.1971 s. 11 og Jyllands-Posten 1.4.1971 s. 6 om en direktør Helmuth Sørensens 40 års jubilæum, fx på Det Kgl. Bibliotek. Eller bed Historie Haderslev slå ham op i vejviserne 1950 til 1980 og i hæftet om Outzen & Christensen A/S fra 1975.",
       "anenummer": 6,
       "status": "åben"
+    },
+    {
+      "titel": "Elses far",
+      "tekst": "Elses far er ikke nævnt i dåben 1923. Anmærkningsrubrikken er sløret af Rigsarkivet. Man kan søge om adgang til den slørede tekst og til eventuelle faderskabssager hos Rigsarkivet.",
+      "anenummer": 10,
+      "status": "åben"
     }
   ],
   "log": [
@@ -540,6 +546,18 @@
         33,
         34,
         35
+      ],
+      "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Elses mor og morforældre fundet",
+      "tekst": "Maren Kirstine Ottilie Gravlev er født 15. maj 1895 i Bjørumslet, Vindblæs Sogn (døbt Jensen), datter af husmand Anders Kristian Jensen, senere Gravlev, og Johanne Eriksen. Hun blev gift 24. januar 1939 i Salling med husejer Simon Andreas Simonsen, Elses stedfar. Elses konfirmation 1937 og FT 1930 i Brøndum er fundet. Halvsøster: Erna Gravlev, født 18. januar 1920 i Løgstør, samme ugifte mor. Marens brødre Niels Christian Peter og Søren Eriksen Gravlev var portører i Løgstør. Elses far er ikke nævnt. Anmærkningsrubrikken er sløret, og faderskabssager er ikke online. Claude har kontrolleret vielsen 1939.",
+      "personer": [
+        5,
+        11,
+        22,
+        23
       ],
       "resultat": "fundet"
     }
