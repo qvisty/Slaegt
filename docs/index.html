@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Slægten</title>
+  <meta name="description" content="Slægtsforskning i den direkte slægtslinje. Kun bekræftede aner.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='14' r='8' fill='%23a0522d'/%3E%3Ccircle cx='14' cy='50' r='8' fill='%233b6e8f'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%23b0566b'/%3E%3Cpath d='M32 22v12M32 34L14 42M32 34l18 8' stroke='%23555' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="spring" href="#indhold">Spring til indhold</a>
+  <header class="top">
+    <div class="top-indre">
+      <a class="logo" href="#/">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="14" r="8" class="l1"/><circle cx="14" cy="50" r="8" class="l2"/><circle cx="50" cy="50" r="8" class="l3"/><path d="M32 22v12M32 34L14 42M32 34l18 8" class="l4"/></svg>
+        <span id="logo-titel">Slægten</span>
+      </a>
+      <button class="menu-knap" id="menu-knap" aria-expanded="false" aria-controls="hovedmenu">Menu</button>
+      <nav id="hovedmenu" class="hovedmenu" aria-label="Hovedmenu">
+        <a href="#/" data-rute="">Oversigt</a>
+        <a href="#/anetavle" data-rute="anetavle">Anetavle</a>
+        <a href="#/galleri" data-rute="galleri">Personer</a>
+        <a href="#/tidslinje" data-rute="tidslinje">Tidslinje</a>
+        <a href="#/kort" data-rute="kort">Kort</a>
+        <a href="#/kilder" data-rute="kilder">Kilder</a>
+        <a href="#/forskning" data-rute="forskning">Forskning</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="indhold" class="indhold" tabindex="-1">
+    <p class="indlaeser">Indlæser slægtsdata ...</p>
+  </main>
+
+  <footer class="bund">
+    <p>Kun bekræftede aner i den direkte linje. Levende personer vises uden detaljer.</p>
+    <p id="opdateret"></p>
+  </footer>
+
+  <script src="assets/vendor/leaflet/leaflet.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

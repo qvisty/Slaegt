@@ -1,0 +1,23 @@
+{
+  "opgaver": [
+    {
+      "titel": "Registrér rodpersonen",
+      "tekst": "Navn, fødselsdato og fødested for rodpersonen. Dåbsattest eller navneattest er den bedste kilde.",
+      "anenummer": 1,
+      "status": "åben"
+    },
+    {
+      "titel": "Saml familiens egne papirer",
+      "tekst": "Dåbsattester, vielsesattester, dødsattester, konfirmationsbeviser, gamle breve og fotos med navne på bagsiden.",
+      "status": "åben"
+    }
+  ],
+  "log": [
+    {
+      "dato": "2026-09-25",
+      "titel": "Projektet er oprettet",
+      "tekst": "Hjemmeside, datamodel og arbejdsregler er på plads. Næste skridt er at registrere rodpersonen og forældrene.",
+      "resultat": "start"
+    }
+  ]
+}
