@@ -7,7 +7,9 @@
     "levende": true,
     "status": "bekræftet",
     "bevis": "Rodpersonen og projektets ejer. Udgangspunktet for hele linjen.",
-    "kilder": ["fam-jesper-2026"]
+    "kilder": [
+      "fam-jesper-2026"
+    ]
   },
   {
     "anenummer": 2,
@@ -16,19 +18,556 @@
     "koen": "m",
     "status": "under undersøgelse",
     "noter": "Slægten er ifølge familien fra Viborg. Fødested er endnu ikke oplyst.",
-    "kilder": ["fam-jesper-2026"],
+    "kilder": [
+      "fam-jesper-2026"
+    ],
     "haendelser": [
-      { "type": "fødsel", "dato": "1950-07-24", "kilder": ["fam-jesper-2026"] }
+      {
+        "type": "fødsel",
+        "dato": "1950-07-24",
+        "kilder": [
+          "fam-jesper-2026"
+        ]
+      }
     ]
   },
   {
     "anenummer": 3,
     "fornavne": "Dorthe Merete",
     "efternavn": "Qvist",
-    "navnevarianter": ["Dorthe Merete Sørensen"],
+    "navnevarianter": [
+      "Dorthe Merete Sørensen"
+    ],
     "koen": "k",
     "levende": true,
     "status": "under undersøgelse",
-    "kilder": ["fam-jesper-2026"]
+    "kilder": [
+      "fam-jesper-2026"
+    ]
+  },
+  {
+    "anenummer": 4,
+    "fornavne": "Tage",
+    "efternavn": "Qvist",
+    "koen": "m",
+    "status": "spor",
+    "kilder": [
+      "fam-jesper-2026"
+    ],
+    "noter": "Navn og bopæl fra familien. Undersøges, når Ole er bekræftet.",
+    "haendelser": [
+      {
+        "type": "bopæl",
+        "sted": "viborg",
+        "kilder": [
+          "fam-jesper-2026"
+        ],
+        "beskrivelse": "Boede i Viborg ifølge familien"
+      }
+    ]
+  },
+  {
+    "anenummer": 5,
+    "fornavne": "Else",
+    "efternavn": "Qvist",
+    "koen": "k",
+    "status": "spor",
+    "kilder": [
+      "fam-jesper-2026"
+    ],
+    "noter": "Navn og bopæl fra familien. Pigenavn ukendt. Undersøges, når Ole er bekræftet.",
+    "haendelser": [
+      {
+        "type": "bopæl",
+        "sted": "viborg",
+        "kilder": [
+          "fam-jesper-2026"
+        ],
+        "beskrivelse": "Boede i Viborg ifølge familien"
+      }
+    ]
+  },
+  {
+    "anenummer": 6,
+    "fornavne": "Helmuth",
+    "efternavn": "Sønderborg",
+    "koen": "m",
+    "status": "spor",
+    "kilder": [
+      "fam-jesper-2026"
+    ],
+    "noter": "Navn og bopæl fra familien. Dorthe Merete er født Sørensen, så forholdet skal afklares i hendes dåbsindførsel.",
+    "haendelser": [
+      {
+        "type": "bopæl",
+        "sted": "haderslev",
+        "kilder": [
+          "fam-jesper-2026"
+        ],
+        "beskrivelse": "Boede i Haderslev ifølge familien"
+      }
+    ]
+  },
+  {
+    "anenummer": 7,
+    "fornavne": "Anna",
+    "efternavn": "Sørensen",
+    "koen": "k",
+    "status": "spor",
+    "kilder": [
+      "fam-jesper-2026"
+    ],
+    "noter": "Navn og bopæl fra familien. Undersøges, når Dorthe Merete er bekræftet.",
+    "haendelser": [
+      {
+        "type": "bopæl",
+        "sted": "haderslev",
+        "kilder": [
+          "fam-jesper-2026"
+        ],
+        "beskrivelse": "Boede i Haderslev ifølge familien"
+      }
+    ]
+  },
+  {
+    "anenummer": 8,
+    "fiktiv": true,
+    "fornavne": "Peder",
+    "efternavn": "Testesen",
+    "koen": "m",
+    "status": "bekræftet",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1885-03-14",
+        "sted": "viborg",
+        "kilder": [
+          "fk-kb-viborg-1885"
+        ]
+      },
+      {
+        "type": "konfirmation",
+        "dato": "1899",
+        "sted": "viborg"
+      },
+      {
+        "type": "folketælling",
+        "dato": "1901",
+        "sted": "viborg",
+        "kilder": [
+          "fk-ft-1901-viborg"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1905",
+        "sted": "viborg",
+        "beskrivelse": "Snedkersvend"
+      },
+      {
+        "type": "vielse",
+        "dato": "1910-10-02",
+        "sted": "viborg"
+      },
+      {
+        "type": "folketælling",
+        "dato": "1921",
+        "sted": "viborg"
+      },
+      {
+        "type": "død",
+        "dato": "1950-01-19",
+        "sted": "viborg"
+      }
+    ],
+    "kilder": [
+      "fk-kb-viborg-1885",
+      "fk-ft-1901-viborg"
+    ],
+    "bevis": "Fiktivt eksempel. Viser hvordan en bekræftet ane ser ud med kirkebog og folketælling.",
+    "biografi": "Fiktiv eksempelperson. Hr. Testesen var snedker i Viborg hele sit liv.\n\nTeksten her viser, hvordan en livshistorie kommer til at se ud."
+  },
+  {
+    "anenummer": 9,
+    "fiktiv": true,
+    "fornavne": "Karen",
+    "efternavn": "Testesen",
+    "koen": "k",
+    "status": "bekræftet",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1888-06-02",
+        "sted": "bjerringbro",
+        "kilder": [
+          "fk-kb-bjerringbro-1888"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1901",
+        "sted": "bjerringbro"
+      },
+      {
+        "type": "folketælling",
+        "dato": "1921",
+        "sted": "viborg"
+      },
+      {
+        "type": "død",
+        "dato": "1962-11-30",
+        "sted": "viborg"
+      }
+    ],
+    "kilder": [
+      "fk-kb-bjerringbro-1888"
+    ],
+    "bevis": "Fiktivt eksempel."
+  },
+  {
+    "anenummer": 10,
+    "fiktiv": true,
+    "fornavne": "Hans",
+    "efternavn": "Fiktivsen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1890",
+        "sted": "skive"
+      },
+      {
+        "type": "erhverv",
+        "dato": "1915",
+        "sted": "skive",
+        "beskrivelse": "Husmand"
+      },
+      {
+        "type": "død",
+        "dato": "1944",
+        "sted": "kjellerup"
+      }
+    ]
+  },
+  {
+    "anenummer": 11,
+    "fiktiv": true,
+    "fornavne": "Maren",
+    "efternavn": "Fiktivsen",
+    "koen": "k",
+    "status": "bekræftet",
+    "haendelser": [
+      {
+        "type": "dåb",
+        "dato": "1893-09-10",
+        "sted": "kjellerup",
+        "kilder": [
+          "fk-kb-kjellerup-1893"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1901",
+        "sted": "kjellerup"
+      },
+      {
+        "type": "død",
+        "dato": "1970",
+        "sted": "kjellerup"
+      }
+    ],
+    "kilder": [
+      "fk-kb-kjellerup-1893",
+      "fk-slaegtsbog"
+    ],
+    "bevis": "Fiktivt eksempel."
+  },
+  {
+    "anenummer": 16,
+    "fiktiv": true,
+    "fornavne": "Jens",
+    "efternavn": "Testesen",
+    "koen": "m",
+    "status": "bekræftet",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1855-02-01",
+        "sted": "viborg",
+        "kilder": [
+          "fk-kb-viborg-1855"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1860",
+        "sted": "viborg"
+      },
+      {
+        "type": "folketælling",
+        "dato": "1870",
+        "sted": "viborg"
+      },
+      {
+        "type": "folketælling",
+        "dato": "1880",
+        "sted": "viborg"
+      },
+      {
+        "type": "erhverv",
+        "dato": "1880",
+        "sted": "viborg",
+        "beskrivelse": "Arbejdsmand"
+      },
+      {
+        "type": "vielse",
+        "dato": "1882",
+        "sted": "viborg"
+      },
+      {
+        "type": "død",
+        "dato": "1920-04-04",
+        "sted": "viborg"
+      }
+    ],
+    "kilder": [
+      "fk-kb-viborg-1855",
+      "fk-ft-1901-viborg"
+    ],
+    "bevis": "Fiktivt eksempel."
+  },
+  {
+    "anenummer": 17,
+    "fiktiv": true,
+    "fornavne": "Ane",
+    "efternavn": "Testesen",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1858",
+        "sted": "skive"
+      }
+    ]
+  },
+  {
+    "anenummer": 18,
+    "fiktiv": true,
+    "fornavne": "Niels",
+    "efternavn": "Eksempelsen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1860",
+        "sted": "bjerringbro"
+      },
+      {
+        "type": "udvandring",
+        "dato": "1902",
+        "sted": "bjerringbro",
+        "beskrivelse": "Udvandrede til Amerika ifølge fiktiv slægtsbog"
+      }
+    ],
+    "kilder": [
+      "fk-slaegtsbog"
+    ]
+  },
+  {
+    "anenummer": 32,
+    "fiktiv": true,
+    "fornavne": "Christen",
+    "efternavn": "Testesen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1825",
+        "sted": "viborg"
+      }
+    ]
+  },
+  {
+    "anenummer": 12,
+    "fiktiv": true,
+    "fornavne": "Heinrich",
+    "efternavn": "Prøvesen",
+    "koen": "m",
+    "status": "bekræftet",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1880-05-20",
+        "sted": "haderslev",
+        "kilder": [
+          "fk-kb-haderslev-1880"
+        ]
+      },
+      {
+        "type": "militær",
+        "dato": "1914",
+        "sted": "haderslev",
+        "kilder": [
+          "fk-stamrulle"
+        ],
+        "beskrivelse": "Indkaldt til tysk krigstjeneste. Nordslesvig var tysk indtil 1920."
+      },
+      {
+        "type": "folketælling",
+        "dato": "1921",
+        "sted": "haderslev",
+        "kilder": [
+          "fk-ft-1921-haderslev"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1958",
+        "sted": "haderslev"
+      }
+    ],
+    "kilder": [
+      "fk-kb-haderslev-1880",
+      "fk-ft-1921-haderslev"
+    ],
+    "bevis": "Fiktivt eksempel. Viser en sønderjysk ane med tysk krigstjeneste."
+  },
+  {
+    "anenummer": 13,
+    "fiktiv": true,
+    "fornavne": "Marie",
+    "efternavn": "Prøvesen",
+    "koen": "k",
+    "status": "bekræftet",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1884-12-24",
+        "sted": "christiansfeld",
+        "kilder": [
+          "fk-kb-christiansfeld-1884"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1921",
+        "sted": "haderslev",
+        "kilder": [
+          "fk-ft-1921-haderslev"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1966",
+        "sted": "haderslev"
+      }
+    ],
+    "kilder": [
+      "fk-kb-christiansfeld-1884"
+    ],
+    "bevis": "Fiktivt eksempel."
+  },
+  {
+    "anenummer": 14,
+    "fiktiv": true,
+    "fornavne": "Christian",
+    "efternavn": "Eksempelsen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1887",
+        "sted": "aabenraa"
+      },
+      {
+        "type": "erhverv",
+        "dato": "1920",
+        "sted": "aabenraa",
+        "beskrivelse": "Fisker"
+      }
+    ]
+  },
+  {
+    "anenummer": 15,
+    "fiktiv": true,
+    "fornavne": "Kirsten",
+    "efternavn": "Eksempelsen",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1890",
+        "sted": "toender"
+      }
+    ]
+  },
+  {
+    "anenummer": 24,
+    "fiktiv": true,
+    "fornavne": "Peter",
+    "efternavn": "Prøvesen",
+    "koen": "m",
+    "status": "bekræftet",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1850-08-08",
+        "sted": "soenderborg",
+        "kilder": [
+          "fk-kb-soenderborg-1850"
+        ]
+      },
+      {
+        "type": "andet",
+        "dato": "1864",
+        "sted": "soenderborg",
+        "beskrivelse": "Oplevede krigen i 1864 som dreng"
+      },
+      {
+        "type": "død",
+        "dato": "1911",
+        "sted": "haderslev"
+      }
+    ],
+    "kilder": [
+      "fk-kb-soenderborg-1850"
+    ],
+    "bevis": "Fiktivt eksempel."
+  },
+  {
+    "anenummer": 25,
+    "fiktiv": true,
+    "fornavne": "Anna Christine",
+    "efternavn": "Prøvesen",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1853",
+        "sted": "nordborg"
+      }
+    ]
+  },
+  {
+    "anenummer": 48,
+    "fiktiv": true,
+    "fornavne": "Mads",
+    "efternavn": "Prøvesen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1820",
+        "sted": "nordborg"
+      }
+    ]
   }
 ]

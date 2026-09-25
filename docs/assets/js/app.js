@@ -6,6 +6,7 @@
 
 const D = {
   projekt: {},
+  alle: [],
   personer: [],
   steder: [],
   kilder: [],
@@ -156,9 +157,13 @@ function stedLang (id) {
 }
 
 function statusMaerke (p) {
-  if (p.status === 'bekræftet') return '<span class="maerke bekraeftet">Bekræftet</span>'
-  return '<span class="maerke undersoeges">Under undersøgelse</span>'
+  const fiktiv = p.fiktiv ? '<span class="maerke fiktiv">Fiktiv</span>' : ''
+  if (p.status === 'bekræftet') return fiktiv + '<span class="maerke bekraeftet">Bekræftet</span>'
+  if (p.status === 'spor') return fiktiv + '<span class="maerke spor">Familieoplysning</span>'
+  return fiktiv + '<span class="maerke undersoeges">Under undersøgelse</span>'
 }
+
+function fiktivTag (p) { return p && p.fiktiv ? ' <span class="maerke fiktiv">Fiktiv</span>' : '' }
 
 function sideMaerke (n) {
   const s = side(n)
@@ -174,7 +179,12 @@ function erBekraeftet (n) { const p = P.get(n); return !!p && p.status === 'bekr
 
 /* En plads i anetavlen er åben for forskning, hvis barnet er bekræftet. */
 function pladsStatus (n) {
-  if (P.has(n)) return P.get(n).status === 'bekræftet' ? 'bekraeftet' : 'undersoeges'
+  if (P.has(n)) {
+    const p = P.get(n)
+    if (p.fiktiv) return 'fiktiv'
+    if (p.status === 'bekræftet') return 'bekraeftet'
+    return p.status === 'spor' ? 'spor' : 'undersoeges'
+  }
   if (n === 1) return 'aaben'
   return erBekraeftet(n >> 1) ? 'aaben' : 'laast'
 }
@@ -200,6 +210,15 @@ async function hent (fil, standard) {
   }
 }
 
+let visFiktive = true
+try { visFiktive = localStorage.getItem('slaegt-vis-fiktive') !== 'nej' } catch (e) { visFiktive = true }
+
+function anvendFiktivFilter () {
+  D.personer = visFiktive ? D.alle.slice() : D.alle.filter(p => !p.fiktiv)
+  P.clear()
+  D.personer.forEach(p => P.set(p.anenummer, p))
+}
+
 async function indlaes () {
   const res = await Promise.all([
     hent('projekt.json', {}),
@@ -210,12 +229,12 @@ async function indlaes () {
     hent('historie.json', [])
   ])
   D.projekt = res[0] || {}
-  D.personer = res[1] || []
+  D.alle = res[1] || []
   D.steder = res[2] || []
   D.kilder = res[3] || []
   D.forskning = Object.assign({ opgaver: [], log: [] }, res[4] || {})
   D.historie = res[5] || []
-  D.personer.forEach(p => P.set(p.anenummer, p))
+  anvendFiktivFilter()
   D.steder.forEach(s => S.set(s.id, s))
   D.kilder.forEach(k => K.set(k.id, k))
 }
@@ -226,8 +245,11 @@ function naesteSkridt () {
   const ud = []
   personer().forEach(p => {
     const n = p.anenummer
+    if (p.fiktiv) return
+    if (p.status === 'spor' && !erBekraeftet(n >> 1)) return
     if (p.status !== 'bekræftet') {
       const mangler = []
+      if (p.status === 'spor') mangler.push('kilder. Navnet kommer fra familien')
       if (!p.bevis) mangler.push('en begrundelse for identifikationen')
       const kilder = kildeIds(p)
       if (!kilder.some(id => K.get(id) && K.get(id).kvalitet === 'primær')) mangler.push('mindst én primærkilde')
@@ -253,7 +275,7 @@ function kildeIds (p) {
 /* Sider */
 
 function sideOversigt () {
-  const alle = personer()
+  const alle = personer().filter(p => !p.fiktiv)
   const bekr = alle.filter(p => p.status === 'bekræftet')
   const unders = alle.filter(p => p.status !== 'bekræftet')
   const fodsler = alle.filter(visDetaljer).map(foedselsaar).filter(a => a)
@@ -265,7 +287,7 @@ function sideOversigt () {
   h.push('<h1>' + esc(titel) + '</h1>')
   if (D.projekt.beskrivelse) h.push('<p class="ingress">' + esc(D.projekt.beskrivelse) + '</p>')
 
-  if (!alle.length) {
+  if (!D.personer.length) {
     h.push('<div class="tom-tilstand sektion"><h2>Projektet er klar</h2><p>Der er endnu ikke registreret nogen personer.<br>Første skridt er rodpersonen, altså dig selv, og derefter dine forældre.</p><p class="lille">Data ligger i <code>docs/data/personer.json</code>.</p></div>')
     return h.join('')
   }
@@ -273,19 +295,20 @@ function sideOversigt () {
   h.push('<div class="gitter gitter-4 sektion">')
   h.push(talKort(bekr.length, 'bekræftede aner'))
   h.push(talKort(unders.length, 'under undersøgelse'))
-  h.push(talKort(mg + 1, mg === 0 ? 'generation' : 'generationer'))
+  const mgEgen = alle.reduce((m, p) => Math.max(m, gen(p.anenummer)), 0)
+  h.push(talKort(mgEgen + 1, mgEgen === 0 ? 'generation' : 'generationer'))
   h.push(talKort(aeldst || '', 'ældste kendte fødselsår'))
-  h.push(talKort(D.kilder.length, 'kilder registreret'))
+  h.push(talKort(D.kilder.filter(k => !k.fiktiv).length, 'kilder registreret'))
   h.push('</div>')
 
   h.push('<div class="gitter gitter-2 sektion">')
-  h.push('<section class="kort-flade"><h3>Fremdrift pr. generation</h3><p class="lille">Andel af mulige aner i hver generation, som er fundet.</p>')
+  h.push('<section class="kort-flade"><h3>Fremdrift pr. generation</h3><p class="lille">Andel af mulige aner i hver generation, som er fundet. Fiktive eksempler tælles ikke med.</p>')
   for (let g = 1; g <= Math.min(mg + 1, 12); g++) {
     const muligt = Math.pow(2, g)
     let ok = 0
     let vent = 0
     for (let n = muligt; n < muligt * 2; n++) {
-      if (!P.has(n)) continue
+      if (!P.has(n) || P.get(n).fiktiv) continue
       if (P.get(n).status === 'bekræftet') ok++
       else vent++
     }
@@ -306,7 +329,7 @@ function sideOversigt () {
   h.push(log.length ? '<ul class="liste">' + log.map(logHtml).join('') + '</ul>' : '<p class="muted">Forskningsloggen er tom.</p>')
   h.push('</section>')
   h.push('<section class="kort-flade"><h3>Den direkte linje</h3><p class="lille">Nærmeste aner. Klik for at se detaljer.</p><div class="foraeldre">')
-  alle.filter(p => p.anenummer < 8).forEach(p => h.push(miniHtml(p.anenummer)))
+  personer().filter(p => p.anenummer < 8).forEach(p => h.push(miniHtml(p.anenummer)))
   h.push('</div><p><a class="knap" href="#/anetavle">Se hele anetavlen</a> <a class="knap" href="#/galleri">Persongalleri</a></p></section>')
   h.push('</div>')
   return h.join('')
@@ -334,7 +357,7 @@ function miniHtml (n) {
   }
   const prik = p.portraet && visDetaljer(p) ? '<img src="' + esc(p.portraet) + '" alt="">' : esc(initialer(p))
   const farve = side(n)
-  return '<a class="mini" href="#/person/' + n + '"><div class="prik" style="background:var(--' + farve + '-lys);color:var(--' + farve + ')">' + prik + '</div><div><div class="rel">' + esc(relation(n)) + '</div><div class="n">' + esc(fuldtNavn(p)) + '</div><div class="lille">' + esc(levetid(p)) + '</div></div></a>'
+  return '<a class="mini" href="#/person/' + n + '"><div class="prik" style="background:var(--' + farve + '-lys);color:var(--' + farve + ')">' + prik + '</div><div><div class="rel">' + (p.fiktiv ? 'Fiktiv · ' : p.status === 'spor' ? 'Familieoplysning · ' : '') + esc(relation(n)) + '</div><div class="n">' + esc(fuldtNavn(p)) + '</div><div class="lille">' + esc(levetid(p)) + '</div></div></a>'
 }
 
 /* Anetavle som SVG */
@@ -362,6 +385,8 @@ function forklaring () {
     '<span><i style="background:var(--far-lys);border-color:var(--far)"></i>Fars side</span>' +
     '<span><i style="background:var(--mor-lys);border-color:var(--mor)"></i>Mors side</span>' +
     '<span><i style="background:var(--vent-lys);border-color:var(--vent);border-style:dashed"></i>Under undersøgelse</span>' +
+    '<span><i style="background:var(--papir-2);border-color:var(--blaek-3);border-style:dashed"></i>Familieoplysning, ikke undersøgt</span>' +
+    (D.alle.some(p => p.fiktiv) ? '<span><i style="background:var(--fiktiv-lys);border-color:var(--fiktiv);border-style:dashed"></i>Fiktivt eksempel</span>' : '') +
     '<span><i style="background:transparent;border-color:var(--streg-2);border-style:dashed"></i>Kan undersøges nu</span>' +
     '<span><i style="background:transparent;border-color:var(--laast);border-style:dotted"></i>Låst, barnet er ikke bekræftet</span>' +
     '</div>'
@@ -420,9 +445,11 @@ function boksSvg (n, x, y, w, h, yderst) {
   let streg = 'var(--' + sd + ')'
   let stil = ''
   if (st === 'undersoeges') { fyld = 'var(--vent-lys)'; streg = 'var(--vent)'; stil = ' stroke-dasharray="5 3"' }
+  if (st === 'spor') { fyld = 'var(--papir-2)'; streg = 'var(--blaek-3)'; stil = ' stroke-dasharray="5 3"' }
+  if (st === 'fiktiv') { fyld = 'var(--fiktiv-lys)'; streg = 'var(--fiktiv)'; stil = ' stroke-dasharray="7 3"' }
   if (st === 'aaben') { fyld = 'transparent'; streg = 'var(--streg-2)'; stil = ' stroke-dasharray="5 3"' }
   if (st === 'laast') { fyld = 'transparent'; streg = 'var(--laast)'; stil = ' stroke-dasharray="2 3"' }
-  const rel = relation(n)
+  const rel = (st === 'fiktiv' ? 'Fiktiv · ' : st === 'spor' ? 'Familie · ' : '') + relation(n)
   const linjer = []
   if (p) {
     linjer.push('<text class="br" x="' + (x + 10) + '" y="' + (y + 16) + '">' + esc(rel.length > 28 ? 'Anenr. ' + n : rel) + '</text>')
@@ -487,12 +514,14 @@ function vifteSvg () {
       const sd = side(n)
       let fyld = 'var(--' + sd + '-lys)'
       if (st === 'undersoeges') fyld = 'var(--vent-lys)'
+      if (st === 'spor') fyld = 'var(--papir-2)'
+      if (st === 'fiktiv') fyld = 'var(--fiktiv-lys)'
       if (st === 'aaben') fyld = 'var(--papir-2)'
       if (st === 'laast') fyld = 'var(--papir)'
       const d = bue(cx, cy, ri, ro, a0, a1)
       const p = P.get(n)
       const titel = '<title>' + esc((p ? fuldtNavn(p) + '. ' : '') + relation(n) + '. Anenummer ' + n + (p ? '' : st === 'aaben' ? '. Kan undersøges nu' : '. Låst')) + '</title>'
-      const seg = '<path class="vifte-seg" d="' + d + '" fill="' + fyld + '"' + (st === 'undersoeges' ? ' stroke="var(--vent)"' : '') + '>' + titel + '</path>'
+      const seg = '<path class="vifte-seg" d="' + d + '" fill="' + fyld + '"' + (st === 'undersoeges' ? ' stroke="var(--vent)"' : st === 'fiktiv' ? ' stroke="var(--fiktiv)"' : st === 'spor' ? ' stroke="var(--blaek-3)"' : '') + '>' + titel + '</path>'
       let tekst = ''
       if (p) {
         const am = (a0 + a1) / 2
@@ -535,7 +564,7 @@ function sideGalleri () {
   h.push('<p class="ingress">Alle personer i den direkte linje, ordnet efter generation.</p>')
   h.push('<div class="vaerktoej"><input type="search" id="g-soeg" placeholder="Søg navn, sted eller erhverv" value="' + esc(galleriFilter.tekst) + '" aria-label="Søg">')
   h.push('<label>Side <select id="g-side"><option value="alle">Begge sider</option><option value="far">Fars side</option><option value="mor">Mors side</option></select></label>')
-  h.push('<label>Status <select id="g-status"><option value="alle">Alle</option><option value="bekræftet">Bekræftet</option><option value="under undersøgelse">Under undersøgelse</option></select></label></div>')
+  h.push('<label>Status <select id="g-status"><option value="alle">Alle</option><option value="bekræftet">Bekræftet</option><option value="under undersøgelse">Under undersøgelse</option><option value="spor">Familieoplysning</option><option value="fiktiv">Fiktive eksempler</option></select></label></div>')
   h.push('<div id="g-resultat"></div>')
   return h.join('')
 }
@@ -547,7 +576,7 @@ function tegnGalleri () {
   const liste = personer().filter(p => {
     if (galleriFilter.side !== 'alle' && p.anenummer !== 1 && side(p.anenummer) !== galleriFilter.side) return false
     if (galleriFilter.side !== 'alle' && p.anenummer === 1) return false
-    if (galleriFilter.status !== 'alle' && (p.status || 'under undersøgelse') !== galleriFilter.status) return false
+    if (galleriFilter.status === 'fiktiv') { if (!p.fiktiv) return false } else if (galleriFilter.status !== 'alle' && (p.fiktiv || (p.status || 'under undersøgelse') !== galleriFilter.status)) return false
     if (!q) return true
     return soegetekst(p).includes(q)
   })
@@ -754,7 +783,7 @@ function tegnTidsliste () {
       if (tidsFilter.type !== 'alle' && e.type !== tidsFilter.type) return
       const d = parseDato(e.dato)
       if (!d || d.sort == null) return
-      poster.push({ sort: d.sort, aar: d.aar, html: '<li class="post ' + side(p.anenummer) + '"><div class="d">' + esc(d.tekst) + '</div><div><strong>' + esc(TYPENAVNE[e.type] || stort(e.type)) + '</strong>  ' + linkPerson(p.anenummer) + ' <span class="lille">(' + esc(relation(p.anenummer).toLowerCase()) + ')</span>' + (e.sted ? '<div class="lille">' + stedLang(e.sted) + '</div>' : '') + (e.beskrivelse ? '<div class="lille">' + esc(e.beskrivelse) + '</div>' : '') + '</div></li>' })
+      poster.push({ sort: d.sort, aar: d.aar, html: '<li class="post ' + side(p.anenummer) + '"><div class="d">' + esc(d.tekst) + '</div><div><strong>' + esc(TYPENAVNE[e.type] || stort(e.type)) + '</strong>  ' + linkPerson(p.anenummer) + ' <span class="lille">(' + esc(relation(p.anenummer).toLowerCase()) + ')</span>' + fiktivTag(p) + (e.sted ? '<div class="lille">' + stedLang(e.sted) + '</div>' : '') + (e.beskrivelse ? '<div class="lille">' + esc(e.beskrivelse) + '</div>' : '') + '</div></li>' })
     })
   })
   if (tidsFilter.historie && poster.length) {
@@ -833,7 +862,7 @@ function tegnKort () {
     const sider = new Set(liste.map(x => side(x.p.anenummer)))
     const farve = sider.size === 1 ? getComputedStyle(document.documentElement).getPropertyValue('--' + Array.from(sider)[0]).trim() : accent
     const r = Math.min(16, 6 + liste.length * 1.5)
-    const html = '<h4>' + esc(s.navn) + '</h4>' + (s.sogn || s.amt ? '<div class="lille">' + esc([s.sogn, s.amt].filter(Boolean).join(', ')) + '</div>' : '') + '<ul>' + liste.map(x => '<li>' + esc(TYPENAVNE[x.e.type] || x.e.type) + (x.e.dato ? ' ' + esc(datoTekst(x.e.dato)) : '') + ': <a href="#/person/' + x.p.anenummer + '">' + esc(fuldtNavn(x.p)) + '</a></li>').join('') + '</ul>'
+    const html = '<h4>' + esc(s.navn) + '</h4>' + (s.sogn || s.amt ? '<div class="lille">' + esc([s.sogn, s.amt].filter(Boolean).join(', ')) + '</div>' : '') + '<ul>' + liste.map(x => '<li>' + esc(TYPENAVNE[x.e.type] || x.e.type) + (x.e.dato ? ' ' + esc(datoTekst(x.e.dato)) : '') + ': <a href="#/person/' + x.p.anenummer + '">' + esc(fuldtNavn(x.p)) + '</a>' + (x.p.fiktiv ? ' (fiktiv)' : '') + '</li>').join('') + '</ul>'
     grupper.push(window.L.circleMarker([s.lat, s.lng], { radius: r, color: '#fff', weight: 2, fillColor: farve, fillOpacity: 0.9 }).bindPopup(html).addTo(kortInstans))
   })
   if (grupper.length) kortInstans.fitBounds(window.L.featureGroup(grupper).getBounds().pad(0.2), { maxZoom: 11 })
@@ -864,7 +893,7 @@ function sideKilder (fokus) {
   D.kilder.slice().sort((a, b) => String(a.titel).localeCompare(String(b.titel), 'da')).forEach(k => {
     const pers = (brug.get(k.id) || []).filter(n => !skjult(P.get(n)))
     h.push('<article class="kort-flade kilde" id="kilde-' + esc(k.id) + '" data-type="' + esc(k.type || '') + '"' + (fokus === k.id ? ' style="outline:2px solid var(--accent)"' : '') + '>')
-    h.push('<div class="meta">' + (k.type ? '<span class="maerke neutral">' + esc(k.type) + '</span>' : '') + (k.kvalitet ? '<span class="maerke ' + (k.kvalitet === 'primær' ? 'bekraeftet' : 'undersoeges') + '">' + esc(stort(k.kvalitet)) + 'kilde</span>' : '') + '</div>')
+    h.push('<div class="meta">' + (k.fiktiv ? '<span class="maerke fiktiv">Fiktiv</span>' : '') + (k.type ? '<span class="maerke neutral">' + esc(k.type) + '</span>' : '') + (k.kvalitet ? '<span class="maerke ' + (k.kvalitet === 'primær' ? 'bekraeftet' : 'undersoeges') + '">' + esc(stort(k.kvalitet)) + 'kilde</span>' : '') + '</div>')
     h.push('<h3>' + esc(k.titel) + '</h3>')
     if (k.arkiv || k.reference) h.push('<div class="lille">' + esc([k.arkiv, k.reference].filter(Boolean).join(', ')) + '</div>')
     if (k.noter) h.push('<p>' + esc(k.noter) + '</p>')
@@ -956,7 +985,17 @@ function vis () {
   else { html = '<h1>Siden findes ikke</h1><p><a href="#/">Til forsiden</a></p>'; titel = 'Ikke fundet' }
 
   if (kortInstans && r.navn !== 'kort') { kortInstans.remove(); kortInstans = null }
+  if (D.alle.some(p => p.fiktiv)) {
+    html = '<div class="fiktiv-banner"><span>Siden indeholder fiktive eksempelpersoner, markeret med <span class="maerke fiktiv">Fiktiv</span>. De er kun med for at vise, hvordan siden fungerer.</span><button class="knap" id="fiktiv-knap">' + (visFiktive ? 'Skjul fiktive' : 'Vis fiktive') + '</button></div>' + html
+  }
   main.innerHTML = html
+  const fk = document.getElementById('fiktiv-knap')
+  if (fk) fk.addEventListener('click', () => {
+    visFiktive = !visFiktive
+    try { localStorage.setItem('slaegt-vis-fiktive', visFiktive ? 'ja' : 'nej') } catch (e) {}
+    anvendFiktivFilter()
+    vis()
+  })
   document.title = titel + ' · ' + (D.projekt.titel || 'Slægten')
   const aktiv = r.navn === 'vifte' ? 'anetavle' : r.navn === 'person' ? 'galleri' : r.navn === 'kilde' ? 'kilder' : r.navn
   document.querySelectorAll('.hovedmenu a').forEach(a => a.classList.toggle('aktiv', a.dataset.rute === aktiv))

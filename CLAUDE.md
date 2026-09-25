@@ -11,6 +11,12 @@ Dette er et slægtsforskningsprojekt for ejeren af repoet. Hjemmesiden ligger i 
 * Nulevende personer får kun navn. Repoet er offentligt.
 * Hver forskningsindsats noteres i `docs/data/forskning.json` under `log`, også når intet blev fundet.
 * Kør `node scripts/valider.mjs` før hver commit.
+* Arbejd kun på grenen `main`. Siden udgives fra `main`.
+
+## Familieoplysninger og fiktive eksempler
+
+* Status `spor` bruges til navne, der kun kendes fra familien. Et spor må registreres, når barnet findes, men undersøges først, når barnet er bekræftet. Forældre til et spor kan kun være spor.
+* Personer og kilder med `"fiktiv": true` er opdigtede eksempler, som viser sidens funktioner. De vises med mærket Fiktiv, tælles ikke med i statistikken og er undtaget fra reglerne. En virkelig person må aldrig bruge en fiktiv kilde. Fiktive personer erstattes, efterhånden som de rigtige aner bliver fundet.
 
 ## Sprog og stil
 

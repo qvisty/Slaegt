@@ -28,6 +28,23 @@
       "titel": "Saml familiens egne papirer",
       "tekst": "Dåbsattester, vielsesattester, dødsattester, konfirmationsbeviser, gamle breve og fotos med navne på bagsiden.",
       "status": "åben"
+    },
+    {
+      "titel": "Søg gravsten i Viborg og Haderslev",
+      "tekst": "Søg efter Qvist på dk-gravsten.dk (Viborg Kirkegård) og gravsted.dk. Gravsten giver ofte fulde navne og datoer for Tage, Else og Ole. Søg også Sønderborg og Sørensen i Haderslev.",
+      "anenummer": 4,
+      "status": "åben"
+    },
+    {
+      "titel": "Spørg i familien om Helmuth og Anna",
+      "tekst": "Hvornår blev Helmuth Sønderborg og Anna Sørensen gift, og hvorfor bærer Dorthe Merete efternavnet Sørensen? Fotos, vielsesattest eller gamle breve kan afklare det.",
+      "anenummer": 6,
+      "status": "åben"
+    },
+    {
+      "titel": "Kontakt lokale slægtsforeninger",
+      "tekst": "Slægtsforskerne i Viborg (viborgslaegt.dk) og lokalarkiverne i Viborg og Haderslev kan ofte hjælpe med lokale navne.",
+      "status": "åben"
     }
   ],
   "log": [
@@ -40,9 +57,25 @@
     {
       "dato": "2026-09-25",
       "titel": "Familieoplysninger om forældre og bedsteforældre",
-      "tekst": "Far: Ole Gravlev Qvist, født 24. juli 1950, slægten fra Viborg. Mor: Dorthe Merete Qvist, født Sørensen, slægten fra Sønderjylland. Spor til næste generation, som først registreres, når forældrene er bekræftet: farfar Tage Qvist og farmor Else Qvist, begge Viborg. Morfar Helmuth Sønderborg og mormor Anna Sørensen, begge Haderslev. Bemærk forskellen mellem morfars efternavn og mors pigenavn.",
-      "personer": [1, 2, 3],
+      "tekst": "Far: Ole Gravlev Qvist, født 24. juli 1950, slægten fra Viborg. Mor: Dorthe Merete Qvist, født Sørensen, slægten fra Sønderjylland. Bedsteforældrene er registreret som familieoplysninger, der først undersøges, når forældrene er bekræftet: farfar Tage Qvist og farmor Else Qvist, begge Viborg. Morfar Helmuth Sønderborg og mormor Anna Sørensen, begge Haderslev. Bemærk forskellen mellem morfars efternavn og mors pigenavn.",
+      "personer": [
+        1,
+        2,
+        3
+      ],
       "resultat": "spor"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Websøgning efter far, farforældre og morfar",
+      "tekst": "Søgt på nettet efter Ole Gravlev Qvist, Tage og Else Qvist i Viborg og Helmuth Sønderborg i Haderslev. Eneste træf på Ole Qvist er landsholdsmålmanden fra KB. Han er født 25. februar 1950 i København og lever stadig, så han er IKKE Jespers far (fødselsdatoen er 24. juli 1950). Ingen brugbare træf på de øvrige. Arkivalieronline, gravstensdatabaser og dødsannoncer kan ikke nås fra det værktøj, der blev brugt, og skal søges manuelt.",
+      "personer": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "resultat": "afvist træf"
     }
   ]
 }

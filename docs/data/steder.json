@@ -1,1 +1,75 @@
-[]
+[
+  {
+    "id": "viborg",
+    "navn": "Viborg",
+    "sogn": "Viborg Domsogn",
+    "herred": "Nørlyng Herred",
+    "amt": "Viborg Amt",
+    "lat": 56.4532,
+    "lng": 9.402
+  },
+  {
+    "id": "haderslev",
+    "navn": "Haderslev",
+    "amt": "Haderslev Amt",
+    "lat": 55.2497,
+    "lng": 9.488
+  },
+  {
+    "id": "skive",
+    "navn": "Skive",
+    "amt": "Viborg Amt",
+    "lat": 56.5667,
+    "lng": 9.0333
+  },
+  {
+    "id": "bjerringbro",
+    "navn": "Bjerringbro",
+    "amt": "Viborg Amt",
+    "lat": 56.378,
+    "lng": 9.66
+  },
+  {
+    "id": "kjellerup",
+    "navn": "Kjellerup",
+    "amt": "Viborg Amt",
+    "lat": 56.286,
+    "lng": 9.434
+  },
+  {
+    "id": "christiansfeld",
+    "navn": "Christiansfeld",
+    "amt": "Haderslev Amt",
+    "lat": 55.357,
+    "lng": 9.483
+  },
+  {
+    "id": "aabenraa",
+    "navn": "Aabenraa",
+    "amt": "Aabenraa Amt",
+    "lat": 55.044,
+    "lng": 9.418
+  },
+  {
+    "id": "toender",
+    "navn": "Tønder",
+    "amt": "Tønder Amt",
+    "lat": 54.933,
+    "lng": 8.867
+  },
+  {
+    "id": "soenderborg",
+    "navn": "Sønderborg",
+    "amt": "Sønderborg Amt",
+    "lat": 54.909,
+    "lng": 9.792
+  },
+  {
+    "id": "nordborg",
+    "navn": "Nordborg",
+    "sogn": "Nordborg Sogn",
+    "amt": "Sønderborg Amt",
+    "lat": 55.057,
+    "lng": 9.742
+  }
+]
