@@ -93,6 +93,12 @@
       "tekst": "Elses far er ikke nævnt i dåben 1923. Anmærkningsrubrikken er sløret af Rigsarkivet. Man kan søge om adgang til den slørede tekst og til eventuelle faderskabssager hos Rigsarkivet.",
       "anenummer": 10,
       "status": "åben"
+    },
+    {
+      "titel": "Titel på bogen om krigsdeltagere",
+      "tekst": "Hvad hedder bogen med afsnittet om Jørgen Peter Bundesen, og hvem har skrevet den? Den har formentlig også afsnit om hans brødre.",
+      "anenummer": 14,
+      "status": "åben"
     }
   ],
   "log": [
@@ -609,6 +615,16 @@
         13
       ],
       "resultat": "familieoplysning"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Bogafsnit om Jørgen Peter Bundesen som krigsdeltager",
+      "tekst": "Dorthe Merete sendte fotos af to sider fra en bog om sønderjyske krigsdeltagere. Jørgen Peter Bundesen var i tysk tjeneste 1915 til 1919, blev såret 16. maj 1918 og mødte Dusine Wind på reservelazarettet i Toftlund, hvor hendes bror lå. Datoerne passer med kirkebøgerne og personregistrene. Bogens titel mangler. Henvisningen I-akt lb. nr. 2520 er formentlig hans sag hos Rigsarkivet (sønderjyske krigsdeltagere eller invalidesager).",
+      "personer": [
+        14,
+        15
+      ],
+      "resultat": "fundet"
     }
   ]
 }

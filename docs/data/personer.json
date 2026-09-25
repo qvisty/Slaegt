@@ -1155,7 +1155,8 @@
       "pr-skaerbaek-1920-v3",
       "kb-vodder-1920-v2",
       "pr-toftlund-1896-f63",
-      "pr-toftlund-1951-d19"
+      "pr-toftlund-1951-d19",
+      "bog-krigsdeltagere-bundesen"
     ],
     "noter": "Kaldet Jørn i familien. Arbejder i 1920, landpostbud i Toftlund 1925 til 1940. Søn af bager Jes Peter Bundesen og Anna Catharina Kramer.",
     "haendelser": [
@@ -1187,6 +1188,30 @@
         ]
       },
       {
+        "type": "militær",
+        "dato": "1915-10-13",
+        "beskrivelse": "Indkaldt til den tyske hær. Infanterie-Regiment Nr. 84 og Nr. 116, 2. Kompagnie",
+        "kilder": [
+          "bog-krigsdeltagere-bundesen"
+        ]
+      },
+      {
+        "type": "militær",
+        "dato": "1918-05-16",
+        "beskrivelse": "Såret. Feltlazarett St. Ingbert, siden Reservelazarett Toftlund",
+        "kilder": [
+          "bog-krigsdeltagere-bundesen"
+        ]
+      },
+      {
+        "type": "militær",
+        "dato": "1919-11-09",
+        "beskrivelse": "Hjemsendt med 25 procent invaliditet",
+        "kilder": [
+          "bog-krigsdeltagere-bundesen"
+        ]
+      },
+      {
         "type": "vielse",
         "dato": "1920-02-18",
         "sted": "gaansager",
@@ -1194,6 +1219,15 @@
         "kilder": [
           "kb-vodder-1920-v2",
           "pr-skaerbaek-1920-v3"
+        ]
+      },
+      {
+        "type": "bopæl",
+        "dato": "1920",
+        "sted": "toftlund",
+        "beskrivelse": "Købte huset Vestergade 21 og blev landpostbud",
+        "kilder": [
+          "bog-krigsdeltagere-bundesen"
         ]
       },
       {
@@ -1221,6 +1255,15 @@
         "beskrivelse": "Husfader, landpostbud, Vestergade",
         "kilder": [
           "ft1940-toftlund-vestergade"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1945",
+        "sted": "toftlund",
+        "beskrivelse": "Tog afsked fra postvæsenet, invaliditet 75 procent",
+        "kilder": [
+          "bog-krigsdeltagere-bundesen"
         ]
       },
       {
@@ -1273,7 +1316,8 @@
           "pr-toftlund-bundesen-boern"
         ]
       }
-    ]
+    ],
+    "biografi": "Jørgen Peter Bundesen, kaldet Jørn, blev født i Toftlund i 1896 som søn af bageren Jes Peter Bundesen. Sønderjylland var dengang tysk, og i oktober 1915 blev han indkaldt til den tyske hær. Han tjente i Infanterie-Regiment Nr. 84 og senere Nr. 116. Da hans far døde i december 1916, nåede han ikke hjem til begravelsen, men fik orlov to dage efter.\n\nDen 16. maj 1918 blev han såret og kom først på feltlazarettet i St. Ingbert og siden på reservelazarettet i Toftlund. Her lå han sammen med en ung soldat fra familien Wind. Soldatens søster Dusine kom på besøg, og hun og Jørgen blev forelskede. De blev gift i februar 1920.\n\nJørgen var slemt tilredt efter krigen og fik invaliderente. Han blev hjemsendt i november 1919, købte i 1920 huset Vestergade 21 i Toftlund og blev landpostbud. I 1945 måtte han tage sin afsked fra postvæsenet på grund af helbredet. Han døde i huset i Vestergade i 1951, og Dusine blev boende. I 1967 overtog sønnen, malermester Andreas Bundesen, huset sammen med tre medejere."
   },
   {
     "anenummer": 15,
@@ -1291,7 +1335,8 @@
       "pr-skaerbaek-1920-v3",
       "kb-vodder-1920-v2",
       "pr-toftlund-1901-f80",
-      "pr-toftlund-1951-d19"
+      "pr-toftlund-1951-d19",
+      "bog-krigsdeltagere-bundesen"
     ],
     "noter": "Datter af skræddermester Rasmus Andresen Wind og Anna Christine Lausen. Født 21. december 1901 en halv time over midnat ifølge fødselsanmeldelsen, derfor står 20. december i flere senere kilder. Enke fra 1951. Hendes død er ikke fundet.",
     "haendelser": [
