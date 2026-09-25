@@ -81,6 +81,12 @@
       "tekst": "Fødested ukendt. Prøv nabosognene til Skærbæk (Brøns, Rejsby, Ballum, Hviding), Haderslev personregister og stavemåden Bendesen. Dåben giver hendes forældre, når Anna er bekræftet.",
       "anenummer": 7,
       "status": "åben"
+    },
+    {
+      "titel": "Find Helmuths firma på havnen",
+      "tekst": "Læs Hejmdal 31.3.1971 s. 11 og Jyllands-Posten 1.4.1971 s. 6 om en direktør Helmuth Sørensens 40 års jubilæum, fx på Det Kgl. Bibliotek. Eller bed Historie Haderslev slå ham op i vejviserne 1950 til 1980 og i hæftet om Outzen & Christensen A/S fra 1975.",
+      "anenummer": 6,
+      "status": "åben"
     }
   ],
   "log": [
@@ -405,6 +411,25 @@
         6
       ],
       "resultat": "fundet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Korn og foderstoffirmaer på Haderslev havn",
+      "tekst": "Fra arkiv.dk (Historie Haderslev): A/S Nicolai Outzen, korngrosserer med silo og foderstoffabrik på Pakhuskajen (grundlagt 1935), og J. S. Christensen, korn og foderstoffer (1907 eller 1928 til 1975). De to fusionerede i 1975 til Outzen & Christensen A/S, fra 1983 Superfos Korn, på Haderslev Havn. Desuden UNION Korn og Foderstofimport A/S i Sejlstensgyde og Haderslev Kul og Koks Kompagni. Hæftet om Outzen & Christensen A/S fra 1975 præsenterer de ansatte: https://arkiv.dk/vis/3701622. Artikel om Nicolai Outzen i Haderslev Samfundets Årsskrift 1982: https://arkiv.dk/vis/4306564.",
+      "personer": [
+        6
+      ],
+      "resultat": "spor"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Avisspor om direktør Helmuth Sørensen (ikke læst)",
+      "tekst": "Mediestream kan kun søges, teksten er spærret. Ord i samme avissegment: Hejmdal 27.3.1931 s. 7 (Helmuth Sørensen, realeksamen, snedkermester). Hejmdal 31.3.1971 s. 11 og Jyllands-Posten 31.3 og 1.4.1971 s. 6 (direktør Helmuth Sørensen, 40 års jubilæum 1. april, korn, kul, brændsel, Haderslev). Det passer med realeksamen som 16 årig i 1931, ansættelse 1. april 1931 og FT 1940, hvor han var bogholder i kulimport. Der Nordschleswiger 23.6.1962 s. 5 nævner Helmuth Sörensen og Nic. Outzen i samme segment, men forbindelsen er svag. Firmanavnet er ikke fundet. Der fandtes mindst én anden Helmuth Sørensen i landsdelen. Mulige fødselsdagsnotitser 1984 og 1989 passer ikke, fordi Helmuth er født 1915. Intet her er bevis. Kraks Blå Bog, arkiv.dk og websøgning gav intet om ham, og intet om Bessie.",
+      "personer": [
+        6,
+        7
+      ],
+      "resultat": "spor"
     }
   ]
 }
