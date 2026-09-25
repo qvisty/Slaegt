@@ -240,7 +240,7 @@
     "kilder": [
       "fam-jesper-2026"
     ],
-    "noter": "Navn og bopæl fra familien. Undersøges, når Dorthe Merete er bekræftet.",
+    "noter": "Navn og bopæl fra familien. Undersøges, når Dorthe Merete er bekræftet. Var ifølge Jesper direktør for et korn og foderstoffirma på havnen i Haderslev.",
     "haendelser": [
       {
         "type": "bopæl",
@@ -249,6 +249,14 @@
           "fam-jesper-2026"
         ],
         "beskrivelse": "Boede i Haderslev ifølge familien"
+      },
+      {
+        "type": "erhverv",
+        "sted": "haderslev",
+        "beskrivelse": "Direktør for et korn og foderstoffirma på havnen i Haderslev ifølge familien",
+        "kilder": [
+          "fam-jesper-2026"
+        ]
       }
     ]
   },
@@ -261,7 +269,7 @@
     "kilder": [
       "fam-jesper-2026"
     ],
-    "noter": "Navn og bopæl fra familien. Undersøges, når Dorthe Merete er bekræftet.",
+    "noter": "Navn og bopæl fra familien. Undersøges, når Dorthe Merete er bekræftet. Blev altid kaldt Bessie ifølge Jesper.",
     "haendelser": [
       {
         "type": "bopæl",
