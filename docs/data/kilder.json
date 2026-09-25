@@ -381,5 +381,85 @@
     "reference": "Givet via Jesper 25. september 2026",
     "kvalitet": "sekundær",
     "noter": "Jørn og Dusine Bundesen, Toftlund, var forældre til Anna Christine Sørensen, født Bundesen."
+  },
+  {
+    "id": "kb-haderslev-vorfrue-1912-v39",
+    "titel": "Kirkebog, Haderslev Vor Frue Sogn, viede 1912, nr. 39",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, viede 1893 til 1922, Copulations-Register 1912, side 456, opslag 228, nr. 39",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201563#201563,38194066",
+    "kvalitet": "primær",
+    "noter": "På tysk. Viet 18. oktober 1912 i Vor Frue Kirke. Snedkermester Ludwig Sörensen, født i Gammel Haderslev 16. august 1883, døbt 23. september 1883, konfirmeret 3. april 1898, søn af de afdøde ægtefolk snedkersvend Georg Friedrich Sörensen og Anna Barbara født Kjer. Doris Elisabeth Olsen, født i Haderslev 21. juni 1879, døbt 6. juli 1879, konfirmeret 18. marts 1894, datter af blikkenslagermester Ferdinand Gottfried Olsen og Doris Elisabeth Friederikke født Johannsen."
+  },
+  {
+    "id": "standesamt-haderslev-1912-v64",
+    "titel": "Personregister (Standesamt), Haderslev, viede 1912, nr. 64",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Haderslev personregister, viede biregister 1912 til 1915, B nr. 64, opslag 67",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=37473#37473,5251864",
+    "kvalitet": "primær",
+    "noter": "Borgerlig vielse 18. oktober 1912. Brudgommens forældre var døde og havde sidst boet i Haderslev. Brudens forældre boede i Haderslev, Schloßstraße 10. Vidner: blikkenslagermester Ferdinand Gottfried Olsen, 62 år, og Peter Sörensen, 24 år."
+  },
+  {
+    "id": "kb-gl-haderslev-1883-d69",
+    "titel": "Kirkebog, Gammel Haderslev Sogn, døbte 1883, nr. 69",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1874 til 1888, døbte 1883, side 135, opslag 68, nr. 69",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201447#201447,38157761",
+    "kvalitet": "primær",
+    "noter": "Ludvig Sörensen, født 16. august, døbt 23. september 1883, søn af snedkersvend Georg Friederich Sörensen og hustru Anna Barbara født Kjer. Faddere: snedkermester Guldager af Frue Sogn, ungkarl Peter Hinrichsen og Maria Sörensen."
+  },
+  {
+    "id": "kb-haderslev-vorfrue-1879-d94",
+    "titel": "Kirkebog, Haderslev Vor Frue Sogn, Tauf-Register 1879, nr. 94",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog 1871 til 1881, side 337, opslag 169, nr. 94 og 95",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201555#201555,38191023",
+    "kvalitet": "primær",
+    "noter": "På tysk. Tvillingedøtrene Doris Elisabeth Olsen og Christine Lorenzine Olsen, født 21. juni, døbt 6. juli 1879, døtre af blikkenslagermester Ferdinand Gottfried Olsen og Doris Elisabeth Friederikke født Johannsen."
+  },
+  {
+    "id": "standesamt-haderslev-1879-f142",
+    "titel": "Personregister (Standesamt), Haderslev, fødte 1879, nr. 142",
+    "type": "Personregister",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Haderslev personregister, fødte biregister 1878 til 1880, nr. 142, opslag 200",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36611#36611,5097357",
+    "kvalitet": "primær",
+    "noter": "Anmeldt 27. juni 1879 af jordemoder Johanne Ravn: hustru til blikkenslagermester Ferdinand Gottfried Olsen, Schloßstraße 57, fødte 21. juni 1879 kl. 3½ om morgenen pigebarnet Doris Elisabeth."
+  },
+  {
+    "id": "kb-haderslev-vorfrue-1951-d46",
+    "titel": "Kirkebog, Haderslev Domsogn, døde mænd 1951, nr. 46",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, døde 1946 til 1955, side 100, opslag 161, nr. 46",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201574#201574,38198420",
+    "kvalitet": "primær",
+    "noter": "Ludvig Sørensen, snedkermester, Gåskærgade 24, død 24. juni 1951, begravet 28. juni 1951 på Haderslev Domsogns Assistens Kirkegård. Født i Gammel Haderslev 16. august 1883, søn af snedker Georg Friedrich Sørensen og Anna Barbara født Kjer. Gift med Doris Elisabeth født Olsen, efterlader 1 søn. Claude har kontrolleret billedet."
+  },
+  {
+    "id": "kb-haderslev-vorfrue-1955-d9",
+    "titel": "Kirkebog, Haderslev Domsogn, døde kvinder 1955, nr. 9",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline",
+    "reference": "Kontraministerialbog, døde 1946 til 1955, side 338, opslag 399, nr. 9",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201574#201574,38198658",
+    "kvalitet": "primær",
+    "noter": "Doris Elisabeth Sørensen, enke, Gåskærgade 24, død 23. februar 1955 på Byens Sygehus, begravet 26. februar 1955 på Haderslev Domsogns Assistens Kirkegård. Født i sognet 21. juni 1879, datter af blikkenslagermester Ferdinand Gottfried Olsen og Doris Elisabeth Friederike født Johannsen. Efterlader 1 søn."
+  },
+  {
+    "id": "ft1921-haderslev-slotsgade23",
+    "titel": "Folketælling 1921, Haderslev Købstad, Slotsgade 23",
+    "type": "Folketælling",
+    "arkiv": "Rigsarkivet, Dansk Demografisk Database",
+    "reference": "Dansk Demografisk Database, indtastning C8378, løbenr. 9555 til 9557",
+    "url": "https://ddd.dda.dk/soeg_amter.asp",
+    "kvalitet": "afledt",
+    "noter": "Ludvig Sørensen 16/8 1883, snedkermester. Doris Sørensen 21/6 1879. Helmut Sørensen 9/1 1914 (rigtigt 1915). Kun set i indtastningen."
   }
 ]

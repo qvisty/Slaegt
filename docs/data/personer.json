@@ -325,9 +325,10 @@
       "kb-haderslev-vorfrue-1915-f8",
       "kb-haderslev-vorfrue-1940-v17",
       "ft1930-haderslev-gaaskaergade24",
-      "ft1940-haderslev-aaroesundvej78"
+      "ft1940-haderslev-aaroesundvej78",
+      "ft1921-haderslev-slotsgade23"
     ],
-    "noter": "Hed i kilderne Helmut Ludwig Sørensen. Født 9. januar 1915 i Haderslev, søn af snedkermester Ludvig Sørensen og Doris Elisabeth Olsen, Slotsgade 23. Dorthe Meretes dåb nævner ham som far, og hans forældre var faddere. Bogholder i 1940 (i kulimport) og 1945. I folketællingen 1930 bor han hjemme hos forældrene på Gaaskærgade 24. Ifølge Jesper senere direktør for et korn og foderstoffirma på havnen i Haderslev. Står som under undersøgelse, indtil Dorthe Merete er bekræftet.",
+    "noter": "Hed i kilderne Helmut Ludwig Sørensen. Født 9. januar 1915 i Haderslev, søn af snedkermester Ludvig Sørensen og Doris Elisabeth Olsen, Slotsgade 23. Dorthe Meretes dåb nævner ham som far, og hans forældre var faddere. Bogholder i 1940 (i kulimport) og 1945. I folketællingen 1930 bor han hjemme hos forældrene på Gaaskærgade 24. Ifølge Jesper senere direktør for et korn og foderstoffirma på havnen i Haderslev. Står som under undersøgelse, indtil Dorthe Merete er bekræftet. Enebarn ifølge begge forældres dødsindførsler.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -346,6 +347,15 @@
         "beskrivelse": "Hjemmedåb, Haderslev Vor Frue Sogn. Skrevet på tysk",
         "kilder": [
           "kb-haderslev-vorfrue-1915-f8"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1921",
+        "sted": "haderslev",
+        "beskrivelse": "Barn hos forældrene, Slotsgade 23",
+        "kilder": [
+          "ft1921-haderslev-slotsgade23"
         ]
       },
       {
@@ -406,7 +416,8 @@
     "navnevarianter": [
       "Helmut Ludwig Sørensen"
     ],
-    "bevis": "Dorthe Meretes dåb i Haderslev nævner bogholder Helmut Ludwig Sørensen, født 9. januar 1915, som far, og hans forældre var faddere. Samme navn, dato og forældre i hans egen dåb 1915, vielsen 1940 og folketællingerne 1930 og 1940."
+    "bevis": "Dorthe Meretes dåb i Haderslev nævner bogholder Helmut Ludwig Sørensen, født 9. januar 1915, som far, og hans forældre var faddere. Samme navn, dato og forældre i hans egen dåb 1915, vielsen 1940 og folketællingerne 1930 og 1940.",
+    "soeskende": []
   },
   {
     "anenummer": 7,
@@ -1050,5 +1061,306 @@
         ]
       }
     ]
+  },
+  {
+    "anenummer": 12,
+    "fornavne": "Ludwig",
+    "efternavn": "Sørensen",
+    "navnevarianter": [
+      "Ludvig Sørensen",
+      "Ludwig Sörensen"
+    ],
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Helmuts dåb 1915, vielsen 1940 og Dorthe Meretes dåb nævner snedkermester Ludwig Sørensen som far eller farfar. FT 1921 og 1930 viser Helmut i hans husstand. Fødselsdatoen 16. august 1883 er den samme i dåben 1883, vielsen 1912, FT 1921, FT 1940 og dødsindførslen 1951, som også siger, at han efterlod 1 søn.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1915-f8",
+      "kb-haderslev-vorfrue-1940-v17",
+      "kb-gl-haderslev-1883-d69",
+      "kb-haderslev-vorfrue-1912-v39",
+      "standesamt-haderslev-1912-v64",
+      "ft1921-haderslev-slotsgade23",
+      "ft1930-haderslev-gaaskaergade24",
+      "kb-haderslev-vorfrue-1951-d46"
+    ],
+    "noter": "Snedkermester i Haderslev. Født i Gammel Haderslev, søn af snedkersvend Georg Friedrich Sørensen og Anna Barbara Kjer.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1883-08-16",
+        "sted": "haderslev",
+        "beskrivelse": "Gammel Haderslev Sogn",
+        "kilder": [
+          "kb-gl-haderslev-1883-d69",
+          "kb-haderslev-vorfrue-1912-v39"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1883-09-23",
+        "sted": "haderslev",
+        "beskrivelse": "Gammel Haderslev",
+        "kilder": [
+          "kb-gl-haderslev-1883-d69"
+        ]
+      },
+      {
+        "type": "konfirmation",
+        "dato": "1898-04-03",
+        "sted": "haderslev",
+        "kilder": [
+          "kb-haderslev-vorfrue-1912-v39"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1912-10-18",
+        "sted": "haderslev",
+        "beskrivelse": "Vor Frue Kirke og borgerligt, med Doris Elisabeth Olsen",
+        "kilder": [
+          "kb-haderslev-vorfrue-1912-v39",
+          "standesamt-haderslev-1912-v64"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1912",
+        "sted": "haderslev",
+        "beskrivelse": "Snedkermester",
+        "kilder": [
+          "kb-haderslev-vorfrue-1912-v39"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1921",
+        "sted": "haderslev",
+        "beskrivelse": "Husfader, Slotsgade 23",
+        "kilder": [
+          "ft1921-haderslev-slotsgade23"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1930",
+        "sted": "haderslev",
+        "beskrivelse": "Husfader, Gaaskærgade 24",
+        "kilder": [
+          "ft1930-haderslev-gaaskaergade24"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1951-06-24",
+        "sted": "haderslev",
+        "beskrivelse": "Gåskærgade 24",
+        "kilder": [
+          "kb-haderslev-vorfrue-1951-d46"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1951-06-28",
+        "sted": "haderslev",
+        "beskrivelse": "Haderslev Domsogns Assistens Kirkegård",
+        "kilder": [
+          "kb-haderslev-vorfrue-1951-d46"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 13,
+    "fornavne": "Doris Elisabeth",
+    "efternavn": "Sørensen",
+    "navnevarianter": [
+      "Doris Elisabeth Olsen"
+    ],
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Helmuts dåb 1915 og vielsen 1940 nævner Doris Elisabeth født Olsen som mor. FT 1921 og 1930 viser Helmut i hendes husstand. Fødselsdatoen 21. juni 1879 er den samme i dåben, Standesamt, vielsen 1912 og dødsindførslen 1955, som siger, at hun efterlod 1 søn.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1915-f8",
+      "kb-haderslev-vorfrue-1940-v17",
+      "kb-haderslev-vorfrue-1879-d94",
+      "standesamt-haderslev-1879-f142",
+      "kb-haderslev-vorfrue-1912-v39",
+      "ft1921-haderslev-slotsgade23",
+      "ft1930-haderslev-gaaskaergade24",
+      "kb-haderslev-vorfrue-1955-d9"
+    ],
+    "noter": "Datter af blikkenslagermester Ferdinand Gottfried Olsen og Doris Elisabeth Friederike Johannsen. Tvilling.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1879-06-21",
+        "sted": "haderslev",
+        "beskrivelse": "Schloßstraße 57, Haderslev",
+        "kilder": [
+          "kb-haderslev-vorfrue-1879-d94",
+          "standesamt-haderslev-1879-f142"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1879-07-06",
+        "sted": "haderslev",
+        "beskrivelse": "Vor Frue",
+        "kilder": [
+          "kb-haderslev-vorfrue-1879-d94"
+        ]
+      },
+      {
+        "type": "konfirmation",
+        "dato": "1894-03-18",
+        "sted": "haderslev",
+        "kilder": [
+          "kb-haderslev-vorfrue-1912-v39"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1955-02-23",
+        "sted": "haderslev",
+        "beskrivelse": "Byens Sygehus",
+        "kilder": [
+          "kb-haderslev-vorfrue-1955-d9"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1955-02-26",
+        "sted": "haderslev",
+        "beskrivelse": "Haderslev Domsogns Assistens Kirkegård",
+        "kilder": [
+          "kb-haderslev-vorfrue-1955-d9"
+        ]
+      }
+    ],
+    "soeskende": [
+      {
+        "navn": "Christine Lorenzine Olsen",
+        "koen": "k",
+        "foedt": "1879-06-21",
+        "kilder": [
+          "kb-haderslev-vorfrue-1879-d94"
+        ],
+        "noter": "Tvillingesøster"
+      }
+    ]
+  },
+  {
+    "anenummer": 24,
+    "fornavne": "Georg Friedrich",
+    "efternavn": "Sørensen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Ludwigs dåb 1883, vielse 1912 og død 1951 nævner alle snedkersvend Georg Friedrich Sørensen som far.",
+    "kilder": [
+      "kb-gl-haderslev-1883-d69",
+      "kb-haderslev-vorfrue-1912-v39",
+      "kb-haderslev-vorfrue-1951-d46"
+    ],
+    "noter": "Snedkersvend. Død før 1912, sidst boende i Haderslev.",
+    "haendelser": [
+      {
+        "type": "erhverv",
+        "dato": "1883",
+        "sted": "haderslev",
+        "beskrivelse": "Snedkersvend",
+        "kilder": [
+          "kb-gl-haderslev-1883-d69"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "før 1912",
+        "sted": "haderslev",
+        "kilder": [
+          "standesamt-haderslev-1912-v64"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 25,
+    "fornavne": "Anna Barbara",
+    "efternavn": "Sørensen",
+    "navnevarianter": [
+      "Anna Barbara Kjer"
+    ],
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Ludwigs dåb 1883, vielse 1912 og død 1951 nævner alle Anna Barbara født Kjer som mor.",
+    "kilder": [
+      "kb-gl-haderslev-1883-d69",
+      "kb-haderslev-vorfrue-1912-v39",
+      "kb-haderslev-vorfrue-1951-d46"
+    ],
+    "noter": "Død før 1912, sidst boende i Haderslev. Fadderen Dora Kjær i 1915 kan være i familie med hende.",
+    "haendelser": [
+      {
+        "type": "død",
+        "dato": "før 1912",
+        "sted": "haderslev",
+        "kilder": [
+          "standesamt-haderslev-1912-v64"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 26,
+    "fornavne": "Ferdinand Gottfried",
+    "efternavn": "Olsen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Doris' dåb og Standesamt 1879, vielsen 1912 og dødsindførslen 1955 nævner blikkenslagermester Ferdinand Gottfried Olsen som far. Han var selv vidne ved datterens vielse 1912.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1879-d94",
+      "standesamt-haderslev-1879-f142",
+      "kb-haderslev-vorfrue-1912-v39",
+      "standesamt-haderslev-1912-v64",
+      "kb-haderslev-vorfrue-1955-d9"
+    ],
+    "noter": "Blikkenslagermester i Haderslev, Schloßstraße 57 (1879) og Schloßstraße 10 (1912). 62 år i oktober 1912.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1850",
+        "beskrivelse": "Beregnet ud fra alderen 62 år i 1912",
+        "kilder": [
+          "standesamt-haderslev-1912-v64"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1879",
+        "sted": "haderslev",
+        "beskrivelse": "Blikkenslagermester",
+        "kilder": [
+          "kb-haderslev-vorfrue-1879-d94"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 27,
+    "fornavne": "Doris Elisabeth Friederike",
+    "efternavn": "Olsen",
+    "navnevarianter": [
+      "Doris Elisabeth Friederike Johannsen"
+    ],
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Doris' dåb og Standesamt 1879, vielsen 1912 og dødsindførslen 1955 nævner Doris Elisabeth Friederike født Johannsen som mor.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1879-d94",
+      "standesamt-haderslev-1879-f142",
+      "kb-haderslev-vorfrue-1912-v39",
+      "kb-haderslev-vorfrue-1955-d9"
+    ],
+    "noter": "Levede i 1912. Muligvis den enke Doris Olsen, født 4/4 1853, der i FT 1921 bor på Slotsgade 10 med blikkenslagermester Oskar Ferdinand Olsen. Ikke bevist.",
+    "haendelser": []
   }
 ]
