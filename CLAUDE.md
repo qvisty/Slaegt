@@ -11,6 +11,7 @@ Dette er et slægtsforskningsprojekt for ejeren af repoet. Hjemmesiden ligger i 
 * Nulevende personer får kun navn. Repoet er offentligt.
 * Hver forskningsindsats noteres i `docs/data/forskning.json` under `log`, også når intet blev fundet.
 * Kør `node scripts/valider.mjs` før hver commit.
+* Kør `node scripts/version.mjs` efter ændringer i `app.js` eller `style.css`, så browsere henter de nye filer.
 * Arbejd kun på grenen `main`. Siden udgives fra `main`.
 
 ## Familieoplysninger og fiktive eksempler
