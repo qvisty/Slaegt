@@ -78,9 +78,9 @@
     },
     {
       "titel": "Find Anna Christine Bundesens fødsel 9. december 1924",
-      "tekst": "Fødested ukendt. Prøv nabosognene til Skærbæk (Brøns, Rejsby, Ballum, Hviding), Haderslev personregister og stavemåden Bendesen. Dåben giver hendes forældre, når Anna er bekræftet.",
+      "tekst": "Ikke fundet i Skærbæk, Brøns, Rejsby, Hviding, Døstrup, Vodder, Mjolden, Haderslev og Gammel Haderslev. Næste: Tønder, Ribe, Esbjerg og Vester Nebel, eller den borgerlige vielse i Skærbæk 11. september 1945, som giver fødested og forældre. Spørg også i familien, hvor mormor var født.",
       "anenummer": 7,
-      "status": "åben"
+      "status": "i gang"
     },
     {
       "titel": "Find Helmuths firma på havnen",
@@ -430,6 +430,15 @@
         7
       ],
       "resultat": "spor"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Anna Christine Bundesens fødsel ikke fundet",
+      "tekst": "DDD FT 1925 og 1930 søgt på Bundesen, Bendesen, Bundsen og Bondesen i Haderslev, Tønder, Aabenraa, Sønderborg og Ribe amt uden et barn Anna Christine (DDD's sønderjyske 1925 og 1930 er kun delvist indtastet). Personregistrenes navneregistre for Skærbæk, Haderslev, Gammel Haderslev, Ballum og Arrild har ingen Bundesen eller Bendesen født 1924. Fødte biregistre omkring 9. december 1924 er gennemset for Skærbæk, Brøns, Rejsby, Hviding, Døstrup, Vodder, Mjolden, Haderslev og Gammel Haderslev uden fund. Hun er sandsynligvis født et andet sted, fx Tønder, Ribe eller Esbjerg egnen, hvor der boede mange Bundesen. Den borgerlige vielse i Skærbæk 11. september 1945 vil give fødested og forældre.",
+      "personer": [
+        7
+      ],
+      "resultat": "ikke fundet"
     }
   ]
 }

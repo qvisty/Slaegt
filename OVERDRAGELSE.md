@@ -40,11 +40,11 @@ Anenumre: rodpersonen er 1, far til n er 2n, mor til n er 2n + 1.
 | --- | --- | --- | --- |
 | 1 | Jesper Gravlev Qvist | bekræftet (rodperson) | Nulevende. Kun navn. |
 | 2 | Ole Gravlev Qvist | under undersøgelse | Far. Født 24. juli **1949** (familien sagde 1950) på sygehuset i Viborg, døbt 4. september 1949 i Viborg Søndre Sogn. Død 14. marts 2002 på Vejle Sygehus, 52 år (Jespers oplysning, passer med 1949). Kan bekræftes, når en kilde binder ham til Jesper (Jespers dåbsattest). |
-| 3 | Dorthe Merete Qvist, født Sørensen | under undersøgelse | Mor. Nulevende, født 1945. Slægten fra Sønderjylland. |
+| 3 | Dorthe Merete Qvist, født Sørensen | under undersøgelse | Mor. Nulevende. Hendes dåb i Haderslev Vor Frue Sogn er fundet og nævner Helmut og Anna Christine som forældre. Dato og link står ikke i repoet af hensyn til privatliv. |
 | 4 | Tage Clemmen Clemmensen Qvist | spor | Farfar. Født 10. juni 1924 i Viborg Søndre Sogn. Dåb 1924, FT 1925, 1930 og 1940, konfirmation 1939 og vielse 1949 er fundet. Sygehusportør. Klar til at blive bekræftet, så snart Ole er bekræftet. |
 | 5 | Else Marie Qvist, født Gravlev | spor | Farmor. Født 24. marts 1923 i Løgstør, datter af ugift Maren Kirstine Ottilie Gravlev. Gift med Tage 20. marts 1949 i Salling kirke. |
-| 6 | Helmuth Sørensen | spor | Morfar. Boede i Haderslev. (Blev først fejlagtigt skrevet som Sønderborg. Rettet.) |
-| 7 | Anna Sørensen | spor | Mormor. Boede i Haderslev. |
+| 6 | Helmut Ludwig Sørensen | spor | Morfar. Født 9. januar 1915 i Haderslev, søn af snedkermester Ludvig Sørensen og Doris Elisabeth Olsen (kun i loggen). FT 1930 og 1940, bogholder i kulimport 1940. Gift 1. gang 1940 med Margarethe Schmidt (ikke i linjen). Viet borgerligt i Skærbæk 11. september 1945 med Anna. Senere direktør på havnen ifølge familien, firmaet ikke fundet. |
+| 7 | Anna Christine Sørensen, født Bundesen | spor | Mormor, kaldt Bessie. Født 9. december 1924, fødested ukendt (ikke Skærbæk eller Haderslev). Boede Kongevej 15, Haderslev i 1945. |
 | 8 | Gerner Clemmen Clemmensen Qvist | spor | Oldefar. Født 23. marts 1890 i Skælskør, gift 15. november 1919 i Viborg Domkirke, død 15. december 1953. Forældre: Ludvig Valdemar Qvist og Johanne Marie Møller (kun i loggen). |
 | 9 | Helga Margrethe Qvist, født Nielsen | spor | Oldemor. Født 28. december 1896 i Viborg Domsogn, død 10. maj 1991. Forældre: kellner Anders Nielsen og Julie Margrethe Louise Jensen (kun i loggen). |
 
@@ -60,7 +60,7 @@ Alle fund er set på originalbilledet af Claude, og alle står i loggen i `forsk
 * **Alle på fars side står som `spor` eller `under undersøgelse`**, fordi kæden kun kan bekræftes fra Jesper og bagud. Den mangler en kilde, der binder Ole til Jesper. Så snart den findes, kan Ole, Tage, Else, Gerner og Helga bekræftes med de kilder, der allerede er registreret.
 * **Ikke fundet:** gravsted for Tage, Else, Ole, Helmuth og Anna (DK-gravsten og Find gravsted i hele landet). FT 1921 for familien.
 * **Avisspor, ikke læst** (Mediestream, teksten er spærret): træf på Ole i Fredericia Dagblad 11. og 12. marts 2002 (før dødsdagen, altså ikke dødsannoncer) og mulig dødsannonce for Tage i Viborg Stifts Folkeblad 3. december 1999.
-* **Mors side:** Én kandidat til Helmuth, Helmut Sørensen, født 9. januar 1914 i Haderslev (FT 1921, Slotsgade 23). Ikke bevist og ikke koblet til nogen.
+* **Mors side:** Dorthe Meretes dåb, Helmuths dåb 1915 (på tysk), hans vielse 1940 og FT 1930 og 1940 er fundet. Annas fødsel og den borgerlige vielse 1945 er ikke fundet. Avisspor om Helmuths 40 års jubilæum som direktør 1. april 1971 står i loggen.
 * **Fejlmatch, afvist:** Landsholdsmålmanden Ole Qvist fra KB er født 25. februar 1950 i København og lever. Han er **ikke** Jespers far. Brug ham aldrig som match.
 
 ### Sådan søges arkiverne fra Claudes miljø
@@ -79,8 +79,8 @@ Netværket er åbent. Chromium virker ikke med proxyens certifikat, så brug cur
 1. **Jespers dåbs eller navneattest** er nu den vigtigste kilde. Den bekræfter Ole og Dorthe Merete, og derefter kan hele fars side bekræftes med det samme.
 2. **Oles død** 14. marts 2002 på Vejle Sygehus kendes fra Jesper. Mangler en skriftlig kilde (dødsattest eller dødsannonce efter 14. marts 2002).
 3. **Tage og Elses død og gravsted.**
-4. **Dorthe Meretes dåb 1945** i Sønderjylland. Nævner Helmuth og Anna Sørensen. Husk de sønderjyske regler.
-5. **Helmuth og Anna Sørensen** i FT 1940 i Haderslev. Tjek kandidaten Helmut, født 9. januar 1914.
+4. **Annas fødested** 9. december 1924. Prøv Tønder, Ribe og Esbjerg egnen, eller den borgerlige vielse i Skærbæk 1945.
+5. **Helmuths firma** på havnen og Helmuth og Annas død og gravsted.
 6. Når Gerner og Helga er bekræftet: Gerners dåb i Skælskør 1890 og Helgas dåb i Viborg Domsogn 1896. Forældrene er allerede kendt fra vielsen 1919.
 
 Åbne opgaver står også i `docs/data/forskning.json` under `opgaver`, og guiden til Jesper ligger i `docs/data/guide.html`.
