@@ -217,5 +217,23 @@
     "amt": "Tønder Amt",
     "lat": 55.2458,
     "lng": 8.9333
+  },
+  {
+    "id": "halk",
+    "navn": "Halk",
+    "sogn": "Halk Sogn",
+    "herred": "Haderslev Østeramt",
+    "amt": "Haderslev Amt",
+    "lat": 55.1756,
+    "lng": 9.6561
+  },
+  {
+    "id": "borrig",
+    "navn": "Borrig",
+    "sogn": "Brede Sogn",
+    "herred": "Løgumkloster Birk",
+    "amt": "Tønder Amt",
+    "lat": 55.0333,
+    "lng": 8.9167
   }
 ]

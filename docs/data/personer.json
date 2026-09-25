@@ -2175,16 +2175,27 @@
       "pr-aabenraa-1886-v6",
       "pr-toftlund-1896-f63",
       "pr-toftlund-1916-d45",
-      "pr-toftlund-1951-d19"
+      "pr-toftlund-1951-d19",
+      "kb-uge-1862-f1"
     ],
-    "noter": "Bager og bagermester i Toftlund. Født 14. december 1861 i Uk, søn af parcellist Jürgen Peter Bundesen og Anna Maria Petersen.",
+    "noter": "Bager og bagermester i Toftlund. Født 14. december 1861 i Uk, søn af parcellist Jürgen Peter Bundesen og Anna Maria Petersen. Faderen døde, da han var 3 år, og moren da han var 8.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1861-12-14",
         "sted": "uk",
         "kilder": [
-          "pr-aabenraa-1886-v6"
+          "pr-aabenraa-1886-v6",
+          "kb-uge-1862-f1"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1862-01-05",
+        "sted": "uk",
+        "beskrivelse": "Uge Sogn",
+        "kilder": [
+          "kb-uge-1862-f1"
         ]
       },
       {
@@ -2211,6 +2222,26 @@
         "sted": "toftlund",
         "kilder": [
           "pr-toftlund-1916-d45"
+        ]
+      }
+    ],
+    "soeskende": [
+      {
+        "navn": "Jep Peter Bundesen",
+        "koen": "m",
+        "foedt": "ca. 1860",
+        "kilder": [
+          "kb-uge-1865-d5",
+          "kb-uge-1870-d10"
+        ]
+      },
+      {
+        "navn": "Margretha Christina Bundesen",
+        "koen": "k",
+        "foedt": "ca. 1863",
+        "kilder": [
+          "kb-uge-1865-d5",
+          "kb-uge-1870-d10"
         ]
       }
     ]
@@ -3273,16 +3304,53 @@
     "status": "under undersøgelse",
     "bevis": "Jes Peter Bundesens vielse 1886 nævner afdøde parcellist Jürgen Peter Bundesen i Uk som far.",
     "kilder": [
-      "pr-aabenraa-1886-v6"
+      "pr-aabenraa-1886-v6",
+      "kb-uge-1862-f1",
+      "kb-uge-1859-v1",
+      "kb-uge-1828-f2",
+      "kb-uge-1865-d5"
     ],
-    "noter": "Parcellist i Uk, Aabenraa amt. Død før 1886. Barnebarnet Jørgen Peter er opkaldt efter ham.",
+    "noter": "Parcellist i Uk, søn af gårdmand Jep Petersen Bundesen og Margaretha Petersen. Død 37 år gammel.",
     "haendelser": [
       {
-        "type": "død",
-        "dato": "før 1886",
+        "type": "fødsel",
+        "dato": "1828-02-14",
         "sted": "uk",
         "kilder": [
-          "pr-aabenraa-1886-v6"
+          "kb-uge-1828-f2"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1828-02-21",
+        "sted": "uk",
+        "kilder": [
+          "kb-uge-1828-f2"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1859-04-30",
+        "sted": "uk",
+        "beskrivelse": "Uge, med Anna Maria Petersen",
+        "kilder": [
+          "kb-uge-1859-v1"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1865-05-04",
+        "sted": "uk",
+        "kilder": [
+          "kb-uge-1865-d5"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1865-05-11",
+        "sted": "uk",
+        "kilder": [
+          "kb-uge-1865-d5"
         ]
       }
     ]
@@ -3292,54 +3360,106 @@
     "fornavne": "Anna Maria",
     "efternavn": "Bundesen",
     "navnevarianter": [
-      "Anna Maria Petersen"
+      "Anna Maria Petersen",
+      "Anna Maria Jessen"
     ],
     "koen": "k",
     "status": "under undersøgelse",
     "bevis": "Jes Peter Bundesens vielse 1886 nævner Anna Maria født Petersen som mor.",
     "kilder": [
-      "pr-aabenraa-1886-v6"
+      "pr-aabenraa-1886-v6",
+      "kb-uge-1862-f1",
+      "kb-uge-1859-v1",
+      "kb-uge-1834-f7",
+      "kb-uge-1870-d10"
     ],
-    "noter": "Død før 1886, sidst boende i Uk.",
+    "noter": "Datter af rademager Jes Petersen og Catharina Maria Hinrichsen i Uk. Enke 1865, gift igen 1866 med parcellist Calle Jessen.",
     "haendelser": [
       {
-        "type": "død",
-        "dato": "før 1886",
+        "type": "fødsel",
+        "dato": "1834-04-25",
         "sted": "uk",
         "kilder": [
-          "pr-aabenraa-1886-v6"
+          "kb-uge-1834-f7",
+          "kb-uge-1870-d10"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1834-05-08",
+        "sted": "uk",
+        "kilder": [
+          "kb-uge-1834-f7"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1870-10-31",
+        "sted": "uk",
+        "kilder": [
+          "kb-uge-1870-d10"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1870-11-05",
+        "sted": "uk",
+        "kilder": [
+          "kb-uge-1870-d10"
         ]
       }
     ]
   },
   {
     "anenummer": 58,
-    "fornavne": "Rasmus",
+    "fornavne": "Rasmus Christiansen",
     "efternavn": "Kramer",
     "koen": "m",
     "status": "under undersøgelse",
     "bevis": "Anna Catharinas vielse 1886 og dødsindførsel 1935 nævner arbejdsmand Rasmus Kramer som far. Han var selv vidne ved vielsen.",
     "kilder": [
       "pr-aabenraa-1886-v6",
-      "pr-toftlund-1935-d16"
+      "pr-toftlund-1935-d16",
+      "kb-aabenraa-1858-f78",
+      "kb-aabenraa-1855-v25",
+      "kb-aabenraa-1830-f70",
+      "pr-aabenraa-1908-d5"
     ],
-    "noter": "Arbejdsmand i Aabenraa, 56 år i 1886.",
+    "noter": "Tømmermand og daglønner, senere arbejdsmand i Aabenraa. Søn af tømrer Christian Christiansen Kramer og Anna Catharina Nissen.",
     "haendelser": [
       {
         "type": "fødsel",
-        "dato": "ca. 1830",
-        "beskrivelse": "Beregnet ud fra alderen 56 år i 1886",
+        "dato": "1830-06-29",
+        "sted": "aabenraa",
         "kilder": [
-          "pr-aabenraa-1886-v6"
+          "kb-aabenraa-1830-f70",
+          "kb-aabenraa-1855-v25"
         ]
       },
       {
-        "type": "erhverv",
-        "dato": "1886",
+        "type": "dåb",
+        "dato": "1830-07-04",
         "sted": "aabenraa",
-        "beskrivelse": "Arbejdsmand",
         "kilder": [
-          "pr-aabenraa-1886-v6"
+          "kb-aabenraa-1830-f70"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1855-11-04",
+        "sted": "aabenraa",
+        "beskrivelse": "Med Maria Katharine Roi",
+        "kilder": [
+          "kb-aabenraa-1855-v25"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1908-01-08",
+        "sted": "aabenraa",
+        "beskrivelse": "Petersilienstraße 8, 77 år",
+        "kilder": [
+          "pr-aabenraa-1908-d5"
         ]
       }
     ]
@@ -3356,16 +3476,39 @@
     "bevis": "Anna Catharinas vielse 1886 og dødsindførsel 1935 nævner Maria Catharina født Røi som mor.",
     "kilder": [
       "pr-aabenraa-1886-v6",
-      "pr-toftlund-1935-d16"
+      "pr-toftlund-1935-d16",
+      "kb-aabenraa-1858-f78",
+      "kb-aabenraa-1855-v25",
+      "kb-halk-1828-f19",
+      "pr-aabenraa-1906-d9"
     ],
-    "noter": "Boede i Aabenraa i 1886.",
+    "noter": "Født i Halk, datter af inderste Peder Jørgensen Roy og Maria Kirstine Petersen. Vielsen siger født 14. juni, dåben 24. juni 1828. Døde i fattighuset i Aabenraa.",
     "haendelser": [
       {
-        "type": "bopæl",
-        "dato": "1886",
-        "sted": "aabenraa",
+        "type": "fødsel",
+        "dato": "1828-06-24",
+        "sted": "halk",
+        "beskrivelse": "Vielsen 1855 siger 14. juni",
         "kilder": [
-          "pr-aabenraa-1886-v6"
+          "kb-halk-1828-f19",
+          "kb-aabenraa-1855-v25"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1828-06-26",
+        "sted": "halk",
+        "kilder": [
+          "kb-halk-1828-f19"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1906-01-20",
+        "sted": "aabenraa",
+        "beskrivelse": "Fattighuset",
+        "kilder": [
+          "pr-aabenraa-1906-d9"
         ]
       }
     ]
@@ -3777,10 +3920,39 @@
     "bevis": "Rasmus Andresen Winds dåb 1859 og død 1931 nævner husmand Hans Nissen Wind som far.",
     "kilder": [
       "kb-visby-1859-m11",
-      "kb-vodder-1931-rasmus-wind"
+      "kb-vodder-1931-rasmus-wind",
+      "kb-visby-1855-v5",
+      "kb-brede-1833-f18"
     ],
-    "noter": "Husmand i Gammelby, Visby Sogn. Barnebarnet Hans Nissen Wind (1885) er opkaldt efter ham.",
-    "haendelser": [],
+    "noter": "Født i Borrig, Brede Sogn, søn af gårdmand Anders Wind og Anna Kirstine. Tjenestekarl i Gjerup 1855, husmand i Gammelby, Visby Sogn.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1833-06-14",
+        "sted": "borrig",
+        "kilder": [
+          "kb-brede-1833-f18"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1833-06-16",
+        "sted": "borrig",
+        "beskrivelse": "Brede Sogn",
+        "kilder": [
+          "kb-brede-1833-f18"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1855-12-08",
+        "sted": "visby",
+        "beskrivelse": "Visby Kirke, med Kirsten Marie Rasmusdatter",
+        "kilder": [
+          "kb-visby-1855-v5"
+        ]
+      }
+    ],
     "navnevarianter": [
       "Hans Nissen Vind"
     ]
@@ -3788,16 +3960,40 @@
   {
     "anenummer": 61,
     "fornavne": "Kirsten Marie",
-    "efternavn": "Wind",
+    "efternavn": "Rasmusdatter",
     "koen": "k",
     "status": "under undersøgelse",
     "bevis": "Rasmus Andresen Winds dåb 1859 og død 1931 nævner Kirsten Marie som mor.",
     "kilder": [
       "kb-visby-1859-m11",
-      "kb-vodder-1931-rasmus-wind"
+      "kb-vodder-1931-rasmus-wind",
+      "kb-visby-1855-v5",
+      "kb-visby-1835-f2"
     ],
-    "noter": "Af Gammelby, Visby Sogn. Formentlig Kirsten Marie Jensen, indsidderske i Gammelby i FT 1860, men det er ikke bevist.",
-    "haendelser": []
+    "noter": "Født i Gammelby, Visby Sogn, datter af husmand og skrædder Rasmus Olsen og Anna Jørgensdatter. Kaldt Jensen i folketællingerne.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1835-02-09",
+        "sted": "visby",
+        "beskrivelse": "Gammelby",
+        "kilder": [
+          "kb-visby-1835-f2"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1835-02-20",
+        "sted": "visby",
+        "kilder": [
+          "kb-visby-1835-f2"
+        ]
+      }
+    ],
+    "navnevarianter": [
+      "Kirsten Marie Jensen",
+      "Kirsten Marie Wind"
+    ]
   },
   {
     "anenummer": 62,
@@ -3807,10 +4003,28 @@
     "status": "under undersøgelse",
     "bevis": "Anne Kristines dåb i Højst 1862 nævner indsidder Kristen Hansen Lauesen som far.",
     "kilder": [
-      "kb-hoejst-1862-13"
+      "kb-hoejst-1862-13",
+      "kb-hoejst-1862-v3"
     ],
-    "noter": "Indsidder i Lundsgaard, Højst Sogn.",
-    "haendelser": []
+    "noter": "Indsidder i Lundsgaard, Højst Sogn. 34 år ved vielsen 1862, altså født ca. 1828. Søn af indsidder Hans Lausen.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1828",
+        "kilder": [
+          "kb-hoejst-1862-v3"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1862-07-04",
+        "sted": "hoejst",
+        "beskrivelse": "Med Anne Kristine Andersen",
+        "kilder": [
+          "kb-hoejst-1862-v3"
+        ]
+      }
+    ]
   },
   {
     "anenummer": 63,
@@ -3820,12 +4034,243 @@
     "status": "under undersøgelse",
     "bevis": "Anne Kristines dåb i Højst 1862 nævner Anne Kristine Andersen, 19 år, som mor.",
     "kilder": [
-      "kb-hoejst-1862-13"
+      "kb-hoejst-1862-13",
+      "kb-hoejst-1862-v3"
     ],
-    "noter": "19 år i 1862, altså født ca. 1843.",
+    "noter": "19 år ved vielsen 1862, datter af indsidder Jens Lassen Andersen i Ubjerg Sogn.",
     "haendelser": [],
     "navnevarianter": [
       "Anne Kristine Andersen"
     ]
+  },
+  {
+    "anenummer": 112,
+    "fornavne": "Jep Petersen",
+    "efternavn": "Bundesen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Jürgen Peter Bundesens dåb 1828, vielse 1859 og død 1865 nævner gårdmand Jep Petersen Bundesen som far, og FT 1845 viser sønnen hos ham.",
+    "kilder": [
+      "kb-uge-1828-f2",
+      "kb-uge-1859-v1",
+      "kb-uge-1865-d5"
+    ],
+    "noter": "Gårdmand (Hufner) i Uk, 53 år i FT 1845.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1792",
+        "beskrivelse": "Beregnet ud fra FT 1845",
+        "kilder": [
+          "kb-uge-1828-f2"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 113,
+    "fornavne": "Margaretha",
+    "efternavn": "Bundesen",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Jürgen Peter Bundesens dåb 1828, vielse 1859 og død 1865 nævner Margaretha født Petersen som mor.",
+    "kilder": [
+      "kb-uge-1828-f2",
+      "kb-uge-1859-v1",
+      "kb-uge-1865-d5"
+    ],
+    "noter": "FT 1845 kalder hende Margaretha Hansen, 56 år, født i Hjordkær. Pigenavnet skal afklares.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Margaretha Petersen"
+    ]
+  },
+  {
+    "anenummer": 114,
+    "fornavne": "Jes",
+    "efternavn": "Petersen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Anna Marias dåb 1834, vielse 1859 og død 1870 nævner rademager Jes Petersen som far.",
+    "kilder": [
+      "kb-uge-1834-f7",
+      "kb-uge-1859-v1",
+      "kb-uge-1870-d10"
+    ],
+    "noter": "Kådner, parcellist og rademager (hjulmager) i Uk.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 115,
+    "fornavne": "Catharina Maria",
+    "efternavn": "Petersen",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Anna Marias dåb 1834, vielse 1859 og død 1870 nævner Catharina Maria født Hinrichsen som mor.",
+    "kilder": [
+      "kb-uge-1834-f7",
+      "kb-uge-1859-v1",
+      "kb-uge-1870-d10"
+    ],
+    "noter": "",
+    "haendelser": [],
+    "navnevarianter": [
+      "Catharina Maria Hinrichsen"
+    ]
+  },
+  {
+    "anenummer": 116,
+    "fornavne": "Christian Christiansen",
+    "efternavn": "Kramer",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Rasmus Kramers dåb 1830, vielse 1855 og død 1908 nævner tømrer Christian Christiansen Kramer som far.",
+    "kilder": [
+      "kb-aabenraa-1830-f70",
+      "kb-aabenraa-1855-v25",
+      "pr-aabenraa-1908-d5"
+    ],
+    "noter": "Tømrer i Aabenraa.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 117,
+    "fornavne": "Anna Catharina",
+    "efternavn": "Kramer",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Rasmus Kramers dåb 1830 og vielse 1855 nævner Anna Catharina født Nissen som mor.",
+    "kilder": [
+      "kb-aabenraa-1830-f70",
+      "kb-aabenraa-1855-v25",
+      "pr-aabenraa-1908-d5"
+    ],
+    "noter": "Dødsindførslen 1908 kalder hende født Skibber(?).",
+    "haendelser": [],
+    "navnevarianter": [
+      "Anna Catharina Nissen"
+    ]
+  },
+  {
+    "anenummer": 118,
+    "fornavne": "Peder Jørgensen",
+    "efternavn": "Roy",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Maria Cathrinas dåb 1828 og vielse 1855 nævner inderste Peder Jørgensen Roy som far.",
+    "kilder": [
+      "kb-halk-1828-f19",
+      "kb-aabenraa-1855-v25"
+    ],
+    "noter": "Inderste i Halk Sogn.",
+    "haendelser": [],
+    "navnevarianter": [
+      "Peter Jürgensen Roi"
+    ]
+  },
+  {
+    "anenummer": 119,
+    "fornavne": "Maria Kirstine",
+    "efternavn": "Roy",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Maria Cathrinas dåb 1828 og vielse 1855 nævner Maria Kirstine Petersen som mor.",
+    "kilder": [
+      "kb-halk-1828-f19",
+      "kb-aabenraa-1855-v25"
+    ],
+    "noter": "",
+    "haendelser": [],
+    "navnevarianter": [
+      "Maria Kirstine Petersen"
+    ]
+  },
+  {
+    "anenummer": 120,
+    "fornavne": "Anders",
+    "efternavn": "Wind",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Hans Nissen Winds dåb 1833 nævner gårdmand Anders Wind i Borrig som far, og FT 1845 viser sønnen hos ham.",
+    "kilder": [
+      "kb-brede-1833-f18"
+    ],
+    "noter": "Gårdmand i Borrig, Brede Sogn, under Løgumkloster. 55 år i FT 1845.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "ca. 1790",
+        "sted": "borrig",
+        "beskrivelse": "Ifølge FT 1845",
+        "kilder": [
+          "kb-brede-1833-f18"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 121,
+    "fornavne": "Anna Kirstine",
+    "efternavn": "Wind",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Hans Nissen Winds dåb 1833 nævner Anna Kirstine som mor.",
+    "kilder": [
+      "kb-brede-1833-f18"
+    ],
+    "noter": "Pigenavnet er usikkert: Hansen i dåben, Nissen i FT 1845, hvor hun er 44 år og født i Brøndum Sogn, Ribe Amt. Sønnen fik navnet Hans Nissen.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 122,
+    "fornavne": "Rasmus",
+    "efternavn": "Olsen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Kirsten Maries dåb 1835 nævner husmand og skrædder Rasmus Olsen i Gammelby som far.",
+    "kilder": [
+      "kb-visby-1835-f2"
+    ],
+    "noter": "Husmand og skrædder i Gammelby, Visby Sogn. 47 år i FT 1845, født i Daler.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 123,
+    "fornavne": "Anna",
+    "efternavn": "Jørgensdatter",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Kirsten Maries dåb 1835 nævner Anna Jørgensdatter som mor.",
+    "kilder": [
+      "kb-visby-1835-f2"
+    ],
+    "noter": "47 år i FT 1845.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 124,
+    "fornavne": "Hans",
+    "efternavn": "Lausen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Kristen Hansen Lauesens vielse 1862 nævner indsidder Hans Lausen som far.",
+    "kilder": [
+      "kb-hoejst-1862-v3"
+    ],
+    "noter": "Indsidder, stedet er usikkert læst (Agerskov).",
+    "haendelser": []
+  },
+  {
+    "anenummer": 126,
+    "fornavne": "Jens Lassen",
+    "efternavn": "Andersen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Anne Kristine Andersens vielse 1862 nævner indsidder Jens Lassen Andersen i Ubjerg Sogn som far.",
+    "kilder": [
+      "kb-hoejst-1862-v3"
+    ],
+    "noter": "Indsidder i Ubjerg Sogn.",
+    "haendelser": []
   }
 ]
