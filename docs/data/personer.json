@@ -241,9 +241,11 @@
       "fam-jesper-2026",
       "kb-haderslev-vorfrue-1945-dorthe",
       "kb-haderslev-vorfrue-1915-f8",
-      "kb-haderslev-vorfrue-1940-v17"
+      "kb-haderslev-vorfrue-1940-v17",
+      "ft1930-haderslev-gaaskaergade24",
+      "ft1940-haderslev-aaroesundvej78"
     ],
-    "noter": "Hed i kilderne Helmut Ludwig Sørensen. Født 9. januar 1915 i Haderslev, søn af snedkermester Ludvig Sørensen og Doris Elisabeth Olsen, Slotsgade 23. Dorthe Meretes dåb nævner ham som far, og hans forældre var faddere. Bogholder i 1940 og 1945. Ifølge Jesper senere direktør for et korn og foderstoffirma på havnen i Haderslev. Status forbliver spor, indtil Dorthe Merete er bekræftet.",
+    "noter": "Hed i kilderne Helmut Ludwig Sørensen. Født 9. januar 1915 i Haderslev, søn af snedkermester Ludvig Sørensen og Doris Elisabeth Olsen, Slotsgade 23. Dorthe Meretes dåb nævner ham som far, og hans forældre var faddere. Bogholder i 1940 (i kulimport) og 1945. I folketællingen 1930 bor han hjemme hos forældrene på Gaaskærgade 24. Ifølge Jesper senere direktør for et korn og foderstoffirma på havnen i Haderslev. Status forbliver spor, indtil Dorthe Merete er bekræftet.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -265,12 +267,31 @@
         ]
       },
       {
+        "type": "folketælling",
+        "dato": "1930",
+        "sted": "haderslev",
+        "beskrivelse": "Søn i forældrenes husstand, Gaaskærgade 24",
+        "kilder": [
+          "ft1930-haderslev-gaaskaergade24"
+        ]
+      },
+      {
+        "type": "folketælling",
+        "dato": "1940",
+        "sted": "haderslev",
+        "beskrivelse": "Husfader, Aarøsundvej 78. Bogholder i kulimport",
+        "kilder": [
+          "ft1940-haderslev-aaroesundvej78"
+        ]
+      },
+      {
         "type": "erhverv",
         "dato": "1940",
         "sted": "haderslev",
-        "beskrivelse": "Bogholder",
+        "beskrivelse": "Bogholder i kulimport",
         "kilder": [
-          "kb-haderslev-vorfrue-1940-v17"
+          "kb-haderslev-vorfrue-1940-v17",
+          "ft1940-haderslev-aaroesundvej78"
         ]
       },
       {
