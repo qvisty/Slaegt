@@ -31,13 +31,19 @@
     },
     {
       "titel": "Søg gravsten i Viborg og Haderslev",
-      "tekst": "Søg efter Qvist på dk-gravsten.dk (Viborg Kirkegård) og gravsted.dk. Gravsten giver ofte fulde navne og datoer for Tage, Else og Ole. Søg også Helmuth og Anna Sørensen i Haderslev.",
+      "tekst": "Viborg Kirkegård er søgt: Gerner og Helga Qvist fundet. Mangler stadig Tage, Else og Ole Qvist. De kan ligge på en anden kirkegård i eller omkring Viborg. Søg også Helmuth og Anna Sørensen i Haderslev.",
       "anenummer": 4,
-      "status": "åben"
+      "status": "i gang"
     },
     {
       "titel": "Kontakt lokale slægtsforeninger",
       "tekst": "Slægtsforskerne i Viborg (viborgslaegt.dk) og lokalarkiverne i Viborg og Haderslev kan ofte hjælpe med lokale navne.",
+      "status": "åben"
+    },
+    {
+      "titel": "Gem fotoet af gravstenen Viborg_K165",
+      "tekst": "Åbn foto Viborg_K165 på dk-gravsten.dk og gem et skærmbillede. Stenen kan have flere navne eller en tekst, som databasen ikke viser.",
+      "anenummer": 8,
       "status": "åben"
     }
   ],
@@ -79,6 +85,16 @@
         6
       ],
       "resultat": "rettet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Gravsten for oldeforældrene Gerner og Helga Qvist fundet",
+      "tekst": "Jesper søgte på Qvist i DK-gravstens registrant for Viborg Kirkegård. Seks navne fundet. Gerner Qvist (23.03.1890 til 15.12.1953) og Helga Qvist (28.12.1896 til 10.05.1991) deler gravsted Viborg_K165 og er ifølge Jesper hans oldeforældre. De øvrige fire (Emil Qvist, Ib Qvistgaard, Villy Clemmen Clemmensen Qvist og Nina Qvist) er ikke i den direkte linje og registreres ikke. Gerner og Helga står som familieoplysninger, indtil Ole og Tage er bekræftet. De fiktive eksempler på deres pladser er fjernet.",
+      "personer": [
+        8,
+        9
+      ],
+      "resultat": "fundet"
     }
   ]
 }

@@ -130,101 +130,6 @@
     ]
   },
   {
-    "anenummer": 8,
-    "fiktiv": true,
-    "fornavne": "Peder",
-    "efternavn": "Testesen",
-    "koen": "m",
-    "status": "bekræftet",
-    "haendelser": [
-      {
-        "type": "fødsel",
-        "dato": "1885-03-14",
-        "sted": "viborg",
-        "kilder": [
-          "fk-kb-viborg-1885"
-        ]
-      },
-      {
-        "type": "konfirmation",
-        "dato": "1899",
-        "sted": "viborg"
-      },
-      {
-        "type": "folketælling",
-        "dato": "1901",
-        "sted": "viborg",
-        "kilder": [
-          "fk-ft-1901-viborg"
-        ]
-      },
-      {
-        "type": "erhverv",
-        "dato": "1905",
-        "sted": "viborg",
-        "beskrivelse": "Snedkersvend"
-      },
-      {
-        "type": "vielse",
-        "dato": "1910-10-02",
-        "sted": "viborg"
-      },
-      {
-        "type": "folketælling",
-        "dato": "1921",
-        "sted": "viborg"
-      },
-      {
-        "type": "død",
-        "dato": "1950-01-19",
-        "sted": "viborg"
-      }
-    ],
-    "kilder": [
-      "fk-kb-viborg-1885",
-      "fk-ft-1901-viborg"
-    ],
-    "bevis": "Fiktivt eksempel. Viser hvordan en bekræftet ane ser ud med kirkebog og folketælling.",
-    "biografi": "Fiktiv eksempelperson. Hr. Testesen var snedker i Viborg hele sit liv.\n\nTeksten her viser, hvordan en livshistorie kommer til at se ud."
-  },
-  {
-    "anenummer": 9,
-    "fiktiv": true,
-    "fornavne": "Karen",
-    "efternavn": "Testesen",
-    "koen": "k",
-    "status": "bekræftet",
-    "haendelser": [
-      {
-        "type": "fødsel",
-        "dato": "1888-06-02",
-        "sted": "bjerringbro",
-        "kilder": [
-          "fk-kb-bjerringbro-1888"
-        ]
-      },
-      {
-        "type": "folketælling",
-        "dato": "1901",
-        "sted": "bjerringbro"
-      },
-      {
-        "type": "folketælling",
-        "dato": "1921",
-        "sted": "viborg"
-      },
-      {
-        "type": "død",
-        "dato": "1962-11-30",
-        "sted": "viborg"
-      }
-    ],
-    "kilder": [
-      "fk-kb-bjerringbro-1888"
-    ],
-    "bevis": "Fiktivt eksempel."
-  },
-  {
     "anenummer": 10,
     "fiktiv": true,
     "fornavne": "Hans",
@@ -282,114 +187,6 @@
       "fk-slaegtsbog"
     ],
     "bevis": "Fiktivt eksempel."
-  },
-  {
-    "anenummer": 16,
-    "fiktiv": true,
-    "fornavne": "Jens",
-    "efternavn": "Testesen",
-    "koen": "m",
-    "status": "bekræftet",
-    "haendelser": [
-      {
-        "type": "fødsel",
-        "dato": "1855-02-01",
-        "sted": "viborg",
-        "kilder": [
-          "fk-kb-viborg-1855"
-        ]
-      },
-      {
-        "type": "folketælling",
-        "dato": "1860",
-        "sted": "viborg"
-      },
-      {
-        "type": "folketælling",
-        "dato": "1870",
-        "sted": "viborg"
-      },
-      {
-        "type": "folketælling",
-        "dato": "1880",
-        "sted": "viborg"
-      },
-      {
-        "type": "erhverv",
-        "dato": "1880",
-        "sted": "viborg",
-        "beskrivelse": "Arbejdsmand"
-      },
-      {
-        "type": "vielse",
-        "dato": "1882",
-        "sted": "viborg"
-      },
-      {
-        "type": "død",
-        "dato": "1920-04-04",
-        "sted": "viborg"
-      }
-    ],
-    "kilder": [
-      "fk-kb-viborg-1855",
-      "fk-ft-1901-viborg"
-    ],
-    "bevis": "Fiktivt eksempel."
-  },
-  {
-    "anenummer": 17,
-    "fiktiv": true,
-    "fornavne": "Ane",
-    "efternavn": "Testesen",
-    "koen": "k",
-    "status": "under undersøgelse",
-    "haendelser": [
-      {
-        "type": "fødsel",
-        "dato": "ca. 1858",
-        "sted": "skive"
-      }
-    ]
-  },
-  {
-    "anenummer": 18,
-    "fiktiv": true,
-    "fornavne": "Niels",
-    "efternavn": "Eksempelsen",
-    "koen": "m",
-    "status": "under undersøgelse",
-    "haendelser": [
-      {
-        "type": "fødsel",
-        "dato": "1860",
-        "sted": "bjerringbro"
-      },
-      {
-        "type": "udvandring",
-        "dato": "1902",
-        "sted": "bjerringbro",
-        "beskrivelse": "Udvandrede til Amerika ifølge fiktiv slægtsbog"
-      }
-    ],
-    "kilder": [
-      "fk-slaegtsbog"
-    ]
-  },
-  {
-    "anenummer": 32,
-    "fiktiv": true,
-    "fornavne": "Christen",
-    "efternavn": "Testesen",
-    "koen": "m",
-    "status": "under undersøgelse",
-    "haendelser": [
-      {
-        "type": "fødsel",
-        "dato": "ca. 1825",
-        "sted": "viborg"
-      }
-    ]
   },
   {
     "anenummer": 12,
@@ -567,6 +364,78 @@
         "type": "fødsel",
         "dato": "ca. 1820",
         "sted": "nordborg"
+      }
+    ]
+  },
+  {
+    "anenummer": 8,
+    "fornavne": "Gerner",
+    "efternavn": "Qvist",
+    "koen": "m",
+    "status": "spor",
+    "kilder": [
+      "gravsten-viborg-k165",
+      "fam-jesper-2026"
+    ],
+    "noter": "Oldefar ifølge Jesper. Formodes at være far til Tage Qvist, da de deler efternavn. Begravet i samme gravsted som Helga Qvist (foto Viborg_K165). Gerner er et sjældent fornavn, hvilket gør ham lettere at finde i kirkebøger og folketællinger.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1890-03-23",
+        "kilder": [
+          "gravsten-viborg-k165"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1953-12-15",
+        "kilder": [
+          "gravsten-viborg-k165"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Kirkegård, gravsted med foto Viborg_K165",
+        "kilder": [
+          "gravsten-viborg-k165"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 9,
+    "fornavne": "Helga",
+    "efternavn": "Qvist",
+    "koen": "k",
+    "status": "spor",
+    "kilder": [
+      "gravsten-viborg-k165",
+      "fam-jesper-2026"
+    ],
+    "noter": "Oldemor ifølge Jesper. Qvist er formentlig hendes gifte navn, pigenavnet er ukendt. Begravet i samme gravsted som Gerner Qvist (foto Viborg_K165).",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1896-12-28",
+        "kilder": [
+          "gravsten-viborg-k165"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1991-05-10",
+        "kilder": [
+          "gravsten-viborg-k165"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "sted": "viborg",
+        "beskrivelse": "Viborg Kirkegård, gravsted med foto Viborg_K165",
+        "kilder": [
+          "gravsten-viborg-k165"
+        ]
       }
     ]
   }

@@ -663,6 +663,7 @@ function sidePerson (n) {
   if (!p.levende || privatlivsmode() !== 'skjul') {
     h.push('<section class="sektion"><h2>Bevis for slægtskabet</h2>')
     if (p.bevis) h.push('<div class="bevis"><p style="margin:0">' + esc(p.bevis) + kildeRef(p.kilder) + '</p></div>')
+    else if (p.status === 'spor') h.push('<div class="bevis mangler"><p style="margin:0">Oplysningerne kommer fra familien og er ikke undersøgt endnu. Personen undersøges, når ' + esc(fuldtNavn(P.get(n >> 1)) || 'barnet') + ' er bekræftet.</p></div>')
     else h.push('<div class="bevis mangler"><p style="margin:0">Der er endnu ikke skrevet en begrundelse for, at denne person er den rigtige. Status forbliver <em>under undersøgelse</em>, indtil beviset er på plads.</p></div>')
     h.push('</section>')
   }

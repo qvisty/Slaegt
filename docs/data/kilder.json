@@ -8,30 +8,6 @@
     "noter": "Mundtlige oplysninger om forældre og bedsteforældre. Skal bekræftes i primærkilder."
   },
   {
-    "id": "fk-kb-viborg-1855",
-    "fiktiv": true,
-    "titel": "Fiktiv: Kirkebog, Viborg Domsogn, fødte 1855",
-    "type": "Kirkebog",
-    "kvalitet": "primær",
-    "noter": "Findes ikke. Kun et eksempel."
-  },
-  {
-    "id": "fk-kb-viborg-1885",
-    "fiktiv": true,
-    "titel": "Fiktiv: Kirkebog, Viborg Domsogn, fødte 1885",
-    "type": "Kirkebog",
-    "kvalitet": "primær",
-    "noter": "Findes ikke. Kun et eksempel."
-  },
-  {
-    "id": "fk-kb-bjerringbro-1888",
-    "fiktiv": true,
-    "titel": "Fiktiv: Kirkebog, Bjerringbro, fødte 1888",
-    "type": "Kirkebog",
-    "kvalitet": "primær",
-    "noter": "Findes ikke. Kun et eksempel."
-  },
-  {
     "id": "fk-kb-kjellerup-1893",
     "fiktiv": true,
     "titel": "Fiktiv: Kirkebog, Kjellerup, døbte 1893",
@@ -64,14 +40,6 @@
     "noter": "Findes ikke. Kun et eksempel."
   },
   {
-    "id": "fk-ft-1901-viborg",
-    "fiktiv": true,
-    "titel": "Fiktiv: Folketælling 1901, Viborg",
-    "type": "Folketælling",
-    "kvalitet": "primær",
-    "noter": "Findes ikke. Kun et eksempel."
-  },
-  {
     "id": "fk-ft-1921-haderslev",
     "fiktiv": true,
     "titel": "Fiktiv: Folketælling 1921, Haderslev",
@@ -94,5 +62,15 @@
     "type": "Slægtsbog",
     "kvalitet": "sekundær",
     "noter": "Findes ikke. Kun et eksempel."
+  },
+  {
+    "id": "gravsten-viborg-k165",
+    "titel": "Gravsten for Gerner og Helga Qvist, Viborg Kirkegård",
+    "type": "Gravsten",
+    "arkiv": "DK-gravsten, registrant for Viborg Kirkegård",
+    "reference": "Foto Viborg_K165",
+    "url": "https://www.dk-gravsten.dk/kirkeg/Viborg.php",
+    "kvalitet": "afledt",
+    "noter": "Afskrift i databasen af gravstenens oplysninger: Gerner Qvist, født 23.03.1890, død 15.12.1953. Helga Qvist, født 28.12.1896, død 10.05.1991. Ingen fødesteder angivet. Selve gravstensfotoet bør gemmes som dokumentation."
   }
 ]
