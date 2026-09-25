@@ -792,6 +792,15 @@
       "titel": "Fokus flyttes tættere på linjen",
       "tekst": "Jesper beder om at holde forskningen tættere på hans linje. Søgningen længere bagud er sat på pause. To agenter i Midt og Nordjylland og på Sjælland og Fyn blev afbrudt uden rapport, og deres spor er ikke registreret. Fokus er nu de nærmeste led: bekræftelse af kæden, død og gravsted for Tage, Else, Helmuth og Anna, Oles død og Helmuths firma.",
       "resultat": "andet"
+    },
+    {
+      "dato": "2026-09-25",
+      "titel": "Oles søskende ifølge Jesper",
+      "tekst": "Jesper oplyser, at Erik (Buller) er død, og at Britta (gift Tang Nielsen) og Torben lever. Levende søskende står kun med navn. Eriks dødsdato kendes ikke.",
+      "personer": [
+        2
+      ],
+      "resultat": "familieoplysning"
     }
   ]
 }
