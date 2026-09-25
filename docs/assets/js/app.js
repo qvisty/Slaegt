@@ -292,7 +292,14 @@ function sideOversigt () {
     return h.join('')
   }
 
-  h.push('<div class="gitter gitter-4 sektion">')
+  const antalGen = Math.min(5, Math.max(3, maksGen() + 1))
+  h.push('<section class="sektion"><div class="hoved-raekke"><h2 style="margin-top:0">Stamtræ</h2><div class="knapgruppe"><a class="knap" href="#/vifte">Viftediagram</a><a class="knap" href="#/galleri">Alle personer</a><a class="knap" href="#/kort">Kort</a><a class="knap" href="#/tidslinje">Tidslinje</a></div></div>')
+  h.push('<p class="lille">Klik på en person for at se livsforløb, kilder og beviser. Klik på pilen yderst for at gå længere tilbage.</p>')
+  h.push(forklaring())
+  h.push('<div class="diagram-ramme">' + anetavleSvg(1, antalGen) + '</div></section>')
+
+  h.push('<h2 class="sektion">Overblik over forskningen</h2>')
+  h.push('<div class="gitter gitter-4">')
   h.push(talKort(bekr.length, 'bekræftede aner'))
   h.push(talKort(unders.length, 'under undersøgelse'))
   const mgEgen = alle.reduce((m, p) => Math.max(m, gen(p.anenummer)), 0)
@@ -323,7 +330,7 @@ function sideOversigt () {
   h.push('</section>')
   h.push('</div>')
 
-  const log = (D.forskning.log || []).slice().sort((a, b) => String(b.dato).localeCompare(String(a.dato))).slice(0, 5)
+  const log = (D.forskning.log || []).slice().reverse().sort((a, b) => String(b.dato).localeCompare(String(a.dato))).slice(0, 5)
   h.push('<div class="gitter gitter-2 sektion">')
   h.push('<section class="kort-flade"><div class="hoved-raekke"><h3>Seneste fra forskningen</h3><a class="lille" href="#/forskning">Forskningslog</a></div>')
   h.push(log.length ? '<ul class="liste">' + log.map(logHtml).join('') + '</ul>' : '<p class="muted">Forskningsloggen er tom.</p>')
@@ -693,7 +700,7 @@ function sidePerson (n) {
 
   if (vis && p.noter) h.push('<section class="sektion"><h2>Noter</h2><p>' + esc(p.noter) + '</p></section>')
 
-  const logs = (D.forskning.log || []).filter(l => (l.personer || [l.anenummer]).includes(n)).sort((a, b) => String(b.dato).localeCompare(String(a.dato)))
+  const logs = (D.forskning.log || []).filter(l => (l.personer || [l.anenummer]).includes(n)).reverse().sort((a, b) => String(b.dato).localeCompare(String(a.dato)))
   if (logs.length) h.push('<section class="sektion"><h2>Forskningslog</h2><ul class="liste">' + logs.map(logHtml).join('') + '</ul></section>')
 
   kildeIds(p).forEach(id => { if (K.has(id) && !kildeNr.has(id)) kildeNr.set(id, kildeNr.size + 1) })
@@ -950,7 +957,7 @@ function sideForskning () {
     }
   }
 
-  const log = (D.forskning.log || []).slice().sort((a, b) => String(b.dato).localeCompare(String(a.dato)))
+  const log = (D.forskning.log || []).slice().reverse().sort((a, b) => String(b.dato).localeCompare(String(a.dato)))
   h.push('<section class="sektion"><h2>Forskningslog</h2>')
   h.push(log.length ? '<div class="kort-flade"><ul class="liste">' + log.map(logHtml).join('') + '</ul></div>' : '<p class="muted">Loggen er tom.</p>')
   h.push('</section>')
@@ -974,7 +981,7 @@ function vis () {
   const main = document.getElementById('indhold')
   let html = ''
   let titel = ''
-  if (r.navn === '') { html = sideOversigt(); titel = 'Oversigt' }
+  if (r.navn === '') { html = sideOversigt(); titel = 'Stamtræ' }
   else if (r.navn === 'anetavle') { html = sideAnetavle(+r.arg || 1); titel = 'Anetavle' }
   else if (r.navn === 'vifte') { html = sideVifte(); titel = 'Viftediagram' }
   else if (r.navn === 'galleri') { html = sideGalleri(); titel = 'Persongalleri' }
