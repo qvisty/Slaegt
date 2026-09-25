@@ -135,6 +135,8 @@ Netværket er åbent. Chromium virker ikke med proxyens certifikat, så brug cur
 
 ## 6. Næste skridt i forskningen
 
+Jesper har bedt om at holde forskningen tæt på hans linje. Træet er ført til generation 7 og 8 på flere grene, men det skal ikke udvides yderligere, før han beder om det. Fokus er de nærmeste led.
+
 1. **Jespers dåbs eller navneattest** er nu den vigtigste kilde. Den bekræfter Ole og Dorthe Merete, og derefter kan hele fars side bekræftes med det samme.
 2. **Oles død** 14. marts 2002 på Vejle Sygehus kendes fra Jesper. Mangler en skriftlig kilde (dødsattest eller dødsannonce efter 14. marts 2002).
 3. **Tage og Elses død og gravsted.**
