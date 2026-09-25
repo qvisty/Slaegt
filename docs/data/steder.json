@@ -139,5 +139,14 @@
     "amt": "Ålborg Amt",
     "lat": 56.9417,
     "lng": 9.1667
+  },
+  {
+    "id": "oesby",
+    "navn": "Øsby",
+    "sogn": "Øsby Sogn",
+    "herred": "Haderslev Østeramt",
+    "amt": "Haderslev Amt",
+    "lat": 55.2375,
+    "lng": 9.6069
   }
 ]

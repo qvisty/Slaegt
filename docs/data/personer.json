@@ -1391,6 +1391,27 @@
           "kb-haderslev-vorfrue-1951-d46"
         ]
       }
+    ],
+    "soeskende": [
+      {
+        "navn": "Jes Christian Sørensen",
+        "koen": "m",
+        "foedt": "1873-09-23",
+        "kilder": [
+          "kb-haderslev-vorfrue-1873-d153"
+        ]
+      },
+      {
+        "navn": "Ludewig Sørensen",
+        "koen": "m",
+        "foedt": "1875-12-21",
+        "doed": "1878-11-12",
+        "kilder": [
+          "kb-haderslev-vorfrue-1876-d12",
+          "kb-haderslev-vorfrue-1878-b126"
+        ],
+        "noter": "Død som lille. Helmuths far blev opkaldt efter ham"
+      }
     ]
   },
   {
@@ -1470,6 +1491,48 @@
           "kb-haderslev-vorfrue-1879-d94"
         ],
         "noter": "Tvillingesøster"
+      },
+      {
+        "navn": "Marie Olsen",
+        "koen": "k",
+        "kilder": [
+          "kb-haderslev-vorfrue-1920-b147"
+        ]
+      },
+      {
+        "navn": "Dagmar Olsen",
+        "koen": "k",
+        "kilder": [
+          "kb-haderslev-vorfrue-1920-b147"
+        ]
+      },
+      {
+        "navn": "Arnold Olsen",
+        "koen": "m",
+        "kilder": [
+          "kb-haderslev-vorfrue-1920-b147"
+        ]
+      },
+      {
+        "navn": "Oskar Ferdinand Olsen",
+        "koen": "m",
+        "kilder": [
+          "kb-haderslev-vorfrue-1920-b147"
+        ]
+      },
+      {
+        "navn": "Theodor Olsen",
+        "koen": "m",
+        "kilder": [
+          "kb-haderslev-vorfrue-1920-b147"
+        ]
+      },
+      {
+        "navn": "Agnes Olsen",
+        "koen": "k",
+        "kilder": [
+          "kb-haderslev-vorfrue-1920-b147"
+        ]
       }
     ]
   },
@@ -1483,10 +1546,38 @@
     "kilder": [
       "kb-gl-haderslev-1883-d69",
       "kb-haderslev-vorfrue-1912-v39",
-      "kb-haderslev-vorfrue-1951-d46"
+      "kb-haderslev-vorfrue-1951-d46",
+      "kb-haderslev-vorfrue-1873-v8"
     ],
-    "noter": "Snedkersvend. Død før 1912, sidst boende i Haderslev.",
+    "noter": "Snedkersvend i Haderslev. Født 16. juli 1849 i Gammel Haderslev, søn af handskemagersvend Søren Christian Sørensen og Anne Sørensen. Død før 1912.",
     "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1849-07-16",
+        "sted": "haderslev",
+        "beskrivelse": "Gammel Haderslev (St. Severin)",
+        "kilder": [
+          "kb-haderslev-vorfrue-1873-v8"
+        ]
+      },
+      {
+        "type": "konfirmation",
+        "dato": "1865-04-09",
+        "sted": "haderslev",
+        "beskrivelse": "St. Severin Kirke",
+        "kilder": [
+          "kb-haderslev-vorfrue-1873-v8"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1873-05-11",
+        "sted": "haderslev",
+        "beskrivelse": "Haderslev Vor Frue, med Anna Barbara Kjær",
+        "kilder": [
+          "kb-haderslev-vorfrue-1873-v8"
+        ]
+      },
       {
         "type": "erhverv",
         "dato": "1883",
@@ -1519,10 +1610,28 @@
     "kilder": [
       "kb-gl-haderslev-1883-d69",
       "kb-haderslev-vorfrue-1912-v39",
-      "kb-haderslev-vorfrue-1951-d46"
+      "kb-haderslev-vorfrue-1951-d46",
+      "kb-haderslev-vorfrue-1873-v8"
     ],
-    "noter": "Død før 1912, sidst boende i Haderslev. Fadderen Dora Kjær i 1915 kan være i familie med hende.",
+    "noter": "Født 6. oktober 1849 i Øsby, datter af afdøde Jes Kjær i Øsby og Hansine Martine Hansdatter. Død før 1912. Fadderen Dora Kjær i 1915 kan være i familie med hende.",
     "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1849-10-06",
+        "sted": "oesby",
+        "beskrivelse": "Stednavnet er læst Gesby, formentlig Øsby",
+        "kilder": [
+          "kb-haderslev-vorfrue-1873-v8"
+        ]
+      },
+      {
+        "type": "konfirmation",
+        "dato": "1864-03-20",
+        "beskrivelse": "Vonsbæk Kirke",
+        "kilder": [
+          "kb-haderslev-vorfrue-1873-v8"
+        ]
+      },
       {
         "type": "død",
         "dato": "før 1912",
@@ -1539,22 +1648,42 @@
     "efternavn": "Olsen",
     "koen": "m",
     "status": "under undersøgelse",
-    "bevis": "Doris' dåb og Standesamt 1879, vielsen 1912 og dødsindførslen 1955 nævner blikkenslagermester Ferdinand Gottfried Olsen som far. Han var selv vidne ved datterens vielse 1912.",
+    "bevis": "Doris' dåb og Standesamt 1879, vielsen 1912 og dødsindførslen 1955 nævner blikkenslagermester Ferdinand Gottfried Olsen som far. Han var selv vidne ved datterens vielse 1912. Hans dødsindførsel 1920 nævner datteren Doris gift Sørensen.",
     "kilder": [
       "kb-haderslev-vorfrue-1879-d94",
       "standesamt-haderslev-1879-f142",
       "kb-haderslev-vorfrue-1912-v39",
       "standesamt-haderslev-1912-v64",
-      "kb-haderslev-vorfrue-1955-d9"
+      "kb-haderslev-vorfrue-1955-d9",
+      "kb-haderslev-vorfrue-1850-d62",
+      "kb-haderslev-vorfrue-1920-b147"
     ],
-    "noter": "Blikkenslagermester i Haderslev, Schloßstraße 57 (1879) og Schloßstraße 10 (1912). 62 år i oktober 1912.",
+    "noter": "Blikkenslagermester i Haderslev, Schloßstraße 57 (1879) og 10 (1912). Søn af handskemager Jens Ulrich Olsen og Magdalene Marie Kaadmann. Efterlod 7 børn i 1920.",
     "haendelser": [
       {
         "type": "fødsel",
-        "dato": "ca. 1850",
-        "beskrivelse": "Beregnet ud fra alderen 62 år i 1912",
+        "dato": "1850-04-14",
+        "sted": "haderslev",
         "kilder": [
-          "standesamt-haderslev-1912-v64"
+          "kb-haderslev-vorfrue-1850-d62",
+          "kb-haderslev-vorfrue-1920-b147"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1850-04-20",
+        "sted": "haderslev",
+        "beskrivelse": "Vor Frue",
+        "kilder": [
+          "kb-haderslev-vorfrue-1850-d62"
+        ]
+      },
+      {
+        "type": "vielse",
+        "dato": "1873-06-01",
+        "beskrivelse": "Med Doris Elisabeth Friederike Johannsen. Stedet er ikke fundet",
+        "kilder": [
+          "kb-haderslev-vorfrue-1920-b147"
         ]
       },
       {
@@ -1564,6 +1693,23 @@
         "beskrivelse": "Blikkenslagermester",
         "kilder": [
           "kb-haderslev-vorfrue-1879-d94"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1920-12-22",
+        "sted": "haderslev",
+        "kilder": [
+          "kb-haderslev-vorfrue-1920-b147"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "dato": "1920-12-27",
+        "sted": "haderslev",
+        "beskrivelse": "Ligtale i Vor Frue Kirke",
+        "kilder": [
+          "kb-haderslev-vorfrue-1920-b147"
         ]
       }
     ]
@@ -1582,9 +1728,10 @@
       "kb-haderslev-vorfrue-1879-d94",
       "standesamt-haderslev-1879-f142",
       "kb-haderslev-vorfrue-1912-v39",
-      "kb-haderslev-vorfrue-1955-d9"
+      "kb-haderslev-vorfrue-1955-d9",
+      "kb-haderslev-vorfrue-1920-b147"
     ],
-    "noter": "Levede i 1912. Muligvis den enke Doris Olsen, født 4/4 1853, der i FT 1921 bor på Slotsgade 10 med blikkenslagermester Oskar Ferdinand Olsen. Ikke bevist.",
+    "noter": "Levede i december 1920 som enke. Gift 1. juni 1873. Hendes fødsel og forældre er ikke fundet, vielsen stod ikke i Haderslev. Muligvis den enke Doris Olsen, født 4/4 1853, på Slotsgade 10 i FT 1921.",
     "haendelser": []
   },
   {
@@ -2205,5 +2352,117 @@
         ]
       }
     ]
+  },
+  {
+    "anenummer": 48,
+    "fornavne": "Søren Christian",
+    "efternavn": "Sørensen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Vielsen 1873 nævner handskemagersvend Søren Christian Sørensen som far til Georg Frederik Sørensen.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1873-v8"
+    ],
+    "noter": "Handskemagersvend i Gammel Haderslev.",
+    "haendelser": [
+      {
+        "type": "erhverv",
+        "dato": "1873",
+        "sted": "haderslev",
+        "beskrivelse": "Handskemagersvend",
+        "kilder": [
+          "kb-haderslev-vorfrue-1873-v8"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 49,
+    "fornavne": "Anne",
+    "efternavn": "Sørensen",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Vielsen 1873 nævner hustru Anne Sørensen som mor til Georg Frederik Sørensen.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1873-v8"
+    ],
+    "noter": "Pigenavnet er ikke oplyst.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 50,
+    "fornavne": "Jes",
+    "efternavn": "Kjær",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Vielsen 1873 nævner afdøde Jes Kjær i Øsby som far til Anna Barbara Kjær. Fornavnet er ikke helt sikkert læst.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1873-v8"
+    ],
+    "noter": "Boede i Øsby. Død før 1873.",
+    "haendelser": [
+      {
+        "type": "død",
+        "dato": "før 1873",
+        "sted": "oesby",
+        "kilder": [
+          "kb-haderslev-vorfrue-1873-v8"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 51,
+    "fornavne": "Hansine Martine",
+    "efternavn": "Hansdatter",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Vielsen 1873 nævner Hansine Martine Hansdatter som mor til Anna Barbara Kjær.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1873-v8"
+    ],
+    "noter": "",
+    "haendelser": []
+  },
+  {
+    "anenummer": 52,
+    "fornavne": "Jens Ulrich",
+    "efternavn": "Olsen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "bevis": "Ferdinand Gottfried Olsens dåb 1850 og dødsindførsel 1920 nævner handskemager Jens Ulrich Olsen som far.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1850-d62",
+      "kb-haderslev-vorfrue-1920-b147"
+    ],
+    "noter": "Handskemager i Haderslev. Død 1871 ifølge en endnu ikke afskrevet indførsel (Vor Frue døde 1871 nr. 153).",
+    "haendelser": [
+      {
+        "type": "erhverv",
+        "dato": "1850",
+        "sted": "haderslev",
+        "beskrivelse": "Handskemager",
+        "kilder": [
+          "kb-haderslev-vorfrue-1850-d62"
+        ]
+      }
+    ]
+  },
+  {
+    "anenummer": 53,
+    "fornavne": "Magdalene Marie",
+    "efternavn": "Olsen",
+    "navnevarianter": [
+      "Magdalene Marie Kaadmann"
+    ],
+    "koen": "k",
+    "status": "under undersøgelse",
+    "bevis": "Ferdinand Gottfried Olsens dåb 1850 og dødsindførsel 1920 nævner Magdalene Marie født Kaadmann som mor.",
+    "kilder": [
+      "kb-haderslev-vorfrue-1850-d62",
+      "kb-haderslev-vorfrue-1920-b147"
+    ],
+    "noter": "Fra Haderslev. Død 1886 ifølge en endnu ikke afskrevet indførsel (Vor Frue døde 1886 nr. 44). Fadderne Ferdinand og Juliane Kaadmann i 1850 er sikkert hendes familie.",
+    "haendelser": []
   }
 ]
