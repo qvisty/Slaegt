@@ -56,7 +56,7 @@
         "type": "begravelse",
         "dato": "2002",
         "sted": "viborg",
-        "beskrivelse": "Viborg Kirkegård, i de ukendtes grav (anonym fællesgrav)",
+        "beskrivelse": "Vestre Kirkegård i Viborg, i de ukendtes grav (anonym fællesgrav)",
         "kilder": [
           "fam-jesper-2026-oles-doed"
         ]
@@ -204,6 +204,14 @@
           "fam-jesper-2026"
         ],
         "beskrivelse": "Boede i Viborg ifølge familien"
+      },
+      {
+        "type": "begravelse",
+        "sted": "viborg",
+        "beskrivelse": "Vestre Kirkegård i Viborg ifølge familien",
+        "kilder": [
+          "fam-jesper-2026"
+        ]
       }
     ],
     "navnevarianter": [
@@ -348,6 +356,14 @@
           "fam-jesper-2026"
         ],
         "beskrivelse": "Boede i Viborg ifølge familien"
+      },
+      {
+        "type": "begravelse",
+        "sted": "viborg",
+        "beskrivelse": "Vestre Kirkegård i Viborg ifølge familien",
+        "kilder": [
+          "fam-jesper-2026"
+        ]
       }
     ],
     "navnevarianter": [
