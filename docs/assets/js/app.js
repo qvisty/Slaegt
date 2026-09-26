@@ -239,7 +239,13 @@ async function indlaes () {
   if (privatlivsmode() === 'måned og år') {
     const graense = new Date().getFullYear() - 100
     D.personer.forEach(p => {
-      if (p.levende) (p.haendelser || []).forEach(e => { e.dato = kunMaaned(e.dato) })
+      // Nulevende og personer, hvor det er uvist om de lever (ingen død eller begravelse og født for under 100 år siden), vises med måned og år. Afdøde vises med fuld dato.
+      const hs = p.haendelser || []
+      const aarene = hs.map(e => aarAf(e.dato)).filter(Boolean)
+      const tidligst = aarene.length ? Math.min(...aarene) : null
+      const afdoed = hs.some(e => e.type === 'død' || e.type === 'begravelse')
+      const uvist = !p.levende && !afdoed && !!tidligst && tidligst > graense
+      if (p.levende || uvist) hs.forEach(e => { e.dato = kunMaaned(e.dato) })
       ;(p.soeskende || []).forEach(b => {
         const aar = aarAf(b.foedt)
         if (!b.doed && !(aar && aar <= graense)) b.foedt = kunMaaned(b.foedt)
