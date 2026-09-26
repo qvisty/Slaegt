@@ -2,9 +2,9 @@
   "opgaver": [
     {
       "titel": "Skaf Jespers dåbsattest eller navneattest",
-      "tekst": "Attesten nævner begge forældre og er den bedste kilde til at bekræfte far og mor. Kan bestilles via sogn.dk.",
+      "tekst": "Ikke længere nødvendig. Jesper har selv bekræftet sine forældre. En attest kan tilføjes senere som ekstra kilde.",
       "anenummer": 1,
-      "status": "åben"
+      "status": "færdig"
     },
     {
       "titel": "Find Oles fødsel i kirkebogen",
@@ -852,6 +852,16 @@
         3
       ],
       "resultat": "andet"
+    },
+    {
+      "dato": "2026-09-26",
+      "titel": "Ole og Dorthe Merete bekræftet af Jesper",
+      "tekst": "Jesper bekræfter som rodperson og ejer af projektet, at Ole Gravlev Qvist og Dorthe Merete Qvist er hans forældre. Deres identitet er dokumenteret i deres egne dåbsindførsler. En dåbs eller navneattest for Jesper vil kunne tilføjes senere som primærkilde, men er ikke nødvendig.",
+      "personer": [
+        2,
+        3
+      ],
+      "resultat": "bekræftet"
     }
   ]
 }

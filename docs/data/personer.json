@@ -16,12 +16,13 @@
     "fornavne": "Ole Gravlev",
     "efternavn": "Qvist",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "noter": "Far til Jesper ifølge familien. Dåben i Viborg Søndre Sogn viser Ole Gravlev Qvist, født 24. juli 1949 på sygehuset i Viborg, søn af Tage Clemmen Clemensen Qvist og Else Marie Gravlev. Familien huskede først 1950, men Jesper oplyser, at Ole blev 52 år og døde 14. marts 2002. Det passer med 1949. Status forbliver under undersøgelse, indtil en kilde binder Ole til Jesper, fx Jespers dåbsattest.",
     "kilder": [
       "fam-jesper-2026",
       "kb-viborg-soendre-1949-f104",
-      "fam-jesper-2026-oles-doed"
+      "fam-jesper-2026-oles-doed",
+      "jesper-bekraeftelse-2026"
     ],
     "haendelser": [
       {
@@ -88,7 +89,8 @@
         ],
         "foedt": "1954"
       }
-    ]
+    ],
+    "bevis": "Jesper bekræfter selv, at Ole Gravlev Qvist er hans far. Oles identitet er dokumenteret i dåben i Viborg Søndre Sogn 1949: Ole Gravlev Qvist, født 24. juli 1949, søn af Tage Clemmen Clemensen Qvist og Else Marie Gravlev. Navnet, fødselsdagen 24. juli, forældrenes navne og dødsalderen 52 år i 2002 stemmer med familiens oplysninger."
   },
   {
     "anenummer": 3,
@@ -99,10 +101,11 @@
     ],
     "koen": "k",
     "levende": true,
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "kilder": [
       "fam-jesper-2026",
-      "kb-haderslev-vorfrue-dorthe"
+      "kb-haderslev-vorfrue-dorthe",
+      "jesper-bekraeftelse-2026"
     ],
     "haendelser": [
       {
@@ -123,7 +126,8 @@
           "kb-haderslev-vorfrue-dorthe"
         ]
       }
-    ]
+    ],
+    "bevis": "Jesper bekræfter selv, at Dorthe Merete Qvist, født Sørensen, er hans mor. Hendes identitet er dokumenteret i dåben i Haderslev Vor Frue Sogn, hvor Helmut Ludwig Sørensen og Anna Christine født Bundesen står som forældre, hvilket stemmer med hendes egne oplysninger om sine forældre og bedsteforældre."
   },
   {
     "anenummer": 4,
