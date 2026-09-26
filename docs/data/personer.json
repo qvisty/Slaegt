@@ -77,14 +77,16 @@
         "koen": "k",
         "kilder": [
           "fam-jesper-2026"
-        ]
+        ],
+        "foedt": "1951"
       },
       {
         "navn": "Torben Gravlev Qvist",
         "koen": "m",
         "kilder": [
           "fam-jesper-2026"
-        ]
+        ],
+        "foedt": "1954"
       }
     ]
   },
@@ -101,6 +103,26 @@
     "kilder": [
       "fam-jesper-2026",
       "kb-haderslev-vorfrue-dorthe"
+    ],
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1945-10-25",
+        "sted": "haderslev",
+        "beskrivelse": "Haderslev Amtssygehus",
+        "kilder": [
+          "kb-haderslev-vorfrue-dorthe"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1946-03-10",
+        "sted": "haderslev",
+        "beskrivelse": "Hospitalskirken",
+        "kilder": [
+          "kb-haderslev-vorfrue-dorthe"
+        ]
+      }
     ]
   },
   {

@@ -81,7 +81,10 @@ function aarAf (s) { const d = parseDato(s); return d ? d.aar : null }
 
 function privatlivsmode () { return (D.projekt.privatliv && D.projekt.privatliv.levende) || 'kun navn' }
 function skjult (p) { return p.levende && privatlivsmode() === 'skjul' }
-function visDetaljer (p) { return !p.levende || privatlivsmode() === 'vis alt' }
+function visDetaljer (p) { return !p.levende || privatlivsmode() === 'vis alt' || privatlivsmode() === 'måned og år' }
+
+/* Ved privatliv "måned og år" vises nulevendes datoer uden dag. Dagen må gerne stå i datafilerne. */
+function kunMaaned (d) { return typeof d === 'string' ? d.replace(/(\d{4}-\d{2})-\d{2}/, '$1') : d }
 
 function fuldtNavn (p) {
   if (!p) return ''
@@ -233,6 +236,16 @@ async function indlaes () {
     const g = await fetch('data/guide.html', { cache: 'no-cache' })
     D.guide = g.ok ? await g.text() : ''
   } catch (e) { D.guide = '' }
+  if (privatlivsmode() === 'måned og år') {
+    const graense = new Date().getFullYear() - 100
+    D.personer.forEach(p => {
+      if (p.levende) (p.haendelser || []).forEach(e => { e.dato = kunMaaned(e.dato) })
+      ;(p.soeskende || []).forEach(b => {
+        const aar = aarAf(b.foedt)
+        if (!b.doed && !(aar && aar <= graense)) b.foedt = kunMaaned(b.foedt)
+      })
+    })
+  }
   D.personer.forEach(p => P.set(p.anenummer, p))
   D.steder.forEach(s => S.set(s.id, s))
   D.kilder.forEach(k => K.set(k.id, k))
@@ -680,9 +693,9 @@ function sidePerson (n) {
   h.push('</section>')
 
   if (p.soeskende && p.soeskende.length) {
-    h.push('<section class="sektion"><h2>Søskende</h2><p class="lille">Søskende er ikke en del af den direkte linje, men hjælper med at kende familien. Søskende, der kan være i live, vises kun med navn.</p><ul class="haendelser">')
+    h.push('<section class="sektion"><h2>Søskende</h2><p class="lille">Søskende er ikke en del af den direkte linje, men hjælper med at kende familien. Søskende, der kan være i live, vises med højst måned og år.</p><ul class="haendelser">')
     p.soeskende.slice().sort((a, b) => String(a.foedt || '9999').localeCompare(String(b.foedt || '9999'))).forEach(b => {
-      const mulig = !b.doed && !(aarAf(b.foedt) && aarAf(b.foedt) <= new Date().getFullYear() - 100)
+      const mulig = !b.doed && !(aarAf(b.foedt) && aarAf(b.foedt) <= new Date().getFullYear() - 100) && privatlivsmode() !== 'måned og år' && privatlivsmode() !== 'vis alt'
       const liv = mulig ? '<span class="lille">Kan være nulevende</span>' : esc([b.foedt ? '* ' + datoTekst(b.foedt) : '', b.doed ? '† ' + datoTekst(b.doed) : ''].filter(Boolean).join('  '))
       h.push('<li><div><span class="htype">' + esc(b.navn) + '</span>' + (b.halv ? ' <span class="maerke neutral">Halvsøskende</span>' : '') + '  <span class="hdato">' + liv + '</span>' + (!mulig && b.noter ? '<div class="lille">' + esc(b.noter) + '</div>' : '') + '</div><div>' + kildeRef(b.kilder) + '</div></li>')
     })

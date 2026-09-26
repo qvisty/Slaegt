@@ -31,7 +31,7 @@ const historie = laes('historie.json', [])
 const STATUS = ['bekræftet', 'under undersøgelse', 'spor']
 const TYPER = ['fødsel', 'dåb', 'konfirmation', 'vielse', 'folketælling', 'bopæl', 'flytning', 'erhverv', 'militær', 'udvandring', 'død', 'begravelse', 'skifte', 'andet']
 const KVALITET = ['primær', 'sekundær', 'afledt']
-const PRIVATLIV = ['skjul', 'kun navn', 'vis alt']
+const PRIVATLIV = ['skjul', 'kun navn', 'måned og år', 'vis alt']
 const DATO = /^(ca\.|omkring|før|efter)?\s*(\d{4})(?:-(\d{1,2}))?(?:-(\d{1,2}))?$/i
 
 function datoOk (s) {
@@ -144,7 +144,7 @@ for (const [n, p] of P) {
     if (b.doed && !datoOk(b.doed)) fejl.push(bh + ': ugyldig dødsdato')
     const aar = b.foedt ? parseInt(String(b.foedt).match(/\d{4}/), 10) : null
     const kanLeve = !b.doed && !(aar && aar <= graense)
-    if (kanLeve && (b.foedt || b.noter || b.sted)) fejl.push(bh + ': kan være nulevende. Kun navn, køn og kilder er tilladt')
+    if (kanLeve && (privat === 'kun navn' || privat === 'skjul') && (b.foedt || b.noter || b.sted)) fejl.push(bh + ': kan være nulevende. Kun navn, køn og kilder er tilladt')
   }
   if (p.fiktiv) fejl.push(hvem + ': fiktive personer bruges ikke længere i projektet')
 
@@ -157,11 +157,11 @@ for (const [n, p] of P) {
   }
 
   // Privatliv. Repoet er offentligt, så data om nulevende må ikke ligge i filerne.
-  if (p.levende && privat !== 'vis alt') {
+  if (p.levende && privat !== 'vis alt' && privat !== 'måned og år') {
     const detaljer = (p.haendelser || []).filter(h => h.dato || h.sted)
     if (detaljer.length) fejl.push(hvem + ': er nulevende, men har datoer eller steder registreret. De ville være offentlige i repoet. Fjern dem eller sæt privatliv til "vis alt"')
-    if (p.portraet || (p.billeder || []).length) fejl.push(hvem + ': er nulevende, men har billeder registreret')
   }
+  if (p.levende && privat !== 'vis alt' && (p.portraet || (p.billeder || []).length)) fejl.push(hvem + ': er nulevende, men har billeder registreret')
 
   // Plausibilitet mellem forælder og barn
   if (n > 1 && P.has(n >> 1)) {

@@ -19,7 +19,7 @@ Senest opdateret 25. september 2026. Træet har nu 70 personer.
 3. **Bekræftet kræver hele kæden.** En person kan først være `bekræftet`, når barnet i linjen er bekræftet. Status `bekræftet` kræver mindst én primærkilde og en skriftlig begrundelse i feltet `bevis`.
 4. **Familieoplysninger** (navne Jesper kender, men som ikke er undersøgt) registreres med status `spor`. De vises på siden med mærket Familieoplysning.
 5. **Ingen fiktive personer.** Jesper har bedt om, at alt fiktivt indhold og visningen af det er fjernet. Tomme pladser i træet vises som "P.t. ukendt". Tjekket afviser personer med `"fiktiv": true`.
-6. **Privatliv.** Repoet og siden er offentlige. Nulevende personer (Jesper og hans mor) får kun navn. Ingen fødselsdatoer, steder eller billeder af nulevende i repoet. Jespers mors fødselsdato kendes, men må ikke skrives i repoet.
+6. **Privatliv.** Repoet og siden er offentlige. Jesper har besluttet, at nulevendes datoer og steder må stå i datafilerne med dag, men siden viser kun måned og år (privatliv "måned og år" i `projekt.json`). Billeder af nulevende kun med tilladelse. Følsomme oplysninger, fx om misbrug eller sygdom hos nyligt afdøde, skrives ikke.
 7. **Kun grenen `main`.** Jesper har givet lov til commit, merge og push direkte på `main`. Lav ikke andre grene og ikke pull requests.
 8. **Forsiden er stamtræet** med klikbare personer. README er kun teknisk og må ikke være det, besøgende ser.
 9. **Log alt.** Hver forskningsindsats skrives i `docs/data/forskning.json` under `log`, også når intet blev fundet, og også fejlmatch.

@@ -842,6 +842,16 @@
         7
       ],
       "resultat": "familieoplysning"
+    },
+    {
+      "dato": "2026-09-26",
+      "titel": "Ny privatlivsindstilling: måned og år",
+      "tekst": "Jesper har besluttet, at fødselsdatoer og andre datoer for nulevende gerne må stå i datafilerne med dag, men at siden kun viser måned og år. Privatliv er sat til \"måned og år\" i projekt.json. Dorthe Meretes fødsel og dåb og årstal for Oles søskende er lagt ind.",
+      "personer": [
+        2,
+        3
+      ],
+      "resultat": "andet"
     }
   ]
 }

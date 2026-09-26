@@ -20,7 +20,7 @@ Reglerne håndhæves af `scripts/valider.mjs`, som kører automatisk før hver u
 
 Repoet er **offentligt**, og det er hjemmesiden også. Derfor gælder:
 
-* Nulevende personer markeres med `"levende": true` og må kun have navn. Datoer, steder og billeder afvises af tjekket.
+* Nulevende personer markeres med `"levende": true`. Med privatliv `"måned og år"` (standard nu) må datoer og steder stå i filerne, men siden viser kun måned og år. Med `"kun navn"` afviser tjekket datoer og steder. Billeder af nulevende afvises, medmindre privatliv er `"vis alt"`.
 * Vil du have mere privatliv, kan repoet gøres privat. GitHub Pages fra et privat repo kræver et betalt GitHub abonnement.
 
 ## Sæt udgivelsen op (én gang)
