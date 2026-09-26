@@ -165,6 +165,12 @@ function statusMaerke (p) {
   return '<span class="maerke undersoeges">Under undersøgelse</span>'
 }
 
+function sikkerhedMaerke (p) {
+  if (!p || !p.sikkerhed) return ''
+  const kl = p.sikkerhed === 'høj' ? 'bekraeftet' : p.sikkerhed === 'middel' ? 'undersoeges' : 'spor'
+  return '<span class="maerke ' + kl + '" title="' + esc(p.sikkerhedTekst || '') + '">Sikkerhed: ' + esc(p.sikkerhed) + '</span>'
+}
+
 function sideMaerke (n) {
   const s = side(n)
   return '<span class="maerke ' + s + '">' + esc(sidenavn(s)) + '</span>'
@@ -652,7 +658,7 @@ function sidePerson (n) {
   h.push('<div class="person-top"><div class="foto">' + portraet(p) + '</div><div>')
   h.push('<div class="relation lille" style="text-transform:uppercase;letter-spacing:.06em;font-weight:600">' + esc(relation(n)) + '  ·  Anenummer ' + n + '  ·  Generation ' + gen(n) + '</div>')
   h.push('<h1>' + esc(fuldtNavn(p)) + '</h1>')
-  h.push('<div style="display:flex;gap:6px;flex-wrap:wrap">' + statusMaerke(p) + (n > 1 ? sideMaerke(n) : '') + (p.levende ? '<span class="maerke levende">Nulevende</span>' : '') + '</div>')
+  h.push('<div style="display:flex;gap:6px;flex-wrap:wrap">' + statusMaerke(p) + sikkerhedMaerke(p) + (n > 1 ? sideMaerke(n) : '') + (p.levende ? '<span class="maerke levende">Nulevende</span>' : '') + '</div>')
   h.push('<dl class="faktaliste">')
   if (vis && f) h.push('<dt>' + (f.type === 'dåb' ? 'Døbt' : 'Født') + '</dt><dd>' + esc(datoTekst(f.dato)) + (f.sted ? ', ' + esc(stedNavn(f.sted)) : '') + '</dd>')
   if (vis && d) h.push('<dt>' + (d.type === 'begravelse' ? 'Begravet' : 'Død') + '</dt><dd>' + esc(datoTekst(d.dato)) + (d.sted ? ', ' + esc(stedNavn(d.sted)) : '') + '</dd>')
@@ -684,7 +690,7 @@ function sidePerson (n) {
 
   if (!p.levende || privatlivsmode() !== 'skjul') {
     h.push('<section class="sektion"><h2>Bevis for slægtskabet</h2>')
-    if (p.bevis) h.push('<div class="bevis"><p style="margin:0">' + esc(p.bevis) + kildeRef(p.kilder) + '</p></div>')
+    if (p.bevis) h.push('<div class="bevis"><p style="margin:0">' + esc(p.bevis) + kildeRef(p.kilder) + '</p>' + (p.sikkerhed ? '<p class="lille" style="margin:.5em 0 0"><strong>Sikkerhed: ' + esc(p.sikkerhed) + '.</strong> ' + esc(p.sikkerhedTekst || '') + '</p>' : '') + '</div>')
     else if (p.status === 'spor') h.push('<div class="bevis mangler"><p style="margin:0">Oplysningerne kommer fra familien og er ikke undersøgt endnu. Personen undersøges, når ' + esc(fuldtNavn(P.get(n >> 1)) || 'barnet') + ' er bekræftet.</p></div>')
     else h.push('<div class="bevis mangler"><p style="margin:0">Der er endnu ikke skrevet en begrundelse for, at denne person er den rigtige. Status forbliver <em>under undersøgelse</em>, indtil beviset er på plads.</p></div>')
     h.push('</section>')
@@ -950,6 +956,7 @@ function sideForskning () {
   h.push('<li><strong>Et led ad gangen.</strong> En persons forældre undersøges først, når personen selv er fundet i en primærkilde. Nye aner står som under undersøgelse, indtil hele kæden er bekræftet.</li>')
   h.push('<li><strong>Bekræftet kræver bevis.</strong> Mindst én primærkilde, typisk kirkebogens dåb eller fødsel, og en skriftlig begrundelse for, at det er den rigtige person.</li>')
   h.push('<li><strong>Uafhængig støtte.</strong> Forældreskabet støttes helst af en kilde mere, fx folketælling, konfirmation eller vielse, så navne, alder og sted stemmer.</li>')
+  h.push('<li><strong>Sikkerhed.</strong> Hver ane har en sikkerhedsgrad. Høj: flere uafhængige primærkilder nævner forældreskabet. Middel: én primærkilde, eller uoverensstemmelse i navne. Lav: forældreskabet bygger på fx en udlagt barnefader. Høj og middel kan bekræftes.</li>')
   h.push('<li><strong>Modstrid løses først.</strong> Er der kilder, der ikke stemmer, forbliver personen under undersøgelse.</li>')
   h.push('</ol></section>')
 

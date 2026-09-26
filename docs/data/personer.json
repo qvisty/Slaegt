@@ -90,7 +90,9 @@
         "foedt": "1954"
       }
     ],
-    "bevis": "Jesper bekræfter selv, at Ole Gravlev Qvist er hans far. Oles identitet er dokumenteret i dåben i Viborg Søndre Sogn 1949: Ole Gravlev Qvist, født 24. juli 1949, søn af Tage Clemmen Clemensen Qvist og Else Marie Gravlev. Navnet, fødselsdagen 24. juli, forældrenes navne og dødsalderen 52 år i 2002 stemmer med familiens oplysninger."
+    "bevis": "Jesper bekræfter selv, at Ole Gravlev Qvist er hans far. Oles identitet er dokumenteret i dåben i Viborg Søndre Sogn 1949: Ole Gravlev Qvist, født 24. juli 1949, søn af Tage Clemmen Clemensen Qvist og Else Marie Gravlev. Navnet, fødselsdagen 24. juli, forældrenes navne og dødsalderen 52 år i 2002 stemmer med familiens oplysninger.",
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Jesper bekræfter selv, og Oles identitet er dokumenteret i hans dåb."
   },
   {
     "anenummer": 3,
@@ -127,14 +129,16 @@
         ]
       }
     ],
-    "bevis": "Jesper bekræfter selv, at Dorthe Merete Qvist, født Sørensen, er hans mor. Hendes identitet er dokumenteret i dåben i Haderslev Vor Frue Sogn, hvor Helmut Ludwig Sørensen og Anna Christine født Bundesen står som forældre, hvilket stemmer med hendes egne oplysninger om sine forældre og bedsteforældre."
+    "bevis": "Jesper bekræfter selv, at Dorthe Merete Qvist, født Sørensen, er hans mor. Hendes identitet er dokumenteret i dåben i Haderslev Vor Frue Sogn, hvor Helmut Ludwig Sørensen og Anna Christine født Bundesen står som forældre, hvilket stemmer med hendes egne oplysninger om sine forældre og bedsteforældre.",
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Jesper bekræfter selv, og Dorthe Meretes identitet er dokumenteret i hendes dåb."
   },
   {
     "anenummer": 4,
     "fornavne": "Tage",
     "efternavn": "Qvist",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "kilder": [
       "fam-jesper-2026",
       "kb-viborg-soendre-1924-f40",
@@ -310,14 +314,16 @@
           "ft1940-viborg-vesterled49"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 5,
     "fornavne": "Else Marie",
     "efternavn": "Qvist",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "kilder": [
       "fam-jesper-2026",
       "kb-loegstoer-1923-f9",
@@ -415,14 +421,16 @@
         ],
         "noter": "Samme ugifte mor, far ikke nævnt"
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 6,
     "fornavne": "Helmuth",
     "efternavn": "Sørensen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "kilder": [
       "fam-jesper-2026",
       "kb-haderslev-vorfrue-dorthe",
@@ -530,14 +538,16 @@
       "Helmuth Ludvig Sørensen"
     ],
     "bevis": "Dorthe Meretes dåb i Haderslev nævner bogholder Helmut Ludwig Sørensen, født 9. januar 1915, som far, og hans forældre var faddere. Samme navn, dato og forældre i hans egen dåb 1915, vielsen 1940 og folketællingerne 1930 og 1940.",
-    "soeskende": []
+    "soeskende": [],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 7,
     "fornavne": "Anna Christine",
     "efternavn": "Sørensen",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "kilder": [
       "fam-jesper-2026",
       "kb-haderslev-vorfrue-dorthe",
@@ -647,14 +657,16 @@
           "ft1930-toftlund-13"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 8,
     "fornavne": "Gerner",
     "efternavn": "Qvist",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "kilder": [
       "kb-skaelskoer-1890-m9",
       "gravsten-viborg-k165",
@@ -838,14 +850,16 @@
         "doed": "1995-05-30",
         "noter": "Skælskør Kirkegård"
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 9,
     "fornavne": "Helga Margrethe",
     "efternavn": "Qvist",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "kilder": [
       "kb-viborg-dom-1896-f81",
       "gravsten-viborg-k165",
@@ -981,14 +995,16 @@
         ],
         "noter": "Død 1 år gammel"
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 18,
     "fornavne": "Anders",
     "efternavn": "Nielsen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Helgas dåb 1896 nævner skomagersvend Anders Nielsen og Julie Margrethe Louise Jensen som forældre, og vielsen 1919 nævner kellner Anders Nielsen og Julie Margrethe Louise Jensen. Folketællingerne 1901 og 1906 viser Helga i hans husstand. Hans egen dåb i Lysgård 19. august 1856 passer med fødselsdatoen i FT 1906, fødestedet Lysgaard i FT 1901 og alderen 33 år ved vielsen 1889.",
     "kilder": [
       "kb-viborg-dom-1896-f81",
@@ -1103,7 +1119,9 @@
         ],
         "noter": "Født i Viborg. Dåben ikke fundet"
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 19,
@@ -1113,7 +1131,7 @@
       "Julie Margrethe Louise Jensen"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Helgas dåb 1896 og vielsen 1919 nævner Julie Margrethe Louise Jensen som mor. Folketællingerne 1901 og 1906 viser Helga i hendes husstand. Hendes egen fødsel, dåb og konfirmation giver alle 28. august 1869, hvilket passer med alderen 20 år ved vielsen 1889 og 27 år i 1896.",
     "kilder": [
       "kb-viborg-dom-1896-f81",
@@ -1202,14 +1220,16 @@
           "ft1870-viborg-jensen"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 36,
     "fornavne": "Niels Peter",
     "efternavn": "Andersen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anders Nielsens dåb i Lysgård 1856 nævner husmand Niels Peter Andersen som far. Sønnens efternavn Nielsen og barnebarnet Niels Peter passer.",
     "kilder": [
       "kb-lysgaard-1856-m6",
@@ -1292,14 +1312,16 @@
           "kb-viborg-soendre-1886-d30"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 37,
     "fornavne": "Kristine",
     "efternavn": "Frederiksdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anders Nielsens dåb 1856 nævner Kristine Frederiksen som mor. Vielsen 1855 og FT 1860 giver samme person med fødsel 15. november 1819 i Høgild, Resen Sogn, som passer med hendes dåb.",
     "kilder": [
       "kb-lysgaard-1856-m6",
@@ -1340,14 +1362,16 @@
     "navnevarianter": [
       "Kristine Frederiksen",
       "Christine Andersen"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 38,
     "fornavne": "Caspar Georg Julius",
     "efternavn": "Jensen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Julies fødsel 1869, dåb 1871 og konfirmation 1884 nævner alle smed Caspar Georg Julius Jensen som far.",
     "kilder": [
       "kb-viborg-soendre-1869-f22",
@@ -1396,7 +1420,9 @@
           "ft1870-viborg-jensen"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 39,
@@ -1407,7 +1433,7 @@
       "Anne Marie Christine Graversen"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Julies fødsel 1869, dåb 1871 og konfirmation 1884 nævner Ane Marie Kirstine Gravesen som mor.",
     "kilder": [
       "kb-viborg-soendre-1869-f22",
@@ -1436,14 +1462,16 @@
           "ft1870-viborg-jensen"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 14,
     "fornavne": "Jørgen Peter",
     "efternavn": "Bundesen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "kilder": [
       "fam-dorthe-2026",
       "pr-toftlund-1924-f47",
@@ -1616,14 +1644,16 @@
         ]
       }
     ],
-    "biografi": "Jørgen Peter Bundesen, kaldet Jørn, blev født i Toftlund i 1896 som søn af bageren Jes Peter Bundesen. Sønderjylland var dengang tysk, og i oktober 1915 blev han indkaldt til den tyske hær. Han tjente i Infanterie-Regiment Nr. 84 og senere Nr. 116. Da hans far døde i december 1916, nåede han ikke hjem til begravelsen, men fik orlov to dage efter.\n\nDen 16. maj 1918 blev han såret og kom først på feltlazarettet i St. Ingbert og siden på reservelazarettet i Toftlund. Her lå han sammen med en ung soldat fra familien Wind. Soldatens søster Dusine kom på besøg, og hun og Jørgen blev forelskede. De blev gift i februar 1920.\n\nJørgen var slemt tilredt efter krigen og fik invaliderente. Han blev hjemsendt i november 1919, købte i 1920 huset Vestergade 21 i Toftlund og blev landpostbud. I 1945 måtte han tage sin afsked fra postvæsenet på grund af helbredet. Han døde i huset i Vestergade i 1951, og Dusine blev boende. I 1967 overtog sønnen, malermester Andreas Bundesen, huset sammen med tre medejere."
+    "biografi": "Jørgen Peter Bundesen, kaldet Jørn, blev født i Toftlund i 1896 som søn af bageren Jes Peter Bundesen. Sønderjylland var dengang tysk, og i oktober 1915 blev han indkaldt til den tyske hær. Han tjente i Infanterie-Regiment Nr. 84 og senere Nr. 116. Da hans far døde i december 1916, nåede han ikke hjem til begravelsen, men fik orlov to dage efter.\n\nDen 16. maj 1918 blev han såret og kom først på feltlazarettet i St. Ingbert og siden på reservelazarettet i Toftlund. Her lå han sammen med en ung soldat fra familien Wind. Soldatens søster Dusine kom på besøg, og hun og Jørgen blev forelskede. De blev gift i februar 1920.\n\nJørgen var slemt tilredt efter krigen og fik invaliderente. Han blev hjemsendt i november 1919, købte i 1920 huset Vestergade 21 i Toftlund og blev landpostbud. I 1945 måtte han tage sin afsked fra postvæsenet på grund af helbredet. Han døde i huset i Vestergade i 1951, og Dusine blev boende. I 1967 overtog sønnen, malermester Andreas Bundesen, huset sammen med tre medejere.",
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 15,
     "fornavne": "Dusine Andrea",
     "efternavn": "Bundesen",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "kilder": [
       "fam-dorthe-2026",
       "pr-toftlund-1924-f47",
@@ -1787,7 +1817,9 @@
           "pr-toftlund-wind-boern"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 12,
@@ -1798,7 +1830,7 @@
       "Ludwig Sörensen"
     ],
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Helmuts dåb 1915, vielsen 1940 og Dorthe Meretes dåb nævner snedkermester Ludwig Sørensen som far eller farfar. FT 1921 og 1930 viser Helmut i hans husstand. Fødselsdatoen 16. august 1883 er den samme i dåben 1883, vielsen 1912, FT 1921, FT 1940 og dødsindførslen 1951, som også siger, at han efterlod 1 søn.",
     "kilder": [
       "kb-haderslev-vorfrue-1915-f8",
@@ -1916,7 +1948,9 @@
         ],
         "noter": "Død som lille. Helmuths far blev opkaldt efter ham"
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 13,
@@ -1926,7 +1960,7 @@
       "Doris Elisabeth Olsen"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Helmuts dåb 1915 og vielsen 1940 nævner Doris Elisabeth født Olsen som mor. FT 1921 og 1930 viser Helmut i hendes husstand. Fødselsdatoen 21. juni 1879 er den samme i dåben, Standesamt, vielsen 1912 og dødsindførslen 1955, som siger, at hun efterlod 1 søn.",
     "kilder": [
       "kb-haderslev-vorfrue-1915-f8",
@@ -2045,14 +2079,16 @@
           "kb-haderslev-vorfrue-1920-b147"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 24,
     "fornavne": "Georg Friedrich",
     "efternavn": "Sørensen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Ludwigs dåb 1883, vielse 1912 og død 1951 nævner alle snedkersvend Georg Friedrich Sørensen som far.",
     "kilder": [
       "kb-gl-haderslev-1883-d69",
@@ -2152,7 +2188,9 @@
           "ft1860-haderslev-slagtergade617"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 25,
@@ -2162,7 +2200,7 @@
       "Anna Barbara Kjer"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Ludwigs dåb 1883, vielse 1912 og død 1951 nævner alle Anna Barbara født Kjer som mor.",
     "kilder": [
       "kb-gl-haderslev-1883-d69",
@@ -2245,14 +2283,16 @@
         ],
         "noter": "Død 3 år gammel"
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 26,
     "fornavne": "Ferdinand Gottfried",
     "efternavn": "Olsen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Doris' dåb og Standesamt 1879, vielsen 1912 og dødsindførslen 1955 nævner blikkenslagermester Ferdinand Gottfried Olsen som far. Han var selv vidne ved datterens vielse 1912. Hans dødsindførsel 1920 nævner datteren Doris gift Sørensen.",
     "kilder": [
       "kb-haderslev-vorfrue-1879-d94",
@@ -2351,7 +2391,9 @@
           "kb-haderslev-vorfrue-1871-d153"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 27,
@@ -2361,7 +2403,7 @@
       "Doris Elisabeth Friederike Johannsen"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Doris' dåb og Standesamt 1879, vielsen 1912 og dødsindførslen 1955 nævner Doris Elisabeth Friederike født Johannsen som mor.",
     "kilder": [
       "kb-haderslev-vorfrue-1879-d94",
@@ -2426,14 +2468,16 @@
           "ft1860-haderslev-slagtergade603"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 28,
     "fornavne": "Jes Peter",
     "efternavn": "Bundesen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jørgen Peters fødselsanmeldelse 1896, vielse 1920 og dødsindførsel 1951 nævner bager Jes Peter Bundesen som far.",
     "kilder": [
       "pr-skaerbaek-1920-v3",
@@ -2509,7 +2553,9 @@
           "kb-uge-1870-d10"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 29,
@@ -2520,7 +2566,7 @@
       "Anna Cathrine Bundesen"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jørgen Peters fødselsanmeldelse 1896, vielse 1920 og dødsindførsel 1951 nævner Anna Catharina født Kramer som mor. Hendes egen dødsindførsel 1935 blev anmeldt af sønnen Jørgen Peter.",
     "kilder": [
       "pr-skaerbaek-1920-v3",
@@ -2551,14 +2597,16 @@
           "pr-toftlund-1935-d16"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 30,
     "fornavne": "Rasmus Andresen",
     "efternavn": "Wind",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Vielsen 1920 nævner skræddermester Rasmus Andresen Wind i Gånsager som far til Dusine Andrea Wind. Han var selv vidne ved vielsen.",
     "kilder": [
       "pr-skaerbaek-1920-v3",
@@ -2624,7 +2672,9 @@
           "kb-vodder-1931-rasmus-wind"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 31,
@@ -2636,7 +2686,7 @@
       "Anna Christine Lassen"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Vielsen 1920 nævner Anna Christine Wind født Lassen i Gånsager som mor til Dusine Andrea Wind.",
     "kilder": [
       "pr-skaerbaek-1920-v3",
@@ -2691,14 +2741,16 @@
           "kb-vodder-1922-d3"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 16,
     "fornavne": "Ludvig Valdemar",
     "efternavn": "Qvist",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Gerners dåb 1890 og vielsen 1919 nævner slagter Ludvig Valdemar Qvist som far. FT 1901 viser Gerner i hans husstand. Fødselsdatoen 27. juni 1859 er den samme i hans dåb, vielsen 1889 og FT 1911 og 1921.",
     "kilder": [
       "kb-skaelskoer-1890-m9",
@@ -2784,7 +2836,9 @@
           "ft1921-skaelskoer-skovvej"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 17,
@@ -2794,7 +2848,7 @@
       "Johanne Marie Møller"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Gerners dåb 1890 og vielsen 1919 nævner Johanne Marie Møller som mor. FT 1901 viser Gerner i hendes husstand. Fødselsdatoen 7. februar 1864 er den samme i hendes dåb, vielsen 1889 og folketællingerne.",
     "kilder": [
       "kb-skaelskoer-1890-m9",
@@ -2852,14 +2906,16 @@
           "ft1921-skaelskoer-skovvej"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 32,
     "fornavne": "Clemmen Clemmensen",
     "efternavn": "Qvist",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Ludvig Valdemars dåb 1859 nævner garver Clemmen Qvist som far, og FT 1880 viser Ludvig som søn i hans husstand.",
     "kilder": [
       "kb-skaelskoer-1859-m13",
@@ -2986,7 +3042,9 @@
           "ft1834-svendborg-qvist"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 33,
@@ -2998,7 +3056,7 @@
       "Johanne Pedersen"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Ludvig Valdemars dåb 1859 nævner Hanne født Petersen som mor. Hendes dødsindførsel 1911 siger, at hun boede hos sønnen slagter Ludvig Qvist, og hun bar barnebarnet Valborg Ebba som farmor i 1899.",
     "kilder": [
       "kb-skaelskoer-1859-m13",
@@ -3039,14 +3097,16 @@
           "kb-skaelskoer-1911-d10"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 34,
     "fornavne": "Johan Jacob",
     "efternavn": "Møller",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Johanne Maries dåb 1864 nævner snedker Johan Jacob Møller som far, og FT 1870 viser hende i hans husstand. Han kaldes moderens far ved barnebarnet Valborg Ebbas dåb 1899.",
     "kilder": [
       "kb-skaelskoer-1864-f3",
@@ -3121,7 +3181,9 @@
           "kb-skaelskoer-1900-d14"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 35,
@@ -3132,7 +3194,7 @@
       "Maria Bergitte Gesner"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Johanne Maries dåb 1864 nævner Marie Bergitte Gesner som mor, og FT 1870 viser hende i hendes husstand. Hun kaldes moderens mor ved barnebarnet Valborg Ebbas dåb 1899.",
     "kilder": [
       "kb-skaelskoer-1864-f3",
@@ -3180,7 +3242,9 @@
           "ft1870-skaelskoer-moeller"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 11,
@@ -3191,7 +3255,7 @@
       "Maren Kirstine Ottilie Simonsen"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Elses dåb 1923, konfirmation 1937 og vielse 1949 nævner Maren Kirstine Ottilie Gravlev som mor, og FT 1930 viser Else i hendes husstand. Vielsen 1939 giver samme fulde navn, fødselsdag 15. maj 1895 i Vindblæs og forældrene Anders Kristian Gravlev og Johanne Eriksen, som svarer til dåben 1895.",
     "kilder": [
       "kb-loegstoer-1923-f9",
@@ -3302,7 +3366,9 @@
           "ft1901-vindblaes-44"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 22,
@@ -3312,7 +3378,7 @@
       "Anders Kristian Jensen"
     ],
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Marens dåb 1895 nævner husmand Anders Kristian Jensen i Bjørnslet som far, og vielsen 1939 nævner husmand Anders Kristian Gravlev. FT 1901 viser Maren i hans husstand.",
     "kilder": [
       "kb-vindblaes-1895-f8",
@@ -3399,7 +3465,9 @@
         ],
         "noter": "Husmand i Bjørumslet"
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 23,
@@ -3409,7 +3477,7 @@
       "Johanne Eriksen"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Marens dåb 1895 og vielsen 1939 nævner Johanne Eriksen som mor. FT 1901 viser Maren i hendes husstand.",
     "kilder": [
       "kb-vindblaes-1895-f8",
@@ -3447,14 +3515,16 @@
           "ft1901-vindblaes-44"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 48,
     "fornavne": "Søren Christian",
     "efternavn": "Sørensen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Vielsen 1873 nævner handskemagersvend Søren Christian Sørensen som far til Georg Frederik Sørensen.",
     "kilder": [
       "kb-haderslev-vorfrue-1873-v8",
@@ -3472,14 +3542,16 @@
           "kb-haderslev-vorfrue-1873-v8"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 49,
     "fornavne": "Anne",
     "efternavn": "Sørensen",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Vielsen 1873 nævner hustru Anne Sørensen som mor til Georg Frederik Sørensen.",
     "kilder": [
       "kb-haderslev-vorfrue-1873-v8",
@@ -3490,14 +3562,16 @@
     "haendelser": [],
     "navnevarianter": [
       "Anne Gørresen"
-    ]
+    ],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Forældreskabet er dokumenteret i dåben 1849, vielsen 1873 og FT 1860, men hendes pigenavn (Gørresen) kendes kun fra folketællinger."
   },
   {
     "anenummer": 50,
     "fornavne": "Jes",
     "efternavn": "Kjær",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anna Barbaras dåb i Vonsbæk 1849 nævner Jes Kjær i Ørby som far, og vielsen 1873 nævner afdøde Jes Kjær. Hans egen død 1859 nævner datteren Ane Barbara blandt de fire børn.",
     "kilder": [
       "kb-haderslev-vorfrue-1873-v8",
@@ -3534,14 +3608,16 @@
           "kb-vonsbaek-doede-kjaer"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 51,
     "fornavne": "Hansine Martine",
     "efternavn": "Hansdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Vielsen 1873 nævner Hansine Martine Hansdatter som mor til Anna Barbara Kjær.",
     "kilder": [
       "kb-haderslev-vorfrue-1873-v8",
@@ -3577,14 +3653,16 @@
           "kb-vonsbaek-doede-kjaer"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 52,
     "fornavne": "Jens Ulrich Jespersen",
     "efternavn": "Olsen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Ferdinand Gottfried Olsens dåb 1850 og dødsindførsel 1920 nævner handskemager Jens Ulrich Olsen som far.",
     "kilder": [
       "kb-haderslev-vorfrue-1850-d62",
@@ -3628,7 +3706,9 @@
           "kb-haderslev-vorfrue-1871-d153"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 53,
@@ -3638,7 +3718,7 @@
       "Magdalene Marie Kaadmann"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Ferdinand Gottfried Olsens dåb 1850 og dødsindførsel 1920 nævner Magdalene Marie født Kaadmann som mor.",
     "kilder": [
       "kb-haderslev-vorfrue-1850-d62",
@@ -3675,14 +3755,16 @@
           "kb-haderslev-vorfrue-1886-d44"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 56,
     "fornavne": "Jürgen Peter",
     "efternavn": "Bundesen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jes Peter Bundesens vielse 1886 nævner afdøde parcellist Jürgen Peter Bundesen i Uk som far.",
     "kilder": [
       "pr-aabenraa-1886-v6",
@@ -3734,7 +3816,9 @@
           "kb-uge-1865-d5"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 57,
@@ -3745,7 +3829,7 @@
       "Anna Maria Jessen"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jes Peter Bundesens vielse 1886 nævner Anna Maria født Petersen som mor.",
     "kilder": [
       "pr-aabenraa-1886-v6",
@@ -3789,14 +3873,16 @@
           "kb-uge-1870-d10"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 58,
     "fornavne": "Rasmus Christiansen",
     "efternavn": "Kramer",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anna Catharinas vielse 1886 og dødsindførsel 1935 nævner arbejdsmand Rasmus Kramer som far. Han var selv vidne ved vielsen.",
     "kilder": [
       "pr-aabenraa-1886-v6",
@@ -3843,7 +3929,9 @@
           "pr-aabenraa-1908-d5"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 59,
@@ -3853,7 +3941,7 @@
       "Maria Catharina Røi"
     ],
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anna Catharinas vielse 1886 og dødsindførsel 1935 nævner Maria Catharina født Røi som mor.",
     "kilder": [
       "pr-aabenraa-1886-v6",
@@ -3892,14 +3980,16 @@
           "pr-aabenraa-1906-d9"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 72,
     "fornavne": "Anders Christensen",
     "efternavn": "Gadegaard",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Niels Peter Andersens dåb 1821 nævner Anders Christensen, inderste i Ungstrup, som far, og vielsen 1850 kalder ham Anders Christensen Gadegaard.",
     "kilder": [
       "kb-thorning-1821-m13",
@@ -3916,27 +4006,31 @@
           "kb-thorning-1821-m13"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 73,
     "fornavne": "Maren",
     "efternavn": "Nielsdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Niels Peter Andersens dåb 1821 nævner Maren Nielsdatter som mor.",
     "kilder": [
       "kb-thorning-1821-m13"
     ],
     "noter": "",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Én primærkilde nævner forældreskabet direkte. Der er ingen modstrid, men heller ingen uafhængig kilde mere."
   },
   {
     "anenummer": 74,
     "fornavne": "Frederich",
     "efternavn": "Christensen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Kristines dåb 1819 nævner Frederich Christensen, gårdbeboer i Høgild, som far.",
     "kilder": [
       "kb-resen-1819-f5"
@@ -3952,53 +4046,61 @@
           "kb-resen-1819-f5"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Én primærkilde nævner forældreskabet direkte. Der er ingen modstrid, men heller ingen uafhængig kilde mere."
   },
   {
     "anenummer": 75,
     "fornavne": "Anne Dorthe",
     "efternavn": "Jensdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Kristines dåb 1819 nævner Anne Dorthe Jensdatter som mor.",
     "kilder": [
       "kb-resen-1819-f5"
     ],
     "noter": "",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Én primærkilde nævner forældreskabet direkte. Der er ingen modstrid, men heller ingen uafhængig kilde mere."
   },
   {
     "anenummer": 76,
     "fornavne": "Christen",
     "efternavn": "Jensen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Caspar Georg Julius Jensens dåb 1844 nævner Christen Jensen som far.",
     "kilder": [
       "kb-viborg-dom-1844-m2"
     ],
     "noter": "Boede i Viborg. Stillingen i dåben er svær at læse, måske brændevinsbrænder.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Én primærkilde nævner forældreskabet direkte. Der er ingen modstrid, men heller ingen uafhængig kilde mere."
   },
   {
     "anenummer": 77,
     "fornavne": "Julie",
     "efternavn": "Moll",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Caspar Georg Julius Jensens dåb 1844 nævner Julie Moll som mor.",
     "kilder": [
       "kb-viborg-dom-1844-m2"
     ],
     "noter": "Navnet Julie gik videre til barnebarnet Julie Margrethe Louise.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Én primærkilde nævner forældreskabet direkte. Der er ingen modstrid, men heller ingen uafhængig kilde mere."
   },
   {
     "anenummer": 64,
     "fornavne": "Ludvig",
     "efternavn": "Qvist",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Clemmen Qvists dåb 1820, konfirmation 1835 og vielse 1848 nævner købmand Ludvig Qvist som far. FT 1834 viser Clemmen i hans husstand.",
     "kilder": [
       "kb-svendborg-nikolaj-1820-m9",
@@ -4017,14 +4119,16 @@
           "ft1834-svendborg-qvist"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 65,
     "fornavne": "Nicoline",
     "efternavn": "Qvist",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Clemmen Qvists dåb 1820 og konfirmation 1835 nævner Nicoline Clemensen som mor. FT 1834 viser Clemmen i hendes husstand.",
     "kilder": [
       "kb-svendborg-nikolaj-1820-m9",
@@ -4034,7 +4138,9 @@
     "haendelser": [],
     "navnevarianter": [
       "Nicoline Clemmensen"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 66,
@@ -4049,28 +4155,32 @@
       "kb-skaelskoer-1911-d10"
     ],
     "noter": "Udlagt barnefader. Tidligere avlskarl hos husmand Peder Hansen i Haugerup. Faderskabet bygger på moderens udlæg.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "lav",
+    "sikkerhedTekst": "Han er kun udlagt som barnefader i dåben 1825. Faderskabet bygger på moderens udlæg."
   },
   {
     "anenummer": 67,
     "fornavne": "Eva Rosine",
     "efternavn": "Hansdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Johannes dåb i Pedersborg 1825 og dødsindførsel 1911 nævner Eva Rosine Hansdatter som mor.",
     "kilder": [
       "kb-pedersborg-1825-johanne",
       "kb-skaelskoer-1911-d10"
     ],
     "noter": "Logerende hos husmand Peder Hansen i Haugerup i 1825. Kaldt madame.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 68,
     "fornavne": "Daniel",
     "efternavn": "Møller",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Johan Jacob Møllers dåb 1820 og død 1900 nævner snedker Daniel Møller i Rude som far, og han var forlover ved sønnens vielse 1856. FT 1840 viser sønnen i hans husstand.",
     "kilder": [
       "kb-holsteinborg-1820-johan-jacob",
@@ -4089,14 +4199,16 @@
           "kb-holsteinborg-1820-johan-jacob"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 69,
     "fornavne": "Margrete",
     "efternavn": "Møller",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Johan Jacob Møllers dåb 1820 og død 1900 nævner Margrete Petersen som mor. FT 1840 viser sønnen i hendes husstand.",
     "kilder": [
       "kb-holsteinborg-1820-johan-jacob",
@@ -4107,14 +4219,16 @@
     "haendelser": [],
     "navnevarianter": [
       "Margrete Petersen"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 70,
     "fornavne": "Johan Anthon",
     "efternavn": "Gesner",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Marie Birgittes dåb 1832 nævner gartner Gesner på Basnæs som far, og han var forlover ved hendes vielse 1856. FT 1834 viser hende i hans husstand.",
     "kilder": [
       "kb-tjaereby-1832-gesner",
@@ -4132,14 +4246,16 @@
           "kb-tjaereby-1832-gesner"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 71,
     "fornavne": "Sophie Frederikke",
     "efternavn": "Gesner",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Marie Birgittes dåb 1832 nævner Sophie Frederikke Landgreen som mor. FT 1834 viser hende i hendes husstand.",
     "kilder": [
       "kb-tjaereby-1832-gesner",
@@ -4149,14 +4265,16 @@
     "haendelser": [],
     "navnevarianter": [
       "Sophie Frederikke Landgreen"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 44,
     "fornavne": "Jens Gravlev",
     "efternavn": "Pedersen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anders Christians dåb 1857 og vielse 1881 nævner husmand Jens Gravlev Pedersen som far, og FT 1880 kalder ham husfaderens far i samme husstand.",
     "kilder": [
       "kb-vindblaes-1857-m1",
@@ -4204,14 +4322,16 @@
           "kb-vindblaes-1903-d1"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 45,
     "fornavne": "Hedevig",
     "efternavn": "Larsdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anders Christians dåb 1857 nævner Hedevig Larsdatter som mor, og hun bor i sønnens husstand i FT 1880.",
     "kilder": [
       "kb-vindblaes-1857-m1",
@@ -4228,14 +4348,16 @@
           "ft1880-vindblaes-bjoerumslet"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 46,
     "fornavne": "Lars Peter",
     "efternavn": "Eriksen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Johannes dåb 1857 nævner gårdmand Lars Peter Eriksen på Hedegaard som far.",
     "kilder": [
       "kb-malle-1857-f3"
@@ -4251,53 +4373,61 @@
           "kb-malle-1857-f3"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Én primærkilde nævner forældreskabet direkte. Der er ingen modstrid, men heller ingen uafhængig kilde mere."
   },
   {
     "anenummer": 47,
     "fornavne": "Kirsten Marie",
     "efternavn": "Nielsdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Johannes dåb 1857 nævner Kirsten Marie Nielsdatter som mor.",
     "kilder": [
       "kb-malle-1857-f3"
     ],
     "noter": "30 år i 1857.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Én primærkilde nævner forældreskabet direkte. Der er ingen modstrid, men heller ingen uafhængig kilde mere."
   },
   {
     "anenummer": 88,
     "fornavne": "Peder",
     "efternavn": "Chrestensen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jens Gravlev Pedersens dødsindførsel 1903 nævner Peder Chrestensen, gårdbeboer i Bjørumslet, som far.",
     "kilder": [
       "kb-vindblaes-1903-d1"
     ],
     "noter": "Gårdbeboer i Bjørumslet, Vindblæs.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Én primærkilde nævner forældreskabet direkte. Der er ingen modstrid, men heller ingen uafhængig kilde mere."
   },
   {
     "anenummer": 89,
     "fornavne": "Else",
     "efternavn": "Chrestensdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jens Gravlev Pedersens dødsindførsel 1903 nævner Else Chrestensdatter som mor.",
     "kilder": [
       "kb-vindblaes-1903-d1"
     ],
     "noter": "Gårdbeboer i Bjørumslet, Vindblæs.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Én primærkilde nævner forældreskabet direkte. Der er ingen modstrid, men heller ingen uafhængig kilde mere."
   },
   {
     "anenummer": 60,
     "fornavne": "Hans Nissen",
     "efternavn": "Wind",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Rasmus Andresen Winds dåb 1859 og død 1931 nævner husmand Hans Nissen Wind som far.",
     "kilder": [
       "kb-visby-1859-m11",
@@ -4336,14 +4466,16 @@
     ],
     "navnevarianter": [
       "Hans Nissen Vind"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 61,
     "fornavne": "Kirsten Marie",
     "efternavn": "Rasmusdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Rasmus Andresen Winds dåb 1859 og død 1931 nævner Kirsten Marie som mor.",
     "kilder": [
       "kb-visby-1859-m11",
@@ -4374,14 +4506,16 @@
     "navnevarianter": [
       "Kirsten Marie Jensen",
       "Kirsten Marie Wind"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 62,
     "fornavne": "Kristen Hansen",
     "efternavn": "Lauesen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anne Kristines dåb i Højst 1862 nævner indsidder Kristen Hansen Lauesen som far.",
     "kilder": [
       "kb-hoejst-1862-13",
@@ -4405,14 +4539,16 @@
           "kb-hoejst-1862-v3"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Kun datterens dåb 1862 nævner ham som far."
   },
   {
     "anenummer": 63,
     "fornavne": "Anne Kristine",
     "efternavn": "Lauesen",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anne Kristines dåb i Højst 1862 nævner Anne Kristine Andersen, 19 år, som mor.",
     "kilder": [
       "kb-hoejst-1862-13",
@@ -4422,14 +4558,16 @@
     "haendelser": [],
     "navnevarianter": [
       "Anne Kristine Andersen"
-    ]
+    ],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Kun datterens dåb 1862 nævner hende som mor."
   },
   {
     "anenummer": 112,
     "fornavne": "Jep Petersen",
     "efternavn": "Bundesen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jürgen Peter Bundesens dåb 1828, vielse 1859 og død 1865 nævner gårdmand Jep Petersen Bundesen som far, og FT 1845 viser sønnen hos ham.",
     "kilder": [
       "kb-uge-1828-f2",
@@ -4446,14 +4584,16 @@
           "kb-uge-1828-f2"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 113,
     "fornavne": "Margaretha",
     "efternavn": "Bundesen",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jürgen Peter Bundesens dåb 1828, vielse 1859 og død 1865 nævner Margaretha født Petersen som mor.",
     "kilder": [
       "kb-uge-1828-f2",
@@ -4464,14 +4604,16 @@
     "haendelser": [],
     "navnevarianter": [
       "Margaretha Petersen"
-    ]
+    ],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Forældreskabet er dokumenteret tre gange, men pigenavnet er Petersen i kirkebogen og Hansen i FT 1845."
   },
   {
     "anenummer": 114,
     "fornavne": "Jes",
     "efternavn": "Petersen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anna Marias dåb 1834, vielse 1859 og død 1870 nævner rademager Jes Petersen som far.",
     "kilder": [
       "kb-uge-1834-f7",
@@ -4479,14 +4621,16 @@
       "kb-uge-1870-d10"
     ],
     "noter": "Kådner, parcellist og rademager (hjulmager) i Uk.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 115,
     "fornavne": "Catharina Maria",
     "efternavn": "Petersen",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anna Marias dåb 1834, vielse 1859 og død 1870 nævner Catharina Maria født Hinrichsen som mor.",
     "kilder": [
       "kb-uge-1834-f7",
@@ -4497,14 +4641,16 @@
     "haendelser": [],
     "navnevarianter": [
       "Catharina Maria Hinrichsen"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 116,
     "fornavne": "Christian Christiansen",
     "efternavn": "Kramer",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Rasmus Kramers dåb 1830, vielse 1855 og død 1908 nævner tømrer Christian Christiansen Kramer som far.",
     "kilder": [
       "kb-aabenraa-1830-f70",
@@ -4512,14 +4658,16 @@
       "pr-aabenraa-1908-d5"
     ],
     "noter": "Tømrer i Aabenraa.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 117,
     "fornavne": "Anna Catharina",
     "efternavn": "Kramer",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Rasmus Kramers dåb 1830 og vielse 1855 nævner Anna Catharina født Nissen som mor.",
     "kilder": [
       "kb-aabenraa-1830-f70",
@@ -4530,14 +4678,16 @@
     "haendelser": [],
     "navnevarianter": [
       "Anna Catharina Nissen"
-    ]
+    ],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Forældreskabet er dokumenteret, men pigenavnet er Nissen i dåb og vielse og Skibber i dødsindførslen."
   },
   {
     "anenummer": 118,
     "fornavne": "Peder Jørgensen",
     "efternavn": "Roy",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Maria Cathrinas dåb 1828 og vielse 1855 nævner inderste Peder Jørgensen Roy som far.",
     "kilder": [
       "kb-halk-1828-f19",
@@ -4547,14 +4697,16 @@
     "haendelser": [],
     "navnevarianter": [
       "Peter Jürgensen Roi"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 119,
     "fornavne": "Maria Kirstine",
     "efternavn": "Roy",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Maria Cathrinas dåb 1828 og vielse 1855 nævner Maria Kirstine Petersen som mor.",
     "kilder": [
       "kb-halk-1828-f19",
@@ -4564,14 +4716,16 @@
     "haendelser": [],
     "navnevarianter": [
       "Maria Kirstine Petersen"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 120,
     "fornavne": "Anders",
     "efternavn": "Wind",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Hans Nissen Winds dåb 1833 nævner gårdmand Anders Wind i Borrig som far, og FT 1845 viser sønnen hos ham.",
     "kilder": [
       "kb-brede-1833-f18"
@@ -4587,79 +4741,91 @@
           "kb-brede-1833-f18"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 121,
     "fornavne": "Anna Kirstine",
     "efternavn": "Wind",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Hans Nissen Winds dåb 1833 nævner Anna Kirstine som mor.",
     "kilder": [
       "kb-brede-1833-f18"
     ],
     "noter": "Pigenavnet er usikkert: Hansen i dåben, Nissen i FT 1845, hvor hun er 44 år og født i Brøndum Sogn, Ribe Amt. Sønnen fik navnet Hans Nissen.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Dåben 1833 og FT 1845 viser forældreskabet, men pigenavnet er usikkert (Hansen eller Nissen)."
   },
   {
     "anenummer": 122,
     "fornavne": "Rasmus",
     "efternavn": "Olsen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Kirsten Maries dåb 1835 nævner husmand og skrædder Rasmus Olsen i Gammelby som far.",
     "kilder": [
       "kb-visby-1835-f2"
     ],
     "noter": "Husmand og skrædder i Gammelby, Visby Sogn. 47 år i FT 1845, født i Daler.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 123,
     "fornavne": "Anna",
     "efternavn": "Jørgensdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Kirsten Maries dåb 1835 nævner Anna Jørgensdatter som mor.",
     "kilder": [
       "kb-visby-1835-f2"
     ],
     "noter": "47 år i FT 1845.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 124,
     "fornavne": "Hans",
     "efternavn": "Lausen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Kristen Hansen Lauesens vielse 1862 nævner indsidder Hans Lausen som far.",
     "kilder": [
       "kb-hoejst-1862-v3"
     ],
     "noter": "Indsidder, stedet er usikkert læst (Agerskov).",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Kun sønnens vielse 1862 nævner ham, og stedet er usikkert læst."
   },
   {
     "anenummer": 126,
     "fornavne": "Jens Lassen",
     "efternavn": "Andersen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Anne Kristine Andersens vielse 1862 nævner indsidder Jens Lassen Andersen i Ubjerg Sogn som far.",
     "kilder": [
       "kb-hoejst-1862-v3"
     ],
     "noter": "Indsidder i Ubjerg Sogn.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Kun datterens vielse 1862 nævner ham, og stedet er usikkert læst."
   },
   {
     "anenummer": 54,
     "fornavne": "Johan Søren",
     "efternavn": "Johannsen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Doris' dåb 1853 nævner jernstøbersvend Johan Søren Johansen som far, og FT 1860 viser hende i hans husstand.",
     "kilder": [
       "kb-haderslev-vorfrue-1853-d67",
@@ -4669,14 +4835,16 @@
     "haendelser": [],
     "navnevarianter": [
       "Johann Sørensen Johannsen"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 55,
     "fornavne": "Maren",
     "efternavn": "Johannsen",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Doris' dåb 1853 nævner Maren Petersdatter Schmidt fra Magstrup som mor. FT 1860 kalder hende Maria Christina Schmidt, født i Hoptrup Sogn.",
     "kilder": [
       "kb-haderslev-vorfrue-1853-d67",
@@ -4687,14 +4855,16 @@
     "navnevarianter": [
       "Maren Petersdatter Schmidt",
       "Maria Christina Schmidt"
-    ]
+    ],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Dåben 1853 og FT 1860 nævner hende, men fornavn og fødested er forskellige i de to kilder."
   },
   {
     "anenummer": 100,
     "fornavne": "Niels Ludvigsen",
     "efternavn": "Kjær",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jes Kjærs dåb 1813, vielse 1844 og død 1859 nævner Niels Ludvigsen Kjær som far.",
     "kilder": [
       "kb-vonsbaek-1813-d4",
@@ -4719,14 +4889,16 @@
           "kb-vonsbaek-doede-kjaer"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 101,
     "fornavne": "Karen",
     "efternavn": "Jesdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jes Kjærs dåb 1813 og død 1859 nævner Karen Jesdatter som mor.",
     "kilder": [
       "kb-vonsbaek-1813-d4",
@@ -4746,14 +4918,16 @@
     ],
     "navnevarianter": [
       "Karen Jesdatter Bekker"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 103,
     "fornavne": "Maren",
     "efternavn": "Mikkelsdatter",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Hansine Martines dåb 1818, vielse 1844 og død 1859 nævner Maren Mikkelsdatter fra Almind som mor.",
     "kilder": [
       "kb-almind-1818-f15",
@@ -4761,28 +4935,32 @@
       "kb-vonsbaek-doede-kjaer"
     ],
     "noter": "Tjenestepige i Almind Sogn ved Kolding i 1818.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 104,
     "fornavne": "Jesper",
     "efternavn": "Olsen",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jens Ulrich Olsens vielse 1840 og død 1871 nævner skrædder Jesper Olsen i Odense som far.",
     "kilder": [
       "kb-haderslev-vorfrue-1840-v26",
       "kb-haderslev-vorfrue-1871-d153"
     ],
     "noter": "Skrædder i Odense.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 105,
     "fornavne": "Kirsten",
     "efternavn": "Olsen",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Jens Ulrich Olsens vielse 1840 og død 1871 nævner Kirsten født Jensen som mor.",
     "kilder": [
       "kb-haderslev-vorfrue-1840-v26",
@@ -4792,14 +4970,16 @@
     "haendelser": [],
     "navnevarianter": [
       "Kirsten Jensen"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 106,
     "fornavne": "Peter Hansen",
     "efternavn": "Kaadmann",
     "koen": "m",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Magdalenas dåb 1815, vielse 1840 og død 1886 nævner borger og høker Peter Hansen Kaadmann som far.",
     "kilder": [
       "kb-haderslev-vorfrue-1815-d6",
@@ -4807,14 +4987,16 @@
       "kb-haderslev-vorfrue-1886-d44"
     ],
     "noter": "Borger og høker i Haderslev.",
-    "haendelser": []
+    "haendelser": [],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   },
   {
     "anenummer": 107,
     "fornavne": "Dorothea Maria",
     "efternavn": "Kaadmann",
     "koen": "k",
-    "status": "under undersøgelse",
+    "status": "bekræftet",
     "bevis": "Magdalenas dåb 1815, vielse 1840 og død 1886 nævner Dorothea Maria født Callesen som mor.",
     "kilder": [
       "kb-haderslev-vorfrue-1815-d6",
@@ -4825,6 +5007,8 @@
     "haendelser": [],
     "navnevarianter": [
       "Dorothea Maria Callesen"
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer."
   }
 ]

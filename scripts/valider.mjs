@@ -148,6 +148,9 @@ for (const [n, p] of P) {
   }
   if (p.fiktiv) fejl.push(hvem + ': fiktive personer bruges ikke længere i projektet')
 
+  if (p.sikkerhed && !['høj', 'middel', 'lav'].includes(p.sikkerhed)) fejl.push(hvem + ': sikkerhed skal være høj, middel eller lav')
+  if (p.status === 'bekræftet' && n > 1 && !p.sikkerhed) fejl.push(hvem + ': er bekræftet, men mangler en sikkerhedsgrad')
+  if (p.status === 'bekræftet' && p.sikkerhed === 'lav') fejl.push(hvem + ': sikkerhed lav kan ikke være bekræftet')
   if (p.status === 'bekræftet') {
     if (!p.bevis || !String(p.bevis).trim()) fejl.push(hvem + ': er markeret bekræftet, men mangler en begrundelse i feltet "bevis"')
     const primaere = [...ids].filter(id => K.get(id) && K.get(id).kvalitet === 'primær')

@@ -76,6 +76,7 @@ Hver person har et anenummer. Rodpersonen er 1. Far til person *n* er 2*n*, mor 
 * **status:** `bekræftet`, `under undersøgelse` eller `spor` (navn kendt fra familien, endnu ikke undersøgt).
 * **dato:** `1890`, `1890-02`, `1890-02-10`, eller med `ca.`, `før`, `efter` foran.
 * **type:** fødsel, dåb, konfirmation, vielse, folketælling, bopæl, flytning, erhverv, militær, udvandring, død, begravelse, skifte, andet.
+* **sikkerhed:** `høj`, `middel` eller `lav`, med en kort forklaring i `sikkerhedTekst`. Høj: flere uafhængige primærkilder nævner forældreskabet. Middel: én primærkilde, eller uoverensstemmelse i navne. Lav: fx udlagt barnefader. Lav kan ikke være bekræftet.
 * **soeskende:** liste med `navn`, `koen`, `foedt`, `doed`, `kilder`, `noter` og evt. `"halv": true`. Søskende uden dødsdato og født for under 100 år siden må kun have navn, køn og kilder.
 * **vielse** registreres hos manden og vises automatisk hos hustruen.
 

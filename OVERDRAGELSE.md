@@ -36,80 +36,103 @@ Senest opdateret 25. september 2026. Træet har nu 70 personer.
 
 Anenumre: rodpersonen er 1, far til n er 2n, mor til n er 2n + 1. Oversigten er genereret ud fra `personer.json`. Detaljer, søskende og kilder står i data og på siden.
 
-| Nr. | Navn | Status | Født og død |
-| --- | --- | --- | --- |
-| 1 | Jesper Gravlev Qvist | bekræftet | Nulevende. Kun navn. |
-| 2 | Ole Gravlev Qvist | under undersøgelse | født 1949-07-24, død 2002-03-14 |
-| 3 | Dorthe Merete Qvist | under undersøgelse | Nulevende. Kun navn. |
-| 4 | Tage Qvist | under undersøgelse | født 1924-06-10 |
-| 5 | Else Marie Qvist | under undersøgelse | født 1923-03-24 |
-| 6 | Helmuth Sørensen | under undersøgelse | født 1915-01-09 |
-| 7 | Anna Christine Sørensen | under undersøgelse | født 1924-12-09 |
-| 8 | Gerner Qvist | under undersøgelse | født 1890-03-23, død 1953-12-15 |
-| 9 | Helga Margrethe Qvist | under undersøgelse | født 1896-12-28, død 1991-05-10 |
-| 11 | Maren Kirstine Ottilie Gravlev | under undersøgelse | født 1895-05-15 |
-| 12 | Ludwig Sørensen | under undersøgelse | født 1883-08-16, død 1951-06-24 |
-| 13 | Doris Elisabeth Sørensen | under undersøgelse | født 1879-06-21, død 1955-02-23 |
-| 14 | Jørgen Peter Bundesen | under undersøgelse | født 1896-10-19, død 1951-12-10 |
-| 15 | Dusine Andrea Bundesen | under undersøgelse | født 1901-12-21 |
-| 16 | Ludvig Valdemar Qvist | under undersøgelse | født 1859-06-27 |
-| 17 | Johanne Marie Qvist | under undersøgelse | født 1864-02-07 |
-| 18 | Anders Nielsen | under undersøgelse | født 1856-08-19, død 1919-02-18 |
-| 19 | Julie Margrethe Louise Nielsen | under undersøgelse | født 1869-08-28 |
-| 22 | Anders Kristian Gravlev | under undersøgelse | født 1857-03-03 |
-| 23 | Johanne Jensen | under undersøgelse | født 1857-06-22 |
-| 24 | Georg Friedrich Sørensen | under undersøgelse | født 1849-07-16, død før 1912 |
-| 25 | Anna Barbara Sørensen | under undersøgelse | født 1849-10-06, død før 1912 |
-| 26 | Ferdinand Gottfried Olsen | under undersøgelse | født 1850-04-14, død 1920-12-22 |
-| 27 | Doris Elisabeth Friederike Olsen | under undersøgelse |  |
-| 28 | Jes Peter Bundesen | under undersøgelse | født 1861-12-14, død 1916-12-07 |
-| 29 | Anna Catharina Bundesen | under undersøgelse | født 1858-05-23, død 1935-12-13 |
-| 30 | Rasmus Andresen Wind | under undersøgelse | født 1859-12-16, død 1931-03-14 |
-| 31 | Anna Christine Wind | under undersøgelse | født 1862-07-05, død 1922-03-14 |
-| 32 | Clemmen Clemmensen Qvist | under undersøgelse | født 1820-05-31, død 1885-03-03 |
-| 33 | Johanne Qvist | under undersøgelse | født 1825-09-29, død 1911-06-14 |
-| 34 | Johan Jacob Møller | under undersøgelse | født 1820-03-17, død 1900-05-28 |
-| 35 | Marie Birgitte Møller | under undersøgelse | født 1832-12-24 |
-| 36 | Niels Peter Andersen | under undersøgelse | født 1821-10-08, død 1886-11-16 |
-| 37 | Kristine Frederiksdatter | under undersøgelse | født 1819-11-15 |
-| 38 | Caspar Georg Julius Jensen | under undersøgelse | født 1844-01-09 |
-| 39 | Ane Marie Kirstine Jensen | under undersøgelse | født 1845-09-30 |
-| 44 | Jens Gravlev Pedersen | under undersøgelse | født 1819-12-19, død 1903-02-18 |
-| 45 | Hedevig Larsdatter | under undersøgelse | født ca. 1813 |
-| 46 | Lars Peter Eriksen | under undersøgelse |  |
-| 47 | Kirsten Marie Nielsdatter | under undersøgelse |  |
-| 48 | Søren Christian Sørensen | under undersøgelse |  |
-| 49 | Anne Sørensen | under undersøgelse |  |
-| 50 | Jes Kjær | under undersøgelse | død før 1873 |
-| 51 | Hansine Martine Hansdatter | under undersøgelse |  |
-| 52 | Jens Ulrich Olsen | under undersøgelse |  |
-| 53 | Magdalene Marie Olsen | under undersøgelse |  |
-| 56 | Jürgen Peter Bundesen | under undersøgelse | død før 1886 |
-| 57 | Anna Maria Bundesen | under undersøgelse | død før 1886 |
-| 58 | Rasmus Kramer | under undersøgelse | født ca. 1830 |
-| 59 | Maria Catharina Kramer | under undersøgelse |  |
-| 60 | Hans Nissen Wind | under undersøgelse |  |
-| 61 | Kirsten Marie Wind | under undersøgelse |  |
-| 62 | Kristen Hansen Lauesen | under undersøgelse |  |
-| 63 | Anne Kristine Lauesen | under undersøgelse |  |
-| 64 | Ludvig Qvist | under undersøgelse |  |
-| 65 | Nicoline Qvist | under undersøgelse |  |
-| 66 | Friderich Pedersen | under undersøgelse |  |
-| 67 | Eva Rosine Hansdatter | under undersøgelse |  |
-| 68 | Daniel Møller | under undersøgelse |  |
-| 69 | Margrete Møller | under undersøgelse |  |
-| 70 | Johan Anthon Gesner | under undersøgelse |  |
-| 71 | Sophie Frederikke Gesner | under undersøgelse |  |
-| 72 | Anders Christensen Gadegaard | under undersøgelse |  |
-| 73 | Maren Nielsdatter | under undersøgelse |  |
-| 74 | Frederich Christensen | under undersøgelse |  |
-| 75 | Anne Dorthe Jensdatter | under undersøgelse |  |
-| 76 | Christen Jensen | under undersøgelse |  |
-| 77 | Julie Moll | under undersøgelse |  |
-| 88 | Peder Chrestensen | under undersøgelse |  |
-| 89 | Else Chrestensdatter | under undersøgelse |  |
+| Nr. | Navn | Status | Sikkerhed | Født og død |
+| --- | --- | --- | --- | --- |
+| 1 | Jesper Gravlev Qvist | bekræftet |  |  |
+| 2 | Ole Gravlev Qvist | bekræftet | høj | født 1949-07-24, død 2002-03-14 |
+| 3 | Dorthe Merete Qvist | bekræftet | høj | født 1945-10-25 |
+| 4 | Tage Qvist | bekræftet | høj | født 1924-06-10 |
+| 5 | Else Marie Qvist | bekræftet | høj | født 1923-03-24, død ca. 2015 |
+| 6 | Helmuth Sørensen | bekræftet | høj | født 1915-01-09 |
+| 7 | Anna Christine Sørensen | bekræftet | høj | født 1924-12-09 |
+| 8 | Gerner Qvist | bekræftet | høj | født 1890-03-23, død 1953-12-15 |
+| 9 | Helga Margrethe Qvist | bekræftet | høj | født 1896-12-28, død 1991-05-10 |
+| 11 | Maren Kirstine Ottilie Gravlev | bekræftet | høj | født 1895-05-15 |
+| 12 | Ludwig Sørensen | bekræftet | høj | født 1883-08-16, død 1951-06-24 |
+| 13 | Doris Elisabeth Sørensen | bekræftet | høj | født 1879-06-21, død 1955-02-23 |
+| 14 | Jørgen Peter Bundesen | bekræftet | høj | født 1896-10-19, død 1951-12-10 |
+| 15 | Dusine Andrea Bundesen | bekræftet | høj | født 1901-12-21 |
+| 16 | Ludvig Valdemar Qvist | bekræftet | høj | født 1859-06-27 |
+| 17 | Johanne Marie Qvist | bekræftet | høj | født 1864-02-07 |
+| 18 | Anders Nielsen | bekræftet | høj | født 1856-08-19, død 1919-02-18 |
+| 19 | Julie Margrethe Louise Nielsen | bekræftet | høj | født 1869-08-28 |
+| 22 | Anders Kristian Gravlev | bekræftet | høj | født 1857-03-03 |
+| 23 | Johanne Jensen | bekræftet | høj | født 1857-06-22 |
+| 24 | Georg Friedrich Sørensen | bekræftet | høj | født 1849-07-16, død før 1912 |
+| 25 | Anna Barbara Sørensen | bekræftet | høj | født 1849-10-06, død før 1912 |
+| 26 | Ferdinand Gottfried Olsen | bekræftet | høj | født 1850-04-14, død 1920-12-22 |
+| 27 | Doris Elisabeth Friederike Olsen | bekræftet | høj | født 1853-04-04 |
+| 28 | Jes Peter Bundesen | bekræftet | høj | født 1861-12-14, død 1916-12-07 |
+| 29 | Anna Catharina Bundesen | bekræftet | høj | født 1858-05-23, død 1935-12-13 |
+| 30 | Rasmus Andresen Wind | bekræftet | høj | født 1859-12-16, død 1931-03-14 |
+| 31 | Anna Christine Wind | bekræftet | høj | født 1862-07-05, død 1922-03-14 |
+| 32 | Clemmen Clemmensen Qvist | bekræftet | høj | født 1820-05-31, død 1885-03-03 |
+| 33 | Johanne Qvist | bekræftet | høj | født 1825-09-29, død 1911-06-14 |
+| 34 | Johan Jacob Møller | bekræftet | høj | født 1820-03-17, død 1900-05-28 |
+| 35 | Marie Birgitte Møller | bekræftet | høj | født 1832-12-24 |
+| 36 | Niels Peter Andersen | bekræftet | høj | født 1821-10-08, død 1886-11-16 |
+| 37 | Kristine Frederiksdatter | bekræftet | høj | født 1819-11-15 |
+| 38 | Caspar Georg Julius Jensen | bekræftet | høj | født 1844-01-09 |
+| 39 | Ane Marie Kirstine Jensen | bekræftet | høj | født 1845-09-30 |
+| 44 | Jens Gravlev Pedersen | bekræftet | høj | født 1819-12-19, død 1903-02-18 |
+| 45 | Hedevig Larsdatter | bekræftet | høj | født ca. 1813 |
+| 46 | Lars Peter Eriksen | bekræftet | middel |  |
+| 47 | Kirsten Marie Nielsdatter | bekræftet | middel |  |
+| 48 | Søren Christian Sørensen | bekræftet | høj |  |
+| 49 | Anne Sørensen | bekræftet | middel |  |
+| 50 | Jes Kjær | bekræftet | høj | født 1813-03-26, død 1859-10-11 |
+| 51 | Hansine Martine Hansdatter | bekræftet | høj | født 1818-03-15, død 1859-01-02 |
+| 52 | Jens Ulrich Jespersen Olsen | bekræftet | høj | født ca. 1809, død 1871-12-08 |
+| 53 | Magdalene Marie Olsen | bekræftet | høj | født 1815-01-06, død 1886-06-05 |
+| 54 | Johan Søren Johannsen | bekræftet | høj |  |
+| 55 | Maren Johannsen | bekræftet | middel |  |
+| 56 | Jürgen Peter Bundesen | bekræftet | høj | født 1828-02-14, død 1865-05-04 |
+| 57 | Anna Maria Bundesen | bekræftet | høj | født 1834-04-25, død 1870-10-31 |
+| 58 | Rasmus Christiansen Kramer | bekræftet | høj | født 1830-06-29, død 1908-01-08 |
+| 59 | Maria Catharina Kramer | bekræftet | høj | født 1828-06-24, død 1906-01-20 |
+| 60 | Hans Nissen Wind | bekræftet | høj | født 1833-06-14 |
+| 61 | Kirsten Marie Rasmusdatter | bekræftet | høj | født 1835-02-09 |
+| 62 | Kristen Hansen Lauesen | bekræftet | middel | født ca. 1828 |
+| 63 | Anne Kristine Lauesen | bekræftet | middel |  |
+| 64 | Ludvig Qvist | bekræftet | høj |  |
+| 65 | Nicoline Qvist | bekræftet | høj |  |
+| 66 | Friderich Pedersen | under undersøgelse | lav |  |
+| 67 | Eva Rosine Hansdatter | bekræftet | høj |  |
+| 68 | Daniel Møller | bekræftet | høj |  |
+| 69 | Margrete Møller | bekræftet | høj |  |
+| 70 | Johan Anthon Gesner | bekræftet | høj |  |
+| 71 | Sophie Frederikke Gesner | bekræftet | høj |  |
+| 72 | Anders Christensen Gadegaard | bekræftet | høj |  |
+| 73 | Maren Nielsdatter | bekræftet | middel |  |
+| 74 | Frederich Christensen | bekræftet | middel |  |
+| 75 | Anne Dorthe Jensdatter | bekræftet | middel |  |
+| 76 | Christen Jensen | bekræftet | middel |  |
+| 77 | Julie Moll | bekræftet | middel |  |
+| 88 | Peder Chrestensen | bekræftet | middel |  |
+| 89 | Else Chrestensdatter | bekræftet | middel |  |
+| 100 | Niels Ludvigsen Kjær | bekræftet | høj | født ca. 1778, død 1854-04-01 |
+| 101 | Karen Jesdatter | bekræftet | høj | død 1858-02-03 |
+| 103 | Maren Mikkelsdatter | bekræftet | høj |  |
+| 104 | Jesper Olsen | bekræftet | høj |  |
+| 105 | Kirsten Olsen | bekræftet | høj |  |
+| 106 | Peter Hansen Kaadmann | bekræftet | høj |  |
+| 107 | Dorothea Maria Kaadmann | bekræftet | høj |  |
+| 112 | Jep Petersen Bundesen | bekræftet | høj | født ca. 1792 |
+| 113 | Margaretha Bundesen | bekræftet | middel |  |
+| 114 | Jes Petersen | bekræftet | høj |  |
+| 115 | Catharina Maria Petersen | bekræftet | høj |  |
+| 116 | Christian Christiansen Kramer | bekræftet | høj |  |
+| 117 | Anna Catharina Kramer | bekræftet | middel |  |
+| 118 | Peder Jørgensen Roy | bekræftet | høj |  |
+| 119 | Maria Kirstine Roy | bekræftet | høj |  |
+| 120 | Anders Wind | bekræftet | høj | født ca. 1790 |
+| 121 | Anna Kirstine Wind | bekræftet | middel |  |
+| 122 | Rasmus Olsen | bekræftet | høj |  |
+| 123 | Anna Jørgensdatter | bekræftet | høj |  |
+| 124 | Hans Lausen | bekræftet | middel |  |
+| 126 | Jens Lassen Andersen | bekræftet | middel |  |
 
-Alle aner er dokumenteret i primærkilder, men står som `under undersøgelse`, fordi kæden kun kan bekræftes, når Jespers egen dåbs eller navneattest binder ham til Ole og Dorthe Merete. Elses far (nr. 10) er ukendt, han er ikke nævnt i dåben.
+Jesper bekræftede selv Ole og Dorthe Merete den 26. september 2026. Derefter er alle aner bekræftet led for led med sikkerhedsgrad. Kun Friderich Pedersen (nr. 66, udlagt barnefader) har sikkerhed lav og står som under undersøgelse. Elses far (nr. 10) er ukendt.
 
 ## 5. Forskning udført indtil nu
 
