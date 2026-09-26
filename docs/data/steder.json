@@ -244,5 +244,20 @@
     "amt": "Vejle Amt",
     "lat": 55.5667,
     "lng": 9.4667
+  },
+  {
+    "id": "hoersholm",
+    "navn": "Hørsholm",
+    "sogn": "Hørsholm Sogn",
+    "amt": "Frederiksborg Amt",
+    "lat": 55.8806,
+    "lng": 12.5011
+  },
+  {
+    "id": "fredericia",
+    "navn": "Fredericia",
+    "amt": "Vejle Amt",
+    "lat": 55.5657,
+    "lng": 9.7526
   }
 ]

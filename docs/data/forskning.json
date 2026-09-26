@@ -102,13 +102,13 @@
     },
     {
       "titel": "Tage og Elses død og gravsted",
-      "tekst": "Begge ligger på Vestre Kirkegård i Viborg ifølge Jesper. Dødsdatoerne mangler. Viborg Kirkegårdskontor kan oplyse dem. Mulig dødsannonce for Tage i Viborg Stifts Folkeblad 3. december 1999 s. 2.",
+      "tekst": "Begge ligger på Vestre Kirkegård i Viborg ifølge Jesper. Dødsdatoerne mangler. Viborg Kirkegårdskontor kan oplyse dem. Mulig dødsannonce for Tage i Viborg Stifts Folkeblad 3. december 1999 s. 2. Else døde omkring 2015 ifølge Dorthe Merete.",
       "anenummer": 4,
       "status": "åben"
     },
     {
       "titel": "Helmuth og Annas død og gravsted",
-      "tekst": "Ikke fundet på DK-gravsten eller Find gravsted i Haderslev. Spørg Dorthe Merete, hvornår og hvor de døde.",
+      "tekst": "Helmuth er begravet i Hørsholm, Anna i de ukendtes grav i Fredericia ifølge Dorthe Merete. Dødsdatoerne mangler, Dorthe Merete finder dem. Kirkegårdskontorerne i Hørsholm og Fredericia kan også oplyse dem.",
       "anenummer": 6,
       "status": "åben"
     }
@@ -829,6 +829,17 @@
       "personer": [
         8,
         9
+      ],
+      "resultat": "familieoplysning"
+    },
+    {
+      "dato": "2026-09-26",
+      "titel": "Dorthe Merete om Else, Helmuth og Anna",
+      "tekst": "Dorthe Merete husker, at Else Qvist døde omkring 2015. Helmuth er begravet i Hørsholm, og Anna (Bessie) ligger i de ukendtes grav i Fredericia. Dorthe Merete undersøger selv, hvornår hendes forældre døde. Gravstederne forklarer, hvorfor de ikke blev fundet i Haderslev.",
+      "personer": [
+        5,
+        6,
+        7
       ],
       "resultat": "familieoplysning"
     }
