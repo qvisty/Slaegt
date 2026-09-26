@@ -160,7 +160,16 @@
         8,
         9
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "gravsten-viborg-k165"
+      ],
+      "links": [
+        {
+          "tekst": "DK-gravsten, Viborg Kirkegård",
+          "url": "https://www.dk-gravsten.dk/kirkeg/Viborg.php"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -171,7 +180,10 @@
         8,
         9
       ],
-      "resultat": "familieoplysning"
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-jesper-2026"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -192,7 +204,16 @@
         8,
         9
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "ft1930-viborg-3395"
+      ],
+      "links": [
+        {
+          "tekst": "Dansk Demografisk Database, søgning i folketællinger",
+          "url": "https://ddd.dda.dk/kiplink1.htm"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -201,7 +222,16 @@
       "personer": [
         8
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "ft1901-skaelskoer-245"
+      ],
+      "links": [
+        {
+          "tekst": "Dansk Demografisk Database, søgning i folketællinger",
+          "url": "https://ddd.dda.dk/kiplink1.htm"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -210,7 +240,14 @@
       "personer": [
         8
       ],
-      "resultat": "ikke fundet"
+      "resultat": "ikke fundet",
+      "kilder": [],
+      "links": [
+        {
+          "tekst": "Dansk Demografisk Database, søgning i folketællinger",
+          "url": "https://ddd.dda.dk/kiplink1.htm"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -221,7 +258,10 @@
         8,
         9
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-viborg-soendre-1924-f40"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -231,7 +271,10 @@
         8,
         9
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-viborg-dom-1919-v45"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -252,7 +295,11 @@
         8,
         9
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-salling-1949-v1",
+        "kb-viborg-soendre-1949-v0"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -261,7 +308,10 @@
       "personer": [
         4
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-viborg-dom-1939-k20"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -281,7 +331,10 @@
         8,
         9
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "ft1930-viborg-3395"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -292,7 +345,10 @@
         8,
         9
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "ft1925-viborg-1118"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -302,7 +358,14 @@
         4,
         8
       ],
-      "resultat": "ikke fundet"
+      "resultat": "ikke fundet",
+      "kilder": [],
+      "links": [
+        {
+          "tekst": "Arkivalieronline, folketællinger",
+          "url": "https://arkivalieronline.rigsarkivet.dk/da/collection/theme/2"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -312,7 +375,11 @@
         8,
         9
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "findgravsted-viborg-vk11-364",
+        "gravsten-viborg-k165"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -325,7 +392,18 @@
         6,
         7
       ],
-      "resultat": "ikke fundet"
+      "resultat": "ikke fundet",
+      "kilder": [],
+      "links": [
+        {
+          "tekst": "DK-gravsten, søgning",
+          "url": "https://www.dk-gravsten.dk/"
+        },
+        {
+          "tekst": "Find gravsted",
+          "url": "https://www.findgravsted.dk/"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -336,7 +414,38 @@
         4,
         5
       ],
-      "resultat": "spor"
+      "resultat": "spor",
+      "kilder": [],
+      "links": [
+        {
+          "tekst": "Viborg Stifts-Tidende 18.3.1949 s. 2",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:aa8adb30-0e79-49d1-aa4a-9895bf838976"
+        },
+        {
+          "tekst": "Aalborg Amtstidende 19.3.1949 s. 8",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:5e9bed5a-5576-4593-9a3c-8d29a7029f4b"
+        },
+        {
+          "tekst": "Viborg Stifts Folkeblad 17.3.1949 s. 4",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:928fd91d-2c96-4ad8-a31b-d44f7fed10c2"
+        },
+        {
+          "tekst": "Viborg Stifts Folkeblad 4.8.1969 s. 6",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:3f74508f-a5a8-4201-9d35-a0daf2e59d4e"
+        },
+        {
+          "tekst": "Fredericia Dagblad 11.3.2002 s. 4",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:ea76a0a8-6ce8-4806-8c0e-d6235d1c4abe"
+        },
+        {
+          "tekst": "Fredericia Dagblad 12.3.2002 s. 4",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:18a58491-23ad-490b-83e7-b1d80444f4cc"
+        },
+        {
+          "tekst": "Viborg Stifts Folkeblad 3.12.1999 s. 2",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:ee6236d1-8dad-4326-92d5-f397455fd04e"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -345,7 +454,16 @@
       "personer": [
         6
       ],
-      "resultat": "spor"
+      "resultat": "spor",
+      "kilder": [
+        "ft1921-haderslev-slotsgade23"
+      ],
+      "links": [
+        {
+          "tekst": "Dansk Demografisk Database, søgning i folketællinger",
+          "url": "https://ddd.dda.dk/kiplink1.htm"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -356,7 +474,10 @@
         8,
         9
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "ft1940-viborg-vesterled49"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -367,7 +488,10 @@
         4,
         5
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-viborg-soendre-1949-f104"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -376,7 +500,10 @@
       "personer": [
         5
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-loegstoer-1923-f9"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -385,7 +512,20 @@
       "personer": [
         2
       ],
-      "resultat": "familieoplysning"
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-jesper-2026-oles-doed"
+      ],
+      "links": [
+        {
+          "tekst": "Fredericia Dagblad 11.3.2002 s. 4",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:ea76a0a8-6ce8-4806-8c0e-d6235d1c4abe"
+        },
+        {
+          "tekst": "Fredericia Dagblad 12.3.2002 s. 4",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:18a58491-23ad-490b-83e7-b1d80444f4cc"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -395,7 +535,10 @@
         6,
         7
       ],
-      "resultat": "familieoplysning"
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-jesper-2026"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -406,7 +549,10 @@
         6,
         7
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-haderslev-vorfrue-dorthe"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -415,7 +561,11 @@
       "personer": [
         6
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-haderslev-vorfrue-1915-f8",
+        "kb-haderslev-vorfrue-1940-v17"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -434,7 +584,11 @@
       "personer": [
         6
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "ft1930-haderslev-gaaskaergade24",
+        "ft1940-haderslev-aaroesundvej78"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -443,7 +597,30 @@
       "personer": [
         6
       ],
-      "resultat": "spor"
+      "resultat": "spor",
+      "kilder": [],
+      "links": [
+        {
+          "tekst": "Nicolai Outzen A/S, silo og foderstoffabrik på Pakhuskajen",
+          "url": "https://arkiv.dk/vis/1079467"
+        },
+        {
+          "tekst": "Outzen og Christensen A/S 1975",
+          "url": "https://arkiv.dk/vis/3701622"
+        },
+        {
+          "tekst": "J. S. Christensen, korn og foderstoffer",
+          "url": "https://arkiv.dk/vis/6193581"
+        },
+        {
+          "tekst": "UNION Korn og Foderstofimport",
+          "url": "https://arkiv.dk/vis/4953132"
+        },
+        {
+          "tekst": "Nicolai Outzen, en korngrosserer og hans virke",
+          "url": "https://arkiv.dk/vis/4306564"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -453,7 +630,30 @@
         6,
         7
       ],
-      "resultat": "spor"
+      "resultat": "spor",
+      "kilder": [],
+      "links": [
+        {
+          "tekst": "Hejmdal 27.3.1931 s. 7",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:e4c80edc-a060-46db-9a5d-0450d91b03b7"
+        },
+        {
+          "tekst": "Hejmdal 31.3.1971 s. 11",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:e34aa2ee-6646-4982-8e64-a5d9d65a2a68"
+        },
+        {
+          "tekst": "Jyllands-Posten 31.3.1971 s. 6",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:c85068b6-2cf5-43ee-a803-a8388547e23e"
+        },
+        {
+          "tekst": "Jyllands-Posten 1.4.1971 s. 6",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:7b813fe1-4e28-4a8b-b7e0-ac0fbf503a0c"
+        },
+        {
+          "tekst": "Der Nordschleswiger 23.6.1962 s. 5",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:3c985f00-8942-47cd-a626-22dc17ffa233"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -473,7 +673,15 @@
         8,
         9
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-viborg-soendre-1920-f41",
+        "kb-viborg-soendre-1921-f64",
+        "kb-viborg-soendre-1925-orla",
+        "kb-viborg-soendre-1927-ludvig",
+        "kb-viborg-dom-1935-f53",
+        "kb-viborg-soendre-1937-f69"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -494,7 +702,22 @@
         4,
         5
       ],
-      "resultat": "spor"
+      "resultat": "spor",
+      "kilder": [],
+      "links": [
+        {
+          "tekst": "DK-gravsten, søgning",
+          "url": "https://www.dk-gravsten.dk/"
+        },
+        {
+          "tekst": "Find gravsted",
+          "url": "https://www.findgravsted.dk/"
+        },
+        {
+          "tekst": "Viborg Stifts Folkeblad 3.12.1999 s. 2",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:ee6236d1-8dad-4326-92d5-f397455fd04e"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -509,7 +732,20 @@
         38,
         39
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-viborg-dom-1896-f81",
+        "kb-viborg-soendre-1889-v22",
+        "kb-lysgaard-1856-m6",
+        "kb-viborg-soendre-1869-f22",
+        "kb-viborg-dom-1871-julie",
+        "ft1901-viborg-gravene9",
+        "ft1906-viborg-graverne9",
+        "kb-viborg-soendre-1890-m4",
+        "kb-viborg-dom-1893-f52",
+        "kb-viborg-soendre-1900-f12",
+        "kb-viborg-soendre-1901-d23"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -520,7 +756,10 @@
         14,
         15
       ],
-      "resultat": "familieoplysning"
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-dorthe-2026"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -535,7 +774,16 @@
         26,
         27
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-haderslev-vorfrue-1912-v39",
+        "standesamt-haderslev-1912-v64",
+        "kb-gl-haderslev-1883-d69",
+        "kb-haderslev-vorfrue-1879-d94",
+        "standesamt-haderslev-1879-f142",
+        "kb-haderslev-vorfrue-1951-d46",
+        "kb-haderslev-vorfrue-1955-d9"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -550,7 +798,16 @@
         30,
         31
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "pr-toftlund-1924-f47",
+        "kb-toftlund-1925-d1",
+        "ft1925-toftlund-15",
+        "ft1930-toftlund-13",
+        "ft1940-toftlund-vestergade",
+        "pr-skaerbaek-1920-v3",
+        "kb-vodder-1920-v2"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -565,7 +822,18 @@
         34,
         35
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-skaelskoer-1890-m9",
+        "kb-skaelskoer-1889-v6",
+        "kb-skaelskoer-1859-m13",
+        "kb-skaelskoer-1864-f3",
+        "kb-skaelskoer-1898-f32",
+        "kb-skaelskoer-1911-d10",
+        "ft1880-skaelskoer-slagelsevej",
+        "ft1911-skaelskoer-slagelsevej",
+        "ft1921-skaelskoer-skovvej"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -577,7 +845,15 @@
         22,
         23
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-vindblaes-1895-f8",
+        "kb-salling-1939-v1",
+        "kb-salling-1937-k4",
+        "ft1930-skarp-salling-2",
+        "ft1901-vindblaes-44",
+        "kb-loegstoer-1920-f1"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -597,7 +873,15 @@
         52,
         53
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-haderslev-vorfrue-1873-v8",
+        "kb-haderslev-vorfrue-1873-d153",
+        "kb-haderslev-vorfrue-1876-d12",
+        "kb-haderslev-vorfrue-1878-b126",
+        "kb-haderslev-vorfrue-1920-b147",
+        "kb-haderslev-vorfrue-1850-d62"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -615,7 +899,17 @@
         58,
         59
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "pr-toftlund-1896-f63",
+        "pr-toftlund-1901-f80",
+        "pr-aabenraa-1886-v6",
+        "pr-toftlund-1916-d45",
+        "pr-toftlund-1935-d16",
+        "pr-toftlund-1951-d19",
+        "pr-toftlund-bundesen-boern",
+        "pr-toftlund-wind-boern"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -626,7 +920,11 @@
         12,
         13
       ],
-      "resultat": "familieoplysning"
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-dorthe-2026",
+        "findgravsted-skodborg-bundesen"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -636,7 +934,10 @@
         14,
         15
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "bog-krigsdeltagere-bundesen"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -665,7 +966,20 @@
         76,
         77
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-thorning-1821-m13",
+        "kb-lysgaard-1850-v4",
+        "kb-lysgaard-1855-v4",
+        "kb-resen-1819-f5",
+        "kb-viborg-soendre-1886-d30",
+        "kb-viborg-dom-1867-v17",
+        "kb-viborg-dom-1844-m2",
+        "kb-viborg-dom-1919-d5",
+        "ft1860-viborg-mogensgade77",
+        "ft1870-viborg-jensen",
+        "ft1930-viborg-gravene7c"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -674,7 +988,32 @@
       "personer": [
         13
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "arkivdk-haderslev-zoo"
+      ],
+      "links": [
+        {
+          "tekst": "Theodor Olsen, Gåskærgade 54 (foto)",
+          "url": "https://arkiv.dk/vis/1042083"
+        },
+        {
+          "tekst": "Haderslev Zoologisk Have, Gåskærgade 54",
+          "url": "https://arkiv.dk/vis/1089821"
+        },
+        {
+          "tekst": "Abeburet i Gåskærgade, ca. 1936",
+          "url": "https://arkiv.dk/vis/1034324"
+        },
+        {
+          "tekst": "Hejmdal 7.4.1936 s. 5",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:4a9b66ba-a4bc-4c0a-9ff7-42ff75c5eb35"
+        },
+        {
+          "tekst": "Jydske Tidende 21.5.1978 s. 30",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:4cc31f33-fb51-4fa8-85dd-b41cf134244e"
+        }
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -694,7 +1033,20 @@
         70,
         71
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-skaelskoer-1885-d3",
+        "kb-svendborg-nikolaj-1820-m9",
+        "kb-slagelse-mikkel-1848-v19",
+        "kb-pedersborg-1825-johanne",
+        "kb-holsteinborg-1820-johan-jacob",
+        "kb-tjaereby-1832-gesner",
+        "kb-tjaereby-1856-v4",
+        "kb-skaelskoer-1900-d14",
+        "ft1834-svendborg-qvist",
+        "ft1834-tjaereby-gesner",
+        "ft1840-holsteinborg-moeller"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -717,7 +1069,19 @@
         88,
         89
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-vindblaes-1857-m1",
+        "kb-vindblaes-1881-v1",
+        "kb-vindblaes-1903-d1",
+        "kb-malle-1857-f3",
+        "ft1880-vindblaes-bjoerumslet",
+        "ft1890-vindblaes-54",
+        "kb-vodder-1931-rasmus-wind",
+        "kb-visby-1859-m11",
+        "kb-vodder-1922-d3",
+        "kb-hoejst-1862-13"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -748,7 +1112,25 @@
         124,
         126
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-uge-1862-f1",
+        "kb-uge-1859-v1",
+        "kb-uge-1828-f2",
+        "kb-uge-1834-f7",
+        "kb-uge-1865-d5",
+        "kb-uge-1870-d10",
+        "kb-aabenraa-1858-f78",
+        "kb-aabenraa-1855-v25",
+        "kb-aabenraa-1830-f70",
+        "kb-halk-1828-f19",
+        "pr-aabenraa-1906-d9",
+        "pr-aabenraa-1908-d5",
+        "kb-visby-1855-v5",
+        "kb-brede-1833-f18",
+        "kb-visby-1835-f2",
+        "kb-hoejst-1862-v3"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -775,7 +1157,22 @@
         106,
         107
       ],
-      "resultat": "fundet"
+      "resultat": "fundet",
+      "kilder": [
+        "kb-vonsbaek-1849-d9",
+        "kb-vonsbaek-1844-v4",
+        "kb-vonsbaek-1813-d4",
+        "kb-almind-1818-f15",
+        "kb-vonsbaek-doede-kjaer",
+        "kb-gl-haderslev-1849-d53",
+        "ft1860-haderslev-slagtergade617",
+        "kb-haderslev-vorfrue-1840-v26",
+        "kb-haderslev-vorfrue-1871-d153",
+        "kb-haderslev-vorfrue-1886-d44",
+        "kb-haderslev-vorfrue-1815-d6",
+        "kb-haderslev-vorfrue-1853-d67",
+        "ft1860-haderslev-slagtergade603"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -785,7 +1182,12 @@
         6,
         13
       ],
-      "resultat": "familieoplysning"
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-dorthe-2026",
+        "kb-haderslev-vorfrue-1879-d94",
+        "kb-haderslev-vorfrue-1920-b147"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -809,7 +1211,10 @@
       "personer": [
         2
       ],
-      "resultat": "familieoplysning"
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-jesper-2026-oles-doed"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -820,7 +1225,10 @@
         4,
         5
       ],
-      "resultat": "familieoplysning"
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-jesper-2026"
+      ]
     },
     {
       "dato": "2026-09-25",
@@ -830,7 +1238,11 @@
         8,
         9
       ],
-      "resultat": "familieoplysning"
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-jesper-2026",
+        "findgravsted-viborg-vk11-364"
+      ]
     },
     {
       "dato": "2026-09-26",
@@ -841,7 +1253,10 @@
         6,
         7
       ],
-      "resultat": "familieoplysning"
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-dorthe-2026"
+      ]
     },
     {
       "dato": "2026-09-26",
@@ -861,7 +1276,10 @@
         2,
         3
       ],
-      "resultat": "bekræftet"
+      "resultat": "bekræftet",
+      "kilder": [
+        "jesper-bekraeftelse-2026"
+      ]
     },
     {
       "dato": "2026-09-26",

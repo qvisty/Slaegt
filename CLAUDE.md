@@ -14,7 +14,7 @@ Dette er et slægtsforskningsprojekt for ejeren af repoet. Hjemmesiden ligger i 
 * Sæt aldrig status til `bekræftet` uden mindst én primærkilde og en konkret begrundelse i `bevis`. Begrundelsen skal forklare, hvorfor netop denne person er forælder til barnet i linjen (navne, alder, sted, faddere, folketælling i samme husstand).
 * Opfind aldrig personer, datoer eller kilder. Usikre fund skrives i forskningsloggen, ikke som fakta.
 * Nulevende personer må have datoer og steder i datafilerne, også med dag, men siden viser kun måned og år (privatliv "måned og år" i `projekt.json`). Afdøde vises med fuld dato. Nulevende, og personer hvor det er uvist om de lever (ingen død eller begravelse registreret og ældste kendte årstal under 100 år tilbage), vises kun med måned og år. Datafilerne må indeholde den fulde dato. Billeder af nulevende kræver Jespers tilladelse. Repoet er offentligt, så alt i datafilerne kan læses af alle.
-* Hver forskningsindsats noteres i `docs/data/forskning.json` under `log`, også når intet blev fundet.
+* Hver forskningsindsats noteres i `docs/data/forskning.json` under `log`, også når intet blev fundet. Link mest muligt ud af siden: giv logposter `kilder` (id'er) og `links` (tekst og url, fx Mediestream, arkiv.dk, gravstedsregistre), og giv alle kilder en `url`, når der findes en.
 * Kør `node scripts/valider.mjs` før hver commit.
 * Kør `node scripts/version.mjs` efter ændringer i `app.js` eller `style.css`, så browsere henter de nye filer.
 * Arbejd kun på grenen `main`. Siden udgives fra `main`.

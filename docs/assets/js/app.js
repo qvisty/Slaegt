@@ -29,6 +29,17 @@ const IKONER = { 'fødsel': '*', 'dåb': '~', 'vielse': '∞', 'død': '†', 'b
 
 /* Hjælpere */
 
+/* Tekst med klikbare links. Webadresser i teksten bliver til links, der åbner i et nyt faneblad. */
+function tekstMedLinks (v) {
+  return esc(v).replace(/https?:\/\/[^\s<]+[^\s<.,;:)]/g, u => '<a href="' + u + '" target="_blank" rel="noopener">' + (u.length > 60 ? u.slice(0, 57) + '…' : u) + '</a>')
+}
+
+function kildeLink (id) {
+  const k = K.get(id)
+  if (!k) return ''
+  return '<a href="#/kilde/' + encodeURIComponent(id) + '">' + esc(k.titel) + '</a>' + (k.url ? ' <a href="' + esc(k.url) + '" target="_blank" rel="noopener" title="Åbn kilden">↗</a>' : '')
+}
+
 function esc (v) {
   return String(v == null ? '' : v)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -377,7 +388,10 @@ function skridtHtml (s) {
 function logHtml (l) {
   const pers = (l.personer || (l.anenummer ? [l.anenummer] : [])).filter(n => P.has(n)).map(n => linkPerson(n)).join(', ')
   const res = l.resultat ? ' <span class="maerke neutral">' + esc(l.resultat) + '</span>' : ''
-  return '<li><div class="dato">' + esc(datoTekst(l.dato)) + (pers ? '  ·  ' + pers : '') + '</div><strong>' + esc(l.titel || '') + '</strong>' + res + (l.tekst ? '<div class="lille">' + esc(l.tekst) + '</div>' : '') + '</li>'
+  const kl = (l.kilder || []).filter(id => K.has(id)).map(kildeLink)
+  const ln = (l.links || []).filter(x => x && x.url).map(x => '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.tekst || x.url) + '</a>')
+  const alle = kl.concat(ln)
+  return '<li><div class="dato">' + esc(datoTekst(l.dato)) + (pers ? '  ·  ' + pers : '') + '</div><strong>' + esc(l.titel || '') + '</strong>' + res + (l.tekst ? '<div class="lille">' + tekstMedLinks(l.tekst) + '</div>' : '') + (alle.length ? '<ul class="lille loglinks">' + alle.map(a => '<li>' + a + '</li>').join('') + '</ul>' : '') + '</li>'
 }
 
 function miniHtml (n) {
@@ -729,7 +743,7 @@ function sidePerson (n) {
     }
   }
 
-  if (vis && p.noter) h.push('<section class="sektion"><h2>Noter</h2><p>' + esc(p.noter) + '</p></section>')
+  if (vis && p.noter) h.push('<section class="sektion"><h2>Noter</h2><p>' + tekstMedLinks(p.noter) + '</p></section>')
 
   const logs = (D.forskning.log || []).filter(l => (l.personer || [l.anenummer]).includes(n)).reverse().sort((a, b) => String(b.dato).localeCompare(String(a.dato)))
   if (logs.length) h.push('<section class="sektion"><h2>Forskningslog</h2><ul class="liste">' + logs.map(logHtml).join('') + '</ul></section>')
@@ -933,9 +947,9 @@ function sideKilder (fokus) {
     const pers = (brug.get(k.id) || []).filter(n => !skjult(P.get(n)))
     h.push('<article class="kort-flade kilde" id="kilde-' + esc(k.id) + '" data-type="' + esc(k.type || '') + '"' + (fokus === k.id ? ' style="outline:2px solid var(--accent)"' : '') + '>')
     h.push('<div class="meta">' + (k.type ? '<span class="maerke neutral">' + esc(k.type) + '</span>' : '') + (k.kvalitet ? '<span class="maerke ' + (k.kvalitet === 'primær' ? 'bekraeftet' : 'undersoeges') + '">' + esc(stort(k.kvalitet)) + 'kilde</span>' : '') + '</div>')
-    h.push('<h3>' + esc(k.titel) + '</h3>')
+    h.push('<h3>' + (k.url ? '<a href="' + esc(k.url) + '" target="_blank" rel="noopener">' + esc(k.titel) + '</a>' : esc(k.titel)) + '</h3>')
     if (k.arkiv || k.reference) h.push('<div class="lille">' + esc([k.arkiv, k.reference].filter(Boolean).join(', ')) + '</div>')
-    if (k.noter) h.push('<p>' + esc(k.noter) + '</p>')
+    if (k.noter) h.push('<p>' + tekstMedLinks(k.noter) + '</p>')
     if (k.url) h.push('<p><a href="' + esc(k.url) + '" target="_blank" rel="noopener">Åbn kilden</a></p>')
     if (pers.length) h.push('<div class="lille">Bruges for: ' + pers.map(n => linkPerson(n)).join(', ') + '</div>')
     h.push('</article>')

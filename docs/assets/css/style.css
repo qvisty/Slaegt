@@ -430,3 +430,6 @@ table.tabel { border-collapse: collapse; width: 100%; font-size: .9rem; }
   .guide-trin > li { padding-left: 20px; padding-top: 58px; }
   .guide-trin > li::before { top: 16px; left: 20px; }
 }
+
+.loglinks { margin: .4em 0 0; padding-left: 1.1em; }
+.loglinks li { margin: .15em 0; }
