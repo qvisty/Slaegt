@@ -6,11 +6,6 @@
       "noter": "Jesper sender dokumentation, fx Rikkes dåbs eller navneattest. Så kan Carl og Jonna bekræftes."
     },
     {
-      "titel": "Carls fødselsdato og fødested",
-      "status": "venter",
-      "noter": "Uden fødselsår og sted kan Carl Nicolai og hans forældre ikke findes blandt de mange Petersen."
-    },
-    {
       "titel": "Jonnas fødsel og dåb",
       "status": "åben",
       "noter": "Jonna Irene Kristensen er formentlig født 1952 eller 1953 i eller nær Skodborg. Kirkebogen er ikke offentlig på Arkivalieronline endnu. Rikke eller Jonna kan måske bekræfte dato og sted."
@@ -24,6 +19,11 @@
       "titel": "Hennys og Alfreds fødsel og forældre",
       "status": "i gang",
       "noter": "Henny er født 28. august 1934. Find hendes dåb og forældre. Alfreds fødselsdato mangler."
+    },
+    {
+      "titel": "Hans Peter Carl og Anne Kathrines vielse og dåb",
+      "status": "åben",
+      "noter": "Vielsen formentlig oktober 1946 i brudens sogn, måske Aabenraa eller Rødding egnen. Anne Kathrine Brodersen er født 22. september 1922 og Hans Peter Carl 17. august 1919. Find dåbene og forældrene."
     }
   ],
   "log": [
@@ -207,6 +207,43 @@
         {
           "tekst": "Mediestream",
           "url": "https://www2.statsbiblioteket.dk/mediestream/avis"
+        }
+      ]
+    },
+    {
+      "dato": "2026-09-27",
+      "titel": "Carls forældre fundet på Skrave Kirkegård",
+      "tekst": "Københoved hører til Skrave sogn. På dk-gravsten.dk står smedemester Hans P. C. Petersen (17.8.1919 til 11.8.2008) og Anne Cathrine Petersen (22.9.1922 til 18.5.2010) på samme sten, foto Skrave_070. Mediestream (kun metadata, teksten er spærret): Kolding Folkeblad 13. august 1969 har en omtale med ordene Anne, Kathrine, Brodersen, Petersen, smedemester, Hans, Københoved, 50 år og 17 august, formentlig hans 50 års dag. Jydske Tidende Aabenraa 14. august 1969 har samme omtale med Egon og Tove. Kolding Folkeblad 23. oktober 1971 har sølvbryllup for smedemester Hans Petersen og Anne Kathrine i Københoved, altså formentlig bryllup i oktober 1946. Der Nordschleswiger 13. august 2008 har \"Hans Peter Carl Petersen\" Skrave, formentlig dødsannoncen. Vielsen er ikke fundet i Skrave 1943 til 1947. FT 1930 for Skodborg har ingen af dem. Find gravsted har kun 148 personer fra Skrave og ikke dem. Ingen Egon Petersen på Skrave. Mediestream 15. juni 2006, JydskeVestkysten, har et træf på Egon Petersen Københoved med ordene død, Tove, Hans og Anne, som ikke er afklaret.",
+      "personer": [
+        2,
+        4,
+        5
+      ],
+      "resultat": "fundet",
+      "kilder": [
+        "dkgravsten-skrave-070",
+        "mediestream-petersen-kbh-1969-1971"
+      ],
+      "links": [
+        {
+          "tekst": "Gravstenen Skrave_070 på dk-gravsten.dk",
+          "url": "https://www.dk-gravsten.dk/kirkeg/Skrave-h/Skrave_070.jpg"
+        },
+        {
+          "tekst": "Skrave Kirkegård på dk-gravsten.dk",
+          "url": "https://www.dk-gravsten.dk/kirkeg/Skrave.php"
+        },
+        {
+          "tekst": "Skrave kirkebog 1926 til 1955 (Arkivalieronline)",
+          "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=202431"
+        },
+        {
+          "tekst": "Mediestream",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis"
+        },
+        {
+          "tekst": "Københoved på Wikipedia",
+          "url": "https://da.wikipedia.org/wiki/K%C3%B8benhoved"
         }
       ]
     }

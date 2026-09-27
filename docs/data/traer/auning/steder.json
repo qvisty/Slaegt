@@ -5,7 +5,16 @@
     "sogn": "Skodborg sogn",
     "herred": "Frøs Herred",
     "amt": "Ribe Amt",
-    "lat": 55.449,
-    "lng": 9.313
+    "lat": 55.4188,
+    "lng": 9.153
+  },
+  {
+    "id": "koebenhoved",
+    "navn": "Københoved",
+    "sogn": "Skrave sogn",
+    "herred": "Frøs Herred",
+    "amt": "Haderslev Amt",
+    "lat": 55.4196,
+    "lng": 9.1001
   }
 ]

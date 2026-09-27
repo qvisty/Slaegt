@@ -152,5 +152,25 @@
     "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=202420#202420,38368021",
     "kvalitet": "primær",
     "noter": "Gennemset for vielser 1952 og fødte piger 1951 til januar 1954. Ingen vielse af Alfred og Henny Kristensen og ingen Jonna Kristensen."
+  },
+  {
+    "id": "dkgravsten-skrave-070",
+    "titel": "Gravsten på Skrave Kirkegård, Hans P. C. Petersen og Anne Cathrine Petersen",
+    "type": "Gravsten",
+    "arkiv": "DK-gravsten (dk-gravsten.dk), foto Skrave_070, fotograf Karl Petersen, februar 2012",
+    "reference": "Skrave Kirkegård, foto Skrave_070",
+    "url": "https://www.dk-gravsten.dk/kirkeg/Skrave-h/Skrave_070.jpg",
+    "kvalitet": "afledt",
+    "noter": "Stenen lyder: \"Smedemester Hans P. C. Petersen * 17.8.1919 † 11.8.2008. Anne Cathrine Petersen * 22.9.1922 † 18.5.2010. Tak for alt\". Set på fotoet. Skrave Kirke ligger mellem Københoved og Langetved og er kirke for Københoved."
+  },
+  {
+    "id": "mediestream-petersen-kbh-1969-1971",
+    "titel": "Avisomtaler af smedemester Hans Petersen, Københoved, 1969 og 1971 (kun metadata)",
+    "type": "Avis",
+    "arkiv": "Mediestream, Det Kgl. Bibliotek",
+    "reference": "Kolding Folkeblad 13. august 1969 s. 10, Jydske Tidende Aabenraa 14. august 1969 s. 12, Kolding Folkeblad 23. oktober 1971 s. 6",
+    "url": "https://www2.statsbiblioteket.dk/mediestream/avis",
+    "kvalitet": "afledt",
+    "noter": "Teksten er spærret af ophavsret og ikke læst. Søgemaskinen viser, at omtalen 13. august 1969 indeholder ordene Anne, Kathrine, Brodersen, Petersen, smedemester, Hans, Københoved, Skodborg, Skrave, 50 år, 17 august, og at omtalen i Jydske Tidende Aabenraa indeholder Egon og Tove. Formentlig hans 50 års fødselsdag. Omtalen 23. oktober 1971 indeholder sølvbryllup, smedemester, Hans, Petersen, Anne, Kathrine, Københoved, formentlig sølvbryllup, altså bryllup i oktober 1946."
   }
 ]

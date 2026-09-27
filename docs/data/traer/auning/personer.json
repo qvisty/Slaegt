@@ -106,7 +106,7 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Jesper bekræfter selv forbindelsen. Status bliver bekræftet, når dokumentationen (fx Rikkes dåbs eller navneattest) er på plads.",
-    "fortaelling": "Carl Nicolai Petersen, kaldet Nikke, er Rikke Aunings far. Ifølge familien stammer han vist fra Københoved ved Skodborg, tæt på hvor Rikkes mor Jonna voksede op. Hans forældre var ifølge familien Hans Peter Carl og Anne Kathrine, født Brodersen. Han har søstrene Tove og Birgitte, kaldet Gitte, og havde broderen Egon, som er død.",
+    "fortaelling": "Carl Nicolai Petersen, kaldet Nikke, er Rikke Aunings far. Han stammer fra Københoved ved Skodborg, hvor hans far Hans Peter Carl Petersen var smedemester, og hans mor var Anne Kathrine, født Brodersen. Han har søstrene Tove og Birgitte, kaldet Gitte, og havde broderen Egon, som er død. Københoved ligger tæt ved Skodborg, hvor Rikkes mor Jonna voksede op.",
     "levende": true,
     "kaldenavn": "Nikke",
     "noter": "Kaldet Nikke. Stammer ifølge Rikke vist fra Københoved ved Skodborg. "
@@ -151,29 +151,99 @@
     "anenummer": 4,
     "fornavne": "Hans Peter Carl",
     "koen": "m",
-    "status": "spor",
+    "status": "under undersøgelse",
     "kilder": [
-      "fam-jesper-2026-rikkes-mormor"
+      "fam-jesper-2026-rikkes-mormor",
+      "fam-rikke-2026",
+      "dkgravsten-skrave-070",
+      "mediestream-petersen-kbh-1969-1971"
     ],
-    "noter": "Rikkes farfar ifølge familien. Efternavnet er formentlig Petersen. Familien stammer vist fra Københoved. En landsdækkende søgning på Find gravsted gav intet par Hans Peter Carl og Anne Kathrine Petersen. Ifølge Rikke er de vist begravet i Københoved.",
-    "bevis": "Navnet kommer fra familien. Ikke undersøgt i primærkilder endnu.",
-    "haendelser": []
+    "noter": "Smedemester i Københoved. Gift formentlig i oktober 1946 med Anne Kathrine Brodersen, hvis sølvbrylluppet i oktober 1971 er deres. Vielsen er ikke fundet i Skrave 1943 til 1947 og har formentlig været i brudens sogn. Dødsannoncen står formentlig i Der Nordschleswiger 13. august 2008.",
+    "bevis": "Familien siger, at Carls forældre hed Hans Peter Carl og Anne Kathrine født Brodersen og vist er begravet i Københoved. På Skrave Kirkegård, som er Københoveds kirke, ligger smedemester Hans P. C. Petersen og Anne Cathrine Petersen på samme sten. Avisomtalen af hans 50 års dag i 1969 rummer ordene Brodersen, Københoved, Egon og Tove, som er navne på Carls søskende.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1919-08-17",
+        "kilder": [
+          "dkgravsten-skrave-070"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1969",
+        "sted": "koebenhoved",
+        "beskrivelse": "Smedemester i Københoved",
+        "kilder": [
+          "dkgravsten-skrave-070",
+          "mediestream-petersen-kbh-1969-1971"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "2008-08-11",
+        "kilder": [
+          "dkgravsten-skrave-070"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "sted": "koebenhoved",
+        "beskrivelse": "Skrave Kirkegård, samme sten som Anne Cathrine",
+        "kilder": [
+          "dkgravsten-skrave-070"
+        ]
+      }
+    ],
+    "efternavn": "Petersen",
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Navnene, stedet og erhvervet passer med familiens oplysninger, og avisomtalerne nævner Brodersen, Egon og Tove sammen med ham. Forældreskabet er ikke set i en primærkilde endnu.",
+    "fortaelling": "Hans Peter Carl Petersen, på gravstenen Hans P. C. Petersen, blev født den 17. august 1919. Han var smedemester i Københoved ved Skodborg, og da han fyldte 50 i 1969, skrev de sønderjyske aviser om ham. Han blev formentlig gift i oktober 1946 med Anne Kathrine Brodersen, og de fik børnene Carl Nicolai, Tove, Birgitte og Egon. Han døde den 11. august 2008 og ligger sammen med Anne Cathrine på Skrave Kirkegård ved Københoved."
   },
   {
     "anenummer": 5,
     "fornavne": "Anne Kathrine",
     "koen": "k",
-    "status": "spor",
+    "status": "under undersøgelse",
     "kilder": [
       "fam-jesper-2026-rikkes-mormor",
-      "fam-rikke-2026"
+      "fam-rikke-2026",
+      "dkgravsten-skrave-070",
+      "mediestream-petersen-kbh-1969-1971"
     ],
-    "noter": "Rikkes farmor ifølge familien. Pigenavnet var ifølge Rikke vist Brodersen. Ifølge Rikke er de vist begravet i Københoved.",
-    "bevis": "Navnet kommer fra familien. Ikke undersøgt i primærkilder endnu.",
-    "haendelser": [],
+    "noter": "Rikkes farmor. Pigenavnet Brodersen kommer fra familien og ses i avisernes søgeord, men er ikke læst i en kilde. Gravstenen staver Anne Cathrine.",
+    "bevis": "Familien siger, at Carls mor hed Anne Kathrine, født Brodersen, og vist er begravet i Københoved. Anne Cathrine Petersen ligger på samme sten som smedemester Hans P. C. Petersen på Skrave Kirkegård, og avisomtalen 1969 nævner Anne, Kathrine og Brodersen sammen med ham.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1922-09-22",
+        "kilder": [
+          "dkgravsten-skrave-070"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "2010-05-18",
+        "kilder": [
+          "dkgravsten-skrave-070"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "sted": "koebenhoved",
+        "beskrivelse": "Skrave Kirkegård, samme sten som Hans P. C. Petersen",
+        "kilder": [
+          "dkgravsten-skrave-070"
+        ]
+      }
+    ],
     "navnevarianter": [
-      "Anne Kathrine Brodersen"
-    ]
+      "Anne Kathrine Brodersen",
+      "Anne Cathrine Petersen"
+    ],
+    "efternavn": "Petersen",
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Navnet, stedet og pigenavnet Brodersen passer med familiens oplysninger og avisomtalerne. Forældreskabet er ikke set i en primærkilde endnu.",
+    "fortaelling": "Anne Kathrine Petersen, født Brodersen ifølge familien, blev født den 22. september 1922. Hun blev formentlig gift i oktober 1946 med smedemester Hans Peter Carl Petersen, og familien boede i Københoved ved Skodborg. Hun er mor til Carl Nicolai, kaldet Nikke, og til Tove, Birgitte og Egon. Hun døde den 18. maj 2010 og ligger sammen med sin mand på Skrave Kirkegård. På gravstenen staves hendes navn Anne Cathrine."
   },
   {
     "anenummer": 6,
