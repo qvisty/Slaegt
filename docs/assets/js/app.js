@@ -263,7 +263,7 @@ async function indlaes () {
       const afdoed = hs.some(e => e.type === 'død' || e.type === 'begravelse')
       const uvist = !p.levende && !afdoed && !!tidligst && tidligst > graense
       if (p.levende || uvist) hs.forEach(e => { e.dato = kunMaaned(e.dato) })
-      ;(p.soeskende || []).forEach(b => {
+      ;(p.soeskende || []).concat(p.boern || []).forEach(b => {
         const aar = aarAf(b.foedt)
         if (!b.doed && !(aar && aar <= graense)) b.foedt = kunMaaned(b.foedt)
       })
@@ -718,15 +718,18 @@ function sidePerson (n) {
   if (!dokumenteret(n)) h.push('<p class="lille">Forældrene undersøges, når ' + esc(fuldtNavn(p)) + ' er fundet i en primærkilde.</p>')
   h.push('</section>')
 
-  if (p.soeskende && p.soeskende.length) {
-    h.push('<section class="sektion"><h2>Søskende</h2><p class="lille">Søskende er ikke en del af den direkte linje, men hjælper med at kende familien. Søskende, der kan være i live, vises med højst måned og år.</p><ul class="haendelser">')
-    p.soeskende.slice().sort((a, b) => String(a.foedt || '9999').localeCompare(String(b.foedt || '9999'))).forEach(b => {
+  const slaegtningeListe = (liste, titel, intro) => {
+    if (!liste || !liste.length) return
+    h.push('<section class="sektion"><h2>' + titel + '</h2><p class="lille">' + intro + '</p><ul class="haendelser">')
+    liste.slice().sort((a, b) => String(a.foedt || '9999').localeCompare(String(b.foedt || '9999'))).forEach(b => {
       const mulig = !b.doed && !(aarAf(b.foedt) && aarAf(b.foedt) <= new Date().getFullYear() - 100) && privatlivsmode() !== 'måned og år' && privatlivsmode() !== 'vis alt'
       const liv = mulig ? '<span class="lille">Kan være nulevende</span>' : esc([b.foedt ? '* ' + datoTekst(b.foedt) : '', b.doed ? '† ' + datoTekst(b.doed) : ''].filter(Boolean).join('  '))
       h.push('<li><div><span class="htype">' + esc(b.navn) + '</span>' + (b.halv ? ' <span class="maerke neutral">Halvsøskende</span>' : '') + '  <span class="hdato">' + liv + '</span>' + (!mulig && b.noter ? '<div class="lille">' + esc(b.noter) + '</div>' : '') + '</div><div>' + kildeRef(b.kilder) + '</div></li>')
     })
     h.push('</ul></section>')
   }
+  slaegtningeListe(p.soeskende, 'Søskende', 'Søskende er ikke en del af den direkte linje, men hjælper med at kende familien. Søskende, der kan være i live, vises med højst måned og år.')
+  slaegtningeListe(p.boern, 'Børn', 'Børn efter rodpersonen. De er ikke en del af anetavlen, som går bagud. Nulevende vises med måned og år.')
 
   if (vis && p.billeder && p.billeder.length) {
     h.push('<section class="sektion"><h2>Billeder og dokumenter</h2><div class="billedrække">')

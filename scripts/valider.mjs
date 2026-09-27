@@ -136,7 +136,7 @@ for (const [n, p] of P) {
     if (!K.has(id)) fejl.push(hvem + ': kilden "' + id + '" findes ikke i kilder.json')
   }
   const graense = new Date().getFullYear() - 100
-  for (const b of p.soeskende || []) {
+  for (const b of (p.soeskende || []).concat(p.boern || [])) {
     const bh = hvem + ', søskende ' + (b.navn || '?')
     if (!b.navn) fejl.push(hvem + ': en søskende mangler navn')
     for (const id of b.kilder || []) { brugteKilder.add(id); if (!K.has(id)) fejl.push(bh + ': kilden "' + id + '" findes ikke i kilder.json') }

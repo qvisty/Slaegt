@@ -9,6 +9,24 @@
     "bevis": "Rodpersonen og projektets ejer. Udgangspunktet for hele linjen.",
     "kilder": [
       "fam-jesper-2026"
+    ],
+    "boern": [
+      {
+        "navn": "Rasmus Leth Qvist",
+        "koen": "m",
+        "foedt": "2002-02-02",
+        "kilder": [
+          "fam-jesper-2026"
+        ]
+      },
+      {
+        "navn": "Mille Maja Leth Graugaard, født Qvist",
+        "koen": "k",
+        "foedt": "2006-05-28",
+        "kilder": [
+          "fam-jesper-2026"
+        ]
+      }
     ]
   },
   {
