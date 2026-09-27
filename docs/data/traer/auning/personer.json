@@ -17,7 +17,8 @@
     ],
     "bevis": "Rodpersonen. Oplyst af Jesper Gravlev Qvist, Rikkes kæreste.",
     "kilder": [
-      "fam-jesper-2026-rikke"
+      "fam-jesper-2026-rikke",
+      "fam-rikke-2026"
     ],
     "boern": [
       {
@@ -60,7 +61,8 @@
           "fam-jesper-2026-rikkes-soeskende"
         ]
       }
-    ]
+    ],
+    "noter": "Navnet Auning stammer ifølge Rikke fra en oldefar eller tipoldefar, der var soldat og kom fra byen Auning. Det er et familiesagn, som ikke er undersøgt."
   },
   {
     "anenummer": 2,
@@ -74,7 +76,8 @@
       "fam-jesper-2026-rikkes-foraeldre",
       "jesper-bekraeftelse-rikkes-foraeldre",
       "findgravsted-soegning-petersen-2026",
-      "fam-jesper-2026-rikkes-soeskende"
+      "fam-jesper-2026-rikkes-soeskende",
+      "fam-rikke-2026"
     ],
     "soeskende": [
       {
@@ -103,8 +106,10 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Jesper bekræfter selv forbindelsen. Status bliver bekræftet, når dokumentationen (fx Rikkes dåbs eller navneattest) er på plads.",
-    "fortaelling": "Carl Nicolai Petersen er Rikke Aunings far. Ifølge familien var hans forældre Hans Peter Carl og Anne Kathrine. Han har søstrene Tove og Birgitte, kaldet Gitte, og havde broderen Egon, som er død. Hans fødselsår og fødested er endnu ikke oplyst, og derfor er han ikke fundet i kilderne endnu.",
-    "levende": true
+    "fortaelling": "Carl Nicolai Petersen, kaldet Nikke, er Rikke Aunings far. Ifølge familien stammer han vist fra Københoved ved Skodborg, tæt på hvor Rikkes mor Jonna voksede op. Hans forældre var ifølge familien Hans Peter Carl og Anne Kathrine, født Brodersen. Han har søstrene Tove og Birgitte, kaldet Gitte, og havde broderen Egon, som er død.",
+    "levende": true,
+    "kaldenavn": "Nikke",
+    "noter": "Kaldet Nikke. Stammer ifølge Rikke vist fra Københoved ved Skodborg. "
   },
   {
     "anenummer": 3,
@@ -150,7 +155,7 @@
     "kilder": [
       "fam-jesper-2026-rikkes-mormor"
     ],
-    "noter": "Rikkes farfar ifølge familien. Efternavnet er formentlig Petersen, men det er ikke oplyst. En landsdækkende søgning på Find gravsted gav intet par Hans Peter Carl og Anne Kathrine Petersen.",
+    "noter": "Rikkes farfar ifølge familien. Efternavnet er formentlig Petersen. Familien stammer vist fra Københoved. En landsdækkende søgning på Find gravsted gav intet par Hans Peter Carl og Anne Kathrine Petersen.",
     "bevis": "Navnet kommer fra familien. Ikke undersøgt i primærkilder endnu.",
     "haendelser": []
   },
@@ -160,11 +165,15 @@
     "koen": "k",
     "status": "spor",
     "kilder": [
-      "fam-jesper-2026-rikkes-mormor"
+      "fam-jesper-2026-rikkes-mormor",
+      "fam-rikke-2026"
     ],
-    "noter": "Rikkes farmor ifølge familien. Efternavnet er ikke oplyst.",
+    "noter": "Rikkes farmor ifølge familien. Pigenavnet var ifølge Rikke vist Brodersen.",
     "bevis": "Navnet kommer fra familien. Ikke undersøgt i primærkilder endnu.",
-    "haendelser": []
+    "haendelser": [],
+    "navnevarianter": [
+      "Anne Kathrine Brodersen"
+    ]
   },
   {
     "anenummer": 6,
@@ -211,9 +220,10 @@
       "findgravsted-skodborg-henny",
       "arkivdk-skodborg-mejeri",
       "findgravsted-skodborg-alfred",
-      "jesper-bekraeftelse-jonnas-foraeldre"
+      "jesper-bekraeftelse-jonnas-foraeldre",
+      "fam-rikke-2026"
     ],
-    "noter": "Rikkes mormor. Boede mange år i Skodborg sammen med sin mand Alfred Marinus Kristensen, Jonnas far. Aviserne har omtale af Alfred og Henny Kristensen i Skodborg i december 1977, formentlig et sølvbryllup, så de er formentlig gift i 1952. Kristensen er hendes gifte navn fra Alfred ifølge Jesper. Pigenavnet er endnu ukendt. Søsted kan være et mellemnavn eller et slægtsnavn.",
+    "noter": "Rikkes mormor. Boede mange år i Skodborg sammen med sin mand Alfred Marinus Kristensen, Jonnas far. Aviserne har omtale af Alfred og Henny Kristensen i Skodborg i december 1977, formentlig et sølvbryllup, så de er formentlig gift i 1952. Kristensen er hendes gifte navn fra Alfred ifølge Jesper. Pigenavnet er endnu ukendt. Søsted kan være et mellemnavn eller et slægtsnavn. Ifølge Rikke kommer navnet Søsted fra mormoderens side.",
     "bevis": "Jesper bekræfter, at Henny Søsted Kristensen er Rikkes mormor. Mellemnavnet Søsted blev fundet på Skodborg Kirkegård uden at være oplyst på forhånd, og Jesper bekræfter, at det er korrekt. Jonna er født Kristensen og voksede op i Skodborg.",
     "haendelser": [
       {

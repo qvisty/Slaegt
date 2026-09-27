@@ -161,6 +161,22 @@
       "kilder": [
         "jesper-bekraeftelse-jonnas-foraeldre"
       ]
+    },
+    {
+      "dato": "2026-09-27",
+      "titel": "Svar fra Rikke",
+      "tekst": "Rikke kender ikke Hennys pigenavn eller fødested og ikke Alfreds fødsel. Navnet Søsted kommer fra mormoderens side. Navnet Auning stammer ifølge Rikke fra en oldefar eller tipoldefar, der var soldat fra byen Auning. Carl Nicolai kaldes Nikke og er vist fra Københoved. Hans mor Anne Kathrine hed vist Brodersen som pigenavn.",
+      "personer": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-rikke-2026"
+      ]
     }
   ]
 }
