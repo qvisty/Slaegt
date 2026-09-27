@@ -223,9 +223,37 @@ function maksGen () { return D.personer.reduce((m, p) => Math.max(m, gen(p.anenu
 
 /* Indlæsning */
 
-async function hent (fil, standard) {
+/* Flere træer. Træet vælges med ?trae=id i adressen eller huskes fra sidste besøg. */
+
+let TRAER = []
+let TRAE = { id: 'qvist', sti: 'data/' }
+
+async function vaelgTrae () {
   try {
-    const r = await fetch('data/' + fil, { cache: 'no-cache' })
+    const r = await fetch('data/traer.json', { cache: 'no-cache' })
+    if (r.ok) TRAER = await r.json()
+  } catch (e) { TRAER = [] }
+  if (!TRAER.length) return
+  let id = new URLSearchParams(location.search).get('trae')
+  if (!id) try { id = localStorage.getItem('trae') } catch (e) {}
+  TRAE = TRAER.find(t => t.id === id) || TRAER[0]
+  try { localStorage.setItem('trae', TRAE.id) } catch (e) {}
+}
+
+function traeVaelger () {
+  const v = document.getElementById('trae-vaelger')
+  if (!v || TRAER.length < 2) return
+  v.innerHTML = TRAER.map(t => '<option value="' + esc(t.id) + '"' + (t.id === TRAE.id ? ' selected' : '') + '>' + esc(t.navn) + '</option>').join('')
+  v.hidden = false
+  v.addEventListener('change', () => {
+    try { localStorage.setItem('trae', v.value) } catch (e) {}
+    location.href = location.pathname + '?trae=' + encodeURIComponent(v.value) + '#/'
+  })
+}
+
+async function hent (fil, standard, faelles) {
+  try {
+    const r = await fetch((faelles ? 'data/' : TRAE.sti) + fil, { cache: 'no-cache' })
     if (!r.ok) return standard
     return await r.json()
   } catch (e) {
@@ -235,13 +263,14 @@ async function hent (fil, standard) {
 }
 
 async function indlaes () {
+  await vaelgTrae()
   const res = await Promise.all([
     hent('projekt.json', {}),
     hent('personer.json', []),
     hent('steder.json', []),
     hent('kilder.json', []),
     hent('forskning.json', { opgaver: [], log: [] }),
-    hent('historie.json', [])
+    hent('historie.json', [], true)
   ])
   D.projekt = res[0] || {}
   D.personer = res[1] || []
@@ -250,7 +279,8 @@ async function indlaes () {
   D.forskning = Object.assign({ opgaver: [], log: [] }, res[4] || {})
   D.historie = res[5] || []
   try {
-    const g = await fetch('data/guide.html', { cache: 'no-cache' })
+    let g = await fetch(TRAE.sti + 'guide.html', { cache: 'no-cache' })
+    if (!g.ok && TRAE.sti !== 'data/') g = await fetch('data/guide.html', { cache: 'no-cache' })
     D.guide = g.ok ? await g.text() : ''
   } catch (e) { D.guide = '' }
   if (privatlivsmode() === 'måned og år') {
@@ -1119,6 +1149,7 @@ async function start () {
   })
   await indlaes()
   if (D.projekt.titel) document.getElementById('logo-titel').textContent = D.projekt.titel
+  traeVaelger()
   const opd = D.projekt.opdateret || (D.forskning.log || []).map(l => l.dato).sort().pop()
   if (opd) document.getElementById('opdateret').textContent = 'Senest opdateret ' + datoTekst(opd)
   window.addEventListener('hashchange', vis)

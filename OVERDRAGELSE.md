@@ -167,6 +167,8 @@ Jesper har bedt om at holde forskningen tæt på hans linje. Træet er ført til
 5. **Helmuths firma** på havnen og Helmuth og Annas død og gravsted.
 6. Når Gerner og Helga er bekræftet: Gerners dåb i Skælskør 1890 og Helgas dåb i Viborg Domsogn 1896. Forældrene er allerede kendt fra vielsen 1919.
 
+**Rikke Aunings træ:** Rikke Auning er Jespers kæreste og rod i sit eget træ. Hun er nulevende og født i november 1977. Kun måned og år er gemt, indtil Rikke giver lov til den fulde dato i de offentlige filer. Næste skridt er navnene på hendes forældre fra Jesper eller Rikke. Samme regler gælder som i hovedtræet.
+
 Åbne opgaver står også i `docs/data/forskning.json` under `opgaver`, og guiden til Jesper ligger i `docs/data/guide.html`.
 
 ## 7. Domæner den nye samtale bør have adgang til
@@ -189,6 +191,7 @@ Husk: kirkebøger er scannede billeder uden navnesøgning. Folketællinger er of
 * **Hjemmesiden** ligger i `docs/`. Ren HTML, CSS og JavaScript uden byggetrin. Programmet er `docs/assets/js/app.js`, stilarket `docs/assets/css/style.css`.
 * **Sider (hash ruter):** `#/` stamtræ og overblik, `#/anetavle/N`, `#/vifte`, `#/galleri`, `#/person/N`, `#/tidslinje`, `#/kort`, `#/kilder`, `#/kilde/ID`, `#/forskning`, `#/guide`.
 * **Data** i `docs/data/`: `projekt.json`, `personer.json`, `steder.json`, `kilder.json`, `forskning.json`, `historie.json` og `guide.html`. Formatet er beskrevet i `README.md`.
+* **Flere træer:** `docs/data/traer.json` lister træerne. Hovedtræet (Slægten Qvist) ligger i `docs/data/`. Rikke Aunings træ (Slægten Auning, Jespers kæreste, ikke biologisk forbundet) ligger i `docs/data/traer/auning/` med de samme filer. Vælgeren øverst på siden eller `?trae=auning` skifter træ. `historie.json` er fælles. Tjekket gennemgår alle træer.
 * **Statusværdier:** `bekræftet`, `under undersøgelse`, `spor`. Plus `"levende": true` for nulevende.
 * **Kildekvalitet:** `primær`, `sekundær`, `afledt`.
 * **Tjek:** `node scripts/valider.mjs` håndhæver reglerne (kæden af bekræftede aner, primærkilder, privatliv, plausible aldre, ingen fiktive personer). Kør før hver commit.

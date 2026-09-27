@@ -43,6 +43,12 @@ Tjekket af data kører ved hver ændring under fanen **Actions**. Et rødt kryds
 | `docs/data/forskning.json` | Opgaver og forskningslog |
 | `docs/data/historie.json` | Begivenheder i danmarkshistorien til tidslinjen |
 | `docs/billeder/` | Portrætter og scannede dokumenter |
+| `docs/data/traer.json` | Listen over træer på siden |
+| `docs/data/traer/<id>/` | Datafilerne for et ekstra træ |
+
+## Flere træer
+
+Siden kan vise flere selvstændige træer. De står i `docs/data/traer.json` med `id`, `navn`, `rod` og `sti`. Hovedtræet ligger i `docs/data/`, og ekstra træer har hver sin mappe under `docs/data/traer/` med de samme filer (`projekt.json`, `personer.json`, `steder.json`, `kilder.json` og `forskning.json`). Danmarkshistorien i `historie.json` er fælles. Har træet ingen `guide.html`, bruges hovedtræets. Træet vælges i vælgeren øverst på siden eller med `?trae=id` i adressen, fx `https://qvisty.github.io/Slaegt/?trae=auning`. Siden husker det sidst valgte træ. `node scripts/valider.mjs` tjekker alle træer.
 
 ## Anenumre
 

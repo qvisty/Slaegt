@@ -1,0 +1,15 @@
+[
+  {
+    "anenummer": 1,
+    "fornavne": "Rikke",
+    "efternavn": "Auning",
+    "koen": "k",
+    "levende": true,
+    "status": "bekræftet",
+    "haendelser": [
+      { "type": "fødsel", "dato": "1977-11", "kilder": ["fam-jesper-2026-rikke"] }
+    ],
+    "bevis": "Rodpersonen. Oplyst af Jesper Gravlev Qvist, Rikkes kæreste.",
+    "kilder": ["fam-jesper-2026-rikke"]
+  }
+]

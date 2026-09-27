@@ -19,6 +19,10 @@ Dette er et slægtsforskningsprojekt for ejeren af repoet. Hjemmesiden ligger i 
 * Kør `node scripts/version.mjs` efter ændringer i `app.js` eller `style.css`, så browsere henter de nye filer.
 * Arbejd kun på grenen `main`. Siden udgives fra `main`.
 
+## Flere træer
+
+Siden har flere træer. `docs/data/traer.json` lister dem. Hovedtræet (Slægten Qvist) ligger i `docs/data/`, og Rikke Aunings træ (Jespers kæreste) i `docs/data/traer/auning/`. Reglerne gælder for hvert træ med dets egen rodperson. Rikkes fulde fødselsdato gemmes først, når hun har givet lov.
+
 ## Familieoplysninger og tomme pladser
 
 * Status `spor` bruges til navne, der kun kendes fra familien. Et spor må registreres, når barnet findes, men undersøges først, når barnet er bekræftet. Forældre til et spor kan kun være spor.

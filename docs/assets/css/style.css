@@ -433,3 +433,11 @@ table.tabel { border-collapse: collapse; width: 100%; font-size: .9rem; }
 
 .loglinks { margin: .4em 0 0; padding-left: 1.1em; }
 .loglinks li { margin: .15em 0; }
+
+/* Vælger mellem flere træer */
+.trae-vaelger {
+  font: inherit; font-size: .9rem; padding: 4px 8px;
+  border: 1px solid var(--streg); border-radius: 6px;
+  background: var(--flade); color: var(--blaek);
+}
+.trae-vaelger[hidden] { display: none; }

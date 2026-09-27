@@ -1,13 +1,31 @@
 #!/usr/bin/env node
 // Validerer slægtsdata i docs/data mod projektets arbejdsregler.
 // Kør med: node scripts/valider.mjs
+// Uden argument valideres hovedtræet og alle træer i docs/data/traer.json.
+// Med en mappe som argument valideres kun den mappe.
 // Afslutter med fejlkode 1, hvis der er fejl. Advarsler stopper ikke udgivelsen.
 
 import { readFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { spawnSync } from 'node:child_process'
 
-const rod = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs', 'data')
+const docs = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs')
+
+if (!process.argv[2]) {
+  // Kør validatoren for hvert træ i sin egen proces
+  let traer = [{ navn: 'Hovedtræet', sti: 'data/' }]
+  try { traer = JSON.parse(readFileSync(join(docs, 'data', 'traer.json'), 'utf8')) } catch (e) {}
+  let samlet = 0
+  for (const t of traer) {
+    console.log('\n== ' + (t.navn || t.id) + ' (' + t.sti + ') ==')
+    const r = spawnSync(process.execPath, [fileURLToPath(import.meta.url), join(docs, t.sti)], { stdio: 'inherit' })
+    if (r.status) samlet = 1
+  }
+  process.exit(samlet)
+}
+
+const rod = process.argv[2]
 const fejl = []
 const advarsler = []
 
@@ -26,7 +44,7 @@ const personer = laes('personer.json', [])
 const steder = laes('steder.json', [])
 const kilder = laes('kilder.json', [])
 const forskning = laes('forskning.json', { opgaver: [], log: [] })
-const historie = laes('historie.json', [])
+const historie = JSON.parse(readFileSync(join(docs, 'data', 'historie.json'), 'utf8'))
 
 const STATUS = ['bekræftet', 'under undersøgelse', 'spor']
 const TYPER = ['fødsel', 'dåb', 'konfirmation', 'vielse', 'folketælling', 'bopæl', 'flytning', 'erhverv', 'militær', 'udvandring', 'død', 'begravelse', 'skifte', 'andet']
