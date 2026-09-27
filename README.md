@@ -74,6 +74,7 @@ Hver person har et anenummer. Rodpersonen er 1. Far til person *n* er 2*n*, mor 
     { "type": "vielse", "dato": "1915-05-02", "sted": "randers" },
     { "type": "død", "dato": "ca. 1955", "sted": "skive" }
   ],
+  "fortaelling": "Kort livsfortælling øverst på siden. Uden den skrives en tekst automatisk ud fra hændelserne.",
   "biografi": "Fri tekst. Blanke linjer giver nye afsnit.",
   "noter": ""
 }

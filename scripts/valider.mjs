@@ -127,6 +127,14 @@ function dokumenteret (p) {
 
 for (const [n, p] of P) {
   const hvem = 'Anenr. ' + n + ' (' + ([p.fornavne, p.efternavn].filter(Boolean).join(' ') || relation(n)) + ')'
+  if (p.fortaelling) {
+    if (/[;\u2013\u2014]/.test(p.fortaelling)) fejl.push(hvem + ': fortællingen må ikke have semikolon eller tankestreg')
+    const hs = p.haendelser || []
+    const afdoed = hs.some(e => e.type === 'død' || e.type === 'begravelse')
+    const aarene = hs.map(e => aar(e.dato)).filter(Boolean)
+    const uvist = !afdoed && aarene.length > 0 && Math.min(...aarene) > new Date().getFullYear() - 100
+    if ((p.levende || uvist) && /\b\d{1,2}\. (januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december)/.test(p.fortaelling)) fejl.push(hvem + ': fortællingen for en nulevende eller mulig nulevende må kun have måned og år')
+  }
   if (!STATUS.includes(p.status)) fejl.push(hvem + ': status skal være "bekræftet", "under undersøgelse" eller "spor"')
   if (n > 1 && p.koen && p.koen !== (n % 2 === 0 ? 'm' : 'k')) fejl.push(hvem + ': køn passer ikke med anenummeret. Lige numre er mænd, ulige er kvinder')
 
