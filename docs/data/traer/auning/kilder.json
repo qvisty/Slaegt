@@ -14,5 +14,73 @@
     "reference": "Givet 27. september 2026",
     "kvalitet": "sekundær",
     "noter": "Jesper har oplyst navnene på Rikkes forældre: Carl Nicolai Petersen og Jonna Irene Petersen. Skal bekræftes i primærkilder."
+  },
+  {
+    "id": "fam-jesper-2026-rikkes-mormor",
+    "titel": "Oplysninger fra Jesper Gravlev Qvist om Rikkes bedsteforældre, 2026",
+    "type": "Familieoplysninger",
+    "reference": "Givet 27. september 2026",
+    "kvalitet": "sekundær",
+    "noter": "Rikkes mormor Henny boede mange år i Skodborg sammen med Alfred Marinus. Efternavnet kendte Jesper ikke. Rikkes farforældre hed Anne Kathrine og Hans Peter Carl."
+  },
+  {
+    "id": "findgravsted-skodborg-henny",
+    "titel": "Find gravsted, Skodborg Kirkegård, Henny Søsted Kristensen",
+    "type": "Gravsted",
+    "arkiv": "Find gravsted (findgravsted.dk), kirkegårdens register",
+    "reference": "Skodborg Kirkegård, gravsted S UU F 07",
+    "url": "https://www.findgravsted.dk/",
+    "kvalitet": "afledt",
+    "noter": "Henny Søsted Kristensen, født 28-08-1934, død 31-10-2018."
+  },
+  {
+    "id": "findgravsted-skodborg-alfred",
+    "titel": "Find gravsted, Skodborg Kirkegård, Alfred Marinus Kristensen",
+    "type": "Gravsted",
+    "arkiv": "Find gravsted (findgravsted.dk), kirkegårdens register",
+    "reference": "Skodborg Kirkegård, gravsted S UU I 006",
+    "url": "https://www.findgravsted.dk/",
+    "kvalitet": "afledt",
+    "noter": "Alfred Marinus Kristensen, død 07-03-1998. Fødselsdato er ikke registreret. De eneste to med efternavnet Kristensen på Skodborg Kirkegård er Alfred Marinus og Henny Søsted."
+  },
+  {
+    "id": "arkivdk-skodborg-3r-1970",
+    "titel": "Skodborg skole 3.r 1970, klassebillede",
+    "type": "Fotografi",
+    "arkiv": "Skodborg Hjemstavnsarkiv, arkiv.dk",
+    "reference": "B2042",
+    "url": "https://arkiv.dk/vis/1506868",
+    "kvalitet": "sekundær",
+    "noter": "Nr. 21 er Jonna Irene Kristensen."
+  },
+  {
+    "id": "arkivdk-skodborg-guldkonf-2017",
+    "titel": "Guldkonfirmander 2017 i Skodborg Kirke",
+    "type": "Fotografi",
+    "arkiv": "Skodborg Hjemstavnsarkiv, arkiv.dk",
+    "reference": "B3685",
+    "url": "https://arkiv.dk/vis/4385022",
+    "kvalitet": "sekundær",
+    "noter": "Holdet fra 1967. Blandt navnene står \"Jonna Petersen( Kristensen)\"."
+  },
+  {
+    "id": "arkivdk-skodborg-konf-1967",
+    "titel": "Konfirmander i Skodborg 1967",
+    "type": "Fotografi",
+    "arkiv": "Skodborg Hjemstavnsarkiv, arkiv.dk",
+    "reference": "B2215",
+    "url": "https://arkiv.dk/vis/1506109",
+    "kvalitet": "sekundær",
+    "noter": "Nr. 13 er Jonna Christensen, stavet sådan."
+  },
+  {
+    "id": "arkivdk-skodborg-mejeri",
+    "titel": "Personale på Mejeriet i Skodborg, ca. 1980",
+    "type": "Fotografi",
+    "arkiv": "Skodborg Hjemstavnsarkiv, arkiv.dk",
+    "reference": "B2370",
+    "url": "https://arkiv.dk/vis/1505404",
+    "kvalitet": "sekundær",
+    "noter": "Forrest fra venstre står blandt andre Henny Kristensen. Formentlig Rikkes mormor, men ikke sikkert."
   }
 ]

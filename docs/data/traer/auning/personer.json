@@ -38,10 +38,76 @@
     "efternavn": "Petersen",
     "koen": "k",
     "status": "spor",
-    "haendelser": [],
-    "bevis": "Navnet kommer fra familien. Oplyst af Jesper Gravlev Qvist. Ikke undersøgt i kilder endnu.",
+    "haendelser": [
+      {
+        "type": "konfirmation",
+        "dato": "1967",
+        "sted": "skodborg",
+        "beskrivelse": "Skodborg Kirke",
+        "kilder": [
+          "arkivdk-skodborg-konf-1967",
+          "arkivdk-skodborg-guldkonf-2017"
+        ]
+      }
+    ],
+    "bevis": "Navnet kommer fra familien. Jonna Irene Kristensen fra Skodborg er gift Petersen ifølge guldkonfirmandbilledet 2017, og Rikkes mormor Henny boede i Skodborg. Forbindelsen til Rikke er ikke bekræftet i en primærkilde.",
     "kilder": [
-      "fam-jesper-2026-rikkes-foraeldre"
+      "fam-jesper-2026-rikkes-foraeldre",
+      "arkivdk-skodborg-3r-1970",
+      "arkivdk-skodborg-konf-1967",
+      "arkivdk-skodborg-guldkonf-2017"
+    ],
+    "navnevarianter": [
+      "Jonna Irene Kristensen"
+    ],
+    "noter": "Født Kristensen ifølge klassebilleder og konfirmandbilleder fra Skodborg. Konfirmeret i Skodborg Kirke i 1967, altså formentlig født 1952 eller 1953. Gik i 3. real på Skodborg skole i 1970. Til guldkonfirmationen i 2017 står hun som Jonna Petersen (Kristensen)."
+  },
+  {
+    "anenummer": 7,
+    "fornavne": "Henny Søsted",
+    "efternavn": "Kristensen",
+    "koen": "k",
+    "status": "spor",
+    "kilder": [
+      "fam-jesper-2026-rikkes-mormor",
+      "findgravsted-skodborg-henny",
+      "arkivdk-skodborg-mejeri",
+      "findgravsted-skodborg-alfred"
+    ],
+    "noter": "Rikkes mormor ifølge Jesper. Boede mange år i Skodborg sammen med Alfred Marinus Kristensen (død 7. marts 1998, begravet på Skodborg Kirkegård). Aviserne har omtale af Alfred og Henny Kristensen i Skodborg i december 1977, formentlig et sølvbryllup. Det peger på et bryllup i 1952, og i så fald er Alfred Marinus sandsynligvis Jonnas far. Det er ikke bekræftet, og derfor er han ikke sat ind i træet. Søsted er måske et mellemnavn eller pigenavn.",
+    "bevis": "Navnet Henny og bopælen i Skodborg kommer fra familien. Den eneste Henny Kristensen på Skodborg Kirkegård er Henny Søsted Kristensen, og Jonna er født Kristensen i Skodborg. Forbindelsen er ikke bekræftet i en primærkilde.",
+    "haendelser": [
+      {
+        "type": "fødsel",
+        "dato": "1934-08-28",
+        "kilder": [
+          "findgravsted-skodborg-henny"
+        ]
+      },
+      {
+        "type": "bopæl",
+        "dato": "ca. 1980",
+        "sted": "skodborg",
+        "beskrivelse": "Ansat på mejeriet i Skodborg, formentlig",
+        "kilder": [
+          "arkivdk-skodborg-mejeri"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "2018-10-31",
+        "kilder": [
+          "findgravsted-skodborg-henny"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "sted": "skodborg",
+        "beskrivelse": "Skodborg Kirkegård, gravsted S UU F 07",
+        "kilder": [
+          "findgravsted-skodborg-henny"
+        ]
+      }
     ]
   }
 ]

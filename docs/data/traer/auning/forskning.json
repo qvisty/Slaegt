@@ -1,17 +1,30 @@
 {
   "opgaver": [
     {
-      "titel": "Rikkes forældre, fødselsår og fødesteder",
+      "titel": "Jonnas fødsel og dåb",
+      "status": "åben",
+      "noter": "Jonna Irene Kristensen er formentlig født 1952 eller 1953 i eller nær Skodborg. Kirkebogen er ikke offentlig på Arkivalieronline endnu. Rikke eller Jonna kan måske bekræfte dato og sted."
+    },
+    {
+      "titel": "Er Alfred Marinus Kristensen Jonnas far?",
       "status": "venter",
-      "noter": "Navnene er kendt: Carl Nicolai Petersen og Jonna Irene Petersen. Mangler fødselsår og fødesteder, om de lever, og hvor familien boede, da Rikke blev født i 1977. Derefter kan de findes i kirkebøger og folketællinger."
+      "noter": "Aviserne tyder på sølvbryllup for Alfred og Henny i december 1977. Skodborg Hjemstavnsarkiv kan måske finde bryllupsannoncen fra august 1973 og sølvbrylluppet fra december 1977."
     },
     {
       "titel": "Rikkes efternavn Auning",
       "status": "venter",
-      "noter": "Forældrene hedder Petersen. Hvor kommer navnet Auning fra? Det kan hjælpe med at finde de rigtige kilder."
+      "noter": "Forældrene hedder Petersen. Hvor kommer navnet Auning fra?"
     }
   ],
   "log": [
+    {
+      "dato": "2026-09-27",
+      "titel": "Træet oprettet",
+      "tekst": "Træet for Rikke Auning er oprettet som et selvstændigt træ ved siden af Slægten Qvist. Rikke er nulevende, så kun måned og år for fødslen er gemt.",
+      "personer": [
+        1
+      ]
+    },
     {
       "dato": "2026-09-27",
       "titel": "Rikkes forældre registreret som familieoplysning",
@@ -26,10 +39,34 @@
     },
     {
       "dato": "2026-09-27",
-      "titel": "Træet oprettet",
-      "tekst": "Træet for Rikke Auning er oprettet som et selvstændigt træ ved siden af Slægten Qvist. Rikke er nulevende, så kun måned og år for fødslen er gemt.",
+      "titel": "Rikkes mormor Henny fundet i Skodborg",
+      "tekst": "Jesper oplyste, at Rikkes mormor Henny boede mange år i Skodborg med Alfred Marinus. Find gravsted har kun to med efternavnet Kristensen på Skodborg Kirkegård: Henny Søsted Kristensen (28.8.1934 til 31.10.2018, gravsted S UU F 07) og Alfred Marinus Kristensen (død 7.3.1998, gravsted S UU I 006). På arkiv.dk står Jonna Irene Kristensen på et klassebillede fra 3. real 1970 i Skodborg, og til guldkonfirmationen 2017 står hun som Jonna Petersen (Kristensen). Konfirmationen var i 1967, så Jonna er formentlig født 1952 eller 1953.\n\nMediestream har kun metadata, fordi teksten er spærret: \"Jonna Kristensen\" Skodborg giver træf 17. til 23. august 1973 (Kolding Folkeblad, Hejmdal, Vestkysten, Jydske Tidende og Jyllands-Posten), formentlig et bryllup. \"Alfred Kristensen\" \"Henny\" Skodborg giver træf 5. og 6. december 1977, formentlig sølvbryllup, og 9. marts 1998 i JydskeVestkysten, formentlig dødsannoncen. Intet af det er læst, så det er kun spor.\n\nUden resultat: Find gravsted på 20 nabokirkegårde (bl.a. Vejen, Andst, Brørup, Gørding, Malt, Øster Lindet, Hjerting), dk-gravsten.dk, afdoede.dk, arkiv.dk og websøgning på \"Henny Søsted\" og \"Alfred Marinus Kristensen\".",
       "personer": [
-        1
+        3,
+        7
+      ],
+      "resultat": "fundet",
+      "kilder": [
+        "findgravsted-skodborg-henny",
+        "findgravsted-skodborg-alfred",
+        "arkivdk-skodborg-3r-1970",
+        "arkivdk-skodborg-guldkonf-2017",
+        "arkivdk-skodborg-konf-1967",
+        "arkivdk-skodborg-mejeri"
+      ],
+      "links": [
+        {
+          "tekst": "Find gravsted",
+          "url": "https://www.findgravsted.dk/"
+        },
+        {
+          "tekst": "Mediestream, avissøgning",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis"
+        },
+        {
+          "tekst": "Skodborg Hjemstavnsarkiv på arkiv.dk",
+          "url": "https://arkiv.dk/soeg?searchstring=Skodborg%20Kristensen"
+        }
       ]
     }
   ]

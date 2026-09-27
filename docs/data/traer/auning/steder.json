@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "skodborg",
+    "navn": "Skodborg",
+    "sogn": "Skodborg sogn",
+    "herred": "Frøs Herred",
+    "amt": "Ribe Amt",
+    "lat": 55.449,
+    "lng": 9.313
+  }
+]
