@@ -41,18 +41,21 @@
           "fam-jesper-2026-rikkes-boern"
         ]
       }
-    ]
+    ],
+    "fortaelling": "Rikke Auning blev født i november 1977 som datter af Carl Nicolai Petersen og Jonna Irene Petersen, født Kristensen. Hendes mors familie kom fra Skodborg ved Vejen, hvor mormoderen Henny boede i mange år. Rikke har tre døtre, Caroline, Mathilde og Josefine. Hun er Jesper Gravlev Qvists kæreste, og dette træ følger hendes egen slægt."
   },
   {
     "anenummer": 2,
     "fornavne": "Carl Nicolai",
     "efternavn": "Petersen",
     "koen": "m",
-    "status": "spor",
+    "status": "under undersøgelse",
     "haendelser": [],
-    "bevis": "Navnet kommer fra familien. Oplyst af Jesper Gravlev Qvist. Ikke undersøgt i kilder endnu.",
+    "bevis": "Jesper, Rikkes kæreste og projektets ejer, bekræfter, at Carl Nicolai Petersen er Rikkes far. Dokumentation følger.",
     "kilder": [
-      "fam-jesper-2026-rikkes-foraeldre"
+      "fam-jesper-2026-rikkes-foraeldre",
+      "jesper-bekraeftelse-rikkes-foraeldre",
+      "findgravsted-soegning-petersen-2026"
     ],
     "soeskende": [
       {
@@ -78,14 +81,17 @@
         ],
         "noter": "Død ifølge familien. Årstal ukendt."
       }
-    ]
+    ],
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Jesper bekræfter selv forbindelsen. Status bliver bekræftet, når dokumentationen (fx Rikkes dåbs eller navneattest) er på plads.",
+    "fortaelling": "Carl Nicolai Petersen er Rikke Aunings far. Ifølge familien var hans forældre Hans Peter Carl og Anne Kathrine. Han har søstrene Tove og Birgitte, kaldet Gitte, og havde broderen Egon, som er død. Hans fødselsår og fødested er endnu ikke oplyst, og derfor er han ikke fundet i kilderne endnu."
   },
   {
     "anenummer": 3,
     "fornavne": "Jonna Irene",
     "efternavn": "Petersen",
     "koen": "k",
-    "status": "spor",
+    "status": "under undersøgelse",
     "haendelser": [
       {
         "type": "konfirmation",
@@ -98,24 +104,52 @@
         ]
       }
     ],
-    "bevis": "Navnet kommer fra familien. Jonna Irene Kristensen fra Skodborg er gift Petersen ifølge guldkonfirmandbilledet 2017, og Rikkes mormor Henny boede i Skodborg. Forbindelsen til Rikke er ikke bekræftet i en primærkilde.",
+    "bevis": "Jesper, Rikkes kæreste og projektets ejer, bekræfter, at Jonna Irene Petersen er Rikkes mor. Hun er født Kristensen og konfirmeret i Skodborg i 1967 ifølge billeder fra Skodborg Hjemstavnsarkiv.",
     "kilder": [
       "fam-jesper-2026-rikkes-foraeldre",
       "arkivdk-skodborg-3r-1970",
       "arkivdk-skodborg-konf-1967",
-      "arkivdk-skodborg-guldkonf-2017"
+      "arkivdk-skodborg-guldkonf-2017",
+      "jesper-bekraeftelse-rikkes-foraeldre"
     ],
     "navnevarianter": [
       "Jonna Irene Kristensen"
     ],
-    "noter": "Født Kristensen ifølge klassebilleder og konfirmandbilleder fra Skodborg. Konfirmeret i Skodborg Kirke i 1967, altså formentlig født 1952 eller 1953. Gik i 3. real på Skodborg skole i 1970. Til guldkonfirmationen i 2017 står hun som Jonna Petersen (Kristensen)."
+    "noter": "Født Kristensen ifølge klassebilleder og konfirmandbilleder fra Skodborg. Konfirmeret i Skodborg Kirke i 1967, altså formentlig født 1952 eller 1953. Gik i 3. real på Skodborg skole i 1970. Til guldkonfirmationen i 2017 står hun som Jonna Petersen (Kristensen).",
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Jesper bekræfter selv forbindelsen. Status bliver bekræftet, når dokumentationen (fx Rikkes dåbs eller navneattest) er på plads.",
+    "fortaelling": "Jonna Irene Petersen er født Kristensen og voksede op i Skodborg ved Vejen som datter af Henny Søsted Kristensen. Hun blev konfirmeret i Skodborg Kirke i 1967 og er derfor formentlig født i 1952 eller 1953. I 1970 gik hun i 3. real på Skodborg skole. Hun blev gift med Carl Nicolai Petersen og er mor til Rikke Auning. Ved guldkonfirmationen i Skodborg i 2017 stod hun som Jonna Petersen, født Kristensen."
+  },
+  {
+    "anenummer": 4,
+    "fornavne": "Hans Peter Carl",
+    "koen": "m",
+    "status": "spor",
+    "kilder": [
+      "fam-jesper-2026-rikkes-mormor"
+    ],
+    "noter": "Rikkes farfar ifølge familien. Efternavnet er formentlig Petersen, men det er ikke oplyst. En landsdækkende søgning på Find gravsted gav intet par Hans Peter Carl og Anne Kathrine Petersen.",
+    "bevis": "Navnet kommer fra familien. Ikke undersøgt i primærkilder endnu.",
+    "haendelser": []
+  },
+  {
+    "anenummer": 5,
+    "fornavne": "Anne Kathrine",
+    "koen": "k",
+    "status": "spor",
+    "kilder": [
+      "fam-jesper-2026-rikkes-mormor"
+    ],
+    "noter": "Rikkes farmor ifølge familien. Efternavnet er ikke oplyst.",
+    "bevis": "Navnet kommer fra familien. Ikke undersøgt i primærkilder endnu.",
+    "haendelser": []
   },
   {
     "anenummer": 7,
     "fornavne": "Henny Søsted",
     "efternavn": "Kristensen",
     "koen": "k",
-    "status": "spor",
+    "status": "under undersøgelse",
     "kilder": [
       "fam-jesper-2026-rikkes-mormor",
       "findgravsted-skodborg-henny",
@@ -156,6 +190,9 @@
           "findgravsted-skodborg-henny"
         ]
       }
-    ]
+    ],
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Navnet Henny og bopælen i Skodborg kommer fra familien. Den eneste Henny Kristensen på Skodborg Kirkegård passer, og Jonna er født Kristensen i Skodborg. Hennys forældreskab er ikke set i en primærkilde endnu.",
+    "fortaelling": "Henny Søsted Kristensen blev født den 28. august 1934. Hun boede i mange år i Skodborg ved Vejen sammen med Alfred Marinus Kristensen, som døde den 7. marts 1998. Aviserne omtaler Alfred og Henny Kristensen i Skodborg i december 1977, formentlig ved et sølvbryllup. Omkring 1980 arbejdede en Henny Kristensen på mejeriet i Skodborg, formentlig hende. Henny døde den 31. oktober 2018 og ligger på Skodborg Kirkegård. Ifølge familien er hun Rikkes mormor."
   }
 ]

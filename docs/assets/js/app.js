@@ -194,12 +194,12 @@ function portraet (p, klasse) {
 
 function erBekraeftet (n) { const p = P.get(n); return !!p && p.status === 'bekræftet' }
 
-/* En person er dokumenteret, når den er bekræftet eller har mindst én primærkilde. Så må forældrene undersøges. */
+/* En person er dokumenteret, når den er bekræftet, har mindst én primærkilde eller er bekræftet af projektets ejer. Så må forældrene undersøges. */
 function dokumenteret (n) {
   const p = P.get(n)
   if (!p) return false
   if (p.status === 'bekræftet') return true
-  return kildeIds(p).some(id => K.get(id) && K.get(id).kvalitet === 'primær')
+  return kildeIds(p).some(id => K.get(id) && (K.get(id).kvalitet === 'primær' || K.get(id).ejerbekraeftelse))
 }
 
 /* En plads i anetavlen er åben for forskning, hvis barnet er bekræftet. */
@@ -1053,6 +1053,7 @@ function sideForskning () {
   h.push('<section class="kort-flade sektion"><h3>Arbejdsregler</h3><ol class="regler">')
   h.push('<li><strong>Kun den direkte linje.</strong> Kun forældre, bedsteforældre og så videre bagud fra rodpersonen er personer i træet. Søskende noteres på personsiden for at kende familien.</li>')
   h.push('<li><strong>Et led ad gangen.</strong> En persons forældre undersøges først, når personen selv er fundet i en primærkilde. Nye aner står som under undersøgelse, indtil hele kæden er bekræftet.</li>')
+  h.push('<li><strong>Ejerens bekræftelse.</strong> Når Jesper selv bekræfter en nær slægtning, før dokumentationen er fundet, må forskningen gå et led videre. Personen står som under undersøgelse med høj sikkerhed, indtil en primærkilde er på plads.</li>')
   h.push('<li><strong>Bekræftet kræver bevis.</strong> Mindst én primærkilde, typisk kirkebogens dåb eller fødsel, og en skriftlig begrundelse for, at det er den rigtige person.</li>')
   h.push('<li><strong>Uafhængig støtte.</strong> Forældreskabet støttes helst af en kilde mere, fx folketælling, konfirmation eller vielse, så navne, alder og sted stemmer.</li>')
   h.push('<li><strong>Sikkerhed.</strong> Hver ane har en sikkerhedsgrad. Høj: flere uafhængige primærkilder nævner forældreskabet. Middel: én primærkilde, eller uoverensstemmelse i navne. Lav: forældreskabet bygger på fx en udlagt barnefader. Høj og middel kan bekræftes.</li>')

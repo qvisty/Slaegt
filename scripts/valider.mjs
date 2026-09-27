@@ -117,12 +117,13 @@ for (const p of Array.isArray(personer) ? personer : []) {
 const brugteKilder = new Set()
 const brugteSteder = new Set()
 
-// En person er dokumenteret, når den er bekræftet eller har mindst én primærkilde.
+// En person er dokumenteret, når den er bekræftet, har mindst én primærkilde eller er bekræftet af projektets ejer
+// (kilde med "ejerbekraeftelse": true). Ejerens bekræftelse åbner for næste led, men giver ikke status bekræftet.
 function dokumenteret (p) {
   if (!p) return false
   if (p.status === 'bekræftet') return true
   const ids = [...(p.kilder || []), ...(p.haendelser || []).flatMap(h => h.kilder || [])]
-  return ids.some(id => K.get(id) && K.get(id).kvalitet === 'primær')
+  return ids.some(id => K.get(id) && (K.get(id).kvalitet === 'primær' || K.get(id).ejerbekraeftelse))
 }
 
 for (const [n, p] of P) {

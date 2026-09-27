@@ -1,6 +1,16 @@
 {
   "opgaver": [
     {
+      "titel": "Dokumentation for Rikkes forældre",
+      "status": "venter",
+      "noter": "Jesper sender dokumentation, fx Rikkes dåbs eller navneattest. Så kan Carl og Jonna bekræftes."
+    },
+    {
+      "titel": "Carls fødselsdato og fødested",
+      "status": "venter",
+      "noter": "Uden fødselsår og sted kan Carl Nicolai og hans forældre ikke findes blandt de mange Petersen."
+    },
+    {
       "titel": "Jonnas fødsel og dåb",
       "status": "åben",
       "noter": "Jonna Irene Kristensen er formentlig født 1952 eller 1953 i eller nær Skodborg. Kirkebogen er ikke offentlig på Arkivalieronline endnu. Rikke eller Jonna kan måske bekræfte dato og sted."
@@ -67,6 +77,48 @@
           "tekst": "Skodborg Hjemstavnsarkiv på arkiv.dk",
           "url": "https://arkiv.dk/soeg?searchstring=Skodborg%20Kristensen"
         }
+      ]
+    },
+    {
+      "dato": "2026-09-27",
+      "titel": "Søgning efter Carl Nicolai Petersens forældre",
+      "tekst": "Jesper oplyste, at Carls forældre hed Hans Peter Carl og Anne Kathrine. Der blev søgt på alle 1756 kirkegårde i Find gravsted på Carl Nicolai, Carl Nikolaj, Karl Nicolai, Hans Peter Carl og Anne Kathrine med stavemåder og Petersen eller Pedersen. Intet par Hans Peter Carl og Anne Kathrine ligger i samme gravsted, og ingen Carl Nicolai Petersen blev fundet. arkiv.dk og websøgning gav intet relevant. dk-gravsten.dk var nede. Mediestream har træf på \"Hans Peter Carl\" og \"Anne Kathrine\" i Kolding Folkeblad 22. maj 1923 og Kolding Social-Demokrat 23. maj 1923 (Kolding Kirkenyt), men teksten er spærret og ikke læst. Arkivalieronline har folketællinger til og med 1940. Næste skridt kræver Carls fødselsdato eller fødested.",
+      "personer": [
+        2,
+        4,
+        5
+      ],
+      "resultat": "ikke fundet",
+      "kilder": [
+        "findgravsted-soegning-petersen-2026"
+      ],
+      "links": [
+        {
+          "tekst": "Find gravsted",
+          "url": "https://www.findgravsted.dk/"
+        },
+        {
+          "tekst": "Mediestream, Kolding Social-Demokrat 23. maj 1923",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:2554219b-49aa-44a4-975f-6bd9e1ee6ab9"
+        },
+        {
+          "tekst": "Mediestream, Kolding Folkeblad 22. maj 1923",
+          "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:db3b9b65-63d5-445c-ac9f-671f937f0227"
+        }
+      ]
+    },
+    {
+      "dato": "2026-09-27",
+      "titel": "Jesper bekræfter Rikkes forældre",
+      "tekst": "Jesper bekræfter, at Carl Nicolai Petersen og Jonna Irene Petersen er Rikkes forældre, og sender dokumentation senere. De står som under undersøgelse med høj sikkerhed, indtil dokumentationen er på plads. Forskningen går nu et led videre. Henny Søsted Kristensen er flyttet fra spor til under undersøgelse.",
+      "personer": [
+        2,
+        3,
+        7
+      ],
+      "resultat": "familieoplysning",
+      "kilder": [
+        "jesper-bekraeftelse-rikkes-foraeldre"
       ]
     }
   ]

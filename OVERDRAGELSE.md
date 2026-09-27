@@ -167,7 +167,7 @@ Jesper har bedt om at holde forskningen tæt på hans linje. Træet er ført til
 5. **Helmuths firma** på havnen og Helmuth og Annas død og gravsted.
 6. Når Gerner og Helga er bekræftet: Gerners dåb i Skælskør 1890 og Helgas dåb i Viborg Domsogn 1896. Forældrene er allerede kendt fra vielsen 1919.
 
-**Rikke Aunings træ:** Rikke Auning er Jespers kæreste og rod i sit eget træ. Hun er nulevende og født i november 1977. Kun måned og år er gemt, indtil Rikke giver lov til den fulde dato i de offentlige filer. Næste skridt er navnene på hendes forældre fra Jesper eller Rikke. Samme regler gælder som i hovedtræet.
+**Rikke Aunings træ:** Rikke Auning er Jespers kæreste og rod i sit eget træ. Hun er nulevende og født i november 1977. Kun måned og år er gemt, indtil Rikke giver lov til den fulde dato i de offentlige filer. Hun har tre døtre, Caroline, Mathilde og Josefine. Forældrene Carl Nicolai Petersen og Jonna Irene Petersen, født Kristensen, er bekræftet af Jesper (ejerbekræftelse), dokumentation følger. Mormor er formentlig Henny Søsted Kristensen (1934 til 2018, Skodborg Kirkegård), som boede med Alfred Marinus Kristensen (død 1998). Om Alfred er Jonnas far, er ikke afklaret. Farforældrene Hans Peter Carl og Anne Kathrine kendes kun fra familien. Carls fødselsår og fødested mangler. Samme regler gælder som i hovedtræet.
 
 Åbne opgaver står også i `docs/data/forskning.json` under `opgaver`, og guiden til Jesper ligger i `docs/data/guide.html`.
 

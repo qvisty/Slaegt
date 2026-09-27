@@ -98,5 +98,24 @@
     "reference": "Givet 27. september 2026",
     "kvalitet": "sekundær",
     "noter": "Rikke har tre børn: Caroline, Mathilde og Josefine."
+  },
+  {
+    "id": "jesper-bekraeftelse-rikkes-foraeldre",
+    "titel": "Jesper Gravlev Qvists bekræftelse af Rikke Aunings forældre",
+    "type": "Familieoplysninger",
+    "reference": "Givet 27. september 2026",
+    "kvalitet": "sekundær",
+    "ejerbekraeftelse": true,
+    "noter": "Jesper, projektets ejer, bekræfter, at Carl Nicolai Petersen og Jonna Irene Petersen er Rikkes forældre. Dokumentation følger senere."
+  },
+  {
+    "id": "findgravsted-soegning-petersen-2026",
+    "titel": "Find gravsted, landsdækkende søgning på Carl Nicolai, Hans Peter Carl og Anne Kathrine Petersen",
+    "type": "Gravsted",
+    "arkiv": "Find gravsted (findgravsted.dk)",
+    "reference": "Søgt på alle 1756 kirkegårde 27. september 2026",
+    "url": "https://www.findgravsted.dk/",
+    "kvalitet": "afledt",
+    "noter": "Ingen Carl Nicolai Petersen og intet par Hans Peter Carl og Anne Kathrine Petersen i samme gravsted."
   }
 ]
