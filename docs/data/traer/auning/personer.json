@@ -7,9 +7,41 @@
     "levende": true,
     "status": "bekræftet",
     "haendelser": [
-      { "type": "fødsel", "dato": "1977-11", "kilder": ["fam-jesper-2026-rikke"] }
+      {
+        "type": "fødsel",
+        "dato": "1977-11",
+        "kilder": [
+          "fam-jesper-2026-rikke"
+        ]
+      }
     ],
     "bevis": "Rodpersonen. Oplyst af Jesper Gravlev Qvist, Rikkes kæreste.",
-    "kilder": ["fam-jesper-2026-rikke"]
+    "kilder": [
+      "fam-jesper-2026-rikke"
+    ]
+  },
+  {
+    "anenummer": 2,
+    "fornavne": "Carl Nicolai",
+    "efternavn": "Petersen",
+    "koen": "m",
+    "status": "spor",
+    "haendelser": [],
+    "bevis": "Navnet kommer fra familien. Oplyst af Jesper Gravlev Qvist. Ikke undersøgt i kilder endnu.",
+    "kilder": [
+      "fam-jesper-2026-rikkes-foraeldre"
+    ]
+  },
+  {
+    "anenummer": 3,
+    "fornavne": "Jonna Irene",
+    "efternavn": "Petersen",
+    "koen": "k",
+    "status": "spor",
+    "haendelser": [],
+    "bevis": "Navnet kommer fra familien. Oplyst af Jesper Gravlev Qvist. Ikke undersøgt i kilder endnu.",
+    "kilder": [
+      "fam-jesper-2026-rikkes-foraeldre"
+    ]
   }
 ]

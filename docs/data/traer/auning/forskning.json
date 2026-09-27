@@ -1,8 +1,36 @@
 {
   "opgaver": [
-    { "titel": "Rikkes forældre", "status": "venter", "noter": "Navne, fødselsår og fødesteder på Rikkes far og mor. Derefter kan kæden føres bagud i kirkebøger og folketællinger." }
+    {
+      "titel": "Rikkes forældre, fødselsår og fødesteder",
+      "status": "venter",
+      "noter": "Navnene er kendt: Carl Nicolai Petersen og Jonna Irene Petersen. Mangler fødselsår og fødesteder, om de lever, og hvor familien boede, da Rikke blev født i 1977. Derefter kan de findes i kirkebøger og folketællinger."
+    },
+    {
+      "titel": "Rikkes efternavn Auning",
+      "status": "venter",
+      "noter": "Forældrene hedder Petersen. Hvor kommer navnet Auning fra? Det kan hjælpe med at finde de rigtige kilder."
+    }
   ],
   "log": [
-    { "dato": "2026-09-27", "titel": "Træet oprettet", "tekst": "Træet for Rikke Auning er oprettet som et selvstændigt træ ved siden af Slægten Qvist. Rikke er nulevende, så kun måned og år for fødslen er gemt.", "personer": [1] }
+    {
+      "dato": "2026-09-27",
+      "titel": "Rikkes forældre registreret som familieoplysning",
+      "tekst": "Jesper har oplyst, at Rikkes forældre er Carl Nicolai Petersen og Jonna Irene Petersen. De er registreret med status spor, fordi navnene kun kendes fra familien. Petersen er et meget almindeligt navn, så der søges først i kilderne, når fødselsår og fødested kendes.",
+      "personer": [
+        2,
+        3
+      ],
+      "kilder": [
+        "fam-jesper-2026-rikkes-foraeldre"
+      ]
+    },
+    {
+      "dato": "2026-09-27",
+      "titel": "Træet oprettet",
+      "tekst": "Træet for Rikke Auning er oprettet som et selvstændigt træ ved siden af Slægten Qvist. Rikke er nulevende, så kun måned og år for fødslen er gemt.",
+      "personer": [
+        1
+      ]
+    }
   ]
 }
