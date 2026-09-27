@@ -172,5 +172,25 @@
     "url": "https://www2.statsbiblioteket.dk/mediestream/avis",
     "kvalitet": "afledt",
     "noter": "Teksten er spærret af ophavsret og ikke læst. Søgemaskinen viser, at omtalen 13. august 1969 indeholder ordene Anne, Kathrine, Brodersen, Petersen, smedemester, Hans, Københoved, Skodborg, Skrave, 50 år, 17 august, og at omtalen i Jydske Tidende Aabenraa indeholder Egon og Tove. Formentlig hans 50 års fødselsdag. Omtalen 23. oktober 1971 indeholder sølvbryllup, smedemester, Hans, Petersen, Anne, Kathrine, Københoved, formentlig sølvbryllup, altså bryllup i oktober 1946."
+  },
+  {
+    "id": "kb-bedsted-1919-f10",
+    "titel": "Bedsted sogn, fødte 1919 nr. 10, Hans Peter Carl Petersen",
+    "type": "Kirkebog",
+    "arkiv": "Rigsarkivet, Arkivalieronline, Bedsted kontraministerialbog 1898 til 1938",
+    "reference": "bsid 200987, opslag 74, 1919 nr. 10",
+    "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=200987#200987,38061205",
+    "kvalitet": "primær",
+    "noter": "Ordret: \"Hans Peter Carl Petersen, ehelicher Sohn des Landmanns Nicolai Petersen und seiner Ehefrau Nicoline geb. Frost in Arndorf. Taufzeugen: Nicolai Jensen Petersen, Arndrup. Maren Frost, Stübbeck. Christian Ulderup, Stübbeck\". Født 17. august 1919 i Arndorf (Arndrup), hjemmedøbt 7. september 1919. Læst i billedet."
+  },
+  {
+    "id": "mediestream-hejmdal-1969-08-14",
+    "titel": "Hejmdal 14. august 1969 s. 15, 50 års dag for smedemester Hans Petersen, Københoved (kun metadata)",
+    "type": "Avis",
+    "arkiv": "Mediestream, Det Kgl. Bibliotek",
+    "reference": "doms_newspaperCollection:uuid:e649535a-dad2-4823-aaa6-d95b947740a1-segment_22",
+    "url": "https://www2.statsbiblioteket.dk/mediestream/avis/record/doms_aviser_page:uuid:e649535a-dad2-4823-aaa6-d95b947740a1",
+    "kvalitet": "afledt",
+    "noter": "Teksten er spærret og ikke læst. Søgemaskinen giver træf på \"gift med Anne Kathrine Brodersen\", \"Bedsted sogn\", \"Arndrup\", \"1946\", \"smedemester\", \"i Københoved\" og \"datter af gårdejer\"."
   }
 ]

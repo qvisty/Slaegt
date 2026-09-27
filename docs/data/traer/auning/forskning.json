@@ -246,6 +246,44 @@
           "url": "https://da.wikipedia.org/wiki/K%C3%B8benhoved"
         }
       ]
+    },
+    {
+      "dato": "2026-09-27",
+      "titel": "Hans Peter Carls dåb fundet i Bedsted",
+      "tekst": "Bedsted sogns dåbsbog 1919 nr. 10 (læst i billedet): Hans Peter Carl Petersen, født 17. august 1919 i Arndorf (Arndrup), hjemmedøbt 7. september, søn af landmand Nicolai Petersen og Nicoline født Frost. Faddere Nicolai Jensen Petersen, Arndrup, Maren Frost og Christian Ulderup, Stübbeck. Fødselsdatoen er den samme som på gravstenen i Skrave. Hejmdal 14. august 1969 har ifølge søgemaskinen ordene \"gift med Anne Kathrine Brodersen\", \"Bedsted sogn\", \"Arndrup\" og \"1946\". Nicolai og Nicoline er sat ind som anenr. 8 og 9.\n\nAnne Kathrine: Bedsted har ingen pige født 22. september 1922. Kandidater i Bedsted er Anne Cathrine Brodersen født 7. november 1919 i Maarbæk (datter af gårdejer Peter Brodersen, set i dåben og FT 1930) og Anne Cathrine Brodersen født 27. juli 1922 i Øster Terp (datter af sognefoged Mathias Christian Brodersen). Ingen af dem er bekræftet. Vielsen 1946 er ikke i Bedsted eller Skrave 1943 til 1947. FT 1940 Skrave har ikke Hans Peter Carl.",
+      "personer": [
+        4,
+        5,
+        8,
+        9
+      ],
+      "resultat": "fundet",
+      "kilder": [
+        "kb-bedsted-1919-f10",
+        "mediestream-hejmdal-1969-08-14"
+      ],
+      "links": [
+        {
+          "tekst": "Dåben 1919 (Arkivalieronline)",
+          "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=200987#200987,38061205"
+        },
+        {
+          "tekst": "Kandidat, Anne Cathrine Brodersen født 1919, dåb",
+          "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=200987#200987,38061207"
+        },
+        {
+          "tekst": "Kandidat, FT 1930 Bedsted, Maarbæk",
+          "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=109092#109092,16929355"
+        },
+        {
+          "tekst": "Kandidat, Anne Cathrine Brodersen født 1922, dåb",
+          "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=200987#200987,38061221"
+        },
+        {
+          "tekst": "Bedsted vielser 1946",
+          "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=200991#200991,38061537"
+        }
+      ]
     }
   ]
 }

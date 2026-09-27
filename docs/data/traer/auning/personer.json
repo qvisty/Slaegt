@@ -156,16 +156,30 @@
       "fam-jesper-2026-rikkes-mormor",
       "fam-rikke-2026",
       "dkgravsten-skrave-070",
-      "mediestream-petersen-kbh-1969-1971"
+      "mediestream-petersen-kbh-1969-1971",
+      "kb-bedsted-1919-f10",
+      "mediestream-hejmdal-1969-08-14"
     ],
     "noter": "Smedemester i Københoved. Gift formentlig i oktober 1946 med Anne Kathrine Brodersen, hvis sølvbrylluppet i oktober 1971 er deres. Vielsen er ikke fundet i Skrave 1943 til 1947 og har formentlig været i brudens sogn. Dødsannoncen står formentlig i Der Nordschleswiger 13. august 2008.",
-    "bevis": "Familien siger, at Carls forældre hed Hans Peter Carl og Anne Kathrine født Brodersen og vist er begravet i Københoved. På Skrave Kirkegård, som er Københoveds kirke, ligger smedemester Hans P. C. Petersen og Anne Cathrine Petersen på samme sten. Avisomtalen af hans 50 års dag i 1969 rummer ordene Brodersen, Københoved, Egon og Tove, som er navne på Carls søskende.",
+    "bevis": "Familien siger, at Carls forældre hed Hans Peter Carl og Anne Kathrine født Brodersen og vist er begravet i Københoved. På Skrave Kirkegård, som er Københoveds kirke, ligger smedemester Hans P. C. Petersen og Anne Cathrine Petersen på samme sten. Avisomtalen af hans 50 års dag i 1969 rummer ordene Brodersen, Københoved, Egon og Tove, som er navne på Carls søskende. Hans dåb i Bedsted sogn 1919 har præcis samme fødselsdato, 17. august 1919, og viser, at han er søn af landmand Nicolai Petersen og Nicoline født Frost i Arndrup. Navnet Nicolai går igen i sønnen Carl Nicolai.",
     "haendelser": [
       {
         "type": "fødsel",
         "dato": "1919-08-17",
+        "sted": "arndrup",
+        "beskrivelse": "Arndorf (Arndrup), Bedsted sogn",
         "kilder": [
+          "kb-bedsted-1919-f10",
           "dkgravsten-skrave-070"
+        ]
+      },
+      {
+        "type": "dåb",
+        "dato": "1919-09-07",
+        "sted": "arndrup",
+        "beskrivelse": "Hjemmedåb",
+        "kilder": [
+          "kb-bedsted-1919-f10"
         ]
       },
       {
@@ -196,8 +210,8 @@
     ],
     "efternavn": "Petersen",
     "sikkerhed": "middel",
-    "sikkerhedTekst": "Navnene, stedet og erhvervet passer med familiens oplysninger, og avisomtalerne nævner Brodersen, Egon og Tove sammen med ham. Forældreskabet er ikke set i en primærkilde endnu.",
-    "fortaelling": "Hans Peter Carl Petersen, på gravstenen Hans P. C. Petersen, blev født den 17. august 1919. Han var smedemester i Københoved ved Skodborg, og da han fyldte 50 i 1969, skrev de sønderjyske aviser om ham. Han blev formentlig gift i oktober 1946 med Anne Kathrine Brodersen, og de fik børnene Carl Nicolai, Tove, Birgitte og Egon. Han døde den 11. august 2008 og ligger sammen med Anne Cathrine på Skrave Kirkegård ved Københoved."
+    "sikkerhedTekst": "Dåben i Bedsted 1919 har samme navn og fødselsdato som gravstenen. Forbindelsen til Carl bygger på familiens oplysninger, stedet og avisomtalerne, der nævner Brodersen, Egon og Tove. Carls dåb er ikke set.",
+    "fortaelling": "Hans Peter Carl Petersen blev født den 17. august 1919 i Arndrup i Bedsted sogn syd for Aabenraa, som dengang var tysk. Han var søn af landmand Nicolai Petersen og Nicoline, født Frost, og blev hjemmedøbt den 7. september 1919. Han blev smedemester i Københoved ved Skodborg og blev formentlig gift i 1946 med Anne Kathrine Brodersen, og de fik børnene Carl Nicolai, Tove, Birgitte og Egon. Han døde den 11. august 2008 og ligger sammen med Anne Cathrine på Skrave Kirkegård ved Københoved."
   },
   {
     "anenummer": 5,
@@ -208,9 +222,10 @@
       "fam-jesper-2026-rikkes-mormor",
       "fam-rikke-2026",
       "dkgravsten-skrave-070",
-      "mediestream-petersen-kbh-1969-1971"
+      "mediestream-petersen-kbh-1969-1971",
+      "mediestream-hejmdal-1969-08-14"
     ],
-    "noter": "Rikkes farmor. Pigenavnet Brodersen kommer fra familien og ses i avisernes søgeord, men er ikke læst i en kilde. Gravstenen staver Anne Cathrine.",
+    "noter": "Rikkes farmor. Pigenavnet Brodersen kommer fra familien og ses i avisernes søgeord, men er ikke læst i en kilde. Gravstenen staver Anne Cathrine. Gravstenen siger født 22. september 1922, men Bedsted sogns dåbsbog for 1922 har ingen pige født den dag. I Bedsted findes to kandidater: Anne Cathrine Brodersen, født 7. november 1919 i Maarbæk, datter af gårdejer Peter Brodersen og Kirsten født Brodersen, og Anne Cathrine Brodersen, født 27. juli 1922 i Øster Terp, datter af sognefoged Mathias Christian Brodersen og Johanne Cathrine født Brodersen. Ingen af dem er bekræftet.",
     "bevis": "Familien siger, at Carls mor hed Anne Kathrine, født Brodersen, og vist er begravet i Københoved. Anne Cathrine Petersen ligger på samme sten som smedemester Hans P. C. Petersen på Skrave Kirkegård, og avisomtalen 1969 nævner Anne, Kathrine og Brodersen sammen med ham.",
     "haendelser": [
       {
@@ -331,5 +346,68 @@
     "sikkerhed": "høj",
     "sikkerhedTekst": "Jesper bekræfter selv Henny, og mellemnavnet Søsted, som blev fundet i gravstedsregistret uden at være oplyst, er ifølge ham korrekt. Status bliver bekræftet, når en primærkilde er fundet.",
     "fortaelling": "Henny Søsted Kristensen blev født den 28. august 1934. Hendes pigenavn kendes endnu ikke, for navnet Kristensen fik hun, da hun formentlig i 1952 blev gift med Alfred Marinus Kristensen, og de fik datteren Jonna Irene. Familien boede i mange år i Skodborg ved Vejen, og aviserne omtaler Alfred og Henny i december 1977, formentlig ved deres sølvbryllup. Omkring 1980 arbejdede en Henny Kristensen på mejeriet i Skodborg, formentlig hende. Alfred døde i 1998, og Henny døde den 31. oktober 2018. Hun ligger på Skodborg Kirkegård."
+  },
+  {
+    "anenummer": 8,
+    "fornavne": "Nicolai",
+    "efternavn": "Petersen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Nævnt som forælder i sønnens dåb 1919. Kun én primærkilde indtil videre.",
+    "bevis": "Hans Peter Carl Petersens dåb i Bedsted sogn 1919 nævner landmand Nicolai Petersen i Arndorf (Arndrup) som far. Fødselsdatoen i dåben er den samme som på Hans Peter Carls gravsten.",
+    "kilder": [
+      "kb-bedsted-1919-f10"
+    ],
+    "haendelser": [
+      {
+        "type": "bopæl",
+        "dato": "1919",
+        "sted": "arndrup",
+        "beskrivelse": "Arndorf (Arndrup), Bedsted sogn",
+        "kilder": [
+          "kb-bedsted-1919-f10"
+        ]
+      },
+      {
+        "type": "erhverv",
+        "dato": "1919",
+        "sted": "arndrup",
+        "beskrivelse": "Landmand",
+        "kilder": [
+          "kb-bedsted-1919-f10"
+        ]
+      }
+    ],
+    "fortaelling": "Nicolai Petersen var landmand i Arndrup i Bedsted sogn syd for Aabenraa, som dengang var tysk. Sammen med sin hustru Nicoline, født Frost, fik han sønnen Hans Peter Carl, der blev født den 17. august 1919 og senere blev smedemester i Københoved. Hans fødsel, død og forældre er endnu ikke fundet."
+  },
+  {
+    "anenummer": 9,
+    "fornavne": "Nicoline",
+    "efternavn": "Petersen",
+    "koen": "k",
+    "status": "under undersøgelse",
+    "sikkerhed": "middel",
+    "sikkerhedTekst": "Nævnt som forælder i sønnens dåb 1919. Kun én primærkilde indtil videre.",
+    "bevis": "Hans Peter Carl Petersens dåb i Bedsted sogn 1919 nævner Nicoline født Frost i Arndorf (Arndrup) som mor. Fødselsdatoen i dåben er den samme som på Hans Peter Carls gravsten.",
+    "kilder": [
+      "kb-bedsted-1919-f10"
+    ],
+    "haendelser": [
+      {
+        "type": "bopæl",
+        "dato": "1919",
+        "sted": "arndrup",
+        "beskrivelse": "Arndorf (Arndrup), Bedsted sogn",
+        "kilder": [
+          "kb-bedsted-1919-f10"
+        ]
+      }
+    ],
+    "navnevarianter": [
+      "Nicoline Frost"
+    ],
+    "noter": "Født Frost. En Maren Frost fra Stübbeck (formentlig Stubbæk) stod fadder til sønnen i 1919.",
+    "fortaelling": "Nicoline Petersen, født Frost, var gift med landmand Nicolai Petersen i Arndrup i Bedsted sogn. Hun fødte sønnen Hans Peter Carl den 17. august 1919, og ved hjemmedåben stod blandt andre en Maren Frost fra Stübbeck fadder. Hendes egen fødsel og død er endnu ikke fundet."
   }
 ]

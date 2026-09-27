@@ -16,5 +16,14 @@
     "amt": "Haderslev Amt",
     "lat": 55.4196,
     "lng": 9.1001
+  },
+  {
+    "id": "arndrup",
+    "navn": "Arndrup",
+    "sogn": "Bedsted sogn",
+    "herred": "Sønder Rangstrup Herred",
+    "amt": "Aabenraa Amt",
+    "lat": 55.0458,
+    "lng": 9.091
   }
 ]
