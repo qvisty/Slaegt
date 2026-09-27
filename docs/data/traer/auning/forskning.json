@@ -16,14 +16,14 @@
       "noter": "Jonna Irene Kristensen er formentlig født 1952 eller 1953 i eller nær Skodborg. Kirkebogen er ikke offentlig på Arkivalieronline endnu. Rikke eller Jonna kan måske bekræfte dato og sted."
     },
     {
-      "titel": "Er Alfred Marinus Kristensen Jonnas far?",
-      "status": "venter",
-      "noter": "Aviserne tyder på sølvbryllup for Alfred og Henny i december 1977. Skodborg Hjemstavnsarkiv kan måske finde bryllupsannoncen fra august 1973 og sølvbrylluppet fra december 1977."
-    },
-    {
       "titel": "Rikkes efternavn Auning",
       "status": "venter",
       "noter": "Forældrene hedder Petersen. Hvor kommer navnet Auning fra?"
+    },
+    {
+      "titel": "Hennys og Alfreds fødsel og forældre",
+      "status": "i gang",
+      "noter": "Henny er født 28. august 1934. Find hendes dåb og forældre. Alfreds fødselsdato mangler."
     }
   ],
   "log": [
@@ -119,6 +119,21 @@
       "resultat": "familieoplysning",
       "kilder": [
         "jesper-bekraeftelse-rikkes-foraeldre"
+      ]
+    },
+    {
+      "dato": "2026-09-27",
+      "titel": "Jesper bekræfter Alfred Marinus og Henny",
+      "tekst": "Jesper bekræfter, at Alfred Marinus Kristensen er Jonnas far, og at Henny Søsted Kristensen er Rikkes mormor. Mellemnavnet Søsted blev fundet i Find gravsted uden at være oplyst, og Jesper bekræfter, at det er korrekt. Alfred er sat ind som anenr. 6. Begge står som under undersøgelse med høj sikkerhed, indtil en primærkilde er fundet.",
+      "personer": [
+        6,
+        7
+      ],
+      "resultat": "familieoplysning",
+      "kilder": [
+        "jesper-bekraeftelse-jonnas-foraeldre",
+        "findgravsted-skodborg-alfred",
+        "findgravsted-skodborg-henny"
       ]
     }
   ]

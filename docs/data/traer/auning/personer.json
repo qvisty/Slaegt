@@ -118,7 +118,7 @@
     "noter": "Født Kristensen ifølge klassebilleder og konfirmandbilleder fra Skodborg. Konfirmeret i Skodborg Kirke i 1967, altså formentlig født 1952 eller 1953. Gik i 3. real på Skodborg skole i 1970. Til guldkonfirmationen i 2017 står hun som Jonna Petersen (Kristensen).",
     "sikkerhed": "høj",
     "sikkerhedTekst": "Jesper bekræfter selv forbindelsen. Status bliver bekræftet, når dokumentationen (fx Rikkes dåbs eller navneattest) er på plads.",
-    "fortaelling": "Jonna Irene Petersen er født Kristensen og voksede op i Skodborg ved Vejen som datter af Henny Søsted Kristensen. Hun blev konfirmeret i Skodborg Kirke i 1967 og er derfor formentlig født i 1952 eller 1953. I 1970 gik hun i 3. real på Skodborg skole. Hun blev gift med Carl Nicolai Petersen og er mor til Rikke Auning. Ved guldkonfirmationen i Skodborg i 2017 stod hun som Jonna Petersen, født Kristensen."
+    "fortaelling": "Jonna Irene Petersen er født Kristensen og voksede op i Skodborg ved Vejen som datter af Alfred Marinus Kristensen og Henny Søsted Kristensen. Hun blev konfirmeret i Skodborg Kirke i 1967 og er derfor formentlig født i 1952 eller 1953. I 1970 gik hun i 3. real på Skodborg skole. Hun blev gift med Carl Nicolai Petersen og er mor til Rikke Auning. Ved guldkonfirmationen i Skodborg i 2017 stod hun som Jonna Petersen, født Kristensen."
   },
   {
     "anenummer": 4,
@@ -145,6 +145,40 @@
     "haendelser": []
   },
   {
+    "anenummer": 6,
+    "fornavne": "Alfred Marinus",
+    "efternavn": "Kristensen",
+    "koen": "m",
+    "status": "under undersøgelse",
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Jesper bekræfter selv, at Alfred Marinus er Jonnas far. Status bliver bekræftet, når en primærkilde er fundet.",
+    "kilder": [
+      "jesper-bekraeftelse-jonnas-foraeldre",
+      "fam-jesper-2026-rikkes-mormor",
+      "findgravsted-skodborg-alfred"
+    ],
+    "bevis": "Jesper bekræfter, at Alfred Marinus Kristensen er Jonnas far. Han boede i Skodborg med Henny Søsted Kristensen, og Jonna er født Kristensen i Skodborg. Han er den eneste Alfred Marinus Kristensen på Skodborg Kirkegård.",
+    "noter": "Fødselsdatoen er ikke registreret i Find gravsted. Aviserne omtaler Alfred Kristensen i Skodborg i december 1952 og i december 1977, formentlig bryllup og sølvbryllup, og dødsannoncen står formentlig i JydskeVestkysten 9. marts 1998.",
+    "haendelser": [
+      {
+        "type": "død",
+        "dato": "1998-03-07",
+        "kilder": [
+          "findgravsted-skodborg-alfred"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "sted": "skodborg",
+        "beskrivelse": "Skodborg Kirkegård, gravsted S UU I 006",
+        "kilder": [
+          "findgravsted-skodborg-alfred"
+        ]
+      }
+    ],
+    "fortaelling": "Alfred Marinus Kristensen var Jonna Irene Kristensens far og Rikke Aunings morfar. Han blev gift med Henny Søsted Kristensen, formentlig i december 1952, og familien boede i mange år i Skodborg ved Vejen. Han døde den 7. marts 1998 og ligger på Skodborg Kirkegård. Hans fødselsdato er endnu ikke fundet."
+  },
+  {
     "anenummer": 7,
     "fornavne": "Henny Søsted",
     "efternavn": "Kristensen",
@@ -154,10 +188,11 @@
       "fam-jesper-2026-rikkes-mormor",
       "findgravsted-skodborg-henny",
       "arkivdk-skodborg-mejeri",
-      "findgravsted-skodborg-alfred"
+      "findgravsted-skodborg-alfred",
+      "jesper-bekraeftelse-jonnas-foraeldre"
     ],
-    "noter": "Rikkes mormor ifølge Jesper. Boede mange år i Skodborg sammen med Alfred Marinus Kristensen (død 7. marts 1998, begravet på Skodborg Kirkegård). Aviserne har omtale af Alfred og Henny Kristensen i Skodborg i december 1977, formentlig et sølvbryllup. Det peger på et bryllup i 1952, og i så fald er Alfred Marinus sandsynligvis Jonnas far. Det er ikke bekræftet, og derfor er han ikke sat ind i træet. Søsted er måske et mellemnavn eller pigenavn.",
-    "bevis": "Navnet Henny og bopælen i Skodborg kommer fra familien. Den eneste Henny Kristensen på Skodborg Kirkegård er Henny Søsted Kristensen, og Jonna er født Kristensen i Skodborg. Forbindelsen er ikke bekræftet i en primærkilde.",
+    "noter": "Rikkes mormor. Boede mange år i Skodborg sammen med sin mand Alfred Marinus Kristensen, Jonnas far. Aviserne har omtale af Alfred og Henny Kristensen i Skodborg i december 1977, formentlig et sølvbryllup, så de er formentlig gift i 1952. Søsted er måske et mellemnavn efter et sted eller et pigenavn.",
+    "bevis": "Jesper bekræfter, at Henny Søsted Kristensen er Rikkes mormor. Mellemnavnet Søsted blev fundet på Skodborg Kirkegård uden at være oplyst på forhånd, og Jesper bekræfter, at det er korrekt. Jonna er født Kristensen og voksede op i Skodborg.",
     "haendelser": [
       {
         "type": "fødsel",
@@ -191,8 +226,8 @@
         ]
       }
     ],
-    "sikkerhed": "middel",
-    "sikkerhedTekst": "Navnet Henny og bopælen i Skodborg kommer fra familien. Den eneste Henny Kristensen på Skodborg Kirkegård passer, og Jonna er født Kristensen i Skodborg. Hennys forældreskab er ikke set i en primærkilde endnu.",
-    "fortaelling": "Henny Søsted Kristensen blev født den 28. august 1934. Hun boede i mange år i Skodborg ved Vejen sammen med Alfred Marinus Kristensen, som døde den 7. marts 1998. Aviserne omtaler Alfred og Henny Kristensen i Skodborg i december 1977, formentlig ved et sølvbryllup. Omkring 1980 arbejdede en Henny Kristensen på mejeriet i Skodborg, formentlig hende. Henny døde den 31. oktober 2018 og ligger på Skodborg Kirkegård. Ifølge familien er hun Rikkes mormor."
+    "sikkerhed": "høj",
+    "sikkerhedTekst": "Jesper bekræfter selv Henny, og mellemnavnet Søsted, som blev fundet i gravstedsregistret uden at være oplyst, er ifølge ham korrekt. Status bliver bekræftet, når en primærkilde er fundet.",
+    "fortaelling": "Henny Søsted Kristensen blev født den 28. august 1934. Hun blev gift med Alfred Marinus Kristensen, formentlig i 1952, og de fik datteren Jonna Irene. Familien boede i mange år i Skodborg ved Vejen, og aviserne omtaler Alfred og Henny i december 1977, formentlig ved deres sølvbryllup. Omkring 1980 arbejdede en Henny Kristensen på mejeriet i Skodborg, formentlig hende. Alfred døde i 1998, og Henny døde den 31. oktober 2018. Hun ligger på Skodborg Kirkegård."
   }
 ]

@@ -117,5 +117,14 @@
     "url": "https://www.findgravsted.dk/",
     "kvalitet": "afledt",
     "noter": "Ingen Carl Nicolai Petersen og intet par Hans Peter Carl og Anne Kathrine Petersen i samme gravsted."
+  },
+  {
+    "id": "jesper-bekraeftelse-jonnas-foraeldre",
+    "titel": "Jesper Gravlev Qvists bekræftelse af Jonnas forældre",
+    "type": "Familieoplysninger",
+    "reference": "Givet 27. september 2026",
+    "kvalitet": "sekundær",
+    "ejerbekraeftelse": true,
+    "noter": "Jesper bekræfter, at Alfred Marinus Kristensen er Jonnas far, og at Henny Søsted Kristensen er Rikkes mormor. Mellemnavnet Søsted blev fundet i Find gravsted og er ifølge Jesper korrekt."
   }
 ]
