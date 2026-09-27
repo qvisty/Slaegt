@@ -679,6 +679,55 @@ function personKort (p) {
 
 /* Personside */
 
+/* Livsfortælling. En håndskrevet tekst i feltet fortaelling bruges, ellers skrives en kort tekst ud fra hændelserne. */
+
+function datoFrase (s) {
+  const d = parseDato(s)
+  if (!d) return ''
+  if (d.usikker || d.aar == null) return d.tekst
+  return (/^\d/.test(d.tekst) && d.tekst.includes('.') ? 'den ' : 'i ') + d.tekst
+}
+
+function listeTekst (a) { return a.length > 1 ? a.slice(0, -1).join(', ') + ' og ' + a[a.length - 1] : (a[0] || '') }
+
+function autoFortaelling (p) {
+  const n = p.anenummer
+  const hs = p.haendelser || []
+  const han = p.koen === 'k' ? 'Hun' : 'Han'
+  const navn = fuldtNavn(p)
+  const find = t => hs.find(e => e.type === t)
+  const i = id => id ? ' i ' + stedNavn(id) : ''
+  const s = []
+  const foraeldre = [P.get(2 * n), P.get(2 * n + 1)].filter(Boolean).map(fuldtNavn)
+  const barn = (p.koen === 'k' ? 'datter' : 'søn') + ' af ' + listeTekst(foraeldre)
+  const fe = find('fødsel')
+  const de = find('dåb')
+  if (fe && fe.dato) s.push(navn + ' blev født ' + datoFrase(fe.dato) + i(fe.sted) + (foraeldre.length ? ' som ' + barn : '') + '.')
+  else if (de && de.dato) s.push(navn + ' blev døbt ' + datoFrase(de.dato) + i(de.sted) + (foraeldre.length ? ' som ' + barn : '') + '.')
+  else if (foraeldre.length) s.push(navn + ' var ' + barn + '.')
+  const ko = find('konfirmation')
+  if (ko && ko.dato) s.push(han + ' blev konfirmeret ' + datoFrase(ko.dato) + i(ko.sted) + '.')
+  const erh = Array.from(new Set(hs.filter(e => e.type === 'erhverv' && e.beskrivelse).map(e => e.beskrivelse.replace(/\.$/, ''))))
+  if (erh.length) s.push('I kilderne nævnes ' + (p.koen === 'k' ? 'hun' : 'han') + ' som ' + listeTekst(erh.map(e => e.charAt(0).toLowerCase() + e.slice(1))) + '.')
+  const vi = haendelser(p).find(e => e.type === 'vielse')
+  const partner = n > 1 ? P.get(n ^ 1) : null
+  if (vi && vi.dato) s.push(han + ' blev gift ' + datoFrase(vi.dato) + (partner ? ' med ' + fuldtNavn(partner) : '') + i(vi.sted) + '.')
+  const b = n > 1 ? P.get(n >> 1) : null
+  if (b) s.push(han + ' blev ' + (p.koen === 'k' ? 'mor' : 'far') + ' til ' + fuldtNavn(b) + ', som er næste led i linjen.')
+  const dd = find('død')
+  const bg = find('begravelse')
+  if (dd && dd.dato) s.push(han + ' døde ' + datoFrase(dd.dato) + i(dd.sted) + (bg && bg.sted ? ' og blev begravet' + i(bg.sted) : '') + '.')
+  else if (bg && bg.sted) s.push(han + ' blev begravet' + (bg.dato ? ' ' + datoFrase(bg.dato) : '') + i(bg.sted) + '.')
+  if (s.length > 1 && p.status !== 'bekræftet') s.push(p.status === 'spor' ? 'Forbindelsen kendes fra familien og er endnu ikke bekræftet i kilderne.' : 'Forbindelsen i linjen er endnu ikke helt bekræftet.')
+  return s.length > 1 ? s.join(' ') : ''
+}
+
+function livsfortaelling (p) {
+  if (p.fortaelling) return { tekst: p.fortaelling, auto: false }
+  const t = autoFortaelling(p)
+  return t ? { tekst: t, auto: true } : null
+}
+
 function sidePerson (n) {
   const p = P.get(n)
   if (!p) {
@@ -713,6 +762,9 @@ function sidePerson (n) {
   if (p.navnevarianter && p.navnevarianter.length && !skjult(p)) h.push('<dt>Navneformer</dt><dd>' + esc(p.navnevarianter.join(', ')) + '</dd>')
   if (vis && f && d && aarAf(f.dato) && aarAf(d.dato)) h.push('<dt>Blev</dt><dd>ca. ' + (aarAf(d.dato) - aarAf(f.dato)) + ' år</dd>')
   h.push('</dl></div></div>')
+
+  const lf = vis ? livsfortaelling(p) : null
+  if (lf) h.push('<section class="sektion fortaelling"><h2>Livsfortælling</h2>' + lf.tekst.split(/\n\s*\n/).map(a => '<p>' + esc(a) + '</p>').join('') + (lf.auto ? '<p class="lille">Skrevet automatisk ud fra de registrerede oplysninger.</p>' : '') + '</section>')
 
   if (!vis) {
     h.push('<div class="sektion bevis mangler"><strong>Nulevende person.</strong> Datoer, steder og billeder vises ikke offentligt.</div>')

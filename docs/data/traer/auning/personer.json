@@ -30,6 +30,31 @@
     "bevis": "Navnet kommer fra familien. Oplyst af Jesper Gravlev Qvist. Ikke undersøgt i kilder endnu.",
     "kilder": [
       "fam-jesper-2026-rikkes-foraeldre"
+    ],
+    "soeskende": [
+      {
+        "navn": "Tove",
+        "koen": "k",
+        "kilder": [
+          "fam-jesper-2026-carls-soeskende"
+        ]
+      },
+      {
+        "navn": "Birgitte (Gitte)",
+        "koen": "k",
+        "kilder": [
+          "fam-jesper-2026-carls-soeskende"
+        ]
+      },
+      {
+        "navn": "Egon",
+        "koen": "m",
+        "doed": "før 2026",
+        "kilder": [
+          "fam-jesper-2026-carls-soeskende"
+        ],
+        "noter": "Død ifølge familien. Årstal ukendt."
+      }
     ]
   },
   {
