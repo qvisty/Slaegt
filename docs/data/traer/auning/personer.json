@@ -18,6 +18,29 @@
     "bevis": "Rodpersonen. Oplyst af Jesper Gravlev Qvist, Rikkes kæreste.",
     "kilder": [
       "fam-jesper-2026-rikke"
+    ],
+    "boern": [
+      {
+        "navn": "Caroline",
+        "koen": "k",
+        "kilder": [
+          "fam-jesper-2026-rikkes-boern"
+        ]
+      },
+      {
+        "navn": "Mathilde",
+        "koen": "k",
+        "kilder": [
+          "fam-jesper-2026-rikkes-boern"
+        ]
+      },
+      {
+        "navn": "Josefine",
+        "koen": "k",
+        "kilder": [
+          "fam-jesper-2026-rikkes-boern"
+        ]
+      }
     ]
   },
   {
