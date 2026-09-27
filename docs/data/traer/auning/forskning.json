@@ -135,6 +135,20 @@
         "findgravsted-skodborg-alfred",
         "findgravsted-skodborg-henny"
       ]
+    },
+    {
+      "dato": "2026-09-27",
+      "titel": "Rikkes søskende",
+      "tekst": "Jesper oplyser, at Rikke har en storebror, Claus, og en lillesøster, Line, og at Rikkes forældre lever. Søskende er noteret med fornavn. Bopæle for nulevende skrives ikke i de offentlige filer.",
+      "personer": [
+        1,
+        2,
+        3
+      ],
+      "resultat": "familieoplysning",
+      "kilder": [
+        "fam-jesper-2026-rikkes-soeskende"
+      ]
     }
   ]
 }

@@ -42,7 +42,25 @@
         ]
       }
     ],
-    "fortaelling": "Rikke Auning blev født i november 1977 som datter af Carl Nicolai Petersen og Jonna Irene Petersen, født Kristensen. Hendes mors familie kom fra Skodborg ved Vejen, hvor mormoderen Henny boede i mange år. Rikke har tre døtre, Caroline, Mathilde og Josefine. Hun er Jesper Gravlev Qvists kæreste, og dette træ følger hendes egen slægt."
+    "fortaelling": "Rikke Auning blev født i november 1977 som datter af Carl Nicolai Petersen og Jonna Irene Petersen, født Kristensen. Hendes mors familie kom fra Skodborg ved Vejen, hvor mormoderen Henny boede i mange år. Hun har en storebror, Claus, og en lillesøster, Line. Rikke har tre døtre, Caroline, Mathilde og Josefine. Hun er Jesper Gravlev Qvists kæreste, og dette træ følger hendes egen slægt.",
+    "soeskende": [
+      {
+        "navn": "Claus",
+        "koen": "m",
+        "noter": "Storebror",
+        "kilder": [
+          "fam-jesper-2026-rikkes-soeskende"
+        ]
+      },
+      {
+        "navn": "Line",
+        "koen": "k",
+        "noter": "Lillesøster",
+        "kilder": [
+          "fam-jesper-2026-rikkes-soeskende"
+        ]
+      }
+    ]
   },
   {
     "anenummer": 2,
@@ -55,7 +73,8 @@
     "kilder": [
       "fam-jesper-2026-rikkes-foraeldre",
       "jesper-bekraeftelse-rikkes-foraeldre",
-      "findgravsted-soegning-petersen-2026"
+      "findgravsted-soegning-petersen-2026",
+      "fam-jesper-2026-rikkes-soeskende"
     ],
     "soeskende": [
       {
@@ -84,7 +103,8 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Jesper bekræfter selv forbindelsen. Status bliver bekræftet, når dokumentationen (fx Rikkes dåbs eller navneattest) er på plads.",
-    "fortaelling": "Carl Nicolai Petersen er Rikke Aunings far. Ifølge familien var hans forældre Hans Peter Carl og Anne Kathrine. Han har søstrene Tove og Birgitte, kaldet Gitte, og havde broderen Egon, som er død. Hans fødselsår og fødested er endnu ikke oplyst, og derfor er han ikke fundet i kilderne endnu."
+    "fortaelling": "Carl Nicolai Petersen er Rikke Aunings far. Ifølge familien var hans forældre Hans Peter Carl og Anne Kathrine. Han har søstrene Tove og Birgitte, kaldet Gitte, og havde broderen Egon, som er død. Hans fødselsår og fødested er endnu ikke oplyst, og derfor er han ikke fundet i kilderne endnu.",
+    "levende": true
   },
   {
     "anenummer": 3,
@@ -110,7 +130,8 @@
       "arkivdk-skodborg-3r-1970",
       "arkivdk-skodborg-konf-1967",
       "arkivdk-skodborg-guldkonf-2017",
-      "jesper-bekraeftelse-rikkes-foraeldre"
+      "jesper-bekraeftelse-rikkes-foraeldre",
+      "fam-jesper-2026-rikkes-soeskende"
     ],
     "navnevarianter": [
       "Jonna Irene Kristensen"
@@ -118,7 +139,8 @@
     "noter": "Født Kristensen ifølge klassebilleder og konfirmandbilleder fra Skodborg. Konfirmeret i Skodborg Kirke i 1967, altså formentlig født 1952 eller 1953. Gik i 3. real på Skodborg skole i 1970. Til guldkonfirmationen i 2017 står hun som Jonna Petersen (Kristensen).",
     "sikkerhed": "høj",
     "sikkerhedTekst": "Jesper bekræfter selv forbindelsen. Status bliver bekræftet, når dokumentationen (fx Rikkes dåbs eller navneattest) er på plads.",
-    "fortaelling": "Jonna Irene Petersen er født Kristensen og voksede op i Skodborg ved Vejen som datter af Alfred Marinus Kristensen og Henny Søsted Kristensen. Hun blev konfirmeret i Skodborg Kirke i 1967 og er derfor formentlig født i 1952 eller 1953. I 1970 gik hun i 3. real på Skodborg skole. Hun blev gift med Carl Nicolai Petersen og er mor til Rikke Auning. Ved guldkonfirmationen i Skodborg i 2017 stod hun som Jonna Petersen, født Kristensen."
+    "fortaelling": "Jonna Irene Petersen er født Kristensen og voksede op i Skodborg ved Vejen som datter af Alfred Marinus Kristensen og Henny Søsted Kristensen. Hun blev konfirmeret i Skodborg Kirke i 1967 og er derfor formentlig født i 1952 eller 1953. I 1970 gik hun i 3. real på Skodborg skole. Hun blev gift med Carl Nicolai Petersen og er mor til Rikke Auning. Ved guldkonfirmationen i Skodborg i 2017 stod hun som Jonna Petersen, født Kristensen.",
+    "levende": true
   },
   {
     "anenummer": 4,
