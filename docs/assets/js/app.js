@@ -728,6 +728,17 @@ function livsfortaelling (p) {
   return t ? { tekst: t, auto: true } : null
 }
 
+/* Et billede med billedtekst, fotograf, licens og link til kilden */
+function figurHtml (b) {
+  const kred = []
+  if (b.fotograf) kred.push('Foto: ' + esc(b.fotograf))
+  if (b.licens) kred.push(b.licensUrl ? '<a href="' + esc(b.licensUrl) + '" target="_blank" rel="noopener">' + esc(b.licens) + '</a>' : esc(b.licens))
+  const kilde = b.kilde && K.has(b.kilde) ? '<a href="#/kilde/' + encodeURIComponent(b.kilde) + '">' + esc(K.get(b.kilde).titel) + '</a>' : ''
+  const ud = b.url || (b.kilde && /^https?:/.test(b.kilde) ? b.kilde : '')
+  if (ud) kred.push('<a href="' + esc(ud) + '" target="_blank" rel="noopener">Kilde ↗</a>')
+  return '<figure><a href="' + esc(b.fil) + '" target="_blank" rel="noopener"><img src="' + esc(b.fil) + '" alt="' + esc(b.tekst || '') + '" loading="lazy"></a><figcaption>' + esc(b.tekst || '') + (kilde ? '<br>' + kilde : '') + (kred.length ? '<br><span class="kredit">' + kred.join(' · ') + '</span>' : '') + '</figcaption></figure>'
+}
+
 function sidePerson (n) {
   const p = P.get(n)
   if (!p) {
@@ -814,9 +825,17 @@ function sidePerson (n) {
   slaegtningeListe(p.boern, 'Børn', 'Børn efter rodpersonen. De er ikke en del af anetavlen, som går bagud. Nulevende vises med måned og år.')
 
   if (vis && p.billeder && p.billeder.length) {
-    h.push('<section class="sektion"><h2>Billeder og dokumenter</h2><div class="billedrække">')
-    p.billeder.forEach(b => h.push('<figure><a href="' + esc(b.fil) + '" target="_blank" rel="noopener"><img src="' + esc(b.fil) + '" alt="' + esc(b.tekst || '') + '" loading="lazy"></a>' + (b.tekst ? '<figcaption>' + esc(b.tekst) + '</figcaption>' : '') + '</figure>'))
-    h.push('</div></section>')
+    const egne = p.billeder.filter(b => b.fil)
+    const eksterne = p.billeder.filter(b => !b.fil && b.url)
+    h.push('<section class="sektion"><h2>Billeder og dokumenter</h2>')
+    if (egne.length) h.push('<div class="billedrække">' + egne.map(figurHtml).join('') + '</div>')
+    if (eksterne.length) h.push('<p class="lille">Billeder, som ligger hos andre, og som ikke må kopieres hertil:</p><ul class="lille loglinks">' + eksterne.map(b => '<li><a href="' + esc(b.url) + '" target="_blank" rel="noopener">' + esc(b.tekst || b.url) + ' ↗</a>' + (b.hvor ? ' <span class="lille">(' + esc(b.hvor) + ')</span>' : '') + '</li>').join('') + '</ul>')
+    h.push('</section>')
+  }
+
+  if (vis) {
+    const stedIds = Array.from(new Set(haendelser(p).map(e => e.sted).filter(id => id && S.get(id) && S.get(id).billede)))
+    if (stedIds.length) h.push('<section class="sektion"><h2>Steder i livet</h2><div class="billedrække steder">' + stedIds.map(id => figurHtml(Object.assign({}, S.get(id).billede, { tekst: S.get(id).billede.tekst || S.get(id).navn }))).join('') + '</div></section>')
   }
 
   if (vis) {
@@ -1000,7 +1019,7 @@ function tegnKort () {
     const sider = new Set(liste.map(x => side(x.p.anenummer)))
     const farve = sider.size === 1 ? getComputedStyle(document.documentElement).getPropertyValue('--' + Array.from(sider)[0]).trim() : accent
     const r = Math.min(16, 6 + liste.length * 1.5)
-    const html = '<h4>' + esc(s.navn) + '</h4>' + (s.sogn || s.amt ? '<div class="lille">' + esc([s.sogn, s.amt].filter(Boolean).join(', ')) + '</div>' : '') + '<ul>' + liste.map(x => '<li>' + esc(TYPENAVNE[x.e.type] || x.e.type) + (x.e.dato ? ' ' + esc(datoTekst(x.e.dato)) : '') + ': <a href="#/person/' + x.p.anenummer + '">' + esc(fuldtNavn(x.p)) + '</a>' + '</li>').join('') + '</ul>'
+    const html = (s.billede ? '<img class="popbillede" src="' + esc(s.billede.fil) + '" alt="' + esc(s.billede.tekst || s.navn) + '">' : '') + '<h4>' + esc(s.navn) + '</h4>' + (s.sogn || s.amt ? '<div class="lille">' + esc([s.sogn, s.amt].filter(Boolean).join(', ')) + '</div>' : '') + '<ul>' + liste.map(x => '<li>' + esc(TYPENAVNE[x.e.type] || x.e.type) + (x.e.dato ? ' ' + esc(datoTekst(x.e.dato)) : '') + ': <a href="#/person/' + x.p.anenummer + '">' + esc(fuldtNavn(x.p)) + '</a>' + '</li>').join('') + '</ul>'
     grupper.push(window.L.circleMarker([s.lat, s.lng], { radius: r, color: '#fff', weight: 2, fillColor: farve, fillOpacity: 0.9 }).bindPopup(html).addTo(kortInstans))
   })
   if (grupper.length) kortInstans.fitBounds(window.L.featureGroup(grupper).getBounds().pad(0.2), { maxZoom: 11 })

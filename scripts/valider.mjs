@@ -5,7 +5,7 @@
 // Med en mappe som argument valideres kun den mappe.
 // Afslutter med fejlkode 1, hvis der er fejl. Advarsler stopper ikke udgivelsen.
 
-import { readFileSync } from 'node:fs'
+import { readFileSync, existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { spawnSync } from 'node:child_process'
@@ -85,6 +85,10 @@ if (!PRIVATLIV.includes(privat)) fejl.push('projekt.json: privatliv.levende skal
 // Steder
 const S = new Map()
 for (const s of Array.isArray(steder) ? steder : []) {
+  if (s.billede) {
+    if (!s.billede.fil || !existsSync(join(docs, s.billede.fil))) fejl.push('Sted ' + s.id + ': billedfilen findes ikke: ' + (s.billede.fil || ''))
+    if (!s.billede.licens) fejl.push('Sted ' + s.id + ': billedet mangler licens')
+  }
   if (!s.id) { fejl.push('steder.json: et sted mangler id'); continue }
   if (S.has(s.id)) fejl.push('steder.json: id "' + s.id + '" findes flere gange')
   S.set(s.id, s)
@@ -187,6 +191,10 @@ for (const [n, p] of P) {
   }
 
   // Privatliv. Repoet er offentligt, så data om nulevende må ikke ligge i filerne.
+  for (const b of p.billeder || []) {
+    if (b.fil && !existsSync(join(docs, b.fil))) fejl.push(hvem + ': billedfilen findes ikke: ' + b.fil)
+    if (!b.fil && !b.url) fejl.push(hvem + ': et billede mangler både fil og url')
+  }
   if (p.levende && privat !== 'vis alt' && privat !== 'måned og år') {
     const detaljer = (p.haendelser || []).filter(h => h.dato || h.sted)
     if (detaljer.length) fejl.push(hvem + ': er nulevende, men har datoer eller steder registreret. De ville være offentlige i repoet. Fjern dem eller sæt privatliv til "vis alt"')

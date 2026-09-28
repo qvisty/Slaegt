@@ -445,3 +445,10 @@ table.tabel { border-collapse: collapse; width: 100%; font-size: .9rem; }
 /* Livsfortælling øverst på personsiden */
 .fortaelling { margin-top: 28px; }
 .fortaelling p:not(.lille) { font-size: 1.08rem; line-height: 1.65; max-width: 72ch; color: var(--blaek-2); }
+
+/* Billeder med kreditering */
+.billedrække figcaption a { color: inherit; }
+.billedrække .kredit { font-size: .75rem; opacity: .85; }
+.billedrække.steder { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.billedrække.steder img { aspect-ratio: 4 / 3; object-fit: cover; }
+.popbillede { width: 220px; max-width: 100%; border-radius: 6px; display: block; margin-bottom: 6px; }
