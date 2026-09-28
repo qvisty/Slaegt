@@ -756,15 +756,44 @@ function sideAlbum () {
     })
   })
   const hvem = liste => liste.map(n => linkPerson(n, fuldtNavn(P.get(n)))).join(', ')
-  const med = x => figurHtml(x.b).replace('<figcaption>', '<figcaption><strong>' + hvem(x.personer) + '</strong><br>')
+  const kaldt = n => { const q = P.get(n); return q.kaldenavn || (q.fornavne || '').split(' ')[0] || fuldtNavn(q) }
+  const hvemRel = liste => listeTekst(liste.map(n => kaldt(n) + ' (' + relation(n).toLowerCase() + ')'))
+  const pron = (liste, hun, han, de) => liste.length > 1 ? de : P.get(liste[0]).koen === 'k' ? hun : han
+  // Hvorfor billedet er med: tilknytning til linjen og årsag. Feltet hvorfor på billedet går forud.
+  const hvorfor = (x, art) => {
+    if (x.b.hvorfor) return x.b.hvorfor
+    const nr = x.personer.slice().sort((a, b) => a - b)
+    if (art === 'dok') return 'Kilden viser ' + hvemRel(nr) + ' og ' + pron(nr, 'hendes', 'hans', 'deres') + ' forældre. Den er med, fordi den binder ' + pron(nr, 'hende', 'ham', 'dem') + ' til linjen.'
+    if (art === 'foto') return 'Familiefoto af ' + hvemRel(nr) + '. Med, fordi det viser ' + pron(nr, 'hende', 'ham', 'dem') + ' selv.'
+    return 'Hører til ' + hvemRel(nr) + '. Billedet ligger hos et arkiv og åbner der.'
+  }
+  const hvorforHtml = t => '<span class="hvorfor">' + esc(t) + '</span><br>'
+  const med = (x, art) => figurHtml(x.b).replace('<figcaption>', '<figcaption><strong>' + hvem(x.personer) + '</strong><br>' + hvorforHtml(hvorfor(x, art)))
+  const TYPEORD = { 'fødsel': 'blev født', 'dåb': 'blev døbt', 'konfirmation': 'blev konfirmeret', 'vielse': 'blev gift', 'død': 'døde', 'begravelse': 'blev begravet', 'folketælling': 'boede', 'bopæl': 'boede', 'erhverv': 'arbejdede' }
+  const stedHvorfor = st => {
+    const pr = new Map()
+    personer().forEach(q => {
+      if (skjult(q) || !visDetaljer(q)) return
+      ;(q.haendelser || []).forEach(e => {
+        if (e.sted !== st.id) return
+        if (!pr.has(q.anenummer)) pr.set(q.anenummer, [])
+        const ord = TYPEORD[e.type] || 'er nævnt'
+        const t = ord + (aarAf(e.dato) ? ' ' + aarAf(e.dato) : '')
+        if (!pr.get(q.anenummer).some(x => x.startsWith(ord))) pr.get(q.anenummer).push(t)
+      })
+    })
+    if (!pr.size) return 'Sted i træet.'
+    const dele = Array.from(pr.entries()).slice(0, 3).map(([n, l]) => kaldt(n) + ' (' + relation(n).toLowerCase() + ') ' + listeTekst(l.slice(0, 3).map((t, i) => i > 0 && t.startsWith('blev ') && l[i - 1].startsWith('blev ') ? t.slice(5) : t)))
+    return 'Med, fordi ' + listeTekst(dele) + (pr.size > 3 ? ', og ' + (pr.size - 3) + ' andre aner har også tilknytning hertil' : '') + '.'
+  }
   const alle = Array.from(egne.values())
   const doks = alle.filter(x => x.b.kilde && K.has(x.b.kilde) && K.get(x.b.kilde).kvalitet === 'primær')
   const fotos = alle.filter(x => !doks.includes(x))
-  if (fotos.length) h.push('<section class="sektion"><h2>Familiefotos</h2><div class="billedrække album">' + fotos.map(med).join('') + '</div></section>')
-  if (doks.length) h.push('<section class="sektion"><h2>Dokumenter</h2><p class="lille">Udsnit af kirkebøger og personregistre fra Rigsarkivet.</p><div class="billedrække album">' + doks.map(med).join('') + '</div></section>')
+  if (fotos.length) h.push('<section class="sektion"><h2>Familiefotos</h2><div class="billedrække album">' + fotos.map(x => med(x, 'foto')).join('') + '</div></section>')
+  if (doks.length) h.push('<section class="sektion"><h2>Dokumenter</h2><p class="lille">Udsnit af kirkebøger og personregistre fra Rigsarkivet.</p><div class="billedrække album">' + doks.map(x => med(x, 'dok')).join('') + '</div></section>')
   const steder = D.steder.filter(st => st.billede)
-  if (steder.length) h.push('<section class="sektion"><h2>Steder</h2><div class="billedrække steder">' + steder.map(st => figurHtml(Object.assign({}, st.billede, { tekst: st.billede.tekst || st.navn }))).join('') + '</div></section>')
-  if (eksterne.size) h.push('<section class="sektion"><h2>Billeder hos andre</h2><p class="lille">Fotos på arkiv.dk og dk-gravsten.dk må ikke kopieres hertil uden aftale, så de åbner hos arkivet eller fotografen.</p><ul class="liste">' + Array.from(eksterne.values()).map(x => '<li><a href="' + esc(x.b.url) + '" target="_blank" rel="noopener">' + esc(x.b.tekst || x.b.url) + ' ↗</a><div class="lille">' + hvem(x.personer) + (x.b.hvor ? ' · ' + esc(x.b.hvor) : '') + '</div></li>').join('') + '</ul></section>')
+  if (steder.length) h.push('<section class="sektion"><h2>Steder</h2><div class="billedrække steder">' + steder.map(st => figurHtml(Object.assign({}, st.billede, { tekst: st.billede.tekst || st.navn })).replace('<figcaption>', '<figcaption><strong>' + esc(st.navn) + '</strong><br>' + hvorforHtml(stedHvorfor(st)))).join('') + '</div></section>')
+  if (eksterne.size) h.push('<section class="sektion"><h2>Billeder hos andre</h2><p class="lille">Fotos på arkiv.dk og dk-gravsten.dk må ikke kopieres hertil uden aftale, så de åbner hos arkivet eller fotografen.</p><ul class="liste">' + Array.from(eksterne.values()).map(x => '<li><a href="' + esc(x.b.url) + '" target="_blank" rel="noopener">' + esc(x.b.tekst || x.b.url) + ' ↗</a><div class="lille">' + hvem(x.personer) + (x.b.hvor ? ' · ' + esc(x.b.hvor) : '') + '</div><div class="lille hvorfor">' + esc(hvorfor(x, 'ekstern')) + '</div></li>').join('') + '</ul></section>')
   if (h.length === 1) h.push('<div class="tom-tilstand"><p>Der er endnu ingen billeder i dette træ.</p></div>')
   return h.join('')
 }

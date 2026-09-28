@@ -468,3 +468,4 @@ table.tabel { border-collapse: collapse; width: 100%; font-size: .9rem; }
   position: absolute; top: 10px; right: 14px; font-size: 2rem; line-height: 1;
   background: none; border: 0; color: #fff; cursor: pointer;
 }
+.hvorfor { display: inline-block; font-style: italic; color: var(--blaek-2); margin: 2px 0; }
