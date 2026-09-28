@@ -1342,6 +1342,27 @@
           "url": "https://arkiv.dk/vis/4015703"
         }
       ]
+    },
+    {
+      "dato": "2026-09-28",
+      "titel": "Fotos fra Løgstør Lokalarkiv på siden",
+      "tekst": "Jesper har besluttet at vise fire fotos fra Løgstør Lokalarkiv på arkiv.dk på siden: brudebilledet af Tage og Else 1949, Else Gravlev 1944 og 1945 og Maren Simonsen 1967, alle fra Ingas Foto i Løgstør. Billederne vises med arkivets vandmærke og med fotograf og arkiv under. arkiv.dk's regler beder om aftale med arkivet ved offentliggørelse, og den aftale er endnu ikke indhentet. Almindelige fotografier er beskyttet i 50 år, så fotoene er formentlig frie efter ophavsretsloven.",
+      "personer": [
+        4,
+        5,
+        11
+      ],
+      "resultat": "andet",
+      "links": [
+        {
+          "tekst": "arkiv.dk, rettigheder og brug",
+          "url": "https://arkiv.dk/rettigheder"
+        },
+        {
+          "tekst": "Brudebillede 1949",
+          "url": "https://arkiv.dk/vis/3018613"
+        }
+      ]
     }
   ]
 }

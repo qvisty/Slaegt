@@ -357,11 +357,15 @@
         "fotograf": "Rigsarkivet, Arkivalieronline"
       },
       {
+        "fil": "billeder/fotos/tage-else-1949.jpg",
+        "tekst": "Tage Qvist og Else, født Gravlev, som brudepar i 1949",
+        "fotograf": "Ingas Foto, Løgstør. Løgstør Lokalarkiv, arkiv.dk",
         "url": "https://arkiv.dk/vis/3018613",
-        "tekst": "Brudebillede af Tage Qvist og Else, 1949",
-        "hvor": "Løgstør Lokalarkiv, arkiv.dk, Ingas Foto"
+        "hvorfor": "Brudebillede fra brylluppet i Salling kirke 20. marts 1949. Arkivet har registreret det som \"Qvist, Tage. Brudepar. 1949\"."
       }
-    ]
+    ],
+    "portraet": "billeder/fotos/tage-else-1949.jpg",
+    "portraetHel": true
   },
   {
     "anenummer": 5,
@@ -479,21 +483,29 @@
         "fotograf": "Rigsarkivet, Arkivalieronline"
       },
       {
+        "fil": "billeder/fotos/tage-else-1949.jpg",
+        "tekst": "Tage Qvist og Else, født Gravlev, som brudepar i 1949",
+        "fotograf": "Ingas Foto, Løgstør. Løgstør Lokalarkiv, arkiv.dk",
         "url": "https://arkiv.dk/vis/3018613",
-        "tekst": "Brudebillede af Tage Qvist og Else, 1949",
-        "hvor": "Løgstør Lokalarkiv, arkiv.dk, Ingas Foto"
+        "hvorfor": "Brudebillede fra brylluppet i Salling kirke 20. marts 1949. Arkivet har registreret det som \"Qvist, Tage. Brudepar. 1949\"."
       },
       {
+        "fil": "billeder/fotos/else-1945.jpg",
+        "tekst": "Else Gravlev, Brøndum, 1945. Arkivet angiver ikke, hvem af de to kvinder der er Else",
+        "fotograf": "Ingas Foto, Løgstør. Løgstør Lokalarkiv, arkiv.dk",
         "url": "https://arkiv.dk/vis/3012583",
-        "tekst": "Else Gravlev, Brøndum, 1945. To kvinder på billedet, det er ikke angivet hvem der er Else",
-        "hvor": "Løgstør Lokalarkiv, arkiv.dk, Ingas Foto"
+        "hvorfor": "Registreret af arkivet som \"Gravlev, Else, Brøndum\" 1945. Else voksede op i Brøndum."
       },
       {
+        "fil": "billeder/fotos/else-1944.jpg",
+        "tekst": "Else Gravlev, 1944. Stedet er ikke angivet, formentlig hende",
+        "fotograf": "Ingas Foto, Løgstør. Løgstør Lokalarkiv, arkiv.dk",
         "url": "https://arkiv.dk/vis/3011975",
-        "tekst": "Else Gravlev, 1944. Sted ikke angivet, formentlig hende",
-        "hvor": "Løgstør Lokalarkiv, arkiv.dk, Ingas Foto"
+        "hvorfor": "Registreret af arkivet som \"Gravlev, Else\" 1944 hos samme fotograf i Løgstør, hvor Else blev født."
       }
-    ]
+    ],
+    "portraet": "billeder/fotos/tage-else-1949.jpg",
+    "portraetHel": true
   },
   {
     "anenummer": 6,
@@ -3644,9 +3656,11 @@
         "hvor": "dk-gravsten.dk"
       },
       {
-        "url": "https://arkiv.dk/vis/3279341",
+        "fil": "billeder/fotos/maren-1967.jpg",
         "tekst": "Maren Simonsen, Brøndum, 1967. Formentlig hende",
-        "hvor": "Løgstør Lokalarkiv, arkiv.dk, Ingas Foto"
+        "fotograf": "Ingas Foto, Løgstør. Løgstør Lokalarkiv, arkiv.dk",
+        "url": "https://arkiv.dk/vis/3279341",
+        "hvorfor": "Registreret af arkivet som \"Simonsen, Maren, Brøndum\" 1967. Elses mor hed Maren Simonsen og boede i Brøndum."
       }
     ]
   },

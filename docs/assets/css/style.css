@@ -469,3 +469,6 @@ table.tabel { border-collapse: collapse; width: 100%; font-size: .9rem; }
   background: none; border: 0; color: #fff; cursor: pointer;
 }
 .hvorfor { display: inline-block; font-style: italic; color: var(--blaek-2); margin: 2px 0; }
+
+/* Portræt, der skal vises helt, fx med arkivets vandmærke */
+.foto img.hel { object-fit: contain !important; filter: none; }

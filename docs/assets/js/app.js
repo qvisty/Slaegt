@@ -188,7 +188,7 @@ function sideMaerke (n) {
 }
 
 function portraet (p, klasse) {
-  if (p.portraet && visDetaljer(p)) return '<img src="' + esc(p.portraet) + '" alt="' + esc(fuldtNavn(p)) + '" loading="lazy">'
+  if (p.portraet && visDetaljer(p)) return '<img' + (p.portraetHel ? ' class="hel"' : '') + ' src="' + esc(p.portraet) + '" alt="' + esc(fuldtNavn(p)) + '" loading="lazy">'
   return '<div class="monogram ' + side(p.anenummer) + ' ' + (klasse || '') + '">' + esc(initialer(p)) + '</div>'
 }
 
