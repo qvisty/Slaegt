@@ -355,6 +355,11 @@
         "kilde": "kb-viborg-soendre-1924-f40",
         "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172129#172129,28903369",
         "fotograf": "Rigsarkivet, Arkivalieronline"
+      },
+      {
+        "url": "https://arkiv.dk/vis/3018613",
+        "tekst": "Brudebillede af Tage Qvist og Else, 1949",
+        "hvor": "Løgstør Lokalarkiv, arkiv.dk, Ingas Foto"
       }
     ]
   },
@@ -472,6 +477,21 @@
         "kilde": "kb-loegstoer-1923-f9",
         "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=166516#166516,27962310",
         "fotograf": "Rigsarkivet, Arkivalieronline"
+      },
+      {
+        "url": "https://arkiv.dk/vis/3018613",
+        "tekst": "Brudebillede af Tage Qvist og Else, 1949",
+        "hvor": "Løgstør Lokalarkiv, arkiv.dk, Ingas Foto"
+      },
+      {
+        "url": "https://arkiv.dk/vis/3012583",
+        "tekst": "Else Gravlev, Brøndum, 1945. To kvinder på billedet, det er ikke angivet hvem der er Else",
+        "hvor": "Løgstør Lokalarkiv, arkiv.dk, Ingas Foto"
+      },
+      {
+        "url": "https://arkiv.dk/vis/3011975",
+        "tekst": "Else Gravlev, 1944. Sted ikke angivet, formentlig hende",
+        "hvor": "Løgstør Lokalarkiv, arkiv.dk, Ingas Foto"
       }
     ]
   },
@@ -599,6 +619,11 @@
         "kilde": "kb-haderslev-vorfrue-1915-f8",
         "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201559#201559,38192920",
         "fotograf": "Rigsarkivet, Arkivalieronline"
+      },
+      {
+        "url": "https://arkiv.dk/vis/4015703",
+        "tekst": "Gåskærgade 24 i Haderslev, 1972, før nedrivningen",
+        "hvor": "Historie Haderslev, arkiv.dk"
       }
     ]
   },
@@ -931,6 +956,11 @@
         "kilde": "kb-skaelskoer-1890-m9",
         "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=423562#423562,78055616",
         "fotograf": "Rigsarkivet, Arkivalieronline"
+      },
+      {
+        "url": "https://www.dk-gravsten.dk/kirkeg/Viborg/Viborg_K165.jpg",
+        "tekst": "Gravstenen for Gerner og Helga Qvist på Viborg Kirkegård",
+        "hvor": "dk-gravsten.dk"
       }
     ]
   },
@@ -1086,6 +1116,11 @@
         "kilde": "kb-viborg-dom-1896-f81",
         "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172068#172068,28889368",
         "fotograf": "Rigsarkivet, Arkivalieronline"
+      },
+      {
+        "url": "https://www.dk-gravsten.dk/kirkeg/Viborg/Viborg_K165.jpg",
+        "tekst": "Gravstenen for Gerner og Helga Qvist på Viborg Kirkegård",
+        "hvor": "dk-gravsten.dk"
       }
     ]
   },
@@ -1579,7 +1614,8 @@
       "kb-vodder-1920-v2",
       "pr-toftlund-1896-f63",
       "pr-toftlund-1951-d19",
-      "bog-krigsdeltagere-bundesen"
+      "bog-krigsdeltagere-bundesen",
+      "dkgravsten-toftlund-l282"
     ],
     "noter": "Kaldet Jørn i familien. Arbejder i 1920, landpostbud i Toftlund 1925 til 1940. Søn af bager Jes Peter Bundesen og Anna Catharina Kramer.",
     "haendelser": [
@@ -1697,6 +1733,14 @@
         "kilder": [
           "pr-toftlund-1951-d19"
         ]
+      },
+      {
+        "type": "begravelse",
+        "sted": "toftlund",
+        "beskrivelse": "Toftlund Kirkegård, på samme sten som Dusine. Stenen står nu i lapidariet og angiver fødselsdagen som 12. oktober 1896",
+        "kilder": [
+          "dkgravsten-toftlund-l282"
+        ]
       }
     ],
     "navnevarianter": [
@@ -1743,7 +1787,7 @@
     "biografi": "Jørgen Peter Bundesen, kaldet Jørn, blev født i Toftlund i 1896 som søn af bageren Jes Peter Bundesen. Sønderjylland var dengang tysk, og i oktober 1915 blev han indkaldt til den tyske hær. Han tjente i Infanterie-Regiment Nr. 84 og senere Nr. 116. Da hans far døde i december 1916, nåede han ikke hjem til begravelsen, men fik orlov to dage efter.\n\nDen 16. maj 1918 blev han såret og kom først på feltlazarettet i St. Ingbert og siden på reservelazarettet i Toftlund. Her lå han sammen med en ung soldat fra familien Wind. Soldatens søster Dusine kom på besøg, og hun og Jørgen blev forelskede. De blev gift i februar 1920.\n\nJørgen var slemt tilredt efter krigen og fik invaliderente. Han blev hjemsendt i november 1919, købte i 1920 huset Vestergade 21 i Toftlund og blev landpostbud. I 1945 måtte han tage sin afsked fra postvæsenet på grund af helbredet. Han døde i huset i Vestergade i 1951, og Dusine blev boende. I 1967 overtog sønnen, malermester Andreas Bundesen, huset sammen med tre medejere.",
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Jørgen Peter Bundesen, kaldet Jørn, blev født den 19. oktober 1896 i Toftlund som søn af bager Jes Peter Bundesen og Anna Catharina Kramer. Sønderjylland var tysk, og i oktober 1915 blev han indkaldt til den tyske hær. Han blev såret den 16. maj 1918 og mødte på reservelazarettet i Toftlund Dusine Andrea Wind, hvis bror lå der, og den 18. februar 1920 blev de gift i Vodder kirke. Samme år købte han huset Vestergade 21 i Toftlund og blev landpostbud, og her voksede fire børn op, heriblandt Anna Christine fra 1924. I 1945 måtte han tage sin afsked fra postvæsenet på grund af sin invaliditet, og han døde i sit hjem i Vestergade den 10. december 1951.",
+    "fortaelling": "Jørgen Peter Bundesen, kaldet Jørn, blev født den 19. oktober 1896 i Toftlund som søn af bager Jes Peter Bundesen og Anna Catharina Kramer. Sønderjylland var tysk, og i oktober 1915 blev han indkaldt til den tyske hær. Han blev såret den 16. maj 1918 og mødte på reservelazarettet i Toftlund Dusine Andrea Wind, hvis bror lå der, og den 18. februar 1920 blev de gift i Vodder kirke. Samme år købte han huset Vestergade 21 i Toftlund og blev landpostbud, og her voksede fire børn op, heriblandt Anna Christine fra 1924. I 1945 måtte han tage sin afsked fra postvæsenet på grund af sin invaliditet, og han døde i sit hjem i Vestergade den 10. december 1951. Han ligger på Toftlund Kirkegård.",
     "billeder": [
       {
         "fil": "billeder/dokumenter/qvist_14.jpg",
@@ -1751,6 +1795,16 @@
         "kilde": "pr-toftlund-1896-f63",
         "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36363#36363,5061182",
         "fotograf": "Rigsarkivet, Arkivalieronline"
+      },
+      {
+        "url": "https://www.dk-gravsten.dk/kirkeg/Toftlund/Toftlund_L282.jpg",
+        "tekst": "Gravstenen for Jørgen P. og Dusine Bundesen på Toftlund Kirkegård",
+        "hvor": "dk-gravsten.dk, foto Karl Petersen"
+      },
+      {
+        "url": "https://arkiv.dk/vis/5859197",
+        "tekst": "Huset Vestergade 21 i Toftlund, nu nedrevet (under punktet Vestergade 21 i mappen)",
+        "hvor": "Toftlund Lokalhistoriske Arkiv, arkiv.dk"
       }
     ]
   },
@@ -1771,7 +1825,8 @@
       "kb-vodder-1920-v2",
       "pr-toftlund-1901-f80",
       "pr-toftlund-1951-d19",
-      "bog-krigsdeltagere-bundesen"
+      "bog-krigsdeltagere-bundesen",
+      "dkgravsten-toftlund-l282"
     ],
     "noter": "Datter af skræddermester Rasmus Andresen Wind og Anna Christine Lausen. Født 21. december 1901 en halv time over midnat ifølge fødselsanmeldelsen, derfor står 20. december i flere senere kilder. Enke fra 1951. Hendes død er ikke fundet.",
     "haendelser": [
@@ -1810,6 +1865,22 @@
         "beskrivelse": "Husmoder",
         "kilder": [
           "ft1940-toftlund-vestergade"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1966-11-20",
+        "sted": "toftlund",
+        "kilder": [
+          "dkgravsten-toftlund-l282"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "sted": "toftlund",
+        "beskrivelse": "Toftlund Kirkegård, på samme sten som Jørgen Peter. Stenen står nu i lapidariet",
+        "kilder": [
+          "dkgravsten-toftlund-l282"
         ]
       }
     ],
@@ -1926,7 +1997,7 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Dusine Andrea Wind blev født den 21. december 1901 i Toftlund en halv time over midnat, og derfor skriver flere senere kilder 20. december. Hun var datter af skræddermester Rasmus Andresen Wind og Anna Christine Lausen og havde tolv søskende. Ifølge en bog om sønderjyske krigsdeltagere mødte hun Jørgen Peter Bundesen, da hun besøgte sin bror på reservelazarettet i Toftlund, og de blev gift den 18. februar 1920. Som husmoder i Vestergade i Toftlund fik hun fire børn, heriblandt Anna Christine i 1924. Hun blev enke i 1951 og blev boende i huset, men hendes død er ikke fundet.",
+    "fortaelling": "Dusine Andrea Wind blev født den 21. december 1901 i Toftlund en halv time over midnat, og derfor skriver flere senere kilder 20. december. Hun var datter af skræddermester Rasmus Andresen Wind og Anna Christine Lausen og havde tolv søskende. Ifølge en bog om sønderjyske krigsdeltagere mødte hun Jørgen Peter Bundesen, da hun besøgte sin bror på reservelazarettet i Toftlund, og de blev gift den 18. februar 1920. Som husmoder i Vestergade i Toftlund fik hun fire børn, heriblandt Anna Christine i 1924. Hun blev enke i 1951 og blev boende i huset. Hun døde den 20. november 1966 og ligger sammen med Jørgen Peter på Toftlund Kirkegård under ordene \"Gensyn er vort haab\".",
     "billeder": [
       {
         "fil": "billeder/dokumenter/qvist_15.jpg",
@@ -1934,6 +2005,16 @@
         "kilde": "pr-toftlund-1901-f80",
         "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36364#36364,5061426",
         "fotograf": "Rigsarkivet, Arkivalieronline"
+      },
+      {
+        "url": "https://www.dk-gravsten.dk/kirkeg/Toftlund/Toftlund_L282.jpg",
+        "tekst": "Gravstenen for Jørgen P. og Dusine Bundesen på Toftlund Kirkegård",
+        "hvor": "dk-gravsten.dk, foto Karl Petersen"
+      },
+      {
+        "url": "https://arkiv.dk/vis/5859197",
+        "tekst": "Huset Vestergade 21 i Toftlund, nu nedrevet (under punktet Vestergade 21 i mappen)",
+        "hvor": "Toftlund Lokalhistoriske Arkiv, arkiv.dk"
       }
     ]
   },
@@ -2075,6 +2156,16 @@
         "kilde": "kb-gl-haderslev-1883-d69",
         "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201447#201447,38157761",
         "fotograf": "Rigsarkivet, Arkivalieronline"
+      },
+      {
+        "url": "https://arkiv.dk/vis/4015703",
+        "tekst": "Gåskærgade 24 i Haderslev, 1972, før nedrivningen",
+        "hvor": "Historie Haderslev, arkiv.dk"
+      },
+      {
+        "url": "https://arkiv.dk/vis/1074270",
+        "tekst": "Tegning fra 1927: Ombygning til et værksted til ejendommen Gåskærgade 24, Doris Sørensen",
+        "hvor": "Historie Haderslev, arkiv.dk"
       }
     ]
   },
@@ -2216,6 +2307,16 @@
         "kilde": "kb-haderslev-vorfrue-1879-d94",
         "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201555#201555,38191023",
         "fotograf": "Rigsarkivet, Arkivalieronline"
+      },
+      {
+        "url": "https://arkiv.dk/vis/4015703",
+        "tekst": "Gåskærgade 24 i Haderslev, 1972, før nedrivningen",
+        "hvor": "Historie Haderslev, arkiv.dk"
+      },
+      {
+        "url": "https://arkiv.dk/vis/1074270",
+        "tekst": "Tegning fra 1927: Ombygning til et værksted til ejendommen Gåskærgade 24, Doris Sørensen",
+        "hvor": "Historie Haderslev, arkiv.dk"
       }
     ]
   },
@@ -3414,7 +3515,8 @@
       "ft1930-skarp-salling-2",
       "kb-vindblaes-1895-f8",
       "kb-salling-1939-v1",
-      "ft1901-vindblaes-44"
+      "ft1901-vindblaes-44",
+      "dkgravsten-ssalling-l054"
     ],
     "noter": "Døbt Jensen, senere Gravlev. Husbestyrerinde hos husejer Simon Andreas Simonsen i Brøndum, som hun giftede sig med 24. januar 1939. Simon Simonsen var Elses stedfar. Elses far er ukendt, måske står han i den slørede anmærkningsrubrik i Elses dåb.",
     "haendelser": [
@@ -3461,6 +3563,21 @@
         "beskrivelse": "Brøndum",
         "kilder": [
           "kb-salling-1949-v1"
+        ]
+      },
+      {
+        "type": "død",
+        "dato": "1976",
+        "kilder": [
+          "dkgravsten-ssalling-l054"
+        ]
+      },
+      {
+        "type": "begravelse",
+        "sted": "salling",
+        "beskrivelse": "Skarp Salling Kirkegård, sammen med Simon Simonsen",
+        "kilder": [
+          "dkgravsten-ssalling-l054"
         ]
       }
     ],
@@ -3519,7 +3636,19 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Maren Kirstine Ottilie blev født den 15. maj 1895 i Bjørumslet i Vindblæs Sogn og døbt Jensen, datter af husmand Anders Kristian Jensen, der senere tog navnet Gravlev, og Johanne Eriksen. Hun voksede op i Bjørumslet i en stor søskendeflok, og to af hendes brødre blev portører i Løgstør. Som ugift fik hun døtrene Erna i 1920 og Else Marie i 1923 i Løgstør, og faderen er ikke nævnt i kilderne. I 1930 var hun husbestyrerinde hos husejer Simon Andreas Simonsen i Brøndum, og den 24. januar 1939 blev de gift. Hun boede stadig i Brøndum i 1949, og hendes død er ikke fundet."
+    "fortaelling": "Maren Kirstine Ottilie blev født den 15. maj 1895 i Bjørumslet i Vindblæs Sogn og døbt Jensen, datter af husmand Anders Kristian Jensen, der senere tog navnet Gravlev, og Johanne Eriksen. Hun voksede op i Bjørumslet i en stor søskendeflok, og to af hendes brødre blev portører i Løgstør. Som ugift fik hun døtrene Erna i 1920 og Else Marie i 1923 i Løgstør, og faderen er ikke nævnt i kilderne. I 1930 var hun husbestyrerinde hos husejer Simon Andreas Simonsen i Brøndum, og den 24. januar 1939 blev de gift. Hun boede stadig i Brøndum i 1949. Hun døde i 1976 og ligger sammen med Simon Simonsen på Skarp Salling Kirkegård.",
+    "billeder": [
+      {
+        "url": "https://www.dk-gravsten.dk/kirkeg/SSalling/SSalling_L054.jpg",
+        "tekst": "Gravstenen for Simon og Maren Simonsen på Skarp Salling Kirkegård",
+        "hvor": "dk-gravsten.dk"
+      },
+      {
+        "url": "https://arkiv.dk/vis/3279341",
+        "tekst": "Maren Simonsen, Brøndum, 1967. Formentlig hende",
+        "hvor": "Løgstør Lokalarkiv, arkiv.dk, Ingas Foto"
+      }
+    ]
   },
   {
     "anenummer": 22,

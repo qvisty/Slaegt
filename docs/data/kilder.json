@@ -1479,5 +1479,25 @@
     "reference": "Givet 26. september 2026",
     "kvalitet": "sekundær",
     "noter": "Jesper, rodpersonen og projektets ejer, bekræfter selv, at Ole Gravlev Qvist og Dorthe Merete Qvist, født Sørensen, er hans forældre."
+  },
+  {
+    "id": "dkgravsten-toftlund-l282",
+    "titel": "Gravsten på Toftlund Kirkegård, Jørgen P. Bundesen og Dusine Bundesen",
+    "type": "Gravsten",
+    "arkiv": "DK-gravsten (dk-gravsten.dk), foto Toftlund_L282, fotograf Karl Petersen",
+    "reference": "Toftlund Kirkegård, lapidarium, foto Toftlund_L282",
+    "url": "https://www.dk-gravsten.dk/kirkeg/Toftlund/Toftlund_L282.jpg",
+    "kvalitet": "afledt",
+    "noter": "Stenen lyder: \"Jørgen P. Bundesen * 12.10.1896 † 10.12.1951. Dusine Bundesen født Wind * 20.12.1901 † 20.11.1966. Gensyn er vort haab\". Set på fotoet. Kirkebogen og personregistret siger født 19. oktober 1896 og 21. december 1901."
+  },
+  {
+    "id": "dkgravsten-ssalling-l054",
+    "titel": "Gravsten på Skarp Salling Kirkegård, Simon Simonsen og Maren Simonsen",
+    "type": "Gravsten",
+    "arkiv": "DK-gravsten (dk-gravsten.dk), foto SSalling_L054",
+    "reference": "Skarp Salling Kirkegård, foto SSalling_L054",
+    "url": "https://www.dk-gravsten.dk/kirkeg/SSalling/SSalling_L054.jpg",
+    "kvalitet": "afledt",
+    "noter": "Stenen lyder: \"Simon Simonsen † 1875 † 1964. Maren Simonsen † 1895 † 1976. Tak\". Set på fotoet. Sidens registrant skriver Maren Simonsen (f. Maren Kirstine Ottilie Gravlev) og Simon født 31.01.1875, som passer med vielsen 1939."
   }
 ]

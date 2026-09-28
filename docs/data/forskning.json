@@ -1298,6 +1298,50 @@
       "kilder": [
         "fam-jesper-2026"
       ]
+    },
+    {
+      "dato": "2026-09-28",
+      "titel": "Billeder af personer, gravsten og huse",
+      "tekst": "Der er søgt efter billeder på arkiv.dk og dk-gravsten.dk. Fundet og kontrolleret: gravstenen for Jørgen P. og Dusine Bundesen på Toftlund Kirkegård (foto Toftlund_L282), som giver Dusines død 20. november 1966. Stenen skriver Jørgens fødselsdag som 12. oktober, kirkebogen 19. oktober. Gravstenen for Simon og Maren Simonsen på Skarp Salling Kirkegård (SSalling_L054), som giver Marens dødsår 1976. På arkiv.dk: brudebillede af Tage Qvist 1949 fra Ingas Foto i Løgstør, to billeder med Else Gravlev 1944 og 1945, Maren Simonsen i Brøndum 1967, huset Vestergade 21 i Toftlund og Gåskærgade 24 i Haderslev med en tegning af værkstedet fra 1927 i Doris Sørensens navn. Billederne må ikke kopieres til siden uden aftale med arkivet eller fotografen, så der linkes til dem fra personsiderne. Uden resultat: portrætter af Ludwig, Doris, Helmuth, Anna Christine, Gerner, Helga og Jørgen Peter, og fotos af Vesterled 49, Kongevej 15 og Aarøsundvej 78.",
+      "personer": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "resultat": "fundet",
+      "kilder": [
+        "dkgravsten-toftlund-l282",
+        "dkgravsten-ssalling-l054"
+      ],
+      "links": [
+        {
+          "tekst": "Gravsten Toftlund_L282",
+          "url": "https://www.dk-gravsten.dk/kirkeg/Toftlund/Toftlund_L282.jpg"
+        },
+        {
+          "tekst": "Gravsten SSalling_L054",
+          "url": "https://www.dk-gravsten.dk/kirkeg/SSalling/SSalling_L054.jpg"
+        },
+        {
+          "tekst": "Tage Qvist brudepar 1949",
+          "url": "https://arkiv.dk/vis/3018613"
+        },
+        {
+          "tekst": "Vestergade 21, Toftlund",
+          "url": "https://arkiv.dk/vis/5859197"
+        },
+        {
+          "tekst": "Gåskærgade 24, Haderslev",
+          "url": "https://arkiv.dk/vis/4015703"
+        }
+      ]
     }
   ]
 }

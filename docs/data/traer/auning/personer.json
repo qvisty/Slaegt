@@ -219,6 +219,11 @@
         "kilde": "kb-bedsted-1919-f10",
         "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=200987#200987,38061205",
         "fotograf": "Rigsarkivet, Arkivalieronline"
+      },
+      {
+        "url": "https://www.dk-gravsten.dk/kirkeg/Skrave-h/Skrave_070.jpg",
+        "tekst": "Gravstenen for smedemester Hans P. C. Petersen og Anne Cathrine Petersen på Skrave Kirkegård",
+        "hvor": "dk-gravsten.dk, foto Karl Petersen"
       }
     ]
   },
@@ -267,7 +272,14 @@
     "efternavn": "Petersen",
     "sikkerhed": "middel",
     "sikkerhedTekst": "Navnet, stedet og pigenavnet Brodersen passer med familiens oplysninger og avisomtalerne. Forældreskabet er ikke set i en primærkilde endnu.",
-    "fortaelling": "Anne Kathrine Petersen, født Brodersen ifølge familien, blev født den 22. september 1922. Hun blev formentlig gift i oktober 1946 med smedemester Hans Peter Carl Petersen, og familien boede i Københoved ved Skodborg. Hun er mor til Carl Nicolai, kaldet Nikke, og til Tove, Birgitte og Egon. Hun døde den 18. maj 2010 og ligger sammen med sin mand på Skrave Kirkegård. På gravstenen staves hendes navn Anne Cathrine."
+    "fortaelling": "Anne Kathrine Petersen, født Brodersen ifølge familien, blev født den 22. september 1922. Hun blev formentlig gift i oktober 1946 med smedemester Hans Peter Carl Petersen, og familien boede i Københoved ved Skodborg. Hun er mor til Carl Nicolai, kaldet Nikke, og til Tove, Birgitte og Egon. Hun døde den 18. maj 2010 og ligger sammen med sin mand på Skrave Kirkegård. På gravstenen staves hendes navn Anne Cathrine.",
+    "billeder": [
+      {
+        "url": "https://www.dk-gravsten.dk/kirkeg/Skrave-h/Skrave_070.jpg",
+        "tekst": "Gravstenen for smedemester Hans P. C. Petersen og Anne Cathrine Petersen på Skrave Kirkegård",
+        "hvor": "dk-gravsten.dk, foto Karl Petersen"
+      }
+    ]
   },
   {
     "anenummer": 6,
@@ -354,7 +366,14 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Jesper bekræfter selv Henny, og mellemnavnet Søsted, som blev fundet i gravstedsregistret uden at være oplyst, er ifølge ham korrekt. Status bliver bekræftet, når en primærkilde er fundet.",
-    "fortaelling": "Henny Søsted Kristensen blev født den 28. august 1934. Hendes pigenavn kendes endnu ikke, for navnet Kristensen fik hun, da hun formentlig i 1952 blev gift med Alfred Marinus Kristensen, og de fik datteren Jonna Irene. Familien boede i mange år i Skodborg ved Vejen, og aviserne omtaler Alfred og Henny i december 1977, formentlig ved deres sølvbryllup. Omkring 1980 arbejdede en Henny Kristensen på mejeriet i Skodborg, formentlig hende. Alfred døde i 1998, og Henny døde den 31. oktober 2018. Hun ligger på Skodborg Kirkegård."
+    "fortaelling": "Henny Søsted Kristensen blev født den 28. august 1934. Hendes pigenavn kendes endnu ikke, for navnet Kristensen fik hun, da hun formentlig i 1952 blev gift med Alfred Marinus Kristensen, og de fik datteren Jonna Irene. Familien boede i mange år i Skodborg ved Vejen, og aviserne omtaler Alfred og Henny i december 1977, formentlig ved deres sølvbryllup. Omkring 1980 arbejdede en Henny Kristensen på mejeriet i Skodborg, formentlig hende. Alfred døde i 1998, og Henny døde den 31. oktober 2018. Hun ligger på Skodborg Kirkegård.",
+    "billeder": [
+      {
+        "url": "https://arkiv.dk/vis/1505404",
+        "tekst": "Personale på mejeriet i Skodborg, ca. 1980, med en Henny Kristensen. Formentlig hende",
+        "hvor": "Skodborg Hjemstavnsarkiv, arkiv.dk"
+      }
+    ]
   },
   {
     "anenummer": 8,
