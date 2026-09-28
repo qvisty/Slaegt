@@ -112,7 +112,16 @@
     "bevis": "Jesper bekræfter selv, at Ole Gravlev Qvist er hans far. Oles identitet er dokumenteret i dåben i Viborg Søndre Sogn 1949: Ole Gravlev Qvist, født 24. juli 1949, søn af Tage Clemmen Clemensen Qvist og Else Marie Gravlev. Navnet, fødselsdagen 24. juli, forældrenes navne og dødsalderen 52 år i 2002 stemmer med familiens oplysninger.",
     "sikkerhed": "høj",
     "sikkerhedTekst": "Jesper bekræfter selv, og Oles identitet er dokumenteret i hans dåb.",
-    "fortaelling": "Ole Gravlev Qvist blev født den 24. juli 1949 på sygehuset i Viborg og døbt den 4. september samme år i Viborg Søndre Sogns kirke. Han var søn af sygehusportør Tage Qvist og Else Marie Gravlev, og mellemnavnet Gravlev var morens pigenavn. Familien huskede hans fødselsår som 1950, men dåben viser 1949. Ole fik søskendene Britta og Torben og broderen Erik, kaldet Buller, som også er død. Han blev far til Jesper og døde den 14. marts 2002 på Vejle Sygehus, 52 år gammel. Ifølge Jesper ligger han på Vestre Kirkegård i Viborg i de ukendtes grav."
+    "fortaelling": "Ole Gravlev Qvist blev født den 24. juli 1949 på sygehuset i Viborg og døbt den 4. september samme år i Viborg Søndre Sogns kirke. Han var søn af sygehusportør Tage Qvist og Else Marie Gravlev, og mellemnavnet Gravlev var morens pigenavn. Familien huskede hans fødselsår som 1950, men dåben viser 1949. Ole fik søskendene Britta og Torben og broderen Erik, kaldet Buller, som også er død. Han blev far til Jesper og døde den 14. marts 2002 på Vejle Sygehus, 52 år gammel. Ifølge Jesper ligger han på Vestre Kirkegård i Viborg i de ukendtes grav.",
+    "billeder": [
+      {
+        "fil": "billeder/dokumenter/qvist_2.jpg",
+        "tekst": "Oles fødsel og dåb i Viborg Søndre Sogns kirkebog 1949, nr. 104",
+        "kilde": "kb-viborg-soendre-1949-f104",
+        "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172143#172143,28907162",
+        "fotograf": "Rigsarkivet, Arkivalieronline"
+      }
+    ]
   },
   {
     "anenummer": 3,
@@ -338,7 +347,16 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Tage Clemmen Clemmensen Qvist blev født den 10. juni 1924 på Aarhus Landevej i Viborg som søn af agent Gerner Qvist og Helga Margrethe Nielsen. Han voksede op i en søskendeflok på syv, først i Viborg Søndre Sogn, i 1930 på Søtorps Forlængelse og siden på Vesterled 49. Han blev konfirmeret i Viborg Domkirke den 2. april 1939, og året efter arbejdede han som bud. Som sygehusportør i Viborg blev han den 20. marts 1949 gift i Salling kirke med Else Marie Gravlev, der arbejdede i sygehusets vaskeri, og i juli samme år kom sønnen Ole til verden. Hans død er ikke fundet i kilderne, men ifølge familien ligger han på Vestre Kirkegård i Viborg."
+    "fortaelling": "Tage Clemmen Clemmensen Qvist blev født den 10. juni 1924 på Aarhus Landevej i Viborg som søn af agent Gerner Qvist og Helga Margrethe Nielsen. Han voksede op i en søskendeflok på syv, først i Viborg Søndre Sogn, i 1930 på Søtorps Forlængelse og siden på Vesterled 49. Han blev konfirmeret i Viborg Domkirke den 2. april 1939, og året efter arbejdede han som bud. Som sygehusportør i Viborg blev han den 20. marts 1949 gift i Salling kirke med Else Marie Gravlev, der arbejdede i sygehusets vaskeri, og i juli samme år kom sønnen Ole til verden. Hans død er ikke fundet i kilderne, men ifølge familien ligger han på Vestre Kirkegård i Viborg.",
+    "billeder": [
+      {
+        "fil": "billeder/dokumenter/qvist_4.jpg",
+        "tekst": "Tages fødsel og dåb i Viborg Søndre Sogns kirkebog 1924, nr. 40",
+        "kilde": "kb-viborg-soendre-1924-f40",
+        "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172129#172129,28903369",
+        "fotograf": "Rigsarkivet, Arkivalieronline"
+      }
+    ]
   },
   {
     "anenummer": 5,
@@ -446,7 +464,16 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Else Marie Gravlev blev født den 24. marts 1923 i Fjordgade i Løgstør som datter af den ugifte Maren Kirstine Ottilie Gravlev, og hendes far er ikke nævnt i kilderne. Hun havde en ældre halvsøster, Erna, og voksede op i Brøndum hos moren og Simon Simonsen, som moren giftede sig med i 1939. Else blev konfirmeret i Salling kirke i 1937. Som vaskerimedhjælper på sygehuset i Viborg blev hun den 20. marts 1949 gift i Salling kirke med sygehusportør Tage Qvist, og i juli samme år fødte hun sønnen Ole. Ifølge familien døde hun omkring 2015 og ligger på Vestre Kirkegård i Viborg."
+    "fortaelling": "Else Marie Gravlev blev født den 24. marts 1923 i Fjordgade i Løgstør som datter af den ugifte Maren Kirstine Ottilie Gravlev, og hendes far er ikke nævnt i kilderne. Hun havde en ældre halvsøster, Erna, og voksede op i Brøndum hos moren og Simon Simonsen, som moren giftede sig med i 1939. Else blev konfirmeret i Salling kirke i 1937. Som vaskerimedhjælper på sygehuset i Viborg blev hun den 20. marts 1949 gift i Salling kirke med sygehusportør Tage Qvist, og i juli samme år fødte hun sønnen Ole. Ifølge familien døde hun omkring 2015 og ligger på Vestre Kirkegård i Viborg.",
+    "billeder": [
+      {
+        "fil": "billeder/dokumenter/qvist_5.jpg",
+        "tekst": "Else Maries fødsel og dåb i Løgstør Sogns kirkebog 1923, nr. 9",
+        "kilde": "kb-loegstoer-1923-f9",
+        "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=166516#166516,27962310",
+        "fotograf": "Rigsarkivet, Arkivalieronline"
+      }
+    ]
   },
   {
     "anenummer": 6,
@@ -564,7 +591,16 @@
     "soeskende": [],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Helmuth Sørensen, i kilderne Helmut Ludwig Sørensen, blev født den 9. januar 1915 i Haderslev som eneste barn af snedkermester Ludwig Sørensen og Doris Elisabeth Olsen. Haderslev var dengang tysk, og hjemmedåben blev skrevet på tysk. Han voksede op i Slotsgade 23 og siden i Gaaskærgade 24, og i 1940 var han bogholder i kulimport og boede på Aarøsundvej 78. Samme år blev han gift første gang, og den 11. september 1945 blev han borgerligt viet i Skærbæk til Anna Christine Bundesen. Parret boede på Kongevej 15 i Haderslev, da datteren Dorthe Merete blev født. Ifølge familien blev han senere direktør for et korn og foderstoffirma på havnen i Haderslev, og ifølge datteren er han begravet i Hørsholm."
+    "fortaelling": "Helmuth Sørensen, i kilderne Helmut Ludwig Sørensen, blev født den 9. januar 1915 i Haderslev som eneste barn af snedkermester Ludwig Sørensen og Doris Elisabeth Olsen. Haderslev var dengang tysk, og hjemmedåben blev skrevet på tysk. Han voksede op i Slotsgade 23 og siden i Gaaskærgade 24, og i 1940 var han bogholder i kulimport og boede på Aarøsundvej 78. Samme år blev han gift første gang, og den 11. september 1945 blev han borgerligt viet i Skærbæk til Anna Christine Bundesen. Parret boede på Kongevej 15 i Haderslev, da datteren Dorthe Merete blev født. Ifølge familien blev han senere direktør for et korn og foderstoffirma på havnen i Haderslev, og ifølge datteren er han begravet i Hørsholm.",
+    "billeder": [
+      {
+        "fil": "billeder/dokumenter/qvist_6.jpg",
+        "tekst": "Helmuths dåb i Haderslev Vor Frue Sogns kirkebog 1915, nr. 8",
+        "kilde": "kb-haderslev-vorfrue-1915-f8",
+        "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201559#201559,38192920",
+        "fotograf": "Rigsarkivet, Arkivalieronline"
+      }
+    ]
   },
   {
     "anenummer": 7,
@@ -684,7 +720,16 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Anna Christine Bundesen blev født den 9. december 1924 i Toftlund som datter af postbud Jørgen Peter Bundesen og Dusine Andrea Wind, og hun blev opkaldt efter sin mormor. Hun voksede op i Vestergade i Toftlund med brødrene Andreas, Jes Peter og Aage, og i 1940 arbejdede hun som telefonistinde. Den 11. september 1945 blev hun borgerligt viet i Skærbæk til bogholder Helmut Ludwig Sørensen, og de boede på Kongevej 15 i Haderslev, da datteren Dorthe Merete blev født. Ifølge Jesper blev hun altid kaldt Bessie. Ifølge datteren ligger hun i de ukendtes grav i Fredericia."
+    "fortaelling": "Anna Christine Bundesen blev født den 9. december 1924 i Toftlund som datter af postbud Jørgen Peter Bundesen og Dusine Andrea Wind, og hun blev opkaldt efter sin mormor. Hun voksede op i Vestergade i Toftlund med brødrene Andreas, Jes Peter og Aage, og i 1940 arbejdede hun som telefonistinde. Den 11. september 1945 blev hun borgerligt viet i Skærbæk til bogholder Helmut Ludwig Sørensen, og de boede på Kongevej 15 i Haderslev, da datteren Dorthe Merete blev født. Ifølge Jesper blev hun altid kaldt Bessie. Ifølge datteren ligger hun i de ukendtes grav i Fredericia.",
+    "billeder": [
+      {
+        "fil": "billeder/dokumenter/qvist_7.jpg",
+        "tekst": "Anna Christines dåb i Toftlund Sogns kirkebog 1925, nr. 1",
+        "kilde": "kb-toftlund-1925-d1",
+        "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=202710#202710,38428257",
+        "fotograf": "Rigsarkivet, Arkivalieronline"
+      }
+    ]
   },
   {
     "anenummer": 8,
@@ -878,7 +923,16 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Gerner Clemmen Clemmensen Qvist blev født den 23. marts 1890 i Skælskør som ældste barn af slagter Ludvig Valdemar Qvist og Johanne Marie Møller, og i 1901 boede han på Slagelsevej med syv yngre søskende. Han flyttede til Viborg, hvor han som lagerforvalter blev gift med Helga Margrethe Nielsen i Viborg Domkirke den 15. november 1919. Parret fik syv børn, heriblandt Tage i 1924. Gerner kaldes skiftevis lagerforvalter, agent og handelsmedhjælper, og i både 1930 og 1940 stod han som arbejdsløs, sidst på Vesterled 49. Han døde den 15. december 1953 og ligger sammen med Helga på Vestre Kirkegård i Viborg, gravsted V K 11 364."
+    "fortaelling": "Gerner Clemmen Clemmensen Qvist blev født den 23. marts 1890 i Skælskør som ældste barn af slagter Ludvig Valdemar Qvist og Johanne Marie Møller, og i 1901 boede han på Slagelsevej med syv yngre søskende. Han flyttede til Viborg, hvor han som lagerforvalter blev gift med Helga Margrethe Nielsen i Viborg Domkirke den 15. november 1919. Parret fik syv børn, heriblandt Tage i 1924. Gerner kaldes skiftevis lagerforvalter, agent og handelsmedhjælper, og i både 1930 og 1940 stod han som arbejdsløs, sidst på Vesterled 49. Han døde den 15. december 1953 og ligger sammen med Helga på Vestre Kirkegård i Viborg, gravsted V K 11 364.",
+    "billeder": [
+      {
+        "fil": "billeder/dokumenter/qvist_8.jpg",
+        "tekst": "Gerners fødsel og dåb i Skælskør Sogns kirkebog 1890, nr. 9",
+        "kilde": "kb-skaelskoer-1890-m9",
+        "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=423562#423562,78055616",
+        "fotograf": "Rigsarkivet, Arkivalieronline"
+      }
+    ]
   },
   {
     "anenummer": 9,
@@ -1024,7 +1078,16 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Helga Margrethe Nielsen blev født den 28. december 1896 i Mogensgade 40 i Viborg som datter af skomagersvend Anders Nielsen og Julie Margrethe Louise Jensen og døbt i Viborg Domkirke året efter. Hun voksede op på Gravene 9 med søskendene Niels Peter og Kristine Marie, mens lillesøsteren Anna Kirstine døde kun 1 år gammel. Hendes far døde i februar 1919, og i november samme år blev hun gift i Viborg Domkirke med Gerner Qvist. Som husmoder i Viborg fik hun syv børn, heriblandt Tage i 1924. Hun døde den 10. maj 1991 og ligger sammen med Gerner på Vestre Kirkegård i Viborg."
+    "fortaelling": "Helga Margrethe Nielsen blev født den 28. december 1896 i Mogensgade 40 i Viborg som datter af skomagersvend Anders Nielsen og Julie Margrethe Louise Jensen og døbt i Viborg Domkirke året efter. Hun voksede op på Gravene 9 med søskendene Niels Peter og Kristine Marie, mens lillesøsteren Anna Kirstine døde kun 1 år gammel. Hendes far døde i februar 1919, og i november samme år blev hun gift i Viborg Domkirke med Gerner Qvist. Som husmoder i Viborg fik hun syv børn, heriblandt Tage i 1924. Hun døde den 10. maj 1991 og ligger sammen med Gerner på Vestre Kirkegård i Viborg.",
+    "billeder": [
+      {
+        "fil": "billeder/dokumenter/qvist_9.jpg",
+        "tekst": "Helgas fødsel og dåb i Viborg Domsogns kirkebog 1896, nr. 81",
+        "kilde": "kb-viborg-dom-1896-f81",
+        "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=172068#172068,28889368",
+        "fotograf": "Rigsarkivet, Arkivalieronline"
+      }
+    ]
   },
   {
     "anenummer": 18,
@@ -1680,7 +1743,16 @@
     "biografi": "Jørgen Peter Bundesen, kaldet Jørn, blev født i Toftlund i 1896 som søn af bageren Jes Peter Bundesen. Sønderjylland var dengang tysk, og i oktober 1915 blev han indkaldt til den tyske hær. Han tjente i Infanterie-Regiment Nr. 84 og senere Nr. 116. Da hans far døde i december 1916, nåede han ikke hjem til begravelsen, men fik orlov to dage efter.\n\nDen 16. maj 1918 blev han såret og kom først på feltlazarettet i St. Ingbert og siden på reservelazarettet i Toftlund. Her lå han sammen med en ung soldat fra familien Wind. Soldatens søster Dusine kom på besøg, og hun og Jørgen blev forelskede. De blev gift i februar 1920.\n\nJørgen var slemt tilredt efter krigen og fik invaliderente. Han blev hjemsendt i november 1919, købte i 1920 huset Vestergade 21 i Toftlund og blev landpostbud. I 1945 måtte han tage sin afsked fra postvæsenet på grund af helbredet. Han døde i huset i Vestergade i 1951, og Dusine blev boende. I 1967 overtog sønnen, malermester Andreas Bundesen, huset sammen med tre medejere.",
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Jørgen Peter Bundesen, kaldet Jørn, blev født den 19. oktober 1896 i Toftlund som søn af bager Jes Peter Bundesen og Anna Catharina Kramer. Sønderjylland var tysk, og i oktober 1915 blev han indkaldt til den tyske hær. Han blev såret den 16. maj 1918 og mødte på reservelazarettet i Toftlund Dusine Andrea Wind, hvis bror lå der, og den 18. februar 1920 blev de gift i Vodder kirke. Samme år købte han huset Vestergade 21 i Toftlund og blev landpostbud, og her voksede fire børn op, heriblandt Anna Christine fra 1924. I 1945 måtte han tage sin afsked fra postvæsenet på grund af sin invaliditet, og han døde i sit hjem i Vestergade den 10. december 1951."
+    "fortaelling": "Jørgen Peter Bundesen, kaldet Jørn, blev født den 19. oktober 1896 i Toftlund som søn af bager Jes Peter Bundesen og Anna Catharina Kramer. Sønderjylland var tysk, og i oktober 1915 blev han indkaldt til den tyske hær. Han blev såret den 16. maj 1918 og mødte på reservelazarettet i Toftlund Dusine Andrea Wind, hvis bror lå der, og den 18. februar 1920 blev de gift i Vodder kirke. Samme år købte han huset Vestergade 21 i Toftlund og blev landpostbud, og her voksede fire børn op, heriblandt Anna Christine fra 1924. I 1945 måtte han tage sin afsked fra postvæsenet på grund af sin invaliditet, og han døde i sit hjem i Vestergade den 10. december 1951.",
+    "billeder": [
+      {
+        "fil": "billeder/dokumenter/qvist_14.jpg",
+        "tekst": "Jørgen Peters fødsel i personregistret for Toftlund 1896, nr. 63",
+        "kilde": "pr-toftlund-1896-f63",
+        "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36363#36363,5061182",
+        "fotograf": "Rigsarkivet, Arkivalieronline"
+      }
+    ]
   },
   {
     "anenummer": 15,
@@ -1854,7 +1926,16 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Dusine Andrea Wind blev født den 21. december 1901 i Toftlund en halv time over midnat, og derfor skriver flere senere kilder 20. december. Hun var datter af skræddermester Rasmus Andresen Wind og Anna Christine Lausen og havde tolv søskende. Ifølge en bog om sønderjyske krigsdeltagere mødte hun Jørgen Peter Bundesen, da hun besøgte sin bror på reservelazarettet i Toftlund, og de blev gift den 18. februar 1920. Som husmoder i Vestergade i Toftlund fik hun fire børn, heriblandt Anna Christine i 1924. Hun blev enke i 1951 og blev boende i huset, men hendes død er ikke fundet."
+    "fortaelling": "Dusine Andrea Wind blev født den 21. december 1901 i Toftlund en halv time over midnat, og derfor skriver flere senere kilder 20. december. Hun var datter af skræddermester Rasmus Andresen Wind og Anna Christine Lausen og havde tolv søskende. Ifølge en bog om sønderjyske krigsdeltagere mødte hun Jørgen Peter Bundesen, da hun besøgte sin bror på reservelazarettet i Toftlund, og de blev gift den 18. februar 1920. Som husmoder i Vestergade i Toftlund fik hun fire børn, heriblandt Anna Christine i 1924. Hun blev enke i 1951 og blev boende i huset, men hendes død er ikke fundet.",
+    "billeder": [
+      {
+        "fil": "billeder/dokumenter/qvist_15.jpg",
+        "tekst": "Dusine Andreas fødsel i personregistret for Toftlund 1901, nr. 80",
+        "kilde": "pr-toftlund-1901-f80",
+        "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=36364#36364,5061426",
+        "fotograf": "Rigsarkivet, Arkivalieronline"
+      }
+    ]
   },
   {
     "anenummer": 12,
@@ -1986,7 +2067,16 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Ludwig Sørensen blev født den 16. august 1883 i Gammel Haderslev som søn af snedkersvend Georg Friedrich Sørensen og Anna Barbara Kjer, og han blev opkaldt efter en storebror, der var død som lille. Han blev konfirmeret i 1898 og blev snedkermester i Haderslev, og ifølge barnebarnet Dorthe Merete lavede han også kister. Den 18. oktober 1912 blev han gift med Doris Elisabeth Olsen, og i 1915 fik de deres eneste barn, Helmut. Familien boede i Slotsgade 23 og siden i Gaaskærgade 24. Ludwig døde i Gåskærgade 24 den 24. juni 1951 og blev begravet på Haderslev Domsogns Assistens Kirkegård."
+    "fortaelling": "Ludwig Sørensen blev født den 16. august 1883 i Gammel Haderslev som søn af snedkersvend Georg Friedrich Sørensen og Anna Barbara Kjer, og han blev opkaldt efter en storebror, der var død som lille. Han blev konfirmeret i 1898 og blev snedkermester i Haderslev, og ifølge barnebarnet Dorthe Merete lavede han også kister. Den 18. oktober 1912 blev han gift med Doris Elisabeth Olsen, og i 1915 fik de deres eneste barn, Helmut. Familien boede i Slotsgade 23 og siden i Gaaskærgade 24. Ludwig døde i Gåskærgade 24 den 24. juni 1951 og blev begravet på Haderslev Domsogns Assistens Kirkegård.",
+    "billeder": [
+      {
+        "fil": "billeder/dokumenter/qvist_12.jpg",
+        "tekst": "Ludvigs dåb i Gammel Haderslev Sogns kirkebog 1883, nr. 69",
+        "kilde": "kb-gl-haderslev-1883-d69",
+        "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201447#201447,38157761",
+        "fotograf": "Rigsarkivet, Arkivalieronline"
+      }
+    ]
   },
   {
     "anenummer": 13,
@@ -2118,7 +2208,16 @@
     ],
     "sikkerhed": "høj",
     "sikkerhedTekst": "Flere uafhængige primærkilder nævner forældreskabet, og navne og datoer stemmer.",
-    "fortaelling": "Doris Elisabeth Olsen blev født den 21. juni 1879 i Schloßstraße 57 i Haderslev som tvilling til Christine Lorenzine, døtre af blikkenslagermester Ferdinand Gottfried Olsen og Doris Elisabeth Friederike Johannsen. Tvillingesøsteren døde ifølge familien omkring 1900. Doris blev konfirmeret i 1894 og blev den 18. oktober 1912 gift med snedkermester Ludwig Sørensen, og i 1915 fik de sønnen Helmut, deres eneste barn. Hendes bror, bøssemager Theodor Olsen, drev fra 1935 til 1938 en lille zoologisk have i Gåskærgade 54 med aber og løven Attrachan. Doris døde den 23. februar 1955 på Byens Sygehus og blev begravet på Haderslev Domsogns Assistens Kirkegård."
+    "fortaelling": "Doris Elisabeth Olsen blev født den 21. juni 1879 i Schloßstraße 57 i Haderslev som tvilling til Christine Lorenzine, døtre af blikkenslagermester Ferdinand Gottfried Olsen og Doris Elisabeth Friederike Johannsen. Tvillingesøsteren døde ifølge familien omkring 1900. Doris blev konfirmeret i 1894 og blev den 18. oktober 1912 gift med snedkermester Ludwig Sørensen, og i 1915 fik de sønnen Helmut, deres eneste barn. Hendes bror, bøssemager Theodor Olsen, drev fra 1935 til 1938 en lille zoologisk have i Gåskærgade 54 med aber og løven Attrachan. Doris døde den 23. februar 1955 på Byens Sygehus og blev begravet på Haderslev Domsogns Assistens Kirkegård.",
+    "billeder": [
+      {
+        "fil": "billeder/dokumenter/qvist_13.jpg",
+        "tekst": "Doris Elisabeths dåb i Haderslev Vor Frue Sogns kirkebog 1879, nr. 94",
+        "kilde": "kb-haderslev-vorfrue-1879-d94",
+        "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=201555#201555,38191023",
+        "fotograf": "Rigsarkivet, Arkivalieronline"
+      }
+    ]
   },
   {
     "anenummer": 24,
