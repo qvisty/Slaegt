@@ -284,6 +284,19 @@
           "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?bsid=200991#200991,38061537"
         }
       ]
+    },
+    {
+      "dato": "2026-09-28",
+      "titel": "Portræt af Carl og Jonna",
+      "tekst": "Jesper har sendt et portræt af Rikkes forældre og givet tilladelse til, at det vises offentligt. Det vises på Carls og Jonnas sider.",
+      "personer": [
+        2,
+        3
+      ],
+      "resultat": "familieoplysning",
+      "kilder": [
+        "foto-familie-carl-jonna"
+      ]
     }
   ]
 }

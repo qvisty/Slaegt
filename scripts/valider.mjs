@@ -199,7 +199,7 @@ for (const [n, p] of P) {
     const detaljer = (p.haendelser || []).filter(h => h.dato || h.sted)
     if (detaljer.length) fejl.push(hvem + ': er nulevende, men har datoer eller steder registreret. De ville være offentlige i repoet. Fjern dem eller sæt privatliv til "vis alt"')
   }
-  if (p.levende && privat !== 'vis alt' && (p.portraet || (p.billeder || []).length)) fejl.push(hvem + ': er nulevende, men har billeder registreret')
+  if (p.levende && privat !== 'vis alt' && !p.billedTilladelse && (p.portraet || (p.billeder || []).length)) fejl.push(hvem + ': er nulevende, men har billeder registreret')
 
   // Plausibilitet mellem forælder og barn
   if (n > 1 && P.has(n >> 1)) {

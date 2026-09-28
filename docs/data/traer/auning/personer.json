@@ -77,7 +77,8 @@
       "jesper-bekraeftelse-rikkes-foraeldre",
       "findgravsted-soegning-petersen-2026",
       "fam-jesper-2026-rikkes-soeskende",
-      "fam-rikke-2026"
+      "fam-rikke-2026",
+      "foto-familie-carl-jonna"
     ],
     "soeskende": [
       {
@@ -109,7 +110,17 @@
     "fortaelling": "Carl Nicolai Petersen, kaldet Nikke, er Rikke Aunings far. Han stammer fra Københoved ved Skodborg, hvor hans far Hans Peter Carl Petersen var smedemester, og hans mor var Anne Kathrine, født Brodersen. Han har søstrene Tove og Birgitte, kaldet Gitte, og havde broderen Egon, som er død. Københoved ligger tæt ved Skodborg, hvor Rikkes mor Jonna voksede op.",
     "levende": true,
     "kaldenavn": "Nikke",
-    "noter": "Kaldet Nikke. Stammer ifølge Rikke vist fra Københoved ved Skodborg. "
+    "noter": "Kaldet Nikke. Stammer ifølge Rikke vist fra Københoved ved Skodborg. ",
+    "billedTilladelse": true,
+    "portraet": "billeder/auning/carl.jpg",
+    "billeder": [
+      {
+        "fil": "billeder/auning/carl-og-jonna.jpg",
+        "tekst": "Carl Nicolai og Jonna Irene Petersen. Jonna til venstre, Carl til højre",
+        "kilde": "foto-familie-carl-jonna",
+        "fotograf": "Privat foto fra familien"
+      }
+    ]
   },
   {
     "anenummer": 3,
@@ -136,7 +147,8 @@
       "arkivdk-skodborg-konf-1967",
       "arkivdk-skodborg-guldkonf-2017",
       "jesper-bekraeftelse-rikkes-foraeldre",
-      "fam-jesper-2026-rikkes-soeskende"
+      "fam-jesper-2026-rikkes-soeskende",
+      "foto-familie-carl-jonna"
     ],
     "navnevarianter": [
       "Jonna Irene Kristensen"
@@ -145,7 +157,17 @@
     "sikkerhed": "høj",
     "sikkerhedTekst": "Jesper bekræfter selv forbindelsen. Status bliver bekræftet, når dokumentationen (fx Rikkes dåbs eller navneattest) er på plads.",
     "fortaelling": "Jonna Irene Petersen er født Kristensen og voksede op i Skodborg ved Vejen som datter af Alfred Marinus Kristensen og Henny Søsted Kristensen. Hun blev konfirmeret i Skodborg Kirke i 1967 og er derfor formentlig født i 1952 eller 1953. I 1970 gik hun i 3. real på Skodborg skole. Hun blev gift med Carl Nicolai Petersen og er mor til Rikke Auning. Ved guldkonfirmationen i Skodborg i 2017 stod hun som Jonna Petersen, født Kristensen.",
-    "levende": true
+    "levende": true,
+    "billedTilladelse": true,
+    "portraet": "billeder/auning/jonna.jpg",
+    "billeder": [
+      {
+        "fil": "billeder/auning/carl-og-jonna.jpg",
+        "tekst": "Carl Nicolai og Jonna Irene Petersen. Jonna til venstre, Carl til højre",
+        "kilde": "foto-familie-carl-jonna",
+        "fotograf": "Privat foto fra familien"
+      }
+    ]
   },
   {
     "anenummer": 4,
