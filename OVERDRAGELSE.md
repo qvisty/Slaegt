@@ -189,7 +189,7 @@ Husk: kirkebøger er scannede billeder uden navnesøgning. Folketællinger er of
 ## 8. Teknik
 
 * **Hjemmesiden** ligger i `docs/`. Ren HTML, CSS og JavaScript uden byggetrin. Programmet er `docs/assets/js/app.js`, stilarket `docs/assets/css/style.css`.
-* **Sider (hash ruter):** `#/` stamtræ og overblik, `#/anetavle/N`, `#/vifte`, `#/galleri`, `#/person/N`, `#/tidslinje`, `#/kort`, `#/kilder`, `#/kilde/ID`, `#/forskning`, `#/guide`.
+* **Sider (hash ruter):** `#/` stamtræ og overblik, `#/anetavle/N`, `#/vifte`, `#/galleri`, `#/album` (fotoalbum pr. træ), `#/person/N`, `#/tidslinje`, `#/kort`, `#/kilder`, `#/kilde/ID`, `#/forskning`, `#/guide`.
 * **Data** i `docs/data/`: `projekt.json`, `personer.json`, `steder.json`, `kilder.json`, `forskning.json`, `historie.json` og `guide.html`. Formatet er beskrevet i `README.md`.
 * **Flere træer:** `docs/data/traer.json` lister træerne. Hovedtræet (Slægten Qvist) ligger i `docs/data/`. Rikke Aunings træ (Slægten Auning, Jespers kæreste, ikke biologisk forbundet) ligger i `docs/data/traer/auning/` med de samme filer. Vælgeren øverst på siden eller `?trae=auning` skifter træ. `historie.json` er fælles. Tjekket gennemgår alle træer.
 * **Statusværdier:** `bekræftet`, `under undersøgelse`, `spor`. Plus `"levende": true` for nulevende.

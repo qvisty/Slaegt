@@ -739,6 +739,50 @@ function figurHtml (b) {
   return '<figure><a href="' + esc(b.fil) + '" target="_blank" rel="noopener"><img src="' + esc(b.fil) + '" alt="' + esc(b.tekst || '') + '" loading="lazy"></a><figcaption>' + esc(b.tekst || '') + (kilde ? '<br>' + kilde : '') + (kred.length ? '<br><span class="kredit">' + kred.join(' · ') + '</span>' : '') + '</figcaption></figure>'
 }
 
+/* Fotoalbum for træet: alle billeder fra personer og steder samlet ét sted */
+function sideAlbum () {
+  const h = ['<h1>Fotoalbum</h1><p class="ingress">Alle billeder i ' + esc(D.projekt.titel || 'træet') + ': familiefotos, udsnit af kirkebøger og billeder af de steder, hvor anerne levede. Klik på et billede for at se det stort.</p>']
+  const egne = new Map()
+  const eksterne = new Map()
+  personer().forEach(p => {
+    if (skjult(p) || !visDetaljer(p)) return
+    if (p.levende && !p.billedTilladelse && privatlivsmode() !== 'vis alt') return
+    ;(p.billeder || []).forEach(b => {
+      const m = b.fil ? egne : b.url ? eksterne : null
+      if (!m) return
+      const k = b.fil || b.url
+      if (!m.has(k)) m.set(k, { b, personer: [] })
+      m.get(k).personer.push(p.anenummer)
+    })
+  })
+  const hvem = liste => liste.map(n => linkPerson(n, fuldtNavn(P.get(n)))).join(', ')
+  const med = x => figurHtml(x.b).replace('<figcaption>', '<figcaption><strong>' + hvem(x.personer) + '</strong><br>')
+  const alle = Array.from(egne.values())
+  const doks = alle.filter(x => x.b.kilde && K.has(x.b.kilde) && K.get(x.b.kilde).kvalitet === 'primær')
+  const fotos = alle.filter(x => !doks.includes(x))
+  if (fotos.length) h.push('<section class="sektion"><h2>Familiefotos</h2><div class="billedrække album">' + fotos.map(med).join('') + '</div></section>')
+  if (doks.length) h.push('<section class="sektion"><h2>Dokumenter</h2><p class="lille">Udsnit af kirkebøger og personregistre fra Rigsarkivet.</p><div class="billedrække album">' + doks.map(med).join('') + '</div></section>')
+  const steder = D.steder.filter(st => st.billede)
+  if (steder.length) h.push('<section class="sektion"><h2>Steder</h2><div class="billedrække steder">' + steder.map(st => figurHtml(Object.assign({}, st.billede, { tekst: st.billede.tekst || st.navn }))).join('') + '</div></section>')
+  if (eksterne.size) h.push('<section class="sektion"><h2>Billeder hos andre</h2><p class="lille">Fotos på arkiv.dk og dk-gravsten.dk må ikke kopieres hertil uden aftale, så de åbner hos arkivet eller fotografen.</p><ul class="liste">' + Array.from(eksterne.values()).map(x => '<li><a href="' + esc(x.b.url) + '" target="_blank" rel="noopener">' + esc(x.b.tekst || x.b.url) + ' ↗</a><div class="lille">' + hvem(x.personer) + (x.b.hvor ? ' · ' + esc(x.b.hvor) : '') + '</div></li>').join('') + '</ul></section>')
+  if (h.length === 1) h.push('<div class="tom-tilstand"><p>Der er endnu ingen billeder i dette træ.</p></div>')
+  return h.join('')
+}
+
+/* Vis et billede stort oven på siden */
+function aabnLysboks (a) {
+  const fig = a.closest('figure')
+  const tekst = fig && fig.querySelector('figcaption') ? fig.querySelector('figcaption').innerHTML : ''
+  const boks = document.createElement('div')
+  boks.className = 'lysboks'
+  boks.innerHTML = '<button class="luk" aria-label="Luk">×</button><img src="' + esc(a.getAttribute('href')) + '" alt=""><div class="tekst">' + tekst + '</div>'
+  const luk = () => { boks.remove(); document.removeEventListener('keydown', tast) }
+  const tast = e => { if (e.key === 'Escape') luk() }
+  boks.addEventListener('click', e => { if (!e.target.closest('a')) luk() })
+  document.addEventListener('keydown', tast)
+  document.body.appendChild(boks)
+}
+
 function sidePerson (n) {
   const p = P.get(n)
   if (!p) {
@@ -1138,6 +1182,7 @@ function vis () {
   else if (r.navn === 'vifte') { html = sideVifte(); titel = 'Viftediagram' }
   else if (r.navn === 'galleri') { html = sideGalleri(); titel = 'Persongalleri' }
   else if (r.navn === 'person') { const n = +r.arg; html = sidePerson(n); titel = P.has(n) ? fuldtNavn(P.get(n)) : relation(n) }
+  else if (r.navn === 'album') { html = sideAlbum(); titel = 'Fotoalbum' }
   else if (r.navn === 'tidslinje') { html = sideTidslinje(); titel = 'Tidslinje' }
   else if (r.navn === 'kort') { html = sideKort(); titel = 'Kort' }
   else if (r.navn === 'kilder' || r.navn === 'kilde') { html = sideKilder(r.arg); titel = 'Kilder' }
@@ -1224,6 +1269,12 @@ async function start () {
   traeVaelger()
   const opd = D.projekt.opdateret || (D.forskning.log || []).map(l => l.dato).sort().pop()
   if (opd) document.getElementById('opdateret').textContent = 'Senest opdateret ' + datoTekst(opd)
+  document.addEventListener('click', e => {
+    const a = e.target.closest('.billedrække figure > a')
+    if (!a || e.ctrlKey || e.metaKey) return
+    e.preventDefault()
+    aabnLysboks(a)
+  })
   window.addEventListener('hashchange', vis)
   vis()
 }
