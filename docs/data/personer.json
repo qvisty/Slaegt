@@ -633,9 +633,18 @@
         "fotograf": "Rigsarkivet, Arkivalieronline"
       },
       {
+        "fil": "billeder/fotos/gaaskaergade-24-1972.jpg",
+        "tekst": "Gåskærgade 24 til 18 i Haderslev, 1972. Nr. 24 er hjørnehuset forrest",
+        "fotograf": "Fotograf Jørgen Lind. Historie Haderslev, arkiv.dk",
         "url": "https://arkiv.dk/vis/4015703",
-        "tekst": "Gåskærgade 24 i Haderslev, 1972, før nedrivningen",
-        "hvor": "Historie Haderslev, arkiv.dk"
+        "hvorfor": "Ludwig og Doris boede i Gåskærgade 24, og Helmuth boede der i 1930. Ludwig døde i huset i 1951. Huset blev revet ned i 1972 til 1973."
+      },
+      {
+        "fil": "billeder/fotos/gaaskaergade-24-1960erne.jpg",
+        "tekst": "Gåskærgade 24 til 18, 1960erne. Nr. 24 er huset forrest til venstre",
+        "fotograf": "Fotograf ukendt. Historie Haderslev, arkiv.dk",
+        "url": "https://arkiv.dk/vis/1023886",
+        "hvorfor": "Ludwig og Doris boede i Gåskærgade 24, og Helmuth boede der i 1930. Ludwig døde i huset i 1951. Huset blev revet ned i 1972 til 1973."
       }
     ]
   },
@@ -970,9 +979,12 @@
         "fotograf": "Rigsarkivet, Arkivalieronline"
       },
       {
-        "url": "https://www.dk-gravsten.dk/kirkeg/Viborg/Viborg_K165.jpg",
+        "fil": "billeder/fotos/gravsten-viborg-k165.jpg",
         "tekst": "Gravstenen for Gerner og Helga Qvist på Viborg Kirkegård",
-        "hvor": "dk-gravsten.dk"
+        "fotograf": "John V. Nielsen, dk-gravsten.dk",
+        "url": "https://www.dk-gravsten.dk/kirkeg/Viborg.php",
+        "kilde": "gravsten-viborg-k165",
+        "hvorfor": "Gerner og Helgas gravsten, gravsted V K 11 364."
       }
     ]
   },
@@ -1130,9 +1142,26 @@
         "fotograf": "Rigsarkivet, Arkivalieronline"
       },
       {
-        "url": "https://www.dk-gravsten.dk/kirkeg/Viborg/Viborg_K165.jpg",
+        "fil": "billeder/fotos/viborg-mogensgade-38-40-1929.jpg",
+        "tekst": "Sct. Mogensgade 38 til 40 i Viborg, omkring 1929",
+        "fotograf": "Carl Joh. Zacho. Lokalhistorisk Arkiv for Viborg Kommune, arkiv.dk",
+        "url": "https://arkiv.dk/vis/5942891",
+        "hvorfor": "Helga blev født i Mogensgade 40 i 1896. Fotoet er 33 år yngre, og det er ikke kontrolleret, at husnummeret var det samme."
+      },
+      {
+        "fil": "billeder/fotos/viborg-gravene-9-11.jpg",
+        "tekst": "Gravene 9 til 11 i Viborg, baggården, omkring 1940 til 1960",
+        "fotograf": "M. Christensen. Lokalhistorisk Arkiv for Viborg Kommune, arkiv.dk",
+        "url": "https://arkiv.dk/vis/5805936",
+        "hvorfor": "Helga boede som barn hos forældrene i Gravene 9 i 1901 og 1906. Fotoet er fra en senere tid."
+      },
+      {
+        "fil": "billeder/fotos/gravsten-viborg-k165.jpg",
         "tekst": "Gravstenen for Gerner og Helga Qvist på Viborg Kirkegård",
-        "hvor": "dk-gravsten.dk"
+        "fotograf": "John V. Nielsen, dk-gravsten.dk",
+        "url": "https://www.dk-gravsten.dk/kirkeg/Viborg.php",
+        "kilde": "gravsten-viborg-k165",
+        "hvorfor": "Gerner og Helgas gravsten, gravsted V K 11 364."
       }
     ]
   },
@@ -1809,14 +1838,19 @@
         "fotograf": "Rigsarkivet, Arkivalieronline"
       },
       {
-        "url": "https://www.dk-gravsten.dk/kirkeg/Toftlund/Toftlund_L282.jpg",
-        "tekst": "Gravstenen for Jørgen P. og Dusine Bundesen på Toftlund Kirkegård",
-        "hvor": "dk-gravsten.dk, foto Karl Petersen"
+        "fil": "billeder/fotos/vestergade-21-toftlund.jpg",
+        "tekst": "Vestergade i Toftlund med bager A. H. Petersen og det lange hvide hus nr. 21 ved siden af, omkring 1980erne",
+        "fotograf": "Fotograf ukendt. Toftlund Lokalhistoriske Arkiv, arkiv.dk",
+        "url": "https://arkiv.dk/vis/5859197",
+        "hvorfor": "Jørgen Peter Bundesen købte Vestergade 21 i 1919 til 1920 og døde i huset i 1951. Dusine ejede det fra 1953. Arkivet skriver \"Det lange hvide hus efter bagerbutikken\". Huset er revet ned."
       },
       {
-        "url": "https://arkiv.dk/vis/5859197",
-        "tekst": "Huset Vestergade 21 i Toftlund, nu nedrevet (under punktet Vestergade 21 i mappen)",
-        "hvor": "Toftlund Lokalhistoriske Arkiv, arkiv.dk"
+        "fil": "billeder/fotos/gravsten-toftlund-l282.jpg",
+        "tekst": "Gravstenen for Jørgen P. og Dusine Bundesen, Toftlund Kirkegård",
+        "fotograf": "Karl Petersen, dk-gravsten.dk",
+        "url": "https://www.dk-gravsten.dk/kirkeg/Toftlund.php",
+        "kilde": "dkgravsten-toftlund-l282",
+        "hvorfor": "Jørn og Dusines fælles gravsten, nu i lapidariet. Den giver Dusines død 20. november 1966."
       }
     ]
   },
@@ -2019,14 +2053,19 @@
         "fotograf": "Rigsarkivet, Arkivalieronline"
       },
       {
-        "url": "https://www.dk-gravsten.dk/kirkeg/Toftlund/Toftlund_L282.jpg",
-        "tekst": "Gravstenen for Jørgen P. og Dusine Bundesen på Toftlund Kirkegård",
-        "hvor": "dk-gravsten.dk, foto Karl Petersen"
+        "fil": "billeder/fotos/vestergade-21-toftlund.jpg",
+        "tekst": "Vestergade i Toftlund med bager A. H. Petersen og det lange hvide hus nr. 21 ved siden af, omkring 1980erne",
+        "fotograf": "Fotograf ukendt. Toftlund Lokalhistoriske Arkiv, arkiv.dk",
+        "url": "https://arkiv.dk/vis/5859197",
+        "hvorfor": "Jørgen Peter Bundesen købte Vestergade 21 i 1919 til 1920 og døde i huset i 1951. Dusine ejede det fra 1953. Arkivet skriver \"Det lange hvide hus efter bagerbutikken\". Huset er revet ned."
       },
       {
-        "url": "https://arkiv.dk/vis/5859197",
-        "tekst": "Huset Vestergade 21 i Toftlund, nu nedrevet (under punktet Vestergade 21 i mappen)",
-        "hvor": "Toftlund Lokalhistoriske Arkiv, arkiv.dk"
+        "fil": "billeder/fotos/gravsten-toftlund-l282.jpg",
+        "tekst": "Gravstenen for Jørgen P. og Dusine Bundesen, Toftlund Kirkegård",
+        "fotograf": "Karl Petersen, dk-gravsten.dk",
+        "url": "https://www.dk-gravsten.dk/kirkeg/Toftlund.php",
+        "kilde": "dkgravsten-toftlund-l282",
+        "hvorfor": "Jørn og Dusines fælles gravsten, nu i lapidariet. Den giver Dusines død 20. november 1966."
       }
     ]
   },
@@ -2170,14 +2209,30 @@
         "fotograf": "Rigsarkivet, Arkivalieronline"
       },
       {
-        "url": "https://arkiv.dk/vis/4015703",
-        "tekst": "Gåskærgade 24 i Haderslev, 1972, før nedrivningen",
-        "hvor": "Historie Haderslev, arkiv.dk"
-      },
-      {
         "url": "https://arkiv.dk/vis/1074270",
         "tekst": "Tegning fra 1927: Ombygning til et værksted til ejendommen Gåskærgade 24, Doris Sørensen",
         "hvor": "Historie Haderslev, arkiv.dk"
+      },
+      {
+        "fil": "billeder/fotos/gaaskaergade-24-1972.jpg",
+        "tekst": "Gåskærgade 24 til 18 i Haderslev, 1972. Nr. 24 er hjørnehuset forrest",
+        "fotograf": "Fotograf Jørgen Lind. Historie Haderslev, arkiv.dk",
+        "url": "https://arkiv.dk/vis/4015703",
+        "hvorfor": "Ludwig og Doris boede i Gåskærgade 24, og Helmuth boede der i 1930. Ludwig døde i huset i 1951. Huset blev revet ned i 1972 til 1973."
+      },
+      {
+        "fil": "billeder/fotos/gaaskaergade-24-1960erne.jpg",
+        "tekst": "Gåskærgade 24 til 18, 1960erne. Nr. 24 er huset forrest til venstre",
+        "fotograf": "Fotograf ukendt. Historie Haderslev, arkiv.dk",
+        "url": "https://arkiv.dk/vis/1023886",
+        "hvorfor": "Ludwig og Doris boede i Gåskærgade 24, og Helmuth boede der i 1930. Ludwig døde i huset i 1951. Huset blev revet ned i 1972 til 1973."
+      },
+      {
+        "fil": "billeder/fotos/gaaskaergade-24-postkort-1912.jpg",
+        "tekst": "Postkort 1912: J. C. Haugaards vognfabrik, Gåskærgade 24, og værkstedet i gården",
+        "fotograf": "Postkort. Historie Haderslev, arkiv.dk",
+        "url": "https://arkiv.dk/vis/1027316",
+        "hvorfor": "Huset og værkstedet i gården, før familien Sørensen boede der. Doris lod i 1927 et værksted på ejendommen ombygge, formentlig til Ludwigs snedkeri. Om det er samme værksted, er ikke bevist."
       }
     ]
   },
@@ -2321,14 +2376,44 @@
         "fotograf": "Rigsarkivet, Arkivalieronline"
       },
       {
-        "url": "https://arkiv.dk/vis/4015703",
-        "tekst": "Gåskærgade 24 i Haderslev, 1972, før nedrivningen",
-        "hvor": "Historie Haderslev, arkiv.dk"
-      },
-      {
         "url": "https://arkiv.dk/vis/1074270",
         "tekst": "Tegning fra 1927: Ombygning til et værksted til ejendommen Gåskærgade 24, Doris Sørensen",
         "hvor": "Historie Haderslev, arkiv.dk"
+      },
+      {
+        "fil": "billeder/fotos/theodor-olsen.jpg",
+        "tekst": "Bøssemager Theodor Olsen, Gåskærgade 54, med en abe",
+        "fotograf": "Fotograf ukendt. Historie Haderslev, arkiv.dk",
+        "url": "https://arkiv.dk/vis/1042083",
+        "hvorfor": "Theodor Olsen var Doris' bror og drev Haderslev Zoologisk Have i Gåskærgade 54 fra 1935 til 1938. Arkivet kalder ham \"Bøssemager, Direktør Zoologisk have i Haderslev\". Det er zooen, Dorthe husker fra familien."
+      },
+      {
+        "fil": "billeder/fotos/zoo-abebur-1936.jpg",
+        "tekst": "Zoologisk have i Gåskærgade med to drenge foran abeburet, omkring 1936",
+        "fotograf": "Fotograf ukendt. Historie Haderslev, arkiv.dk",
+        "url": "https://arkiv.dk/vis/1034324",
+        "hvorfor": "Abeburet i Theodor Olsens zoo i Gåskærgade, samme gade som Doris og Ludwig boede i."
+      },
+      {
+        "fil": "billeder/fotos/gaaskaergade-24-1972.jpg",
+        "tekst": "Gåskærgade 24 til 18 i Haderslev, 1972. Nr. 24 er hjørnehuset forrest",
+        "fotograf": "Fotograf Jørgen Lind. Historie Haderslev, arkiv.dk",
+        "url": "https://arkiv.dk/vis/4015703",
+        "hvorfor": "Ludwig og Doris boede i Gåskærgade 24, og Helmuth boede der i 1930. Ludwig døde i huset i 1951. Huset blev revet ned i 1972 til 1973."
+      },
+      {
+        "fil": "billeder/fotos/gaaskaergade-24-1960erne.jpg",
+        "tekst": "Gåskærgade 24 til 18, 1960erne. Nr. 24 er huset forrest til venstre",
+        "fotograf": "Fotograf ukendt. Historie Haderslev, arkiv.dk",
+        "url": "https://arkiv.dk/vis/1023886",
+        "hvorfor": "Ludwig og Doris boede i Gåskærgade 24, og Helmuth boede der i 1930. Ludwig døde i huset i 1951. Huset blev revet ned i 1972 til 1973."
+      },
+      {
+        "fil": "billeder/fotos/gaaskaergade-24-postkort-1912.jpg",
+        "tekst": "Postkort 1912: J. C. Haugaards vognfabrik, Gåskærgade 24, og værkstedet i gården",
+        "fotograf": "Postkort. Historie Haderslev, arkiv.dk",
+        "url": "https://arkiv.dk/vis/1027316",
+        "hvorfor": "Huset og værkstedet i gården, før familien Sørensen boede der. Doris lod i 1927 et værksted på ejendommen ombygge, formentlig til Ludwigs snedkeri. Om det er samme værksted, er ikke bevist."
       }
     ]
   },
@@ -3651,16 +3736,19 @@
     "fortaelling": "Maren Kirstine Ottilie blev født den 15. maj 1895 i Bjørumslet i Vindblæs Sogn og døbt Jensen, datter af husmand Anders Kristian Jensen, der senere tog navnet Gravlev, og Johanne Eriksen. Hun voksede op i Bjørumslet i en stor søskendeflok, og to af hendes brødre blev portører i Løgstør. Som ugift fik hun døtrene Erna i 1920 og Else Marie i 1923 i Løgstør, og faderen er ikke nævnt i kilderne. I 1930 var hun husbestyrerinde hos husejer Simon Andreas Simonsen i Brøndum, og den 24. januar 1939 blev de gift. Hun boede stadig i Brøndum i 1949. Hun døde i 1976 og ligger sammen med Simon Simonsen på Skarp Salling Kirkegård.",
     "billeder": [
       {
-        "url": "https://www.dk-gravsten.dk/kirkeg/SSalling/SSalling_L054.jpg",
-        "tekst": "Gravstenen for Simon og Maren Simonsen på Skarp Salling Kirkegård",
-        "hvor": "dk-gravsten.dk"
-      },
-      {
         "fil": "billeder/fotos/maren-1967.jpg",
         "tekst": "Maren Simonsen, Brøndum, 1967. Formentlig hende",
         "fotograf": "Ingas Foto, Løgstør. Løgstør Lokalarkiv, arkiv.dk",
         "url": "https://arkiv.dk/vis/3279341",
         "hvorfor": "Registreret af arkivet som \"Simonsen, Maren, Brøndum\" 1967. Elses mor hed Maren Simonsen og boede i Brøndum."
+      },
+      {
+        "fil": "billeder/fotos/gravsten-ssalling-l054.jpg",
+        "tekst": "Gravstenen for Simon og Maren Simonsen, Skarp Salling Kirkegård",
+        "fotograf": "Svend Bay m.fl., dk-gravsten.dk",
+        "url": "https://www.dk-gravsten.dk/kirkeg/SSalling.php",
+        "kilde": "dkgravsten-ssalling-l054",
+        "hvorfor": "Marens gravsten sammen med hendes mand Simon Simonsen. Den giver hendes dødsår 1976."
       }
     ]
   },

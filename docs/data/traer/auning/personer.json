@@ -243,9 +243,12 @@
         "fotograf": "Rigsarkivet, Arkivalieronline"
       },
       {
-        "url": "https://www.dk-gravsten.dk/kirkeg/Skrave-h/Skrave_070.jpg",
-        "tekst": "Gravstenen for smedemester Hans P. C. Petersen og Anne Cathrine Petersen på Skrave Kirkegård",
-        "hvor": "dk-gravsten.dk, foto Karl Petersen"
+        "fil": "billeder/auning/gravsten-skrave-070.jpg",
+        "tekst": "Gravstenen for smedemester Hans P. C. Petersen og Anne Cathrine Petersen, Skrave Kirkegård",
+        "fotograf": "Karl Petersen, dk-gravsten.dk",
+        "url": "https://www.dk-gravsten.dk/kirkeg/Skrave.php",
+        "kilde": "dkgravsten-skrave-070",
+        "hvorfor": "Rikkes farforældres gravsten ved Københoved. Fødselsdatoen passer med dåben i Bedsted 1919."
       }
     ]
   },
@@ -297,9 +300,12 @@
     "fortaelling": "Anne Kathrine Petersen, født Brodersen ifølge familien, blev født den 22. september 1922. Hun blev formentlig gift i oktober 1946 med smedemester Hans Peter Carl Petersen, og familien boede i Københoved ved Skodborg. Hun er mor til Carl Nicolai, kaldet Nikke, og til Tove, Birgitte og Egon. Hun døde den 18. maj 2010 og ligger sammen med sin mand på Skrave Kirkegård. På gravstenen staves hendes navn Anne Cathrine.",
     "billeder": [
       {
-        "url": "https://www.dk-gravsten.dk/kirkeg/Skrave-h/Skrave_070.jpg",
-        "tekst": "Gravstenen for smedemester Hans P. C. Petersen og Anne Cathrine Petersen på Skrave Kirkegård",
-        "hvor": "dk-gravsten.dk, foto Karl Petersen"
+        "fil": "billeder/auning/gravsten-skrave-070.jpg",
+        "tekst": "Gravstenen for smedemester Hans P. C. Petersen og Anne Cathrine Petersen, Skrave Kirkegård",
+        "fotograf": "Karl Petersen, dk-gravsten.dk",
+        "url": "https://www.dk-gravsten.dk/kirkeg/Skrave.php",
+        "kilde": "dkgravsten-skrave-070",
+        "hvorfor": "Rikkes farforældres gravsten ved Københoved. Fødselsdatoen passer med dåben i Bedsted 1919."
       }
     ]
   },

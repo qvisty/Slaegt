@@ -1363,6 +1363,32 @@
           "url": "https://arkiv.dk/vis/3018613"
         }
       ]
+    },
+    {
+      "dato": "2026-09-28",
+      "titel": "Flere fotos på siden",
+      "tekst": "Jesper har besluttet at vise alle fundne fotos på siden som et privat, ikkekommercielt projekt: Theodor Olsen og abeburet i zooen i Gåskærgade, Gåskærgade 24 i 1960erne og 1972 og på et postkort fra 1912, Vestergade 21 i Toftlund, Mogensgade og Gravene i Viborg samt gravstenene i Viborg, Toftlund, Skarp Salling og Skrave. Billederne vises med vandmærke, fotograf og arkiv. Fotos, hvor nulevende kan ses (klassebilleder og mejeriet i Skodborg ca. 1980), er ikke lagt ind.",
+      "personer": [
+        6,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "resultat": "andet",
+      "links": [
+        {
+          "tekst": "Theodor Olsen, arkiv.dk",
+          "url": "https://arkiv.dk/vis/1042083"
+        },
+        {
+          "tekst": "Abeburet ca. 1936, arkiv.dk",
+          "url": "https://arkiv.dk/vis/1034324"
+        }
+      ]
     }
   ]
 }
