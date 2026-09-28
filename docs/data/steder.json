@@ -6,7 +6,15 @@
     "herred": "Nørlyng Herred",
     "amt": "Viborg Amt",
     "lat": 56.4532,
-    "lng": 9.402
+    "lng": 9.402,
+    "billede": {
+      "fil": "billeder/steder/viborg.jpg",
+      "tekst": "Viborg Domkirke",
+      "fotograf": "Slaunger og Selbymay",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Viborg_Cathedral_June_2012.jpg"
+    }
   },
   {
     "id": "haderslev",
@@ -14,7 +22,15 @@
     "amt": "Haderslev Amt",
     "lat": 55.2497,
     "lng": 9.488,
-    "sogn": "Haderslev Vor Frue Sogn"
+    "sogn": "Haderslev Vor Frue Sogn",
+    "billede": {
+      "fil": "billeder/steder/haderslev.jpg",
+      "tekst": "Haderslev Domkirke",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Haderslev_Domkirke_2020_SV.jpg"
+    }
   },
   {
     "id": "skaelskoer",
@@ -23,7 +39,15 @@
     "herred": "Vester Flakkebjerg Herred",
     "amt": "Sorø Amt",
     "lat": 55.2506,
-    "lng": 11.2939
+    "lng": 11.2939,
+    "billede": {
+      "fil": "billeder/steder/skaelskoer.jpg",
+      "tekst": "Sankt Nicolai Kirke i Skælskør",
+      "fotograf": "Leif Jørgensen",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Sankt_Nicolai_Kirke_(Sk%C3%A6lsk%C3%B8r)_02.JPG"
+    }
   },
   {
     "id": "loegstoer",
@@ -32,7 +56,15 @@
     "herred": "Slet Herred",
     "amt": "Ålborg Amt",
     "lat": 56.9667,
-    "lng": 9.25
+    "lng": 9.25,
+    "billede": {
+      "fil": "billeder/steder/loegstoer.jpg",
+      "tekst": "Løgstør Kirke",
+      "fotograf": "Hubertus",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:L%C3%B8gst%C3%B8r_Kirke2.JPG"
+    }
   },
   {
     "id": "salling",
@@ -41,7 +73,15 @@
     "herred": "Slet Herred",
     "amt": "Ålborg Amt",
     "lat": 56.922,
-    "lng": 9.296
+    "lng": 9.296,
+    "billede": {
+      "fil": "billeder/steder/salling.jpg",
+      "tekst": "Salling Kirke",
+      "fotograf": "Claus B. Storgaard",
+      "licens": "CC BY 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:SkarpSallingKirke.jpg"
+    }
   },
   {
     "id": "vejle",
@@ -50,7 +90,15 @@
     "herred": "Nørvang Herred",
     "amt": "Vejle Amt",
     "lat": 55.7093,
-    "lng": 9.536
+    "lng": 9.536,
+    "billede": {
+      "fil": "billeder/steder/vejle.jpg",
+      "tekst": "Sankt Nikolaj Kirke i Vejle",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Sankt_Nikolaj_Kirke,_Vejle_2022.jpg"
+    }
   },
   {
     "id": "skaerbaek",
@@ -59,7 +107,15 @@
     "herred": "Hviding Herred",
     "amt": "Tønder Amt",
     "lat": 55.1561,
-    "lng": 8.7711
+    "lng": 8.7711,
+    "billede": {
+      "fil": "billeder/steder/skaerbaek.jpg",
+      "tekst": "Skærbæk Kirke",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Sk%C3%A6rb%C3%A6k_kirke_(T%C3%B8nder).jpg"
+    }
   },
   {
     "id": "lysgaard",
@@ -68,7 +124,15 @@
     "herred": "Lysgård Herred",
     "amt": "Viborg Amt",
     "lat": 56.3208,
-    "lng": 9.4583
+    "lng": 9.4583,
+    "billede": {
+      "fil": "billeder/steder/lysgaard.jpg",
+      "tekst": "Lysgård Kirke",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Lysg%C3%A5rd_Kirke_20120710.jpg"
+    }
   },
   {
     "id": "toftlund",
@@ -77,7 +141,15 @@
     "herred": "Nørre Rangstrup Herred",
     "amt": "Haderslev Amt",
     "lat": 55.1889,
-    "lng": 9.0703
+    "lng": 9.0703,
+    "billede": {
+      "fil": "billeder/steder/toftlund.jpg",
+      "tekst": "Toftlund Kirke",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Toftlund_Kirke_2023_SV.jpg"
+    }
   },
   {
     "id": "gaansager",
@@ -86,14 +158,30 @@
     "herred": "Hviding Herred",
     "amt": "Tønder Amt",
     "lat": 55.1394,
-    "lng": 8.9361
+    "lng": 8.9361,
+    "billede": {
+      "fil": "billeder/steder/gaansager.jpg",
+      "tekst": "Vodder Kirke",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:VodderKirke_01.jpg"
+    }
   },
   {
     "id": "svendborg",
     "navn": "Svendborg",
     "amt": "Svendborg Amt",
     "lat": 55.0598,
-    "lng": 10.6068
+    "lng": 10.6068,
+    "billede": {
+      "fil": "billeder/steder/svendborg.jpg",
+      "tekst": "Torvet og Vor Frue Kirke i Svendborg",
+      "fotograf": "Toxophilus",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Vor_Frue_Kirke_og_torvet.jpg"
+    }
   },
   {
     "id": "pedersborg",
@@ -102,7 +190,15 @@
     "herred": "Alsted Herred",
     "amt": "Sorø Amt",
     "lat": 55.4417,
-    "lng": 11.5383
+    "lng": 11.5383,
+    "billede": {
+      "fil": "billeder/steder/pedersborg.jpg",
+      "tekst": "Pedersborg Kirke",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Pedersborg_kirke_(Sor%C3%B8).jpg"
+    }
   },
   {
     "id": "holsteinborg",
@@ -111,7 +207,15 @@
     "herred": "Vester Flakkebjerg Herred",
     "amt": "Sorø Amt",
     "lat": 55.2289,
-    "lng": 11.4136
+    "lng": 11.4136,
+    "billede": {
+      "fil": "billeder/steder/holsteinborg.jpg",
+      "tekst": "Herregården Holsteinborg",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Holsteinborg_(Sj%C3%A6lland).jpg"
+    }
   },
   {
     "id": "tjaereby",
@@ -120,7 +224,15 @@
     "herred": "Vester Flakkebjerg Herred",
     "amt": "Sorø Amt",
     "lat": 55.2667,
-    "lng": 11.3167
+    "lng": 11.3167,
+    "billede": {
+      "fil": "billeder/steder/tjaereby.jpg",
+      "tekst": "Tjæreby Kirke",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Tj%C3%A6reby_kirke_(Slagelse).JPG"
+    }
   },
   {
     "id": "vindblaes",
@@ -129,7 +241,15 @@
     "herred": "Slet Herred",
     "amt": "Ålborg Amt",
     "lat": 56.9361,
-    "lng": 9.3211
+    "lng": 9.3211,
+    "billede": {
+      "fil": "billeder/steder/vindblaes.jpg",
+      "tekst": "Vindblæs Kirke",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Vindbl%C3%A6s_kirke_(Vesthimmerland).JPG"
+    }
   },
   {
     "id": "malle",
@@ -138,14 +258,30 @@
     "herred": "Slet Herred",
     "amt": "Ålborg Amt",
     "lat": 56.9417,
-    "lng": 9.1667
+    "lng": 9.1667,
+    "billede": {
+      "fil": "billeder/steder/malle.jpg",
+      "tekst": "Malle Kirke",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Malle_kirke_(Vesthimmerland).JPG"
+    }
   },
   {
     "id": "aabenraa",
     "navn": "Aabenraa",
     "amt": "Aabenraa Amt",
     "lat": 55.0443,
-    "lng": 9.4174
+    "lng": 9.4174,
+    "billede": {
+      "fil": "billeder/steder/aabenraa.jpg",
+      "tekst": "Sankt Nicolai Kirke i Aabenraa",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Sankt_Nicolai_Kirke_2019_a.jpg"
+    }
   },
   {
     "id": "uk",
@@ -154,7 +290,15 @@
     "herred": "Lundtoft Herred",
     "amt": "Aabenraa Amt",
     "lat": 54.9556,
-    "lng": 9.3611
+    "lng": 9.3611,
+    "billede": {
+      "fil": "billeder/steder/uk.jpg",
+      "tekst": "Uge Kirke",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Uge_Kirke_3.jpg"
+    }
   },
   {
     "id": "ungstrup",
@@ -163,7 +307,15 @@
     "herred": "Lysgård Herred",
     "amt": "Viborg Amt",
     "lat": 56.2856,
-    "lng": 9.3972
+    "lng": 9.3972,
+    "billede": {
+      "fil": "billeder/steder/ungstrup.jpg",
+      "tekst": "Thorning Kirke",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Thorning_kirke_(Silkeborg).JPG"
+    }
   },
   {
     "id": "hoegild",
@@ -172,7 +324,15 @@
     "herred": "Fjends Herred",
     "amt": "Viborg Amt",
     "lat": 56.5236,
-    "lng": 9.1583
+    "lng": 9.1583,
+    "billede": {
+      "fil": "billeder/steder/hoegild.jpg",
+      "tekst": "Resen Kirke",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:RESEN_kirke_(Viborg)_1.JPG"
+    }
   },
   {
     "id": "slagelse",
@@ -180,7 +340,15 @@
     "sogn": "Sankt Mikkels Sogn",
     "amt": "Sorø Amt",
     "lat": 55.4028,
-    "lng": 11.3542
+    "lng": 11.3542,
+    "billede": {
+      "fil": "billeder/steder/slagelse.jpg",
+      "tekst": "Sankt Mikkels Kirke i Slagelse",
+      "fotograf": "Leif Jørgensen",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Sankt_Mikkels_Kirke.JPG"
+    }
   },
   {
     "id": "visby",
@@ -189,7 +357,15 @@
     "herred": "Højer Herred",
     "amt": "Tønder Amt",
     "lat": 55.0197,
-    "lng": 8.8214
+    "lng": 8.8214,
+    "billede": {
+      "fil": "billeder/steder/visby.jpg",
+      "tekst": "Visby Kirke",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Visby_Kirke_(T%C3%B8nder)_1.jpg"
+    }
   },
   {
     "id": "hoejst",
@@ -198,7 +374,15 @@
     "herred": "Tønder Herred",
     "amt": "Tønder Amt",
     "lat": 54.9981,
-    "lng": 9.1167
+    "lng": 9.1167,
+    "billede": {
+      "fil": "billeder/steder/hoejst.jpg",
+      "tekst": "Højst Kirke",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:H%C3%B8jst_Kirke.jpg"
+    }
   },
   {
     "id": "spandet",
@@ -207,7 +391,15 @@
     "herred": "Hviding Herred",
     "amt": "Tønder Amt",
     "lat": 55.2458,
-    "lng": 8.9333
+    "lng": 8.9333,
+    "billede": {
+      "fil": "billeder/steder/spandet.jpg",
+      "tekst": "Spandet Kirke",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Spandet_Kirke_2022_sv.jpg"
+    }
   },
   {
     "id": "halk",
@@ -216,7 +408,15 @@
     "herred": "Haderslev Østeramt",
     "amt": "Haderslev Amt",
     "lat": 55.1756,
-    "lng": 9.6561
+    "lng": 9.6561,
+    "billede": {
+      "fil": "billeder/steder/halk.jpg",
+      "tekst": "Halk Kirke",
+      "fotograf": "JEK",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:HalkKirkeNord.jpg"
+    }
   },
   {
     "id": "borrig",
@@ -225,7 +425,15 @@
     "herred": "Løgumkloster Birk",
     "amt": "Tønder Amt",
     "lat": 55.0333,
-    "lng": 8.9167
+    "lng": 8.9167,
+    "billede": {
+      "fil": "billeder/steder/borrig.jpg",
+      "tekst": "Brede Kirke",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:BREDE_kirke_(T%C3%B8nder).JPG"
+    }
   },
   {
     "id": "oerby",
@@ -234,7 +442,15 @@
     "herred": "Haderslev Østeramt",
     "amt": "Haderslev Amt",
     "lat": 55.2464,
-    "lng": 9.5556
+    "lng": 9.5556,
+    "billede": {
+      "fil": "billeder/steder/oerby.jpg",
+      "tekst": "Vonsbæk Kirke",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Vonsb%C3%A6k_Kirke_01.jpg"
+    }
   },
   {
     "id": "almind",
@@ -243,7 +459,15 @@
     "herred": "Brusk Herred",
     "amt": "Vejle Amt",
     "lat": 55.5667,
-    "lng": 9.4667
+    "lng": 9.4667,
+    "billede": {
+      "fil": "billeder/steder/almind.jpg",
+      "tekst": "Almind Kirke",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:07-07-18-l2_Almind_kirke_(Kolding).jpg"
+    }
   },
   {
     "id": "hoersholm",
@@ -251,13 +475,29 @@
     "sogn": "Hørsholm Sogn",
     "amt": "Frederiksborg Amt",
     "lat": 55.8806,
-    "lng": 12.5011
+    "lng": 12.5011,
+    "billede": {
+      "fil": "billeder/steder/hoersholm.jpg",
+      "tekst": "Hørsholm Kirke",
+      "fotograf": "Jens Cederskjold",
+      "licens": "CC BY-SA 2.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:H%C3%B8rsholm_Kirke_01.jpg"
+    }
   },
   {
     "id": "fredericia",
     "navn": "Fredericia",
     "amt": "Vejle Amt",
     "lat": 55.5657,
-    "lng": 9.7526
+    "lng": 9.7526,
+    "billede": {
+      "fil": "billeder/steder/fredericia.jpg",
+      "tekst": "Sankt Michaelis Kirke i Fredericia",
+      "fotograf": "Orf3us",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Sankt_Michaelis_Kirke,_Fredericia.jpg"
+    }
   }
 ]

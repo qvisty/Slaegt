@@ -6,7 +6,15 @@
     "herred": "Frøs Herred",
     "amt": "Ribe Amt",
     "lat": 55.4188,
-    "lng": 9.153
+    "lng": 9.153,
+    "billede": {
+      "fil": "billeder/steder/skodborg.jpg",
+      "tekst": "Skodborg Kirke",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Skodborg_Kirke_2022a.jpg"
+    }
   },
   {
     "id": "koebenhoved",
@@ -15,7 +23,15 @@
     "herred": "Frøs Herred",
     "amt": "Haderslev Amt",
     "lat": 55.4196,
-    "lng": 9.1001
+    "lng": 9.1001,
+    "billede": {
+      "fil": "billeder/steder/koebenhoved.jpg",
+      "tekst": "Skrave Kirke",
+      "fotograf": "Hjart",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:Skrave_Kirke_02.jpg"
+    }
   },
   {
     "id": "arndrup",
@@ -24,6 +40,14 @@
     "herred": "Sønder Rangstrup Herred",
     "amt": "Aabenraa Amt",
     "lat": 55.0458,
-    "lng": 9.091
+    "lng": 9.091,
+    "billede": {
+      "fil": "billeder/steder/arndrup.jpg",
+      "tekst": "Bedsted Kirke",
+      "fotograf": "Bococo",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kilde": "https://commons.wikimedia.org/wiki/File:07-08-29-h2_Bedsted_kirke_(T%C3%B8nder).jpg"
+    }
   }
 ]
